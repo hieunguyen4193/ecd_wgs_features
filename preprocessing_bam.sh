@@ -89,7 +89,7 @@ if [ ! -f "${outputdir}/${filename}.modified.tsv" ]; then
     # The TLEN field is positive for the leftmost segment of the template, negative for the rightmost, and the sign for any middle segment is undefined. 
     # If segments cover the same coordinates then the choice of which is leftmost and rightmost is arbitrary, but the two ends must still have differing signs
     # https://samtools.github.io/hts-specs/SAMv1.pdf
-    awk -v OFS='\t' '{if ($5 > 0){$6=$3+$5;$7=$3+1;$8=$6+1;$9=$1"_"$2"_"$3; print $0}}' ${outputdir}/${filename}.prep.tsv | sort -k9,9 > ${outputdir}/${filename}.modified.tsv
+    awk -v OFS='\t' '{if ($5 > 0){$6=$3+$5; $7=$3+1; $8=$6+1; $9=$1"_"$2"_"$3; print $0}}' ${outputdir}/${filename}.prep.tsv | sort -k9,9 > ${outputdir}/${filename}.modified.tsv
 
     count_main_file=$(cat ${outputdir}/${filename}.modified.tsv | wc -l)
 fi
@@ -159,17 +159,17 @@ if [ ! -f "${outputdir}/${filename}.finished_Nucleosome.txt" ]; then
   cat ${outputdir}/${filename}.modified.tsv | cut -f2,3,7,9 > ${outputdir}/${filename}.forward_Nucleosome.bed
   cat ${outputdir}/${filename}.modified.tsv | cut -f2,6,8,9 > ${outputdir}/${filename}.reverse_Nucleosome.bed
   # Sort your generated BED files
-  sort -k1,1 -k2,2n ${outputdir}/${filename}.forward_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed
-  sort -k1,1 -k2,2n ${outputdir}/${filename}.reverse_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed
+  sort -k 1V,1 -k 2n,2 ${outputdir}/${filename}.forward_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed
+  sort -k 1V,1 -k 2n,2 ${outputdir}/${filename}.reverse_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed
 
   # Sort the reference BED file
-  sort -k1,1 -k2,2n ${nucleosome_ref} -o ${nucleosome_ref%.bed*}.sorted.bed
+  sort -k 1V,1 -k 2n,2 ${nucleosome_ref} -o ${nucleosome_ref%.bed*}.sorted.bed
 
   # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first  > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
   # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
 
-  bedtools closest -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$2 - $11;print $0}' > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
-  bedtools closest -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$2 - $11;print $0}' > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
+  bedtools closest -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
+  bedtools closest -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
 
 # | awk -v OFS='\t' '{$14=$2-$6;print $0}'
   echo -e "sorting forward nucleosome file"
@@ -187,7 +187,7 @@ count_nuc_reverse=$(cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.
 cat ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/forward_nuc.tmp.txt
 paste ${outputdir}/${filename}.modified.tsv ${outputdir}/forward_nuc.tmp.txt  > ${outputdir}/${filename}.modified1.tsv
 
-##### column $11: distance of forward read to the nearest nucleosome
+##### column $11: distance of reverse read to the nearest nucleosome
 cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/reverse_nuc.tmp.txt
 paste ${outputdir}/${filename}.modified1.tsv ${outputdir}/reverse_nuc.tmp.txt  > ${outputdir}/${filename}.modified2.tsv
 
