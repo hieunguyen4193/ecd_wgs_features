@@ -8,7 +8,9 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 # samtools --version
 
 # default input values
-inputbam="/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam";
+# inputbam="/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam";
+# samtools view "/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam" -h | head -n 20000 | samtools view -b - > input_test.bam 
+inputbam="./examples/input_test.bam";
 outputdir="/Volumes/HNSD02/outdir/ecd_wgs_features";
 path_to_fa="/Volumes/HNSD02/resource/hg19.fa";
 num_threads=10;
@@ -123,30 +125,30 @@ count_4bpEM_reverse=$(cat ${outputdir}/${filename}.reverse_endmotif4bp.sorted.tx
 #####----------------------------------------------------------------------#####
 ##### 21bp END MOTIF
 #####----------------------------------------------------------------------#####
-if [ ! -f "${outputdir}/${filename}.finished_21bpEM.txt" ]; then
-    echo -e "getting 21bp end motif"
-    cat ${outputdir}/${filename}.modified.tsv | \
-      awk '{if($3 > 11) {start=$3 - 1 - 10; end= $3 - 1 + 11; name= $9; strand = "+"}; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
-    > ${outputdir}/${filename}.forward_endcoord21bp.bed;
+# if [ ! -f "${outputdir}/${filename}.finished_21bpEM.txt" ]; then
+#     echo -e "getting 21bp end motif"
+#     cat ${outputdir}/${filename}.modified.tsv | \
+#       awk '{if($3 > 11) {start=$3 - 1 - 10; end= $3 - 1 + 11; name= $9; strand = "+"}; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+#     > ${outputdir}/${filename}.forward_endcoord21bp.bed;
 
-    cat ${outputdir}/${filename}.modified.tsv | \
-      awk '{if($6 > 11) {start=$6 - 1 - 11; end= $6 - 1 + 10; name= $9; strand = "-"}; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
-    > ${outputdir}/${filename}.reverse_endcoord21bp.bed;
+#     cat ${outputdir}/${filename}.modified.tsv | \
+#       awk '{if($6 > 11) {start=$6 - 1 - 11; end= $6 - 1 + 10; name= $9; strand = "-"}; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+#     > ${outputdir}/${filename}.reverse_endcoord21bp.bed;
 
-    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.forward_endcoord21bp.bed | awk '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.forward_endmotif21bp.txt
-    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.reverse_endcoord21bp.bed | awk '{split($0, a, "::"); $1=a[1]; print $0}' > ${outputdir}/${filename}.reverse_endmotif21bp.txt
+#     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.forward_endcoord21bp.bed | awk '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.forward_endmotif21bp.txt
+#     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.reverse_endcoord21bp.bed | awk '{split($0, a, "::"); $1=a[1]; print $0}' > ${outputdir}/${filename}.reverse_endmotif21bp.txt
 
-    rm -rf ${outputdir}/${filename}.forward_endcoord21bp.bed
-    rm -rf ${outputdir}/${filename}.reverse_endcoord21bp.bed
+#     rm -rf ${outputdir}/${filename}.forward_endcoord21bp.bed
+#     rm -rf ${outputdir}/${filename}.reverse_endcoord21bp.bed
     
-    sort -k1,1 ${outputdir}/${filename}.forward_endmotif21bp.txt > ${outputdir}/${filename}.forward_endmotif21bp.sorted.txt
-    sort -k1,1 ${outputdir}/${filename}.reverse_endmotif21bp.txt > ${outputdir}/${filename}.reverse_endmotif21bp.sorted.txt
+#     sort -k1,1 ${outputdir}/${filename}.forward_endmotif21bp.txt > ${outputdir}/${filename}.forward_endmotif21bp.sorted.txt
+#     sort -k1,1 ${outputdir}/${filename}.reverse_endmotif21bp.txt > ${outputdir}/${filename}.reverse_endmotif21bp.sorted.txt
     
-    touch ${outputdir}/${filename}.finished_21bpEM.txt
-fi
+#     touch ${outputdir}/${filename}.finished_21bpEM.txt
+# fi
 
-count_21bpEM_forward=$(cat ${outputdir}/${filename}.forward_endmotif21bp.sorted.txt | wc -l)
-count_21bpEM_reverse=$(cat ${outputdir}/${filename}.reverse_endmotif21bp.sorted.txt | wc -l)
+# count_21bpEM_forward=$(cat ${outputdir}/${filename}.forward_endmotif21bp.sorted.txt | wc -l)
+# count_21bpEM_reverse=$(cat ${outputdir}/${filename}.reverse_endmotif21bp.sorted.txt | wc -l)
 
 #####----------------------------------------------------------------------#####
 ##### NUCLEOSOME FOOTPRINT
@@ -177,4 +179,21 @@ fi
 count_nuc_forward=$(cat ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed | wc -l)
 count_nuc_reverse=$(cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | wc -l)
 
+##### column $10: distance of forward read to the nearest nucleosome
+cat ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/forward_nuc.tmp.txt
+paste ${outputdir}/${filename}.modified.tsv ${outputdir}/forward_nuc.tmp.txt  > ${outputdir}/${filename}.modified1.tsv
 
+##### column $11: distance of forward read to the nearest nucleosome
+cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/reverse_nuc.tmp.txt
+paste ${outputdir}/${filename}.modified1.tsv ${outputdir}/reverse_nuc.tmp.txt  > ${outputdir}/${filename}.modified2.tsv
+
+##### column $12: 4bp end motif from forward reads
+cat ${outputdir}/${filename}.forward_endmotif4bp.sorted.txt | cut -d" " -f2 > ${outputdir}/forward_4bpEM.tmp.txt
+paste ${outputdir}/${filename}.modified2.tsv ${outputdir}/forward_4bpEM.tmp.txt  > ${outputdir}/${filename}.modified3.tsv
+
+# ##### column $13: 4bp end motif from reverse reads
+cat ${outputdir}/${filename}.reverse_endmotif4bp.sorted.txt | cut -d" " -f2 > ${outputdir}/reverse_4bpEM.tmp.txt
+paste ${outputdir}/${filename}.modified3.tsv ${outputdir}/reverse_4bpEM.tmp.txt  > ${outputdir}/${filename}.modified4.tsv
+
+mv ${outputdir}/${filename}.modified4.tsv ${outputdir}/${filename}.final_output.tsv
+rm -rf ${outputdir}/${filename}.modified{1,2,3,4}.tsv
