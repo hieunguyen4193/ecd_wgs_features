@@ -188,19 +188,19 @@ if [ ! -f "${outputdir}/${filename}.final_output.tsv" ]; then
     count_nuc_reverse=$(cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | wc -l)
 
     ##### column $10: distance of forward read to the nearest nucleosome
-    cat ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed | cut -f4,13 > ${outputdir}/forward_nuc.tmp.txt
+    cat ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/forward_nuc.tmp.txt
     paste ${outputdir}/${filename}.modified.tsv ${outputdir}/forward_nuc.tmp.txt  > ${outputdir}/${filename}.modified1.tsv
 
     ##### column $11: distance of reverse read to the nearest nucleosome
-    cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | cut -f4,13 > ${outputdir}/reverse_nuc.tmp.txt
+    cat ${outputdir}/${filename}.reverse_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/reverse_nuc.tmp.txt
     paste ${outputdir}/${filename}.modified1.tsv ${outputdir}/reverse_nuc.tmp.txt  > ${outputdir}/${filename}.modified2.tsv
 
     ##### column $12: 4bp end motif from forward reads
-    cat ${outputdir}/${filename}.forward_endmotif4bp.sorted.txt | cut -f1,2 > ${outputdir}/forward_4bpEM.tmp.txt
+    cat ${outputdir}/${filename}.forward_endmotif4bp.sorted.txt | cut -f2 > ${outputdir}/forward_4bpEM.tmp.txt
     paste ${outputdir}/${filename}.modified2.tsv ${outputdir}/forward_4bpEM.tmp.txt  > ${outputdir}/${filename}.modified3.tsv
 
     # ##### column $13: 4bp end motif from reverse reads
-    cat ${outputdir}/${filename}.reverse_endmotif4bp.sorted.txt | cut -f1,2 > ${outputdir}/reverse_4bpEM.tmp.txt
+    cat ${outputdir}/${filename}.reverse_endmotif4bp.sorted.txt | cut -f2 > ${outputdir}/reverse_4bpEM.tmp.txt
     paste ${outputdir}/${filename}.modified3.tsv ${outputdir}/reverse_4bpEM.tmp.txt  > ${outputdir}/${filename}.modified4.tsv
 
     mv ${outputdir}/${filename}.modified4.tsv ${outputdir}/${filename}.final_output.tsv
