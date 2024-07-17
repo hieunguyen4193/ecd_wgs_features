@@ -158,6 +158,7 @@ if [ ! -f "${outputdir}/${filename}.finished_Nucleosome.txt" ]; then
   echo -e "generating nucleosome features ..."
   cat ${outputdir}/${filename}.modified.tsv | cut -f2,3,7,9 > ${outputdir}/${filename}.forward_Nucleosome.bed
   cat ${outputdir}/${filename}.modified.tsv | cut -f2,6,8,9 > ${outputdir}/${filename}.reverse_Nucleosome.bed
+
   # Sort your generated BED files
   sort -k 1V,1 -k 2n,2 ${outputdir}/${filename}.forward_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed
   sort -k 1V,1 -k 2n,2 ${outputdir}/${filename}.reverse_Nucleosome.bed -o ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed
@@ -168,6 +169,7 @@ if [ ! -f "${outputdir}/${filename}.finished_Nucleosome.txt" ]; then
   # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first  > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
   # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
 
+  ##### sort with -k 1V,1 to get the correct order of chromosome, add -t first to get first nucleosome only, match row numbers.
   bedtools closest -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
   bedtools closest -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
 
