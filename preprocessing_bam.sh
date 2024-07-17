@@ -8,9 +8,9 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 # samtools --version
 
 # default input values
-# inputbam="/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam";
+inputbam="/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam";
 # samtools view "/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam" -h | head -n 20000 | samtools view -b - > input_test.bam 
-inputbam="./examples/input_test.bam";
+# inputbam="./examples/input_test.bam";
 outputdir="/Volumes/HNSD02/outdir/ecd_wgs_features";
 path_to_fa="/Volumes/HNSD02/resource/hg19.fa";
 num_threads=10;
@@ -165,8 +165,12 @@ if [ ! -f "${outputdir}/${filename}.finished_Nucleosome.txt" ]; then
   # Sort the reference BED file
   sort -k1,1 -k2,2n ${nucleosome_ref} -o ${nucleosome_ref%.bed*}.sorted.bed
 
-  bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first  > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
-  bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
+  # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first  > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
+  # bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
+
+  bedtools closest -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$2 - $11;print $0}' > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
+  bedtools closest -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$2 - $11;print $0}' > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
+
 # | awk -v OFS='\t' '{$14=$2-$6;print $0}'
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${filename}.forward_Nucleosome.dist.bed > ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed
