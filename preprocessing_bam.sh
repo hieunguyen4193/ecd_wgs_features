@@ -107,8 +107,8 @@ if [ ! -f "${outputdir}/${filename}.finished_4bpEM.txt" ]; then
       awk '{start=$6 - 1 - 4; end= $6 - 1; name= $9; strand = "-"; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${filename}.reverse_endcoord4bp.bed;
 
-    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.forward_endcoord4bp.bed |  awk '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.forward_endmotif4bp.txt
-    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.reverse_endcoord4bp.bed |  awk '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.reverse_endmotif4bp.txt
+    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.forward_endcoord4bp.bed |  awk -v OFS='\t' '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.forward_endmotif4bp.txt
+    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${filename}.reverse_endcoord4bp.bed |  awk -v OFS='\t' '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${filename}.reverse_endmotif4bp.txt
 
     rm -rf ${outputdir}/${filename}.forward_endcoord4bp.bed
     rm -rf ${outputdir}/${filename}.reverse_endcoord4bp.bed
@@ -165,9 +165,9 @@ if [ ! -f "${outputdir}/${filename}.finished_Nucleosome.txt" ]; then
   # Sort the reference BED file
   sort -k1,1 -k2,2n ${nucleosome_ref} -o ${nucleosome_ref%.bed*}.sorted.bed
 
-  bedtools closest -d -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
-  bedtools closest -d -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
-
+  bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first  > ${outputdir}/${filename}.forward_Nucleosome.dist.bed
+  bedtools closest -d -D ref -a ${outputdir}/${filename}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first > ${outputdir}/${filename}.reverse_Nucleosome.dist.bed
+# | awk -v OFS='\t' '{$14=$2-$6;print $0}'
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${filename}.forward_Nucleosome.dist.bed > ${outputdir}/${filename}.forward_Nucleosome.dist.sorted.bed
   echo -e "sorting reverse nucleosome file"
