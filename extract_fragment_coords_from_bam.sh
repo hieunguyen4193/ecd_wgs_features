@@ -10,9 +10,6 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 # default input values
 inputbam="/Volumes/HNSD02/data/WGS_bam/9-ZMC014NB_S95025-S97025.sorted.bam";
 outputdir="/Volumes/HNSD02/outdir/ecd_wgs_features";
-path_to_fa="/Volumes/HNSD02/resource/hg19.fa";
-num_threads=10;
-nucleosome_ref="/Volumes/HNSD02/resource/nucleosome_footprint_bed/rpr_map_Budhraja_STM2023.bed"
 
 mkdir -p ${outputdir};
 
@@ -24,9 +21,6 @@ while getopts "i:o:t:" opt; do
       ;;
     o )
       outputdir=$OPTARG
-      ;;
-    t )
-      num_threads=$OPTARG
       ;;
     \? )
       echo "Usage: cmd [-i] inputbam [-o] outputdir [-t] num_threads"
