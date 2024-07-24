@@ -1,0 +1,337 @@
+---
+title: "ECD WGS feature data analysis"
+author:
+  - "hieunguyen@genesolutions.vn"
+date: "Last update on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    keep_md: no
+    df_print: paged
+    toc: true
+    toc_float:
+      toc_collapsed: false
+    toc_depth: 3
+    number_sections: true
+    theme: lumen
+
+---
+
+
+```{css zoom-lib-src, echo = FALSE}
+script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+```
+
+```{js zoom-jquery, echo = FALSE}
+ $(document).ready(function() {
+    $('body').prepend('<div class=\"zoomDiv\"><img src=\"\" class=\"zoomImg\"></div>');
+    // onClick function for all plots (img's)
+    $('img:not(.zoomImg)').click(function() {
+      $('.zoomImg').attr('src', $(this).attr('src')).css({width: '100%'});
+      $('.zoomDiv').css({opacity: '1', width: 'auto', border: '1px solid white', borderRadius: '5px', position: 'fixed', top: '50%', left: '50%', marginRight: '-50%', transform: 'translate(-50%, -50%)', boxShadow: '0px 0px 50px #888888', zIndex: '50', overflow: 'auto', maxHeight: '100%'});
+    });
+    // onClick function for zoomImg
+    $('img.zoomImg').click(function() {
+      $('.zoomDiv').css({opacity: '0', width: '0%'}); 
+    });
+  });
+```
+
+<style type="text/css">
+    div.datatables { height: auto !important;}
+</style>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.width=14, fig.height=10}
+#####----------------------------------------------------------------------#####
+#
+# trnguyen@ukaachen.de
+#
+#####----------------------------------------------------------------------#####
+gc()
+rm(list = ls())
+
+path.to.project.src <- "/home/hieunguyen/CRC1382/src/ecd_wgs_features"
+source(file.path(path.to.project.src, "import_libraries.R"))
+source(file.path(path.to.project.src, "helper_functions.R"))
+library(limma)
+library(umap)
+library(ggpubr)
+maindir <- "/home/hieunguyen/CRC1382/data"
+outdir <- "/home/hieunguyen/CRC1382/data/outdir"
+
+PROJECT <- "MRD_GW_UMI_Phuc_HG19"
+data.version <- "20240606"
+output.version <- "20240722"
+path.to.main.input <- file.path(maindir, PROJECT, data.version)
+
+path.to.main.output <- file.path(outdir, PROJECT, data.version, output.version)
+
+# feature.name <- "GWfeature_flen"
+# feature.name <- "GWfeature_Nucleosome"
+# feature.name <- "GWfeature_EM"
+meta.data <- readxl::read_excel(file.path(maindir, PROJECT, "metadata", "metadata_WGS_20240606.xlsx"))
+unseen.samples <- subset(meta.data, meta.data$Run %in% c("R5254", "R5288", "R5434"))$SampleID
+discovery.samples <- subset(meta.data, meta.data$SampleID %in% unseen.samples == FALSE)$SampleID
+
+feature.mat <- list()
+all.umapdf <- list()
+for (feature.name in c("GWfeature_flen", "GWfeature_Nucleosome", "GWfeature_EM")){
+  path.to.01.output <- file.path(path.to.main.output, "01_output", feature.name)
+  dir.create(path.to.01.output, showWarnings = FALSE, recursive = TRUE)
+  all.files <- Sys.glob(file.path(path.to.main.input, sprintf("*/*%s.csv", feature.name)))
+  names(all.files) <- to_vec(for (item in all.files) str_split(str_split(basename(item), "_")[[1]][[1]], "-")[[1]][[2]])
+  
+  all.motifs <- to_vec(for (i in c("A", "T", "G", "C")) for (j in c("A", "T", "G", "C")) for (k in c("A", "T", "G", "C")) for (l in c("A", "T", "G", "C"))  sprintf("%s%s%s%s", i, j, k, l))
+  
+  all.files <- all.files[meta.data$SampleID]
+  
+  if (feature.name == "GWfeature_EM"){
+    maindf <- data.frame(feat = all.motifs)
+  } else if (feature.name == "GWfeature_flen"){
+    maindf <- data.frame(feat = seq(1, 301))  
+  } else if (feature.name == "GWfeature_Nucleosome"){
+    maindf <- data.frame(feat = seq(-300, 300))
+  }
+  
+  for (i in seq(1, length(all.files))){
+    if (feature.name == "GWfeature_EM"){
+      tmpdf <- read.csv(all.files[[i]])[, c("motif", "freq")]
+      colnames(tmpdf) <- c("feat", names(all.files)[[i]])
+      maindf <- merge(maindf, tmpdf, by.x = "feat", by.y = "feat")
+    } else if (feature.name == "GWfeature_flen" ){
+      tmpdf <- read.csv(all.files[[i]])[, c("X", "freq")]
+      colnames(tmpdf) <- c("feat", names(all.files)[[i]])
+      maindf <- merge(maindf, tmpdf, by.x = "feat", by.y = "feat")    
+    } else if (feature.name == "GWfeature_Nucleosome"){
+      tmpdf <- read.csv(all.files[[i]])
+      tmpdf <- tmpdf %>% column_to_rownames("Sample") %>% t() %>% as.data.frame() %>% rownames_to_column("size")#
+      tmpdf$size <- seq(-300, 300)
+      colnames(tmpdf) <- c("feat", names(all.files)[[i]])
+      maindf <- merge(maindf, tmpdf, by.x = "feat", by.y = "feat")    
+    }
+  }
+  
+  maindf <- maindf %>% column_to_rownames("feat")
+  
+  umap.res <- umap(as.matrix(maindf) %>% t())
+  umapdf <- data.frame(umap.res$layout) %>% as.data.frame()
+  colnames(umapdf) <- c("UMAP1", "UMAP2")
+  umapdf <- umapdf %>% rownames_to_column("SampleID")
+  umapdf <- merge(umapdf, meta.data, by.x = "SampleID", by.y = "SampleID")
+  umapdf <- umapdf %>% rowwise() %>%
+    mutate(group = ifelse(SampleID %in% discovery.samples, "discovery", "unseen"))
+  
+  ##### save results to list
+  feature.mat[[feature.name]] <- maindf
+  all.umapdf[[feature.name]] <- umapdf
+}
+
+meta.data <- meta.data %>% rowwise() %>% 
+  mutate(group = ifelse(SampleID %in% discovery.samples, "discovery", "unseen")) %>%
+  mutate(group.label = ifelse(Label == "Control", "Control", "Cancer"))
+
+em.shannondf <- data.frame(SampleID = colnames(feature.mat$GWfeature_EM))
+em.shannondf$shannon <- unlist(lapply(em.shannondf$SampleID, function(x){
+  tmp.emdf <- feature.mat$GWfeature_EM[[x]]
+  summ <- -(tmp.emdf)*log2(tmp.emdf)/log2(256)
+  return(sum(summ))
+}))
+
+em.shannondf <- merge(em.shannondf, meta.data, by.x = "SampleID", by.y = "SampleID")
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=25, fig.height=10}
+em.shannondf %>% subset(Run %in% c("R5083", "R5167", "R5170", "R5201", "R5434")) %>% 
+  ggplot(aes(x = Run, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35)
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+em.shannondf %>% 
+  ggplot(aes(x = Label, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5))
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=10, fig.height=10}
+for (input.label in unique(meta.data$Label)){
+  if (input.label != "Control"){
+    tmpdf <- em.shannondf %>% subset(Label %in% c(input.label, "Control"))
+    tmpdf$Label <- factor(tmpdf$Label, levels = c(input.label, "Control"))
+    p <- tmpdf %>% 
+  ggplot(aes(x = group, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5)) + scale_fill_manual(values = c("red", "gray"))
+  
+  ggsave(plot = p, filename = sprintf("plot_all_runs_groups_%s.svg", input.label), path = path.to.01.output, width = 10, height = 10, device = "svg")    
+  }
+}
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=10, fig.height=10}
+count.sampledf <- table(meta.data$Label, meta.data$group) %>% as.data.frame() 
+count.sampledf %>%
+  ggplot(aes(x = Var2, y = Freq, fill = Var1)) + geom_bar(stat = "identity")
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+em.shannondf %>% subset(Label %in% c("CRC", "Control")) %>% 
+  ggplot(aes(x = Run, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5))
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+em.shannondf %>% subset(Label %in% c("Liver", "Control")) %>% 
+  ggplot(aes(x = group, y = shannon, fill = Label)) + geom_boxplot()  + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5))#
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+em.shannondf %>% 
+  ggplot(aes(x = Label, y = shannon, fill = Label)) + geom_boxplot()  + theme_pubr(base_size = 35) + 
+  theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5)) + 
+  stat_compare_means(comparisons = c("discovery", "unseen"))
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+for (input.label in unique(meta.data$Label)){
+  if (input.label != "Control"){
+    tmpdf <- em.shannondf %>% subset(Label %in% c(input.label, "Control"))
+    tmpdf$Label <- factor(tmpdf$Label, levels = c(input.label, "Control"))
+    p <- tmpdf %>% 
+    ggplot(aes(x = Run, y = shannon, fill = Label)) + geom_boxplot()  + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5)) + scale_fill_manual(values = c("red", "gray"))
+  
+  ggsave(plot = p, filename = sprintf("plot_all_runs_%s.svg", input.label), path = path.to.01.output, width = 35, height = 10, device = "svg")    
+  }
+}
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=35, fig.height=10}
+for (input.label in unique(meta.data$Label)){
+  if (input.label != "Control"){
+    tmpdf <- em.shannondf %>% subset(Label %in% c(input.label, "Control"))
+    tmpdf$Label <- factor(tmpdf$Label, levels = c(input.label, "Control"))
+    p <- tmpdf %>% 
+    ggplot(aes(x = group, y = shannon, fill = Label)) + geom_boxplot()  + theme_pubr(base_size = 35) + theme(axis.text.x = element_text(angle = 30, hjust = 0.5, vjust = 0.5)) + scale_fill_manual(values = c("red", "gray"))
+  
+  ggsave(plot = p, filename = sprintf("plot_all_groups_%s.svg", input.label), path = path.to.01.output, width = 35, height = 10, device = "svg")    
+  }
+}
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=25, fig.height=10}
+em.shannondf %>% subset(Run %in% c("R5083", "R5167", "R5170", "R5201", "R5434") == FALSE) %>% 
+  ggplot(aes(x = Run, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35)
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=25, fig.height=10}
+em.shannondf %>% subset(Run %in% c("R5083", "R5167", "R5170", "R5201", "R5434") == FALSE) %>% 
+  ggplot(aes(x = Run, y = shannon, fill = Label)) + geom_boxplot() + theme_pubr(base_size = 35)
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=5, fig.height=5}
+input.run <- "R5201"
+tmpdf <- subset(meta.data, meta.data$Run == input.run)
+tmp.countdf <- table(tmpdf$Label) %>% as.data.frame()
+colnames(tmp.countdf) <- c("Label", "Count")
+ggplot(tmp.countdf, aes(x="", y=Count, fill=Label)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=0) + theme_pubr() + theme(axis.line = element_blank(), 
+                                                   axis.text = element_blank(), 
+                                                   axis.title = element_blank())
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=10, fig.height=10}
+table(meta.data$Run, meta.data$Label) %>% pheatmap::pheatmap(cluster_rows = FALSE, cluster_cols = FALSE)
+```
+
+# UMAP
+## All samples in all runs {.tabset}
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+for (feature.name in names(feature.mat)){
+  cat(sprintf("### Feature %s \n", feature.name))
+  p <- all.umapdf[[feature.name]] %>% ggplot(aes(x = UMAP1, y = UMAP2, color = Run)) + geom_point() + ggtitle(feature.name)  
+  print(p)
+  cat("\n \n")
+}
+
+```
+
+## All samples, colored by "discovery" and "unseen" {.tabset}
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+for (feature.name in names(feature.mat)){
+  cat(sprintf("### Feature %s \n", feature.name))
+  p <- all.umapdf[[feature.name]] %>% ggplot(aes(x = UMAP1, y = UMAP2, color = group)) + geom_point() + ggtitle(feature.name)  
+  print(p)
+  cat("\n \n")
+}
+
+
+```
+
+## All samples, colored by label {.tabset}
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+for (feature.name in names(feature.mat)){
+  cat(sprintf("### Feature %s \n", feature.name))
+  p <- all.umapdf[[feature.name]]  %>% ggplot(aes(x = UMAP1, y = UMAP2, color = Label)) + geom_point() + ggtitle(feature.name)  
+  print(p)
+  cat("\n \n")
+}
+```
+
+# Statistical tests: Different features between cancer vs control in discovery sets
+
+## Test in discovery sets
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+feature.name <- "GWfeature_EM"
+sample.group <- "discovery"
+input.mat <- feature.mat[[feature.name]]
+group1 <- subset(meta.data, meta.data$group == sample.group & meta.data$group.label == "Cancer")$SampleID
+group2 <- subset(meta.data, meta.data$group == sample.group & meta.data$group.label == "Control")$SampleID
+
+input.metadata <- data.frame(sample = c(group1, group2),
+                             label = c(
+                               to_vec(for(item in seq(1, length(group1))) 1),
+                               to_vec(for(item in seq(1, length(group2))) 0)
+                               ))
+exprsdf <- input.mat[, input.metadata$sample]
+design.mat <- model.matrix(~label, data = input.metadata)
+fit <- lmFit(exprsdf, design = design.mat)
+fit <- eBayes(fit)
+stats_df <- topTable(fit, number = nrow(exprsdf), coef = "label") %>%
+  tibble::rownames_to_column("region_name") %>%
+  rowwise() %>%
+  mutate(abs_logFC = abs(logFC))
+stats_df <- subset(stats_df, is.na(stats_df$adj.P.Val) ==  FALSE) %>% subset(adj.P.Val <= 0.05) %>% arrange(desc(abs_logFC))
+stats_df %>% create_dt()
+```
+
+
+## Test in unseen sets
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+feature.name <- "GWfeature_EM"
+sample.group <- "unseen"
+input.mat <- feature.mat[[feature.name]]
+group1 <- subset(meta.data, meta.data$group == sample.group & meta.data$group.label == "Cancer")$SampleID
+group2 <- subset(meta.data, meta.data$group == sample.group & meta.data$group.label == "Control")$SampleID
+
+input.metadata <- data.frame(sample = c(group1, group2),
+                             label = c(
+                               to_vec(for(item in seq(1, length(group1))) 1),
+                               to_vec(for(item in seq(1, length(group2))) 0)
+                               ))
+exprsdf <- input.mat[, input.metadata$sample]
+design.mat <- model.matrix(~label, data = input.metadata)
+fit <- lmFit(exprsdf, design = design.mat)
+fit <- eBayes(fit)
+stats_df <- topTable(fit, number = nrow(exprsdf), coef = "label") %>%
+  tibble::rownames_to_column("region_name") %>%
+  rowwise() %>%
+  mutate(abs_logFC = abs(logFC))
+stats_df <- subset(stats_df, is.na(stats_df$adj.P.Val) ==  FALSE) %>% subset(adj.P.Val <= 0.05) %>% arrange(desc(abs_logFC))
+stats_df %>% create_dt()
+```
+
