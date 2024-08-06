@@ -1,6 +1,6 @@
 // ----- ----- ----- CHANNEL ----- ----- -----
 params.input_file= "$params.input/*.tsv"
-
+src=file(params.src)
 Channel
     .fromPath( params.input_file )
     .ifEmpty { error "Cannot find any reads matching: ${params.input_file}"  }
@@ -16,10 +16,11 @@ process processing_bam_file_to_image_matrix {
 
     input:
         file(input_file) from input_ch
+        file src
     output:
         file("*") into output_ch
     script:
     """
-    python generate_image_matrix --input $input_file --output .
+    python $src --input $input_file --output .
     """
 }
