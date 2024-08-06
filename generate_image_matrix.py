@@ -18,6 +18,8 @@ def main():
 
     input_data = args.input
     outputdir = args.output
+    
+    sampleid = os.path.basename(input_data).split(".")[0]
     os.system("mkdir -p {}".format(outputdir))
     maindf = pd.read_csv(input_data, sep = "\t", header = None)
     maindf = maindf[[0, 1, 2, 3, 4, 8, 9, 10, 11, 12]]
@@ -59,7 +61,7 @@ def main():
     motif_order = pd.read_csv("motif_order.csv")["motif_order"].values
             
     scaled_countdf = countdf/countdf.sum().sum()
-    scaled_countdf.to_csv(os.path.join(outputdir, "EM_FLEN.csv"))
+    scaled_countdf.to_csv(os.path.join(outputdir, "{}_EM_FLEN.csv".format(sampleid)))
 
     #####------------------------------------------------------------------#####
     ##### generate FLEN - NUCLEOSOME DISTANCE
@@ -79,28 +81,28 @@ def main():
     nuc_countdf = nuc_countdf.set_index("flen")
 
     nuc_countdf = nuc_countdf/nuc_countdf.sum().sum()
-    nuc_countdf.to_csv(os.path.join(outputdir, "FLEN_NUC.csv"))
+    nuc_countdf.to_csv(os.path.join(outputdir, "{}_FLEN_NUC.csv".format(sampleid)))
 
     #####------------------------------------------------------------------#####
     ##### pair of EM
     #####------------------------------------------------------------------#####
     count_pair_EM = maindf[(~ maindf["reverse_EM"].str.contains("N")) & (~maindf["forward_EM"].str.contains("N"))].groupby(["forward_EM", "reverse_EM"])["readID"].count().reset_index().reset_index().pivot_table(index='forward_EM', columns='reverse_EM', values='readID', fill_value=0)
     count_pair_EM = count_pair_EM/count_pair_EM.sum().sum()
-    count_pair_EM.to_csv(os.path.join(outputdir, "pairEM.csv"))
+    count_pair_EM.to_csv(os.path.join(outputdir, "{}_pairEM.csv".format(sampleid)))
 
     #####------------------------------------------------------------------#####
     ##### pair of EM, short fragment only
     #####------------------------------------------------------------------#####
     count_pair_EM = maindf_short[(~ maindf_short["reverse_EM"].str.contains("N")) & (~maindf_short["forward_EM"].str.contains("N"))].groupby(["forward_EM", "reverse_EM"])["readID"].count().reset_index().reset_index().pivot_table(index='forward_EM', columns='reverse_EM', values='readID', fill_value=0)
     count_pair_EM = count_pair_EM/count_pair_EM.sum().sum()
-    count_pair_EM.to_csv(os.path.join(outputdir, "pairEM.short.csv"))
+    count_pair_EM.to_csv(os.path.join(outputdir, "{}_pairEM.short.csv".format(sampleid)))
 
     #####------------------------------------------------------------------#####
     ##### pair of EM, long fragment only
     #####------------------------------------------------------------------#####
     count_pair_EM = maindf_long[(~ maindf_long["reverse_EM"].str.contains("N")) & (~maindf_long["forward_EM"].str.contains("N"))].groupby(["forward_EM", "reverse_EM"])["readID"].count().reset_index().reset_index().pivot_table(index='forward_EM', columns='reverse_EM', values='readID', fill_value=0)
     count_pair_EM = count_pair_EM/count_pair_EM.sum().sum()
-    count_pair_EM.to_csv(os.path.join(outputdir, "pairEM.long.csv"))
+    count_pair_EM.to_csv(os.path.join(outputdir, "{}_pairEM.long.csv".format(sampleid)))
 
     #####------------------------------------------------------------------#####
     ##### generate EM - forward_NUC dataframe
@@ -127,7 +129,7 @@ def main():
         for motif in missing_motifs:
             countdf[motif] = 0
     countdf = countdf/countdf.sum().sum()
-    countdf.to_csv(os.path.join(outputdir, "EM_forwardNUC.csv"))
+    countdf.to_csv(os.path.join(outputdir, "{}_EM_forwardNUC.csv".format(sampleid)))
     #####------------------------------------------------------------------#####
     ##### generate EM - reverse_NUC dataframe
     #####------------------------------------------------------------------#####
@@ -153,7 +155,7 @@ def main():
         for motif in missing_motifs:
             countdf[motif] = 0
     countdf = countdf/countdf.sum().sum()
-    countdf.to_csv(os.path.join(outputdir, "EM_reverseNUC.csv"))
+    countdf.to_csv(os.path.join(outputdir, "{}_EM_reverseNUC.csv".format(sampleid)))
     
 if __name__ == '__main__':
     main()
