@@ -13,7 +13,7 @@ process processing_bam_file_to_image_matrix {
     publishDir "$params.output/output", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks 20
+    maxForks 10
 
     input:
         file(input_file) from input_ch
