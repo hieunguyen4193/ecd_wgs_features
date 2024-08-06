@@ -10,11 +10,12 @@ def main():
     parser = argparse.ArgumentParser(description='Generate an image matrix.')
     parser.add_argument('--input', type=str, required=True, help='Path to the input')
     parser.add_argument('--output', type=str, required=True, help='Directory to save the output images')
+    parser.add_argument('--motif_order', type=str, required=False, help='fix order of the 4bp end motif ATGC')
     args = parser.parse_args()
 
     input_data = args.input
     outputdir = args.output
-    
+    motif_order = args.motif_order
     sampleid = os.path.basename(input_data).split(".")[0]
     os.system("mkdir -p {}".format(outputdir))
     maindf = pd.read_csv(input_data, sep = "\t", header = None)
@@ -54,7 +55,7 @@ def main():
         for motif in missing_motifs:
             countdf[motif] = 0
 
-    motif_order = pd.read_csv("motif_order.csv")["motif_order"].values
+    motif_order = pd.read_csv(motif_order)["motif_order"].values
             
     scaled_countdf = countdf/countdf.sum().sum()
     scaled_countdf.to_csv(os.path.join(outputdir, "{}_EM_FLEN.csv".format(sampleid)))
