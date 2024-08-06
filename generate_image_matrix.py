@@ -154,3 +154,6 @@ def main():
             countdf[motif] = 0
     countdf = countdf/countdf.sum().sum()
     countdf.to_csv(os.path.join(outputdir, "EM_reverseNUC.csv"))
+    
+if __name__ == '__main__':
+    main()
