@@ -1,10 +1,6 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import itertools
 import os 
-import sys
 import argparse
 
 # input_data = "/Users/hieunguyen/data/WGS_image_features/test/2-ZK0CAAA66NB_S95034-S97034.final_output.tsv"

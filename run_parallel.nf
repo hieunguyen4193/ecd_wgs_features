@@ -8,11 +8,11 @@ Channel
     .into {input_ch}
 
 process processing_bam_file_to_image_matrix {
-    cache "deep"; tag "$sample_id"
+    cache "deep";
     publishDir "$params.output/output", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks 10
+    maxForks 20
 
     input:
         file(input_file) from input_ch
