@@ -3,7 +3,7 @@ params.input_file= "$params.input/*.tsv"
 
 Channel
     .fromPath( params.input_file )
-    .ifEmpty { error "Cannot find any reads matching: ${params.INPUT_PAIRS}"  }
+    .ifEmpty { error "Cannot find any reads matching: ${params.input_file}"  }
     // .view()
     .into {input_ch}
 
