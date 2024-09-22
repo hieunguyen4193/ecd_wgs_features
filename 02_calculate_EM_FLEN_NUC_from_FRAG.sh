@@ -1,4 +1,4 @@
-while getopts "i:o:f:n:" opt; do
+while getopts "i:o:f:r:n:" opt; do
   case ${opt} in
     i )
       inputfrag=$OPTARG
@@ -8,9 +8,12 @@ while getopts "i:o:f:n:" opt; do
       ;;
     f )
       path_to_fa=$OPTARG
+      ;;
+    r )
+      nucleosome_ref=$OPTARG
       ;;  
     \? )
-      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa"
+      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa [-r] nucleosome_ref"
       exit 1
       ;;
   esac
@@ -21,7 +24,7 @@ sampleid=${sampleid%.frag*}
 
 mkdir -p ${outputdir};
 
-# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa
+# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 ##### check if the FLEN column is already in the file. 
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
@@ -77,9 +80,6 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   # Sort your generated BED files
   sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.forward_Nucleosome.bed -o ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed
   sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.reverse_Nucleosome.bed -o ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed
-
-  # Sort the reference BED file
-  sort -k 1V,1 -k 2n,2 ${nucleosome_ref} -o ${nucleosome_ref%.bed*}.sorted.bed
 
   ##### sort with -k 1V,1 to get the correct order of chromosome, add -t first to get first nucleosome only, match row numbers.
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed
