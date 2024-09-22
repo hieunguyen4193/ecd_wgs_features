@@ -6,8 +6,11 @@ while getopts "i:o:n:" opt; do
     o )
       outputdir=$OPTARG
       ;;
+    f )
+      path_to_fa=$OPTARG
+      ;;  
     \? )
-      echo "Usage: cmd [-i] input .frag file [-o] outputdir"
+      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa"
       exit 1
       ;;
   esac
