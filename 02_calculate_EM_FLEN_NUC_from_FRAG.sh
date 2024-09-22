@@ -1,4 +1,4 @@
-while getopts "i:o:n:" opt; do
+while getopts "i:o:f:n:" opt; do
   case ${opt} in
     i )
       inputfrag=$OPTARG
@@ -21,7 +21,7 @@ sampleid=${sampleid%.frag*}
 
 mkdir -p ${outputdir};
 
-# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/
+# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa
 ##### check if the FLEN column is already in the file. 
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
