@@ -40,11 +40,11 @@ fi
 if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     echo -e "getting 4bp end motif"
     cat ${inputfrag} | \
-      awk '{start=$2 - 1; end= $2 - 1 + 4; name= $9; strand = "+"; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+      awk '{start=$2 - 1; end= $2 - 1 + 4; name= $9; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.forward_endcoord4bp.bed;
 
     cat ${inputfrag} | \
-      awk '{start=$3 - 1 - 4; end= $3 - 1; name= $9; strand = "-"; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+      awk '{start=$3 - 1 - 4; end= $3 - 1; name= $9; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.reverse_endcoord4bp.bed;
 
     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.forward_endcoord4bp.bed |  awk -v OFS='\t' '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${sampleid}.forward_endmotif4bp.txt
