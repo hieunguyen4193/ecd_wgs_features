@@ -6,7 +6,7 @@
 # several fragmentomics features. 
 export PATH=/Users/hieunguyen/samtools/bin:$PATH
 
-# bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/src/data/bam_files/WGShg19.bam  -o ./output/
+# bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/data/bam_files/WGShg19.bam  -o ./output/ -n 10
 
 #####----------------------------------------------------------------------#####
 ##### input args
@@ -83,4 +83,3 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     | awk '{ print $2 "\t" $3 "\t" $6 "\t" $5 "\t" $7}' > ${outputdir}/${sampleid}.frag.tsv
   rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
-
