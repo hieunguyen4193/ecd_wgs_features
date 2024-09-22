@@ -54,9 +54,12 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
 
   if [ ! -f "${outputdir}/${sampleid}.prep.tsv" ]; then
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
-  samtools view -f 3 ${inputbam} -@ ${samtools_num_threads} -b -o ${outputdir}/${sampleid}.prep.bam
-  samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.prep.bam
-  samtools view ${outputdir}/${sampleid}.prep.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
+  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ 5 -o tmp.bam;
+  samtools view -h tmp.bam | awk -f preprocessing_script.awk - > tmp.sam;
+  samtools sort -@ 5 -O BAM -o ${outputdir}/${sampleid}.sorted.bam tmp.sam;
+  samtools index -@ 5 ${outputdir}/${sampleid}.sorted.bam
+
+  samtools view ${outputdir}/${sampleid}.sorted.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
   fi
 
   ##### get true fragment end
@@ -83,3 +86,5 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     | awk '{ print $2 "\t" $3 "\t" $6 "\t" $5 "\t" $7}' > ${outputdir}/${sampleid}.frag.tsv
   rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
+
+

@@ -82,8 +82,8 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.reverse_Nucleosome.bed -o ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed
 
   ##### sort with -k 1V,1 to get the correct order of chromosome, add -t first to get first nucleosome only, match row numbers.
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref%.bed*}.sorted.bed -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.reverse_Nucleosome.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref} -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref} -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.reverse_Nucleosome.dist.bed
 
 # | awk -v OFS='\t' '{$14=$2-$6;print $0}'
   echo -e "sorting forward nucleosome file"
