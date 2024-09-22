@@ -23,7 +23,6 @@ mkdir -p ${outputdir};
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
 
-
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF
 #####----------------------------------------------------------------------#####
