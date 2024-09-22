@@ -45,6 +45,10 @@ sampleid=${sampleid%.bam*}
 ##### pre-processing steps for an input bam file:
 #####----------------------------------------------------------------------#####
 # remove unpaired and unmapped reads in BAM files.
+# input bam file must be sorted and index
+# samtools sort input.bam > input.sorted.bam
+# samtools index input.sorted.bam
+
 if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   echo -e "Pre-processing BAM files and convert them to fragmentomics format ..."
 

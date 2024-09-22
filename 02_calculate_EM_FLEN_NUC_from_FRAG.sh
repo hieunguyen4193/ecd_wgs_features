@@ -18,21 +18,29 @@ sampleid=${sampleid%.frag*}
 
 mkdir -p ${outputdir};
 
-# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i /Users/hieunguyen/src/data/bam_files/WGShg19.frag.tsv  -o ./output/ 
+# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/
 ##### check if the FLEN column is already in the file. 
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
+echo -e "Working on the file " ${inputfrag}
+count_col=$(awk -F'\t' '{print NF; exit}' ${inputfrag})
+
+if [ $count_col -lt 3 ]; then
+    echo -e "column FLEN does not exist in the frag.tsv file, generate new column FLEN ...";
+    cat ${inputfrag} | awk -v OFS='\t' '{$4 = $3 - $2}; print $0' > ${inputfrag%.frag*}.addedFLEN.frag.tsv
+    inputfrag=${inputfrag%.frag*}.addedFLEN.frag.tsv
+fi
 
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF
 #####----------------------------------------------------------------------#####
 if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     echo -e "getting 4bp end motif"
-    cat ${outputdir}/${sampleid}.frag.tsv | \
+    cat ${inputfrag} | \
       awk '{start=$2 - 1; end= $2 - 1 + 4; name= $9; strand = "+"; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.forward_endcoord4bp.bed;
 
-    cat ${outputdir}/${sampleid}.frag.tsv | \
+    cat ${inputfrag} | \
       awk '{start=$3 - 1 - 4; end= $3 - 1; name= $9; strand = "-"; print $2 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.reverse_endcoord4bp.bed;
 
@@ -56,10 +64,10 @@ count_4bpEM_reverse=$(cat ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.tx
 #####----------------------------------------------------------------------#####
 if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   echo -e "generating nucleosome features ..."
-  cat ${outputdir}/${sampleid}.frag.tsv | cut -f1,2,5 \
+  cat ${inputfrag} | cut -f1,2,5 \
     | awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.forward_Nucleosome.bed
-  cat ${outputdir}/${sampleid}.frag.tsv | cut -f1,3,5 \
+  cat ${inputfrag} | cut -f1,3,5 \
     | awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.reverse_Nucleosome.bed
 
@@ -93,7 +101,7 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
 
     ##### column $10: distance of forward read to the nearest nucleosome
     cat ${outputdir}/${sampleid}.forward_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/forward_nuc.tmp.txt
-    paste ${outputdir}/${sampleid}.frag.tsv ${outputdir}/forward_nuc.tmp.txt  > ${outputdir}/${sampleid}.modified1.tsv
+    paste ${inputfrag} ${outputdir}/forward_nuc.tmp.txt  > ${outputdir}/${sampleid}.modified1.tsv
 
     ##### column $11: distance of reverse read to the nearest nucleosome
     cat ${outputdir}/${sampleid}.reverse_Nucleosome.dist.sorted.bed | cut -f13 > ${outputdir}/reverse_nuc.tmp.txt
