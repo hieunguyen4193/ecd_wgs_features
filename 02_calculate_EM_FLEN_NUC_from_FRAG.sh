@@ -23,6 +23,7 @@ sampleid=$(echo ${inputfrag} | xargs -n 1 basename)
 sampleid=${sampleid%.frag*}
 
 mkdir -p ${outputdir};
+export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
 
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /media/hieunguyen/HNSD01/resources/hg19.fa -r /media/hieunguyen/HNSD01/resources/rpr_map_Budhraja_STM2023.bed
