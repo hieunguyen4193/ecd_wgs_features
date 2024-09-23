@@ -53,7 +53,9 @@ class WGS_GW_features:
     def generate_nuc_matrix(self):
         maindf = pd.DataFrame(data = range(-300, 301), columns = ["feat"])
         for file in tqdm(self.all_nuc_features):
-            sampleid = file.name.split("_")[0].split("-")[1]
+            sampleid = file.name.split("_")[0]
+            if "-" in sampleid:
+                sampleid = sampleid.split("-")[1]
             tmpdf = pd.read_csv(file)
             tmpdf = tmpdf.set_index("Sample").T
             tmpdf["feat"] = range(-300, 301)
@@ -71,7 +73,9 @@ class WGS_GW_features:
                                       for l in ["A", "T", "G", "C"]], 
                               columns = ["feat"])
         for file in tqdm(self.all_em_features):
-            sampleid = file.name.split("_")[0].split("-")[1]
+            sampleid = file.name.split("_")[0]
+            if "-" in sampleid:
+                sampleid = sampleid.split("-")[1]
             tmpdf = pd.read_csv(file)[["motif", "freq"]]
             tmpdf.columns = ["feat", sampleid]
             maindf = maindf.merge(tmpdf, right_on = "feat", left_on="feat")
