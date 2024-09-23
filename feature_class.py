@@ -30,6 +30,14 @@ class WGS_GW_features:
         elif ".tsv" in self.path_to_metadata:
             self.metadata = pd.read_csv(self.path_to_metadata, sep="\t")  
             
+        tmp = pd.DataFrame(
+            data = [file.name for file in self.all_flen_features],#
+            columns = ["Filename"]
+        )
+        tmp["SampleID"] = tmp["Filename"].apply(lambda x: x.split("_")[0] if "-" not in x else x.split("_")[0].split("-")[1])
+        self.real_metadata = tmp.copy()
+        self.match_metadata = tmp.merge(self.metadata, right_on = "SampleID", left_on = "SampleID")
+        
     def generate_flen_matrix(self):
         maindf = pd.DataFrame(data = range(1, 302), columns = ["feat"])
         for file in tqdm(self.all_flen_features):
