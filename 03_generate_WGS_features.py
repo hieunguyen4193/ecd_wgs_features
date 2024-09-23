@@ -82,7 +82,7 @@ class WGS_GW_features:
         nucdf = nucdf[(nucdf["feat"] >= -300) & (nucdf["feat"] <= 300)]
         output_nucdf = nucdf.reset_index().groupby("feat")["index"].count().reset_index()
         output_nucdf["index"] = output_nucdf["index"].apply(lambda x: x/output_nucdf["index"].sum())
-        output_nucdf["index"].plot()
+        output_nucdf.columns = ["dist", "freq"]
         if save_feature:
             output_nucdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}.NUC.csv"), index=False)
         return nucdf
