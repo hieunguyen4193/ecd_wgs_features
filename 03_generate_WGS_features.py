@@ -189,7 +189,7 @@ class WGS_GW_features:
     #####-------------------------------------------------------------#####    
     ##### REVERSE NUCLEOSOME - FLEN
     #####-------------------------------------------------------------#####  
-    def generate_forwardNUC_flen_feature(self,
+    def generate_reverseNUC_flen_feature(self,
                                          save_feature = True):
         feature_df = self.maindf_filter_chr.copy()
         nucdf_reverse = feature_df[["flen", "reverse_NUC"]].copy()
@@ -385,7 +385,7 @@ class WGS_GW_features:
     #####-------------------------------------------------------------#####
     ##### EM - forward NUC
     #####-------------------------------------------------------------#####
-    def gemerate_EM_forwardNUC(self,
+    def generate_EM_forwardNUC(self,
                               save_feature = True):
         feature_df = self.maindf_filter_chr.copy()
         ##### generate EM - forward_NUC dataframe
@@ -505,6 +505,15 @@ def main():
     output_obj.generate_nuc_feature()
 
     ##### generaet IMAGES feature and save features to output dir
+    output_obj.generate_EM_flen_feature()
+    output_obj.generate_forwardNUC_flen_feature()
+    output_obj.generate_reverseNUC_flen_feature()
+    output_obj.generate_bothNUC_flen_feature()
+    output_obj.generate_EM_pairs_all_flen()
+    output_obj.generate_EM_pairs_short_flen()
+    output_obj.generate_EM_pairs_long_flen()
+    output_obj.generate_EM_forwardNUC()
+    output_obj.generate_EM_reverseNUC()
     
 if __name__ == '__main__':
     main()
