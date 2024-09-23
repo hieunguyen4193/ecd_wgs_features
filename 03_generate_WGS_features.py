@@ -52,8 +52,11 @@ class WGS_GW_features:
     #####-------------------------------------------------------------#####    
     def generate_em_feature(self, 
                             save_feature = True):
-        emdf = pd.DataFrame(data = [item for item in self.maindf["reverse_EM"].values + self.maindf["forward_EM"].values if item != "NA"],
+        emdf1 = pd.DataFrame(data = self.maindf["reverse_EM"].values,
                             columns = ["EM"])
+        emdf2 = pd.DataFrame(data = self.maindf["forward_EM"].values,
+                            columns = ["EM"])
+        emdf = pd.concat([emddf1, emdf2], axis = 0)
         emdf.columns = ["motif"]
         emdf["motif"] = emdf["motif"].str.upper()
         output_emdf = emdf["motif"].value_counts().reset_index()
