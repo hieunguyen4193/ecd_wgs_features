@@ -4,9 +4,11 @@
 # This script pre-process an input BAM file to a 
 # fragment-wise data features, which can be use to calculate
 # several fragmentomics features. 
-export PATH=/Users/hieunguyen/samtools/bin:$PATH
-
+# export PATH=/Users/hieunguyen/samtools/bin:$PATH
 # bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/data/bam_files/WGShg19.bam  -o ./output/ -n 10
+
+export PATH=/home/hieunguyen/samtools/bin:$PATH
+# bash 01_BAM_to_FRAGS.sh -i /media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam  -o ./output/ -n 40
 
 #####----------------------------------------------------------------------#####
 ##### input args
@@ -60,6 +62,8 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   samtools index -@ 5 ${outputdir}/${sampleid}.sorted.bam
 
   samtools view ${outputdir}/${sampleid}.sorted.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
+  rm -rf tmp.bam
+  rm -rf tmp.sam
   fi
 
   ##### get true fragment end
