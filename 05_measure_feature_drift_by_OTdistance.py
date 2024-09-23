@@ -24,8 +24,7 @@ def main():
     os.system(f"mkdir -p {outputdir}")  
         
     obj = WGS_GW_features(path_to_feature_dir=path_to_feature_dir,
-                        path_to_metadata=path_to_metadata)
-
+                      path_to_metadata=path_to_metadata)
     if path_to_metadata is not None:
         batch_metadata = obj.match_metadata.copy()
         control_samples = batch_metadata[batch_metadata["Label"] == "Control"]["SampleID"].unique()
@@ -34,17 +33,26 @@ def main():
         flendf = obj.generate_flen_matrix()[control_samples]
         emdf = obj.generate_em_matrix()[control_samples]
         nucdf = obj.generate_nuc_matrix()[control_samples]
-    else:
-        # if no metadata is provided, calculate distance for all samples
+    else: 
+        # if no metadata is provided, generate drift measures for all samples in the batch
         flendf = obj.generate_flen_matrix()
         emdf = obj.generate_em_matrix()
         nucdf = obj.generate_nuc_matrix()
+        
+    median_flendf = flendf.median(axis=1)
+    median_emdf = emdf.median(axis=1)
+    median_nucdf = nucdf.median(axis=1)
 
     ##### keep this path default, the feature_drift_reference always goes with the repo
     flen_barycenter = pd.read_csv(f"feature_drift_reference/OT/{reference_version}/flen_barycenter.csv")
     em_barycenter = pd.read_csv(f"feature_drift_reference/OT/{reference_version}/em_barycenter.csv")
     nuc_barycenter = pd.read_csv(f"feature_drift_reference/OT/{reference_version}/nuc_barycenter.csv")
 
+    median_ref_flendf = pd.read_csv(f"feature_drift_reference/APE/{reference_version}/median_flendf.csv")
+    median_ref_emdf = pd.read_csv(f"feature_drift_reference/APE/{reference_version}/median_emdf.csv")
+    median_ref_nucdf = pd.read_csv(f"feature_drift_reference/APE/{reference_version}/median_nucdf.csv")
+
+    ##### OT dist
     flen_distdf = pd.DataFrame(data = flendf.columns, columns=["SampleID"])
     flen_distdf["dist_to_ref"] = flen_distdf["SampleID"].apply(lambda x: calculate_ot_distance_to_ref(x, 
                                                                                             flen_barycenter["flen_barycenter"].to_numpy(), 
@@ -60,9 +68,41 @@ def main():
                                                                                             nuc_barycenter["nuc_barycenter"].to_numpy(), 
                                                                                             nucdf, n = 601))
 
-    flen_distdf.to_csv(f"{outputdir}/flen_dist_to_ref.csv", index=False)
-    em_distdf.to_csv(f"{outputdir}/em_dist_to_ref.csv", index=False)
-    nuc_distdf.to_csv(f"{outputdir}/nuc_dist_to_ref.csv", index=False)
+    ##### APE
+    # flen has too many median 0 features, remove them before calculating APE
+    ape_flendf = pd.DataFrame(data = median_flendf, columns=["median_flen"])
+    ape_flendf["ref_median_flen"] = median_ref_flendf["0"].to_numpy()
+    ape_flendf = ape_flendf[(ape_flendf["median_flen"] != 0) & (ape_flendf["ref_median_flen"] != 0)].reset_index()
+
+    ape_flen = abs(ape_flendf["median_flen"].to_numpy() - ape_flendf["ref_median_flen"].to_numpy()) / ape_flendf["ref_median_flen"].to_numpy()
+    ape_em = abs(median_emdf - median_ref_emdf["0"].to_numpy()) / median_ref_emdf["0"].to_numpy()
+    ape_nuc = abs(median_nucdf - median_ref_nucdf["0"].to_numpy()) / median_ref_nucdf["0"].to_numpy()
+
+    ape_flen = pd.DataFrame(
+        {"feat": ape_flendf.feat.unique(),
+        "ape": ape_flen
+        }
+    ).reset_index().drop("index", axis = 1)
+
+    ape_em = pd.DataFrame(
+        {"feat": ape_em.index,
+        "ape": ape_em
+        }    
+    ).reset_index().drop("index", axis = 1)
+
+    ape_nuc = pd.DataFrame(
+        {"feat": ape_nuc.index,
+        "ape": ape_nuc
+        }
+    ).reset_index().drop("index", axis = 1)
+
+    flen_distdf.to_csv(f"{outputdir}/flen_OTdist_to_ref.csv", index=False)
+    em_distdf.to_csv(f"{outputdir}/em_OTdist_to_ref.csv", index=False)
+    nuc_distdf.to_csv(f"{outputdir}/nuc_OTdist_to_ref.csv", index=False)
+    
+    ape_flen.to_csv(f"{outputdir}/flen_APE_to_ref.csv", index=False)
+    ape_em.to_csv(f"{outputdir}/em_APE_to_ref.csv", index=False)
+    ape_nuc.to_csv(f"{outputdir}/nuc_APE_to_ref.csv", index=False)
 
 if __name__ == '__main__':
     main()

@@ -91,28 +91,3 @@ def ot_distance_em(a, b, n = 256):
     d_emd = ot.emd2(a, b, M)  # direct computation of OT loss
     return d_emd
 
-
-##### APE
-# def ape(x, y):
-#     # x and y are the medians of a feature in two datasets (e.g Test, Train)
-#     # x and y usually can not be zero, so no need to add a non-zero denominator
-#     return abs(x - y) / y
-##### input #####
-# df1, df2: the feature matrix [n_sample * n_feature]
-# e.g EM: n_sample * 256
-# df1 is usually treated as the reference, e.g from training set
-# df2 is treated as test sets, e.g from test_1
-# df1 and df2 need to have same number of columns/features
-# we calculate the median of each feature in df1 and df2,
-# so better with a reasonable n_sample for each df
-#
-##### output #####
-# ape_vec: A vector [n_feature]
-# Each element is ape(df2 vs df1) for each feature
-# Overall, ape_vec can be considered as the discordant rate of all features 
-# (for a feature type, e.g EM) from df2 (e.g test set) compared to df1 (training set)
-
-def calculate_ape(df1, df2):
-    median_df1 = df1.median(axis=0, skipna=True)
-    median_df2 = df2.median(axis=0, skipna=True)
-    return abs(median_df2 - median_df1) / median_df1
