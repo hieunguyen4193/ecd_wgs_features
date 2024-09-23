@@ -21,22 +21,23 @@ class WGS_GW_features:
             item for item in pathlib.Path(self.path_to_feature_dir).glob("*/*_GWfeature_EM.csv")
         ]
         assert len(self.all_flen_features) == len(self.all_em_features)
-        assert len(self.all_flen_features) == len(self.all_nuc_features)        
-        self.path_to_metadata = path_to_metadata
-        if ".xlsx" in self.path_to_metadata:
-            self.metadata = pd.read_excel(self.path_to_metadata)
-        elif ".csv" in self.path_to_metadata:
-            self.metadata = pd.read_csv(self.path_to_metadata)
-        elif ".tsv" in self.path_to_metadata:
-            self.metadata = pd.read_csv(self.path_to_metadata, sep="\t")  
-            
-        tmp = pd.DataFrame(
-            data = [file.name for file in self.all_flen_features],#
-            columns = ["Filename"]
-        )
-        tmp["SampleID"] = tmp["Filename"].apply(lambda x: x.split("_")[0] if "-" not in x else x.split("_")[0].split("-")[1])
-        self.real_metadata = tmp.copy()
-        self.match_metadata = tmp.merge(self.metadata, right_on = "SampleID", left_on = "SampleID")
+        assert len(self.all_flen_features) == len(self.all_nuc_features)
+        if path_to_metadata is not None:        
+            self.path_to_metadata = path_to_metadata
+            if ".xlsx" in self.path_to_metadata:
+                self.metadata = pd.read_excel(self.path_to_metadata)
+            elif ".csv" in self.path_to_metadata:
+                self.metadata = pd.read_csv(self.path_to_metadata)
+            elif ".tsv" in self.path_to_metadata:
+                self.metadata = pd.read_csv(self.path_to_metadata, sep="\t")  
+                
+            tmp = pd.DataFrame(
+                data = [file.name for file in self.all_flen_features],#
+                columns = ["Filename"]
+            )
+            tmp["SampleID"] = tmp["Filename"].apply(lambda x: x.split("_")[0] if "-" not in x else x.split("_")[0].split("-")[1])
+            self.real_metadata = tmp.copy()
+            self.match_metadata = tmp.merge(self.metadata, right_on = "SampleID", left_on = "SampleID")
         
     def generate_flen_matrix(self):
         maindf = pd.DataFrame(data = range(1, 302), columns = ["feat"])
