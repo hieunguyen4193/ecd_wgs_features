@@ -28,7 +28,7 @@ The file `hg19.fa` can be downloaded from UCSC, `rpr_map_Budhraja_STM2023.bed` c
 
 To generate ready-to-use feature matrix, we take the file `SampleID.final_output.tsv` output from `02_calculate_EM_FLEN_NUC_from_FRAG.sh` as input. 
 
-The script `03_generate_WGS_features.py` generates `EM`, `FLEN`, `NUCLEOSOME` (distance of reads to nearest nucleosome) and all paird-feature in *matrix/image* format. 
+The script `03_generate_WGS_features.py` generates `EM`, `FLEN`, `NUCLEOSOME` (distance of reads to nearest nucleosome) and all 11 paired-feature in *matrix/image* format. 
 
 Example command:
 ```sh

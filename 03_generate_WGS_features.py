@@ -230,51 +230,6 @@ class WGS_GW_features:
             nuc_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseNUC_FLEN.csv"), index=False)
 
     #####-------------------------------------------------------------#####
-    ##### BOTH FORWARD AND REVERSE NUCLEOSOME - FLEN
-    #####-------------------------------------------------------------#####
-    def generate_bothNUC_flen_feature(self,
-                                      save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
-        nucdf_reverse = feature_df[["flen", "reverse_NUC"]].copy()
-        nucdf_reverse.columns = ["flen", "nuc_dist"]
-
-        nucdf_forward = feature_df[["flen", "forward_NUC"]].copy()
-        nucdf_forward.columns = ["flen", "nuc_dist"]
-        nucdf = pd.concat([nucdf_forward, nucdf_reverse], axis = 0)
-        nucdf = nucdf[
-            (nucdf["nuc_dist"] <= 300) & (nucdf["nuc_dist"] >= -300)
-        ]
-
-        nuc_countdf = nucdf.reset_index() \
-                           .groupby(["nuc_dist", "flen"])["index"] \
-                           .count() \
-                           .reset_index() \
-                           .pivot_table(index='flen', 
-                                     columns='nuc_dist', 
-                                     values='index', 
-                                     fill_value=0)
-        
-        flen_range_df = pd.DataFrame(
-            {
-                'flen': range(70, 281)
-            }
-        )
-        
-        nuc_countdf = pd.merge(flen_range_df,
-                               nuc_countdf,
-                               on='flen',
-                               how='outer')
-
-        nuc_countdf.fillna(0, 
-                           inplace=True)
-
-        nuc_countdf = nuc_countdf.set_index("flen")
-        nuc_countdf = nuc_countdf/nuc_countdf.sum().sum()
-        nuc_countdf = nuc_countdf[self.motif_order]
-        if save_feature:
-            nuc_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_bothNUC_FLEN.csv"), index=False)
-
-    #####-------------------------------------------------------------#####
     ##### EM - EM, all flen
     #####-------------------------------------------------------------#####
     def generate_EM_pairs_all_flen(self,
@@ -508,12 +463,11 @@ def main():
     output_obj.generate_EM_flen_feature()
     output_obj.generate_forwardNUC_flen_feature()
     output_obj.generate_reverseNUC_flen_feature()
-    output_obj.generate_bothNUC_flen_feature()
     output_obj.generate_EM_pairs_all_flen()
     output_obj.generate_EM_pairs_short_flen()
     output_obj.generate_EM_pairs_long_flen()
     output_obj.generate_EM_forwardNUC()
     output_obj.generate_EM_reverseNUC()
-    
+
 if __name__ == '__main__':
     main()
