@@ -37,6 +37,7 @@ path.to.full.bam <- args$input_full_bam
 path.to.save.output <- args$output
 
 sampleid <- str_replace(basename(path.to.full.bam, ".bam", ""))
+dir.create(path.to.save.output, showWarnings = FALSE), recursive = TRUE)
 #####----------------------------------------------------------------------#####
 ##### CNA
 #####----------------------------------------------------------------------#####
