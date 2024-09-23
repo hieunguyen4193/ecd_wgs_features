@@ -5,7 +5,7 @@ export PATH=/home/hieunguyen/samtools/bin:$PATH
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
-while getopts "i:o:n:" opt; do
+while getopts "i:o:" opt; do
   case ${opt} in
     i )
       inputbam=$OPTARG
@@ -13,11 +13,8 @@ while getopts "i:o:n:" opt; do
     o )
       outputdir=$OPTARG
       ;;
-    n )
-      samtools_num_threads=$OPTARG
-      ;;
     \? )
-      echo "Usage: cmd [-i] inputbam [-o] outputdir [-n] samtools_num_threads"
+      echo "Usage: cmd [-i] inputbam [-o] outputdir"
       exit 1
       ;;
   esac
