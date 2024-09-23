@@ -56,7 +56,7 @@ class WGS_GW_features:
                             columns = ["EM"])
         emdf2 = pd.DataFrame(data = self.maindf["forward_EM"].values,
                             columns = ["EM"])
-        emdf = pd.concat([emddf1, emdf2], axis = 0)
+        emdf = pd.concat([emdf1, emdf2], axis = 0)
         emdf.columns = ["motif"]
         emdf["motif"] = emdf["motif"].str.upper()
         output_emdf = emdf["motif"].value_counts().reset_index()
