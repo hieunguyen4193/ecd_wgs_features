@@ -8,7 +8,7 @@ If we use `BAM` file as input, we perform some pre-processing steps. Run `01_BAM
 bash 01_BAM_to_FRAGS.sh -i /path/to/sorted_and_indexed_bam.bam  -o /path/to/outputdir -n ${num_threads_use_in_samtools}
 ```
 
-This function takes an sorted and indexed `BAM` file as input and generate a `.frag.tsv` files. The first 3 columns of this `.frag.tsv` file are: `chromosome`, `fragment start` 
+This function takes a sorted and indexed `BAM` file as input and generate a `.frag.tsv` files. The first 3 columns of this `.frag.tsv` file are: `chromosome`, `fragment start` 
 and `fragment end`. 
 
 If the input file is already in a `.frag.tsv` format, skip `01_BAM_to_FRAGS.sh` and just run `02_calculate_EM_FLEN_NUC_from_FRAG.sh`.
@@ -22,7 +22,7 @@ bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
     -r /path/to/rpr_map_Budhraja_STM2023.bed
 ```
 
-The file `hg19.fa` can be downloaded from UCSC, `rpr_map_Budhraja_STM2023.bed` can be download from the https://zenodo.org/records/7402091.
+The file `hg19.fa` can be downloaded from UCSC, `rpr_map_Budhraja_STM2023.bed` can be download from  https://zenodo.org/records/7402091.
 
 ## Generate ready-to-use feature `.csv` files
 
