@@ -57,9 +57,7 @@ class WGS_GW_features:
             if "-" in sampleid:
                 sampleid = sampleid.split("-")[1]
             tmpdf = pd.read_csv(file)
-            tmpdf = tmpdf.set_index("Sample").T
-            tmpdf["feat"] = range(-300, 301)
-            tmpdf.columns = [sampleid, "feat"]
+            tmpdf.columns = ["feat", sampleid]
             maindf = maindf.merge(tmpdf, right_on = "feat", left_on="feat")
             
         maindf = maindf.set_index("feat")
