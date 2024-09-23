@@ -34,7 +34,9 @@ args <- parser$parse_args()
 path.to.short.bam <- args$input_short_bam
 path.to.long.bam <- args$input_long_bam
 path.to.full.bam <- args$input_full_bam
+path.to.save.output <- args$output
 
+sampleid <- str_replace(basename(path.to.full.bam, ".bam", ""))
 #####----------------------------------------------------------------------#####
 ##### CNA
 #####----------------------------------------------------------------------#####
@@ -65,10 +67,7 @@ calculate_CNA <- function(input.bin, input.path){
 }
 
 output.CNA <- calculate_CNA(bin1M, path.to.full.bam)
-
-output.rds[["CNA"]] <- output.CNA[["CNA"]]
-output.rds[["readCounts"]] <- output.CNA[["readCounts"]]
-output[["CNA"]] <- output.CNA[["CNA"]]@assayData$copynumber %>% as.data.frame()
+write.csv(output.CNA[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA.csv", sampleid)))
 
 #####----------------------------------------------------------------------#####
 ##### short-to-long ratio in 1M bin
@@ -86,4 +85,4 @@ ratiodf <- merge(shortread.counts, longread.counts, by.x = "region", by.y = "reg
 ratiodf$ratio_short_long <- ratiodf$short/ratiodf$long
 ratiodf$ratio_short_total <- ratiodf$short/(ratiodf$short + ratiodf$long)
 
-output[["flen_ratio"]] <- ratiodf
+write.csv(ratiodf, file.path(path.to.save.output, sprintf("%s.ratio.csv", sampleid)))
