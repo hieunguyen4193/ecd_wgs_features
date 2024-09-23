@@ -16,6 +16,7 @@ def main():
     parser.add_argument('--input', type=str, required=False, help='Path to the feature directory of the batch')
     parser.add_argument('--metadata', type=str, required=False, help='Path to the metadata of the batch')
     parser.add_argument('--output', type=str, required=True, help='Path to the motif order file')
+    
     args = parser.parse_args()
     path_to_feature_dir = args.input
     path_to_metadata = args.metadata
