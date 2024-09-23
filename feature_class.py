@@ -68,9 +68,9 @@ class WGS_GW_features:
             tmpdf.columns = ["feat", sampleid]
             maindf = maindf.merge(tmpdf, right_on = "feat", left_on="feat")
         maindf = maindf.set_index("feat")
-        maindf = maindf[[item for item in maindf.columns if item in metadata["SampleID"].values]]
         return maindf
     
+################################################################################
 class WGS_GW_Image_features:
     def __init__(self,
                  input_tsv,
