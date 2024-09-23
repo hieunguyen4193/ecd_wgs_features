@@ -85,4 +85,4 @@ ratiodf <- merge(shortread.counts, longread.counts, by.x = "region", by.y = "reg
 ratiodf$ratio_short_long <- ratiodf$short/ratiodf$long
 ratiodf$ratio_short_total <- ratiodf$short/(ratiodf$short + ratiodf$long)
 
-write.csv(ratiodf, file.path(path.to.save.output, sprintf("%s.ratio.csv", sampleid)))
+write.csv(ratiodf, file.path(path.to.save.output, sprintf("%s.flen_ratio.csv", sampleid)))
