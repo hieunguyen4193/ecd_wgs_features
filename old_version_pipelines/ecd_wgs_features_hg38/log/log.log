@@ -1,0 +1,953 @@
+N E X T F L O W  ~  version 22.10.6
+WARN: It appears you have never run this project before -- Option `-resume` is ignored
+Launching `/mnt/DATASM14/hieunho/hieu_pipeline/ECD_WGS_features_HG38/nextflow/main_bwa.nf` [serene_noether] DSL1 - revision: 99d32d4ade
+[-        ] process > FastQC                 -
+[-        ] process > Dedupfastq             -
+[-        ] process > Trim                   -
+[-        ] process > Align_bwa              -
+[-        ] process > SortBam                -
+[-        ] process > Preprocessing          -
+[-        ] process > Calculate_feature      -
+[-        ] process > Summary_feature        -
+[-        ] process > Read_count             -
+[-        ] process > Run_ichorCNA           -
+[-        ] process > Summary_tumor_fraction -
+[-        ] process > Predict                -
+WARN: There's no process matching config selector: Align
+
+[-        ] process > FastQC                 [  0%] 0 of 1
+[-        ] process > Dedupfastq             [  0%] 0 of 1
+[-        ] process > Trim                   -
+[-        ] process > Align_bwa              -
+[-        ] process > SortBam                -
+[-        ] process > Preprocessing          -
+[-        ] process > Calculate_feature      -
+[-        ] process > Summary_feature        -
+[-        ] process > Read_count             -
+[-        ] process > Run_ichorCNA           -
+[-        ] process > Summary_tumor_fraction -
+[-        ] process > Predict                -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (2)
+[b7/d053bb] process > FastQC (47-ZMG059NB_S95048-... [  0%] 0 of 1
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (2)
+[b7/d053bb] process > FastQC (47-ZMG059NB_S95048-... [  0%] 0 of 1
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [  0%] 0 of 2
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [  0%] 0 of 2
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [  0%] 0 of 2
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+WARN: There's no process matching config selector: Align
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [  0%] 0 of 2
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+
+executor >  slurm (4)
+[b7/d053bb] process > FastQC (47-ZMG059NB_S95048-... [ 50%] 1 of 2
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [ 50%] 1 of 2
+[-        ] process > Trim                           -
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (4)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [ 50%] 1 of 2
+[-        ] process > Trim                           [  0%] 0 of 1
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (5)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [ 50%] 1 of 2
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [  0%] 0 of 1
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (5)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[70/b616b1] process > Dedupfastq (47-ZMG059NB_S95... [ 50%] 1 of 2
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [  0%] 0 of 1
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (5)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [  0%] 0 of 1
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (6)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [  0%] 0 of 2
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (6)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [  0%] 0 of 2
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (6)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [ 50%] 1 of 2
+[-        ] process > Align_bwa                      -
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (7)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [ 50%] 1 of 2
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [  0%] 0 of 1
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (7)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[41/9ad699] process > Trim (47-ZMG059NB_S95048-S9... [ 50%] 1 of 2
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [  0%] 0 of 1
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (7)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [  0%] 0 of 1
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (7)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [  0%] 0 of 2
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (8)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [  0%] 0 of 2
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (8)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [  0%] 0 of 2
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (8)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [ 50%] 1 of 2
+[-        ] process > SortBam                        -
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (8)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [ 50%] 1 of 2
+[-        ] process > SortBam                        [  0%] 0 of 1
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (9)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [ 50%] 1 of 2
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [  0%] 0 of 1
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (9)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[f3/196fee] process > Align_bwa (47-ZMG059NB_S950... [ 50%] 1 of 2
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [  0%] 0 of 1
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (9)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [  0%] 0 of 1
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (9)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [  0%] 0 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (10)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [  0%] 0 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (10)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [  0%] 0 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (10)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [ 50%] 1 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     -
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (10)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [ 50%] 1 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[-        ] process > Read_count                     [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (11)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [ 50%] 1 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (11)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[89/94ac01] process > SortBam (47-ZMG059NB_S95048... [ 50%] 1 of 2
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (11)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[-        ] process > Preprocessing                  -
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (11)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[-        ] process > Preprocessing                  [  0%] 0 of 1
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (12)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [  0%] 0 of 1
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 1
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (12)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [  0%] 0 of 1
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [  0%] 0 of 2
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (13)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (14)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (14)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [  0%] 0 of 2
+[-        ] process > Run_ichorCNA                   -
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (15)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [ 50%] 1 of 2
+[93/5562d6] process > Run_ichorCNA (47-ZMG059NB_S... [  0%] 0 of 1
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (15)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [ 50%] 1 of 2
+[93/5562d6] process > Run_ichorCNA (47-ZMG059NB_S... [  0%] 0 of 1
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (15)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [ 50%] 1 of 2
+[93/5562d6] process > Run_ichorCNA (47-ZMG059NB_S... [  0%] 0 of 1
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (15)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[95/608d01] process > Read_count (47-ZMG059NB_S95... [ 50%] 1 of 2
+[93/5562d6] process > Run_ichorCNA (47-ZMG059NB_S... [100%] 1 of 1
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (15)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[93/5562d6] process > Run_ichorCNA (47-ZMG059NB_S... [100%] 1 of 1
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (16)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [ 50%] 1 of 2
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (16)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [ 50%] 1 of 2
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (16)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[-        ] process > Summary_tumor_fraction         -
+[-        ] process > Predict                        -
+
+executor >  slurm (17)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [  0%] 0 of 1
+[-        ] process > Predict                        -
+
+executor >  slurm (17)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [  0%] 0 of 1
+[-        ] process > Predict                        -
+
+executor >  slurm (17)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [  0%] 0 of 2
+[-        ] process > Calculate_feature              -
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (17)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [ 50%] 1 of 2
+[-        ] process > Calculate_feature              [  0%] 0 of 1
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (18)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [ 50%] 1 of 2
+[6c/3678b9] process > Calculate_feature (47-ZMG05... [  0%] 0 of 1
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (18)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[33/d2e184] process > Preprocessing (47-ZMG059NB_... [ 50%] 1 of 2
+[6c/3678b9] process > Calculate_feature (47-ZMG05... [  0%] 0 of 1
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (18)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[6c/3678b9] process > Calculate_feature (47-ZMG05... [  0%] 0 of 1
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (19)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [  0%] 0 of 2
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (19)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [  0%] 0 of 2
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (19)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[6c/3678b9] process > Calculate_feature (47-ZMG05... [ 50%] 1 of 2
+[-        ] process > Summary_feature                -
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (20)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [  0%] 0 of 1
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (20)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [100%] 1 of 1 ✔
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[-        ] process > Predict                        -
+
+executor >  slurm (21)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [100%] 1 of 1 ✔
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[b6/6f58f3] process > Predict (null)                 [  0%] 0 of 1
+
+executor >  slurm (21)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [100%] 1 of 1 ✔
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[b6/6f58f3] process > Predict (null)                 [  0%] 0 of 1
+
+executor >  slurm (21)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [100%] 1 of 1 ✔
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[b6/6f58f3] process > Predict (null)                 [100%] 1 of 1 ✔
+
+executor >  slurm (21)
+[d7/3f90f1] process > FastQC (45-ZMB059NB_S95043-... [100%] 2 of 2 ✔
+[de/803be0] process > Dedupfastq (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[43/563673] process > Trim (45-ZMB059NB_S95043-S9... [100%] 2 of 2 ✔
+[a6/a47ae0] process > Align_bwa (45-ZMB059NB_S950... [100%] 2 of 2 ✔
+[1a/7d0f90] process > SortBam (45-ZMB059NB_S95043... [100%] 2 of 2 ✔
+[c9/93ba04] process > Preprocessing (45-ZMB059NB_... [100%] 2 of 2 ✔
+[0f/b17f62] process > Calculate_feature (45-ZMB05... [100%] 2 of 2 ✔
+[58/d35a26] process > Summary_feature (null)         [100%] 1 of 1 ✔
+[b3/ef640f] process > Read_count (45-ZMB059NB_S95... [100%] 2 of 2 ✔
+[e6/dd2f15] process > Run_ichorCNA (45-ZMB059NB_S... [100%] 2 of 2 ✔
+[bf/bf49ec] process > Summary_tumor_fraction (null)  [100%] 1 of 1 ✔
+[b6/6f58f3] process > Predict (null)                 [100%] 1 of 1 ✔
+Completed at: 10-Jul-2024 19:59:31
+Duration    : 2h 57m 45s
+CPU hours   : 24.7
+Succeeded   : 21
+
+

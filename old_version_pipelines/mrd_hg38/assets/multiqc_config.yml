@@ -1,0 +1,623 @@
+# Multiqc config
+
+picard_config:
+    HsMetrics_table_cols: 
+        - BAIT_TERRITORY
+        - BAIT_DESIGN_EFFICIENCY
+        - ON_BAIT_BASES
+        - NEAR_BAIT_BASES
+        - OFF_BAIT_BASES
+        - PCT_SELECTED_BASES
+        - PCT_OFF_BAIT
+        - ON_BAIT_VS_SELECTED
+        - MEAN_BAIT_COVERAGE
+        - PCT_USABLE_BASES_ON_BAIT
+        - PCT_USABLE_BASES_ON_TARGET
+        - FOLD_ENRICHMENT
+        - HS_LIBRARY_SIZE
+        - HS_PENALTY_10X
+        - HS_PENALTY_20X
+        - HS_PENALTY_30X
+        - HS_PENALTY_40X
+        - HS_PENALTY_50X
+        - HS_PENALTY_100X
+        - TARGET_TERRITORY
+        - GENOME_SIZE
+        - TOTAL_READS
+        - PF_READS
+        - PF_BASES
+        - PF_UNIQUE_READS
+        - PF_UQ_READS_ALIGNED
+        - PF_BASES_ALIGNED
+        - PF_UQ_BASES_ALIGNED
+        - ON_TARGET_BASES
+        - PCT_PF_READS
+        - PCT_PF_UQ_READS
+        - PCT_PF_UQ_READS_ALIGNED
+        - MEAN_TARGET_COVERAGE
+        - MEDIAN_TARGET_COVERAGE
+        - MAX_TARGET_COVERAGE
+        - MIN_TARGET_COVERAGE
+        - ZERO_CVG_TARGETS_PCT
+        - PCT_EXC_DUPE
+        - PCT_EXC_ADAPTER
+        - PCT_EXC_MAPQ
+        - PCT_EXC_BASEQ
+        - PCT_EXC_OVERLAP
+        - PCT_EXC_OFF_TARGET
+        - FOLD_80_BASE_PENALTY
+        - PCT_TARGET_BASES_1X
+        - PCT_TARGET_BASES_2X
+        - PCT_TARGET_BASES_10X
+        - PCT_TARGET_BASES_20X
+        - PCT_TARGET_BASES_30X
+        - PCT_TARGET_BASES_40X
+        - PCT_TARGET_BASES_50X
+        - PCT_TARGET_BASES_100X
+        - PCT_TARGET_BASES_250X
+        - PCT_TARGET_BASES_500X
+        - PCT_TARGET_BASES_1000X
+        - PCT_TARGET_BASES_2500X
+        - AT_DROPOUT
+        - GC_DROPOUT
+        - HET_SNP_SENSITIVITY
+        - HET_SNP_Q
+    HsMetrics_table_cols_hidden:
+        - BAIT_TERRITORY
+        - BAIT_DESIGN_EFFICIENCY
+        - ON_BAIT_BASES
+        - NEAR_BAIT_BASES
+        - OFF_BAIT_BASES
+        - PCT_SELECTED_BASES
+        - ON_BAIT_VS_SELECTED
+        - MEAN_BAIT_COVERAGE
+        - PCT_USABLE_BASES_ON_BAIT
+        - PCT_USABLE_BASES_ON_TARGET
+        - FOLD_ENRICHMENT
+        - HS_LIBRARY_SIZE
+        - HS_PENALTY_10X
+        - HS_PENALTY_20X
+        - HS_PENALTY_30X
+        - HS_PENALTY_40X
+        - HS_PENALTY_50X
+        - HS_PENALTY_100X
+        - TARGET_TERRITORY
+        - GENOME_SIZE
+        - PF_READS
+        - PF_BASES
+        - PF_UNIQUE_READS
+        - PF_UQ_READS_ALIGNED
+        - PF_BASES_ALIGNED
+        - PF_UQ_BASES_ALIGNED
+        - ON_TARGET_BASES
+        - PCT_PF_READS
+        - PCT_PF_UQ_READS
+        - PCT_PF_UQ_READS_ALIGNED
+        - MEDIAN_TARGET_COVERAGE
+        - MAX_TARGET_COVERAGE
+        - MIN_TARGET_COVERAGE
+        - ZERO_CVG_TARGETS_PCT
+        - PCT_EXC_DUPE
+        - PCT_EXC_ADAPTER
+        - PCT_EXC_MAPQ
+        - PCT_EXC_BASEQ
+        - PCT_EXC_OVERLAP
+        - PCT_EXC_OFF_TARGET
+        - FOLD_80_BASE_PENALTY
+        - PCT_TARGET_BASES_1X
+        - PCT_TARGET_BASES_2X
+        - PCT_TARGET_BASES_20X
+        - PCT_TARGET_BASES_30X
+        - PCT_TARGET_BASES_50X
+        - PCT_TARGET_BASES_500X
+        - PCT_TARGET_BASES_1000X
+        - PCT_TARGET_BASES_2500X
+        - AT_DROPOUT
+        - GC_DROPOUT
+        - HET_SNP_SENSITIVITY
+        - HET_SNP_Q
+    HsMetrics_genstats_table_cols:
+        - TOTAL_READS
+        - PCT_OFF_BAIT
+        - MEAN_TARGET_COVERAGE
+
+
+
+# Custom data
+
+table_cond_formatting_colours:
+    - high: "#5B2C6F"
+    - low:  "#2E86C1"
+    - blue: "#337ab7"
+    - lbue: "#5bc0de"
+    - pass: "#5cb85c"
+    - warn: "#f0ad4e"
+    - fail: "#d9534f"
+
+
+custom_data:
+    tmb:
+        id: 'tmb'
+        section_name: 'TMB'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'tmb'
+            namespace: 'TMB'
+        headers:
+            RawMutation:
+                description: 'Total number of raw mutations'
+                format: '{:,.0f}'
+            PASS_mutation:
+                description: 'Number of PASS mutation'
+                format: '{:,.0f}'
+                hidden: True
+            After_rm_PON:
+                description: 'Number of mutation after removing PON'
+                format: '{:,.0f}'
+                hidden: True
+            X15x_coverage_size:
+                title: 'CoverSite15x'
+                description: 'Number of sites with depth >= 15x'
+                format: '{:,.0f}'
+            Keep_CDSs_1:
+                description: 'Number of mutations in coding regions'
+                format: '{:,.0f}'
+                hidden: True
+            synonymous_1:
+                description: 'Number of synonymous mutations'
+                format: '{:,.0f}'
+                hidden: True
+            nonsynonymous_1:
+                description: 'Number of nonsynonymous mutations'
+                format: '{:,.0f}'
+                hidden: True
+            TMB_1:
+                title: "TMB (no filter) "
+                description: 'TMB value: not filter low VAF, low depth mutations'
+                format: '{:,.2f}'
+                hidden: True
+            Keep_CDSs_2:
+                description: 'Number of mutations in coding regions'
+                format: '{:,.0f}'
+                hidden: True
+            synonymous_2:
+                description: 'Number of synonymous mutations'
+                format: '{:,.0f}'
+                hidden: True
+            nonsynonymous_2:
+                title: "Eligible Variants (VAF > 3%)"
+                description: 'Number of eligible variants (VAF > 3%)'
+                format: '{:,.0f}'
+            TMB_2:
+                title: "TMB (VAF > 3%)"
+                description: 'TMB value: filter low VAF (3%) and low depth (15,5) mutations'
+                format: '{:,.2f}'
+            Keep_CDSs_3:
+                description: 'Number of mutations in coding regions'
+                format: '{:,.0f}'
+                hidden: True
+            synonymous_3:
+                description: 'Number of synonymous mutations'
+                format: '{:,.0f}'
+                hidden: True
+            nonsynonymous_3:
+                title: "Eligible Variants (VAF > 5%)"
+                description: 'Number of eligible variants (VAF > 5%)'
+                format: '{:,.0f}'
+            TMB_3:
+                title: "TMB (VAF > 5%)"
+                description: 'TMB value: filter low VAF (5%) and low depth (15,5)'
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    high:
+                        - gt: 10
+                    low:
+                        - lt: 10
+    msi:
+        id: 'msi'
+        section_name: 'MSI'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'msi'
+            namespace: 'MSI'
+        headers:
+            Total_Number_of_Sites:
+                description: 'Total number of sites'
+                format: '{:,.0f}'
+            Number_of_Somatic_Sites:
+                description: 'Total number of detected sites'
+                format: '{:,.0f}'
+            '%':
+                title: 'MSI value'
+                description: 'Percentage of detected sites'
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    high:
+                        - gt: 20
+                    low:
+                        - lt: 20
+    depth_tumor:
+        id: 'depth_tumor'
+        section_name: 'Depth (tumor)'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'depth_tumor'
+            namespace: 'Depth (tumor)'
+        headers:
+            Depth:
+                format: '{:,.1f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 150
+                    fail:
+                        - lt: 150
+            Cover10:
+                format: '{:,.2f}'
+            Cover40:
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 80
+                    fail:
+                        - lt: 80
+            Cover50:
+                format: '{:,.2f}'
+            Cover75:
+                format: '{:,.2f}'
+            Cover100:
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 75
+                    fail:
+                        - lt: 75
+            Cover150:
+                format: '{:,.2f}'
+            Cover200:
+                format: '{:,.2f}'
+            Cover250:
+                format: '{:,.2f}'
+            Cover300:
+                format: '{:,.2f}'
+            Cover500:
+                format: '{:,.2f}'
+            Cover750:
+                format: '{:,.2f}'
+            Cover1000:
+                format: '{:,.2f}'
+    depth_normal:
+        id: 'depth_normal'
+        section_name: 'Depth (normal)'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'depth_normal'
+            namespace: 'Depth (normal)'
+        headers:
+            Depth:
+                format: '{:,.1f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 30
+                    fail:
+                        - lt: 30
+            Cover10:
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 95
+                    fail:
+                        - lt: 95
+            Cover40:
+                format: '{:,.2f}'
+            Cover50:
+                format: '{:,.2f}'
+            Cover75:
+                format: '{:,.2f}'
+            Cover100:
+                format: '{:,.2f}'
+            Cover150:
+                format: '{:,.2f}'
+            Cover200:
+                format: '{:,.2f}'
+            Cover250:
+                format: '{:,.2f}'
+            Cover300:
+                format: '{:,.2f}'
+            Cover500:
+                format: '{:,.2f}'
+            Cover750:
+                format: '{:,.2f}'
+            Cover1000:
+                format: '{:,.2f}'
+    cnv:
+        id: 'cnv'
+        section_name: 'CNV'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'cnv'
+            namespace: 'CNV'
+        headers:
+            Chromosome:
+                hidden: True
+            Start:
+                hidden: True
+                format: '{:,.0f}'
+            End:
+                hidden: True
+                format: '{:,.0f}'
+            Num_Targets:
+                format: '{:,.0f}'
+                hidden: True
+            Segment_Mean:
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    pass:
+                        - gt: 2
+                    fail:
+                        - lt: 2
+            Segment_Name:
+                description: "Gene name"
+            Segment_Call:
+                hidden: True
+            Qual:
+                format: '{:,.0f}'
+            Filter:
+                description: "PASS or not"
+            Copy_Number:
+                format: '{:,.0f}'
+                hidden: True
+            Ploidy:
+                format: '{:,.0f}'
+            Improper_Pairs:
+                hidden: True
+    tumor_fraction:
+        id: 'tumor_fraction'
+        section_name: 'Tumor fraction'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'tumor_fraction'
+            namespace: 'Tumor fraction'
+        headers:
+            purity:
+                title: "Tumor fraction"
+                description: 'Tumor purity'
+                format: '{:,.2f}'
+                cond_formatting_rules:
+                    high:
+                        - gt: 0.5
+                    low:
+                        - lt: 0.5
+            ploidy:
+                description: 'Tumor ploidy'
+                format: '{:,.2f}'
+    clustered_event:
+        id: 'clustered_event'
+        section_name: 'Variant summary'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'clustered_event'
+            namespace: 'Variant summary'
+        headers:
+            total:
+                title: "Total"
+                description: 'Total number of variants'
+                format: '{:,.0f}'
+            clustered_events:
+                title: "Clustered events"
+                description: 'The number of clustered events'
+                format: '{:,.0f}'
+            PASS:
+                title: "PASS variants"
+                description: 'The number of PASS variants'
+                format: '{:,.0f}'
+            clustered_events_prop:
+                title: "Clustered events proportion"
+                description: 'The proportion of clustered events'
+                format: '{:,.2f}'
+            PASS_prop:
+                title: "PASS proportion"
+                description: 'The proportion of PASS variants'
+                format: '{:,.2f}'
+    clinvar_mpipeup_summary:
+        id: 'clinvar_mpipeup_summary'
+        section_name: 'Clinvar mpipeup summary'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'clinvar_mpipeup_summary'
+            namespace: 'Clinvar mpipeup summary'
+        headers:
+            Total:
+                format: '{:,.0f}'
+                description: "The total number of clinvar variants within the targeted regions"
+            Cover10:
+                format: '{:,.2f}'
+            Cover20:
+                format: '{:,.2f}'
+            Cover40:
+                format: '{:,.2f}'
+            Cover50:
+                format: '{:,.2f}'
+            Cover75:
+                format: '{:,.2f}'
+            Cover100:
+                format: '{:,.2f}'
+            Cover150:
+                format: '{:,.2f}'
+            Cover200:
+                format: '{:,.2f}'
+            Cover250:
+                format: '{:,.2f}'
+            Cover300:
+                format: '{:,.2f}'
+            Cover500:
+                format: '{:,.2f}'
+            Cover750:
+                format: '{:,.2f}'
+            Cover1000:
+                format: '{:,.2f}'
+    clinvar_mpipeup_summary_by_gene:
+        id: 'clinvar_mpipeup_summary_by_gene'
+        section_name: 'Clinvar mpipeup summary by gene'
+        file_format: "tsv"
+        plot_type: 'table'
+        pconfig:
+            id: 'clinvar_mpipeup_summary_by_gene'
+            namespace: 'Clinvar mpipeup summary by gene'
+        headers:
+            Gene:
+                description: "Gene name"
+            Name:
+                description: "Sample name"
+            Total:
+                format: '{:,.0f}'
+                description: "The total number of clinvar variants within this gene"
+            Cover10:
+                format: '{:,.2f}'
+            Cover20:
+                format: '{:,.2f}'
+            Cover40:
+                format: '{:,.2f}'
+            Cover50:
+                format: '{:,.2f}'
+            Cover75:
+                format: '{:,.2f}'
+            Cover100:
+                format: '{:,.2f}'
+            Cover150:
+                format: '{:,.2f}'
+            Cover200:
+                format: '{:,.2f}'
+            Cover250:
+                format: '{:,.2f}'
+            Cover300:
+                format: '{:,.2f}'
+            Cover500:
+                format: '{:,.2f}'
+            Cover750:
+                format: '{:,.2f}'
+            Cover1000:
+                format: '{:,.2f}'
+
+sp:
+    depth_tumor:
+        fn: '*tumor_coversite.tsv'
+    depth_normal:
+        fn: '*normal_coversite.tsv'
+    tumor_fraction:
+        fn: '*_purity_ploidy.txt'
+    tmb:
+        fn: '*_summary.txt'
+    msi:
+        contents: "Sample	Total_Number_of_Sites	Number_of_Somatic_Sites	%"
+    cnv:
+        fn: '*cnv_report.tsv'
+    clustered_event:
+        fn: '*_event_summary.tsv'
+    clinvar_mpipeup_summary:
+        fn: '*_clinvar_mpipeup_summary.tsv'
+    clinvar_mpipeup_summary_by_gene:
+        fn: '*_clinvar_mpipeup_summary_by_gene.tsv'
+
+# High values push columns to the right hand side of the table and low to the left. The default value is 1000. 
+table_columns_placement:
+  depth_normal:
+    Depth: 3
+    Cover10: 4
+    Cover20: 5
+    Cover40: 6
+    Cover50: 7
+    Cover75: 8
+    Cover100: 9
+    Cover150: 10
+    Cover200: 11
+    Cover250: 12
+    Cover300: 13
+    Cover500: 14
+    Cover750: 15
+    Cover1000: 16
+  depth_tumor:
+    Depth: 3
+    Cover10: 4
+    Cover20: 5
+    Cover40: 6
+    Cover50: 7
+    Cover75: 8
+    Cover100: 9
+    Cover150: 10
+    Cover200: 11
+    Cover250: 12
+    Cover300: 13
+    Cover500: 14
+    Cover750: 15
+    Cover1000: 16
+  clinvar_mpipeup_summary:
+    Total: 3
+    Cover10: 4
+    Cover20: 5
+    Cover40: 6
+    Cover50: 7
+    Cover75: 8
+    Cover100: 9
+    Cover150: 10
+    Cover200: 11
+    Cover250: 12
+    Cover300: 13
+    Cover500: 14
+    Cover750: 15
+    Cover1000: 16
+  clinvar_mpipeup_summary_by_gene:
+    Gene: 1
+    Name: 2
+    Total: 3
+    Cover10: 4
+    Cover20: 5
+    Cover40: 6
+    Cover50: 7
+    Cover75: 8
+    Cover100: 9
+    Cover150: 10
+    Cover200: 11
+    Cover250: 12
+    Cover300: 13
+    Cover500: 14
+    Cover750: 15
+    Cover1000: 16
+
+# set the order of sections in the report
+# high value for first, low value for last
+report_section_order:
+
+  dragen_fastqc:
+    order: 20
+
+  fastqc:
+    order: 10
+
+  trimmomatic:
+    order: 0
+
+  fastqc_trimmed:
+    order: -10
+
+  dragen:
+    order: -50
+
+  picard:
+    order: -60
+
+  vep:
+    order: -70
+
+  software_versions:
+    order: -1001
+
+skip_generalstats: true
+show_analysis_paths: false
