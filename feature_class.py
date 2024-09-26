@@ -101,7 +101,8 @@ class WGS_GW_Image_features:
             for k in ["A", "T", "G", "C"] 
             for l in ["A", "T", "G", "C"]
         ]
-        self.maindf_filter_chr = self.maindf[self.maindf["chr"].isin([f"chr{i}" for i in range(1, 22)])]
+        self.maindf_filter_chr = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 22)]))
+                                             and (self.maindf["flen"] > 0)]
         self.outputdir = outputdir
         
     #####-------------------------------------------------------------#####
