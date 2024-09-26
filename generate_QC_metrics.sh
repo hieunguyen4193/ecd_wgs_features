@@ -85,6 +85,6 @@ echo -e "running collect gc bias metrics";″
 java -Xms512m -Xmx4g -jar ./picard.jar CollectWgsMetrics \
     R=${ref} \
     I=${inputbam} \
-    O=${outputdir}/QC/${sampleid}.gc_bias_metrics.txt
+    O=${outputdir}/QC/${sampleid}.wgs_metrics.txt
 echo -e "finished"
 
