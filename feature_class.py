@@ -108,7 +108,7 @@ class WGS_GW_Image_features:
     ##### Distribution of fragment lengths
     #####-------------------------------------------------------------#####
     def generate_flen_feature(self, 
-                                   save_feature = True):
+                              save_feature = True):
         flendf = self.maindf[["flen"]].copy()
         flendf["abs_flen"] = flendf["flen"].abs()
         if not flendf.empty:
