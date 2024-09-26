@@ -80,3 +80,11 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectGcBiasMetrics \
     CHART=${outputdir}/QC/${sampleid}.gc_bias_metrics.pdf \
     S=${outputdir}/QC/${sampleid}.summary_metrics.txt
 echo -e "finished"
+
+echo -e "running collect gc bias metrics";″
+java -Xms512m -Xmx4g -jar ./picard.jar CollectWgsMetrics \
+    R=${ref} \
+    I=${inputbam} \
+    O=${outputdir}/QC/${sampleid}.gc_bias_metrics.txt
+echo -e "finished"
+
