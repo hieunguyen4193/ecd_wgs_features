@@ -13,7 +13,7 @@ export PATH=/home/hieunguyen/samtools/bin:$PATH
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
-while getopts "i:o:n:" opt; do
+while getopts "i:o:n:f:" opt; do
   case ${opt} in
     i )
       inputbam=$OPTARG
@@ -24,8 +24,11 @@ while getopts "i:o:n:" opt; do
     n )
       samtools_num_threads=$OPTARG
       ;;
+    f )
+      ref=$OPTARG
+      ;;
     \? )
-      echo "Usage: cmd [-i] inputbam [-o] outputdir [-n] samtools_num_threads"
+      echo "Usage: cmd [-i] inputbam [-o] outputdir [-n] samtools_num_threads [-f] reference genome"
       exit 1
       ;;
   esac
@@ -90,5 +93,3 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     | awk '{ print $2 "\t" $3 "\t" $6 "\t" $5 "\t" $7}' > ${outputdir}/${sampleid}.frag.tsv
   rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
-
-
