@@ -29,7 +29,6 @@ while getopts "i:o:n:f:" opt; do
   esac
 done
 
-
 echo -e "input bam file: " ${inputbam}
 # Check if the input BAM file exists
 if [ ! -f "${inputbam}" ]; then
@@ -54,7 +53,7 @@ echo -e "finished"
 # samtools 
 echo -e "running samtools stats"
 samtools stat ${inputbam} -@ ${samtools_num_threads} > ${outputdir}/QC/${sampleid}.sortedbamfilename.stats
-plot-bamstats ${outputdir}/QC/${sampleid}.sortedbamfilename.stats
+plot-bamstats -p ${outputdir}/QC/samtools_stat_plots ${outputdir}/QC/${sampleid}.sortedbamfilename.stats
 echo -e "finished"
 
 # Some picard QC metrics
