@@ -56,13 +56,24 @@ echo -e "finished"
 
 # Some picard QC metrics
 echo -e "running picard collect alignment summary metrics"
-picard CollectAlignmentSummaryMetrics R=${ref} I=${inputbam} O=${outputdir}/QC/${sampleid}.alignment_summary_metrics.txt
+java -Xms512m -Xmx4g -jar ./picard.jar CollectAlignmentSummaryMetrics \
+    R=${ref} \
+    I=${inputbam} \
+    O=${outputdir}/QC/${sampleid}.alignment_summary_metrics.txt
 echo -e "finished"
 
 echo -e "running collect insert size metrics";
-picard CollectInsertSizeMetrics I=${inputbam} O=${outputdir}/QC/${sampleid}.insert_size_metrics.txt H=${outputdir}/QC/${sampleid}.insert_size_histogram.pdf
+java -Xms512m -Xmx4g -jar ./picard.jar CollectInsertSizeMetrics \
+    I=${inputbam} \
+    O=${outputdir}/QC/${sampleid}.insert_size_metrics.txt \
+    H=${outputdir}/QC/${sampleid}.insert_size_histogram.pdf
 echo -e "finished"
 
-echo -e "running collect gc bias metrics";
-picard CollectGcBiasMetrics R=${ref} I=${inputbam} O=${outputdir}/QC/${sampleid}.gc_bias_metrics.txt CHART=${outputdir}/QC/${sampleid}.gc_bias_metrics.pdf S=${outputdir}/QC/${sampleid}.summary_metrics.txt
+echo -e "running collect gc bias metrics";″
+java -Xms512m -Xmx4g -jar ./picard.jar CollectGcBiasMetrics \
+    R=${ref} \
+    I=${inputbam} \
+    O=${outputdir}/QC/${sampleid}.gc_bias_metrics.txt \
+    CHART=${outputdir}/QC/${sampleid}.gc_bias_metrics.pdf \
+    S=${outputdir}/QC/${sampleid}.summary_metrics.txt
 echo -e "finished"
