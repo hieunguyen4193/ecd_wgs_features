@@ -87,6 +87,7 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectAlignmentSummaryMetrics \
     R=${ref} \
     I=${inputbam} \
     O=${outputdir}/QC/${sampleid}/${sampleid}.alignment_summary_metrics.txt
+sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.alignment_summary_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.alignment_summary_metrics.final.txt
 echo -e "finished"
 
 echo -e "running collect insert size metrics";
@@ -94,6 +95,8 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectInsertSizeMetrics \
     I=${inputbam} \
     O=${outputdir}/QC/${sampleid}/${sampleid}.insert_size_metrics.txt \
     H=${outputdir}/QC/${sampleid}/${sampleid}.insert_size_histogram.pdf
+
+sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.insert_size_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.insert_size_metrics.final.txt
 echo -e "finished"
 
 echo -e "running collect gc bias metrics";″
@@ -103,6 +106,8 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectGcBiasMetrics \
     O=${outputdir}/QC/${sampleid}/${sampleid}.gc_bias_metrics.txt \
     CHART=${outputdir}/QC/${sampleid}/${sampleid}.gc_bias_metrics.pdf \
     S=${outputdir}/QC/${sampleid}/${sampleid}.summary_metrics.txt
+
+sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.summary_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.summary_metrics.final.txt
 echo -e "finished"
 
 echo -e "running collect gc bias metrics";″
@@ -110,5 +115,7 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectWgsMetrics \
     R=${ref} \
     I=${inputbam} \
     O=${outputdir}/QC/${sampleid}/${sampleid}.wgs_metrics.txt
+
+sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.wgs_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.wgs_metrics.final.txt
 echo -e "finished"
 
