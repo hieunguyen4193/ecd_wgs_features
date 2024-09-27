@@ -1,0 +1,95 @@
+
+        <html>
+        <head>
+            <style>
+                .thumbnail
+                {
+                    text-decoration:none;
+                    color:black;
+                    font-weight:bold;
+                }
+                .thumbnail span  /*CSS for enlarged image*/
+                {
+                    visibility: hidden;
+                    position: absolute;
+                    padding: 5px;
+                    border: 1px solid #000;
+                    background-color: #e5e5e5;
+                }
+                .thumbnail:hover span  /*CSS for enlarged image on hover*/
+                {
+                    visibility: visible;
+                    left: 550px;
+                    top: 10px;
+                }
+                .imgs td
+                {
+                    vertical-align:middle;
+                    padding: 0.5em;
+                    border: 1px solid black;
+                }
+                table.imgs
+                {
+                    border-collapse:collapse;
+                    margin-left:20px;
+                }
+                .nums th
+                {
+                    text-align: left;
+                }
+                table.nums
+                {
+                    margin-top: 1em;
+                    margin-left:20px;
+                    border: 1px dotted #83A4C3;
+                    background-color: #F5F5F5;
+                    padding: 0.5em;
+                }
+                .pad { padding-left:1em; vertical-align:top; }
+                .right { text-align:right; padding-left:1em; }
+            </style>
+        </head>
+        <body>
+            <table class="imgs">
+    <tr><td><a class="thumbnail" href="WGShg19.sorted-insert-size.png"><img src="WGShg19.sorted-insert-size.png" width="150px"><span>Insert size<br><img src="WGShg19.sorted-insert-size.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-gc-content.png"><img src="WGShg19.sorted-gc-content.png" width="150px"><span>GC content<br><img src="WGShg19.sorted-gc-content.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-acgt-cycles.png"><img src="WGShg19.sorted-acgt-cycles.png" width="150px"><span>Per-base sequence content<br><img src="WGShg19.sorted-acgt-cycles.png"></span></a>
+</tr>
+<tr><td>
+<td><a class="thumbnail" href="WGShg19.sorted-quals.png"><img src="WGShg19.sorted-quals.png" width="150px"><span>Quality per cycle<br><img src="WGShg19.sorted-quals.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-quals2.png"><img src="WGShg19.sorted-quals2.png" width="150px"><span>Quality per cycle<br><img src="WGShg19.sorted-quals2.png"></span></a>
+</tr>
+<tr><td><a class="thumbnail" href="WGShg19.sorted-quals3.png"><img src="WGShg19.sorted-quals3.png" width="150px"><span>Quality per cycle<br><img src="WGShg19.sorted-quals3.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-quals-hm.png"><img src="WGShg19.sorted-quals-hm.png" width="150px"><span>Quality per cycle<br><img src="WGShg19.sorted-quals-hm.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-indel-cycles.png"><img src="WGShg19.sorted-indel-cycles.png" width="150px"><span>Indels per cycle<br><img src="WGShg19.sorted-indel-cycles.png"></span></a>
+</tr>
+<tr><td><a class="thumbnail" href="WGShg19.sorted-indel-dist.png"><img src="WGShg19.sorted-indel-dist.png" width="150px"><span>Indel lengths<br><img src="WGShg19.sorted-indel-dist.png"></span></a>
+<td><a class="thumbnail" href="WGShg19.sorted-gc-depth.png"><img src="WGShg19.sorted-gc-depth.png" width="150px"><span>Mapped depth vs GC<br><img src="WGShg19.sorted-gc-depth.png"></span></a>
+
+        </table>
+
+        <table class="nums">
+            <tr><th>Reads</tr>
+            <tr>
+                <td class="pad"><table>
+                <tr><td>total:       <td class="right"> 25,460,353    <td class="right"></tr>
+                <tr><td>filtered:    <td class="right"> 0 <td class="right"> (0.0%)</tr>
+                <tr><td>non-primary: <td class="right"> 151  <td class="right"> </tr>
+                <tr><td>duplicated:  <td class="right"> 254,532      <td class="right"> (1.0%)</tr>
+                <tr><td>mapped:      <td class="right"> 25,460,353   <td class="right"> (100.0%)</tr>
+                <tr><td>zero MQ:     <td class="right"> 1,491,998      <td class="right"> (5.9%)</tr>
+                <tr><td>avg read length: <td class="right"> 50    <td class="right"></tr>
+                </table></tr>
+
+            <tr><th>Bases</tr>
+            <tr>
+                <td class="pad"><table>
+                <tr><td>total:       <td class="right"> 1,272,839,067    <td class="right"></tr>
+                <tr><td>mapped:      <td class="right"> 1,266,765,840   <td class="right"> (99.5%)</tr>
+                <tr><td>error rate:      <td class="right"> 0.50%  <td class="right"></tr>
+                </table></tr>
+        </table>
+
+        </body>
+        </html>
+    
