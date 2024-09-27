@@ -41,6 +41,7 @@ fi
 mkdir -p ${outputdir}
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
+mkdir -p ${outputdir}/QC/${sampleid};
 
 #####----------------------------------------------------#####
 ##### Perform mark duplication
@@ -69,7 +70,6 @@ fi
 #####----------------------------------------------------#####
 
 # samtools flagstat
-mkdir -p ${outputdir}/QC/${sampleid};
 echo -e "runnning samtools flagstats"
 samtools flagstat ${inputbam} -@ ${samtools_num_threads} --output-fmt 'tsv' > ${outputdir}/QC/${sampleid}/${sampleid}.flagstat.txt
 echo -e "finished"
