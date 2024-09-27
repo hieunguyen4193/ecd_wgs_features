@@ -7,7 +7,7 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
-while getopts "i:o:n:f:" opt; do
+while getopts "i:o:n:f:m:" opt; do
   case ${opt} in
     i )
       inputbam=$OPTARG
@@ -21,8 +21,11 @@ while getopts "i:o:n:f:" opt; do
     f )
       ref=$OPTARG
       ;;
+    m )
+      rerun_markdup=$OPTARG
+      ;;
     \? )
-      echo "Usage: cmd [-i] inputbam [-o] outputdir [-n] samtools_num_threads [-f] reference genome"
+      echo "Usage: cmd [-i] inputbam [-o] outputdir [-n] samtools_num_threads [-f] reference genome [-m] rerun_markdup"
       exit 1
       ;;
   esac
@@ -38,6 +41,28 @@ fi
 mkdir -p ${outputdir}
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
+
+#####----------------------------------------------------#####
+##### Perform mark duplication
+#####----------------------------------------------------#####
+if [ "${rerun_markdup}" = "true" ]; then
+    echo "Run PICARD MARK DUPLICATE for the input bam file" $inputbam
+    java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
+    I=${inputbam} \
+    O=${outputdir}/${sampleid}.sorted.markdup.bam \
+    M=${outputdir}/QC/${sampleid}.marked_dup_metrics.txt
+
+    # replace inputbam by the new markdup bam
+    inputbam=${outputdir}/${sampleid}.sorted.markdup.bam
+    echo -e "New markdup bam file: " ${inputbam}
+    echo -e "Finished mark duplication"
+elif [ "${rerun_markdup}" = "false" ]; then
+    echo "Assume the input file is alread MARK DUPLICATED ..."
+    # Add your code here for when the flag is false
+else
+    echo "Invalid value for boolean flag: ${rerun_markdup}. Use 'true' or 'false' only."
+    exit 1
+fi
 
 #####----------------------------------------------------#####
 ##### generate QC metrics for the input BAM file. 
