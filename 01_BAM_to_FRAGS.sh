@@ -59,14 +59,22 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
 
   if [ ! -f "${outputdir}/${sampleid}.prep.tsv" ]; then
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
-  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ 5 -o tmp.bam;
-  samtools view -h tmp.bam | awk -f preprocessing_script.awk - > tmp.sam;
-  samtools sort -@ 5 -O BAM -o ${outputdir}/${sampleid}.sorted.bam tmp.sam;
+  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ 5 -o ${outputdir}/tmp.bam;
+  samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
+  samtools sort -@ 5 -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
+
+  ##### mark duplicates
+  java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
+      I=${outputdir}/${sampleid}.tmp.sorted.bam \
+      O=${outputdir}/${sampleid}.sorted.bam \
+      M=${outputdir}/${sampleid}.marked_dup_metrics.txt
+
+  rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ 5 ${outputdir}/${sampleid}.sorted.bam
 
   samtools view ${outputdir}/${sampleid}.sorted.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
-  rm -rf tmp.bam
-  rm -rf tmp.sam
+  rm -rf ${outputdir}/tmp.bam
+  rm -rf ${outputdir}/tmp.sam
   fi
 
   ##### get true fragment end
