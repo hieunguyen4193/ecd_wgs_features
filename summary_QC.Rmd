@@ -116,7 +116,7 @@ all.samples <- Sys.glob(file.path(path.to.qc.dir, "*"))
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=20, fig.height=12}
-print(sprintf("Number of samples in this batch: %s", length(all.samples))
+print(sprintf("Number of samples in this batch: %s", length(all.samples)))
 ```
 
 
