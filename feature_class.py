@@ -136,6 +136,7 @@ class WGS_GW_Image_features:
                             columns = ["EM"])
         emdf = pd.concat([emdf1, emdf2], axis = 0)
         emdf.columns = ["motif"]
+        emdf = emdf[emdf["motif"].isna() == False]
         emdf["motif"] = emdf["motif"].str.upper()
         output_emdf = emdf["motif"].value_counts().reset_index()
         if not output_emdf.empty:
