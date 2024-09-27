@@ -66,13 +66,13 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   ##### mark duplicates
   java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
       I=${outputdir}/${sampleid}.tmp.sorted.bam \
-      O=${outputdir}/${sampleid}.sorted.bam \
+      O=${outputdir}/${sampleid}.sorted.markdup.bam \
       M=${outputdir}/${sampleid}.marked_dup_metrics.txt
 
   rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
-  samtools index -@ 5 ${outputdir}/${sampleid}.sorted.bam
+  samtools index -@ 5 ${outputdir}/${sampleid}.sorted.markdup.bam
 
-  samtools view ${outputdir}/${sampleid}.sorted.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
+  samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,6,9 > ${outputdir}/${sampleid}.prep.tsv
   rm -rf ${outputdir}/tmp.bam
   rm -rf ${outputdir}/tmp.sam
   fi

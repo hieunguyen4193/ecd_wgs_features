@@ -2,8 +2,7 @@
 export PATH=/Users/hieunguyen/samtools/bin:$PATH
 
 # note for HieuNguyen: on your macM3 do not use the conda env pytorch, use the base env. It has java 23.
-# bash generate_QC_metrics.sh -i /media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam  -o ./output/ -n 40 -f /media/hieunguyen/HNSD01/resources/hg19.fa
-# bash generate_QC_metrics.sh -i /Users/hieunguyen/src/ecd_wgs_features/output/WGShg19.sorted.bam -o ./output -n 10 -f /Users/hieunguyen/data/resources/hg19.fa
+# bash generate_QC_metrics.sh -i /Users/hieunguyen/src/ecd_wgs_features/output/WGShg19.sorted.markdup.bam -o ./output -n 10 -f /Users/hieunguyen/data/resources/hg19.fa
 
 #####----------------------------------------------------------------------#####
 ##### input args
