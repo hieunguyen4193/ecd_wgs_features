@@ -78,7 +78,7 @@ echo -e "finished"
 echo -e "running samtools stats"
 samtools stat ${inputbam} -@ ${samtools_num_threads} > ${outputdir}/QC/${sampleid}/${sampleid}.sortedbamfilename.stats
 plot-bamstats -p ${outputdir}/QC/${sampleid}/samtools_stat_plots/${sampleid} ${outputdir}/QC/${sampleid}/${sampleid}.sortedbamfilename.stats
-rm -rf ${outputdir}/QC/${sampleid}/samtools_stat_plot/*.gp
+rm -rf ${outputdir}/QC/${sampleid}/samtools_stat_plots/*.gp
 echo -e "finished"
 
 # Some picard QC metrics

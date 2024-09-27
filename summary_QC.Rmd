@@ -1,0 +1,258 @@
+---
+title: "QC report for WGS data"
+author:
+  - "hieunguyen@genesolutions.vn"
+date: "Last update on `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    keep_md: no
+    df_print: paged
+    toc: true
+    toc_float:
+      toc_collapsed: false
+    toc_depth: 3
+    number_sections: true
+    theme: lumen
+params:
+  input: NA
+  read_length: NA
+---
+  
+  
+```{css zoom-lib-src, echo = FALSE}
+script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+```
+
+```{js zoom-jquery, echo = FALSE}
+$(document).ready(function() {
+  $('body').prepend('<div class=\"zoomDiv\"><img src=\"\" class=\"zoomImg\"></div>');
+  // onClick function for all plots (img's)
+    $('img:not(.zoomImg)').click(function() {
+      $('.zoomImg').attr('src', $(this).attr('src')).css({width: '100%'});
+      $('.zoomDiv').css({opacity: '1', width: 'auto', border: '1px solid white', borderRadius: '5px', position: 'fixed', top: '50%', left: '50%', marginRight: '-50%', transform: 'translate(-50%, -50%)', boxShadow: '0px 0px 50px #888888', zIndex: '50', overflow: 'auto', maxHeight: '100%'});
+    });
+    // onClick function for zoomImg
+    $('img.zoomImg').click(function() {
+      $('.zoomDiv').css({opacity: '0', width: '0%'}); 
+    });
+  });
+```
+
+<style type="text/css">
+    div.datatables { height: auto !important;}
+</style>
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.width=20, fig.height=12}
+# gc()
+# rm(list = ls())
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.width=20, fig.height=12}
+################################################################################
+# This script is used to clean the envrionment and import all necessary packages
+################################################################################
+# Specify the list of packages that need to be imported ########################
+list.of.packages <- c(
+                      "optparse", 
+                      "comprehenr", 
+                      "tidyverse", 
+                      "ggplot2", 
+                      "comprehenr",
+                      "vroom",
+                      "hash",
+                      "DT",
+                      "janitor",
+                      "knitr",
+                      "formattable",
+                      "htmlwidgets",
+                      "plotly",
+                      "stringr",
+                      "argparse"
+)
+
+# Check if packages are installed ##############################################
+
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+
+package_loading_Status <- lapply(list.of.packages, 
+                                 require, 
+                                 character.only = TRUE)
+create_dt <- function(x){
+  DT::datatable(x,
+                extensions = 'Buttons',
+                filter = "top",
+                options = list(dom = 'Blfrtip',
+                               buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+                               lengthMenu = list(c(10,25,50,-1),
+                                                 c(10,25,50,"All")),
+                               columnDefs = list(list(
+                                 targets = "_all",
+                                 render = JS(
+                                   "function(data, type, row, meta) {",
+                                   "return type === 'display' && data != null && data.length > 100 ?",
+                                   "'<span title=\"' + data + '\">' + data.substr(0, 100) + '...</span>' : data;",
+                                   "}")
+                               ))
+                ))
+}
+
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.width=20, fig.height=12}
+library(stringr)
+library(tidyverse)
+library(dplyr)
+
+# path.to.qc.dir <- "/home/hieunguyen/CRC1382/src/ecd_wgs_features/output/QC"
+# input_read_length <- 50
+
+path.to.qc.dir <- params$input
+input_read_length <- params$read_length
+
+all.samples <- Sys.glob(file.path(path.to.qc.dir, "*"))
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=20, fig.height=12}
+print(sprintf("Number of samples in this batch: %s", length(all.samples))
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide', fig.width=20, fig.height=12}
+metricdf <- list()
+metricdf[["flagstat"]] <- data.frame(Category = c(
+  "total (QC-passed reads + QC-failed reads)",
+  "primary",
+  "secondary",
+  "supplementary",
+  "duplicates",
+  "primary duplicates",
+  "mapped",
+  "mapped %", 
+  "primary mapped",
+  "primary mapped %",
+  "paired in sequencing",
+  "read1",
+  "read2",
+  "properly paired",
+  "properly paired %",
+  "with itself and mate mapped",
+  "singletons",
+  "singletons %",
+  "with mate mapped to a different chr",
+  "with mate mapped to a different chr (mapQ>=5)"
+))
+# input.path <- all.samples[[1]]
+depths <- c()
+readlen.dist <- c()
+
+for (input.path in all.samples){
+  all.metrics <- Sys.glob(file.path(input.path, "*.final.txt"))
+  sampleid <- str_replace(basename(input.path), ".final.txt", "")
+  for (file in all.metrics){
+    metric.name <- str_split(str_replace(basename(file), ".final.txt", ""), "[.]")[[1]]
+    metric.name <- metric.name[[length(metric.name)]]
+    if (metric.name == "alignment_summary_metrics"){
+      tmpdf <- read.csv(file, sep = "\t")[c(1,2), ]     
+      tmpdf.readlen <- read.csv(file, sep = "\t")
+      tmpdf.readlen <- tmpdf.readlen[5:nrow(tmpdf.readlen), c(1,2,3)]
+      colnames(tmpdf.readlen) <- c("READ_LENGTH",
+                                   "PAIRED_TOTAL_LENGTH_COUNT",
+                                   "PAIRED_ALIGNED_LENGTH_COUNT")
+      readlen.dist[[sampleid]] <- tmpdf.readlen
+    } else {
+      tmpdf <- read.csv(file, sep = "\t")[c(1), ]
+    }
+    tmpdf$SampleID <- sampleid
+    tmpdf <- tmpdf[c("SampleID", colnames((tmpdf)[1:ncol(tmpdf)- 1]) )]
+    metricdf[[metric.name]] <- rbind(metricdf[[metric.name]], tmpdf)
+  }
+  samtools.tmpdf <- read.csv(Sys.glob(file.path(input.path, "*.flagstat.txt"))[[1]], sep = "\t", header = FALSE)[, c("V3", "V1")]
+  colnames(samtools.tmpdf) <- c("Category", sampleid)
+  metricdf[["flagstat"]] <- merge(metricdf[["flagstat"]], samtools.tmpdf, by.x = "Category", by.y = "Category")
+  mapped.reads <- as.integer(subset(samtools.tmpdf, samtools.tmpdf$Category == "with itself and mate mapped")[[sampleid]])
+  depths <- c(depths, mapped.reads * input_read_length/3e9)
+}
+metricdf[["depth"]] <- data.frame(SampleID = basename(all.samples), depth = depths)
+```
+
+# Instruction: How to read this QC metric report?
+*Note: Một số thông số QC-metric phần `Flagstats` có thể sẽ trùng với các phần bên dưới. Các thông số này được tính dựa trên 2 tools: `samtools` và `picard`.*
+
+-	Input raw reads đã được dedup trước từ file `FASTQ`. Các thông số QC trong report này áp dụng cho sau khi alignment.
+
+-	Tổng số read thu được: Xem dòng ` total (QC-passed reads + QC-failed reads)` ở bảng `Flagstats` hoặc xem tổng của dòng CATEGORY `FIRST OF PAIR`(read1) + `SECOND OF PAIR` (read2) , cột `TOTAL_READS` của bảng ` Alignment summary metrics`.
+
+-	Tỉ lệ duplication, đơn vị: %: Xem bảng `Summary WGS metrics`, cột `PCT_EXC_DUPE`. 
+
+-	Chiều dài trung bình của các read, đơn vị: (base pairs). Xem các histograms ở phần `Read length distribution (histogram)`.  Mỗi tab là một sample, trong đó có phân bố số lượng read tương ứng theo độ dài. Bao gồm 2 plot: một cho raw reads và một cho aligned reads. Hoặc xem cột `MEDIAN_READ_LENGTH`, `MIN_READ_LENGTH`, `MAX_READ_LENGTH`, `MEAN_ALIGNED_READ_LENGTH` trong bảng `Alignment summary metrics`.
+
+-	Tổng số read map được lên reference genome, đơn vị: reads. Xem tại bảng `Flagstats`, cột Category ==  `with itself and mate mapped` hoặc 
+
+-	Tỉ lệ mapped reads, đơn vị: %. Xem bảng `Flagstats` cột Category các dòng có chứa keyword “mapped”. Hoặc xem bảng `Aligment summary metrics` cột `PCT_PF_READS_ALIGNED`.
+
+-	Depth coverage trung bình, đơn vị: x với 1 x = 1 read. Xem section ` Depth of coverage`. Hoặc xem các cột `MEAN_COVERAGE`, `SD_COVERAGE`, `MEDIAN_COVERAGE` trong bảng `Summary WGS metrics`. 
+
+** Note: Một số thông số khác trong các bảng cũng có thể quan trọng để đánh giá QC, xem thêm tại các references sau và discuss thêm với hieunguyen[at]genesolutions.vn nếu muốn khảo sát thử.**
+
+References:
+
+1. `Samtools flagstat`: http://www.htslib.org/doc/samtools-flagstat.html 
+2. `Samtools stats`: http://www.htslib.org/doc/samtools-stats.html
+3. `Picard CollectWgsMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360037269351-CollectWgsMetrics-Picard
+4. `Picard CollectGcBiasMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360036801531-CollectGcBiasMetrics-Picard
+5. `Picard CollectInsertSizeMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360037055772-CollectInsertSizeMetrics-Picard
+6. `Picard CollectAlignmentSummaryMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360040507751-CollectAlignmentSummaryMetrics-Picard
+
+
+# Read length distribution (histogram){.tabset}
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+library(ggpubr)
+for (sampleid in names(readlen.dist)){
+  cat(sprintf("## Sample %s \n", sampleid))
+  plotdf <- readlen.dist$WGShg191.sorted
+  plotdf$PAIRED_TOTAL_LENGTH_COUNT <- as.double(plotdf$PAIRED_TOTAL_LENGTH_COUNT)
+  plotdf$PAIRED_ALIGNED_LENGTH_COUNT <- as.double(plotdf$PAIRED_ALIGNED_LENGTH_COUNT)
+  
+  plot1 <- plotdf %>% ggplot(aes(x = READ_LENGTH, y = PAIRED_TOTAL_LENGTH_COUNT)) + geom_bar(stat = "identity") 
+  plot2 <- plotdf %>% ggplot(aes(x = READ_LENGTH, y = PAIRED_ALIGNED_LENGTH_COUNT)) + geom_bar(stat = "identity") 
+  p <- ggarrange(plot1, plot2)
+  print(p)  
+  cat("\n \n")
+}
+
+```
+
+# Depth of coverage
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$depth %>% create_dt()
+```
+# Flagstats (`samtools`)
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$flagstat %>% create_dt()
+```
+
+# Alignment summary metrics
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$alignment_summary_metrics %>% create_dt()
+```
+
+# Insert size metrics 
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$insert_size_metrics %>% create_dt()
+```
+
+# GC Bias metrics
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$summary_metrics %>% create_dt()
+```
+
+# Summary WGS metrics
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+metricdf$wgs_metrics %>% create_dt()
+```
+
