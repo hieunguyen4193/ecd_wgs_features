@@ -27,7 +27,7 @@ export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
 
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /media/hieunguyen/HNSD01/resources/hg19.fa -r /media/hieunguyen/HNSD01/resources/rpr_map_Budhraja_STM2023.bed
-# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output_debug/1-ZLAAO90NB_S7509-S7709.sorted.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
+# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output_debug/1-ZLAAO90NB_S7509-S7709.sorted.frag.tsv  -o ./output_debug/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 
 ##### check if the FLEN column is already in the file. 
 ##### our in-house data has FLEN pre-calculated, 
@@ -59,8 +59,8 @@ if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.reverse_endcoord4bp.bed | \
     awk -v OFS='\t' '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${sampleid}.reverse_endmotif4bp.txt
 
-    rm -rf ${outputdir}/${sampleid}.forward_endcoord4bp.bed
-    rm -rf ${outputdir}/${sampleid}.reverse_endcoord4bp.bed
+    # rm -rf ${outputdir}/${sampleid}.forward_endcoord4bp.bed
+    # rm -rf ${outputdir}/${sampleid}.reverse_endcoord4bp.bed
 
     sort -k1,1 ${outputdir}/${sampleid}.forward_endmotif4bp.txt > ${outputdir}/${sampleid}.forward_endmotif4bp.sorted.txt
     sort -k1,1 ${outputdir}/${sampleid}.reverse_endmotif4bp.txt > ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.txt

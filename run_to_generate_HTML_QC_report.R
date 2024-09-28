@@ -15,21 +15,18 @@ parser$add_argument("-r", "--read_length", action="store",
                     help="Path to save output html file")
 
 args <- parser$parse_args()
-path.to.qc.report <- args$input
-html.name <- args$batch_name
-path.to.save.html.report <- args$output
-read_length <- args$read_length
 
-# path.to.qc.report <- "/home/hieunguyen/CRC1382/src/ecd_wgs_features/summary_QC.Rmd"
-# html.name <- "test.html"
-# path.to.save.html.report <- "/home/hieunguyen/CRC1382/src/ecd_wgs_features/output/QC"
-# read_length <- 50
+path.to.qc.report <- args$input # path to the input QC folder.
+html.name <- args$batch_name # name of the output html file.
+path.to.save.html.report <- args$output # path to save the output html file.
+read_length <- args$read_length # read length of the sequencing data. Default: set 50.
 
+##### path to the Rmd file
+path.to.rmd.file <- "/Users/hieunguyen/src/ecd_wgs_features/summary_QC.Rmd"
 
-
-rmarkdown::render(input = path.to.qc.report, 
+rmarkdown::render(input = path.to.rmd.file, 
                   params = list(
-                    input = "/home/hieunguyen/CRC1382/src/ecd_wgs_features/output/QC",
+                    input = path.to.qc.report,
                     read_length = read_length
                   ),
                   output_file = html.name, 
