@@ -97,8 +97,11 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   # this remove half of the reads, keep only fragment-wise information. 
   # 1 line = 1 fragment, chrom - start - end and a read ID, use this read ID to sort and
   # match the information later when calculating End motif and nucleosome footprint. 
+  awk -v OFS='\t' '{if ($5 != 0){print $0}}' \
+    ${outputdir}/${sampleid}.prep.tsv >  ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv
+    
   awk -v OFS='\t' '{if ($5 > 0){$6=$3+$5; $7=$1"_"$2"_"$3; print $0} else {$6=$4-$5; $3=$4; $7=$1"_"$2"_"$3; print $0} }' \
-    ${outputdir}/${sampleid}.prep.tsv \
+    ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv \
     | sort -k7,7 \
     | awk '{ print $2 "\t" $3 "\t" $6 "\t" $5 "\t" $7}' > ${outputdir}/${sampleid}.frag.tsv
   # rm -rf ${outputdir}/${sampleid}.prep.tsv
