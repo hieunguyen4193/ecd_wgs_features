@@ -1,3 +1,4 @@
 output
 *.bam
 picard.jar
+output_*

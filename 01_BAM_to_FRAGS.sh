@@ -7,9 +7,11 @@
 # export PATH=/Users/hieunguyen/samtools/bin:$PATH
 # bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/data/bam_files/WGShg19.bam  -o ./output/ -n 10
 
-export PATH=/home/hieunguyen/samtools/bin:$PATH
+# export PATH=/home/hieunguyen/samtools/bin:$PATH
 # bash 01_BAM_to_FRAGS.sh -i /media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam  -o ./output/ -n 40
 
+export PATH=/Users/hieunguyen/samtools/bin:$PATH 
+# bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/data/tmp/debug_ecd_wgs_features/data/1-ZLAAO90NB_S7509-S7709.sorted.bam -o ./output_debug/ -n 10 -f /Users/hieunguyen/data/resources/hg19.fa 
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
