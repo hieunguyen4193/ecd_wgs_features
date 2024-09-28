@@ -61,9 +61,9 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
 
   if [ ! -f "${outputdir}/${sampleid}.prep.tsv" ]; then
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
-  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ 5 -o ${outputdir}/tmp.bam;
+  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
   samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
-  samtools sort -@ 5 -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
+  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
 
   ##### mark duplicates
   java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
@@ -71,8 +71,8 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
       O=${outputdir}/${sampleid}.sorted.markdup.bam \
       M=${outputdir}/${sampleid}.marked_dup_metrics.txt
 
-  rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
-  samtools index -@ 5 ${outputdir}/${sampleid}.sorted.markdup.bam
+  # rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
+  samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
   samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9 > ${outputdir}/${sampleid}.prep.tsv
   rm -rf ${outputdir}/tmp.bam
