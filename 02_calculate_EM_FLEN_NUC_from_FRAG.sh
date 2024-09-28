@@ -27,6 +27,8 @@ export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
 
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /media/hieunguyen/HNSD01/resources/hg19.fa -r /media/hieunguyen/HNSD01/resources/rpr_map_Budhraja_STM2023.bed
+# bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output_debug/1-ZLAAO90NB_S7509-S7709.sorted.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
+
 ##### check if the FLEN column is already in the file. 
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
