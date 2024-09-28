@@ -173,6 +173,8 @@ class WGS_GW_Image_features:
                                  save_feature = True):
             # Forward EM
             feature_df = self.maindf_filter_chr.copy()
+            feature_df = feature_df[(feature_df["forward_EM"].isna() == False) & 
+                                    (feature_df["reverse_EM"].isna() == False)]
             feature_df["forward_EM"] = feature_df["forward_EM"].apply(lambda x: x.upper())
             # Reverse EM
             feature_df["reverse_EM"] = feature_df["reverse_EM"].apply(lambda x: x.upper())
