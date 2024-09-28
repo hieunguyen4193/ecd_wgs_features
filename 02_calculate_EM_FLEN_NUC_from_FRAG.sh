@@ -125,5 +125,5 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
     paste ${outputdir}/${sampleid}.modified3.tsv ${outputdir}/reverse_4bpEM.tmp.txt  > ${outputdir}/${sampleid}.modified4.tsv
 
     mv ${outputdir}/${sampleid}.modified4.tsv ${outputdir}/${sampleid}.final_output.tsv
-    rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4}.tsv
+    # rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4}.tsv
 fi
