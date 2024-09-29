@@ -47,14 +47,10 @@ fi
 if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     echo -e "getting 4bp end motif"
     cat ${inputfrag} | \
-      awk '{if ($6 >= 30){print $0}}' | \
-      awk '{if ($4 > 0){print $0}}' | \
       awk '{start=$2 - 1; end= $2 - 1 + 4; name= $5; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.forward_endcoord4bp.bed;
 
     cat ${inputfrag} | \
-    awk '{if ($6 >= 30){print $0}}' | \
-    awk '{if ($4 < 0){print $0}}' | \
     awk '{start=$3 - 1 - 4; end= $3 - 1; name= $5; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.reverse_endcoord4bp.bed;
 
@@ -81,12 +77,10 @@ count_4bpEM_reverse=$(cat ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.tx
 if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   echo -e "generating nucleosome features ..."
   cat ${inputfrag} | cut -f1,2,5 | \
-    awk -v OFS='\t' '{if ($3 > 0){print $0}}' | \
     awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.forward_Nucleosome.bed
   cat ${inputfrag} | cut -f1,3,5 | \
-  awk -v OFS='\t' '{if ($3 <= 0){print $0}}' |\
-  awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
+    awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.reverse_Nucleosome.bed
 
   # Sort your generated BED files
