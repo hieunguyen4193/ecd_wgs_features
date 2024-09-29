@@ -105,7 +105,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     
   awk -v OFS='\t' '{if ($5 > 0){$7=$3+$5; $8=$1"_"$2"_"$3; print $0} else {$7=$4-$5; $3=$4; $8=$1"_"$2"_"$3; print $0} }' \
     ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv \
-    | sort -k7,7 \
+    | sort -k8,8 \
     | awk '{ print $2 "\t" $3 "\t" $7 "\t" $5 "\t" $8 "\t" $6}' > ${outputdir}/${sampleid}.frag.tsv
   # rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
