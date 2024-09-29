@@ -81,8 +81,6 @@ if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.full_endcoord4bp.bed > ${outputdir}/${sampleid}.full_endmotif4bp.sorted.txt
 
     touch ${outputdir}/${sampleid}.finished_4bpEM.txt
-
-
 fi
 
 count_4bpEM_forward=$(cat ${outputdir}/${sampleid}.forward_endmotif4bp.sorted.txt | wc -l)
