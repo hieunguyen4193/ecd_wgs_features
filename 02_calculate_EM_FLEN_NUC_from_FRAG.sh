@@ -65,7 +65,24 @@ if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     sort -k1,1 ${outputdir}/${sampleid}.forward_endmotif4bp.txt > ${outputdir}/${sampleid}.forward_endmotif4bp.sorted.txt
     sort -k1,1 ${outputdir}/${sampleid}.reverse_endmotif4bp.txt > ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.txt
 
+    ##### Note: temporaily use this scripts to get the End MOTIF features. This is not the BEST way to get the nucleosome features, but we will use it for now.
+    cat ${inputfrag} | \
+      awk '{if($4 > 0){print $0}}' |\
+      awk '{if($6 >= 30){print $0}}' |\
+      awk '{start=$2 - 1; end= $2 - 1 + 4; name= $5; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+    > ${outputdir}/${sampleid}.full_endcoord4bp.bed;
+
+    cat ${inputfrag} | \
+      awk '{if($4 < 0){print $0}}' |\
+      awk '{if($6 >= 30){print $0}}' |\
+      awk '{start=$3 - 1 - 4; end= $3 - 1; name= $5; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+    >> ${outputdir}/${sampleid}.full_endcoord4bp.bed;
+
+    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.full_endcoord4bp.bed > ${outputdir}/${sampleid}.full_endmotif4bp.sorted.txt
+
     touch ${outputdir}/${sampleid}.finished_4bpEM.txt
+
+
 fi
 
 count_4bpEM_forward=$(cat ${outputdir}/${sampleid}.forward_endmotif4bp.sorted.txt | wc -l)
@@ -93,6 +110,8 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
 
   ##### Note: temporaily use this scripts to get the nucleosome features. This is not the BEST way to get the nucleosome features, but we will use it for now.
   ##### to ensure that the features are reproducible between the exploratory phase and the deployment in commercial.
+  ##### nguyen nhan tao nen su khac biet giua 2 lan chay la vi option "-t first" trong bedtools closest, no se lay nucleosome dau tien ma no gap duoc,
+  ##### co the la nucleosome gan nhat hoac la nucleosome xa nhat, tuy thuoc vao option "-t first" hoac "-t last". Khi default la "-t all", no se lay tat ca. 
   cat ${outputdir}/${sampleid}.forward_Nucleosome.bed | awk '{if($5 > 0) print $0}' > ${outputdir}/${sampleid}.full_Nucleosome.bed
   cat ${outputdir}/${sampleid}.reverse_Nucleosome.bed | awk '{if($5 <= 0) print $0}' >> ${outputdir}/${sampleid}.full_Nucleosome.bed
   python convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed
