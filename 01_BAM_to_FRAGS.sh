@@ -74,7 +74,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   # rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
-  samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9 > ${outputdir}/${sampleid}.prep.tsv
+  samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9,5 > ${outputdir}/${sampleid}.prep.tsv
   rm -rf ${outputdir}/tmp.bam
   rm -rf ${outputdir}/tmp.sam
   fi
@@ -100,9 +100,9 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   awk -v OFS='\t' '{if ($5 != 0){print $0}}' \
     ${outputdir}/${sampleid}.prep.tsv >  ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv
     
-  awk -v OFS='\t' '{if ($5 > 0){$6=$3+$5; $7=$1"_"$2"_"$3; print $0} else {$6=$4-$5; $3=$4; $7=$1"_"$2"_"$3; print $0} }' \
+  awk -v OFS='\t' '{if ($5 > 0){$7=$3+$5; $8=$1"_"$2"_"$3; print $0} else {$7=$4-$5; $3=$4; $8=$1"_"$2"_"$3; print $0} }' \
     ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv \
     | sort -k7,7 \
-    | awk '{ print $2 "\t" $3 "\t" $6 "\t" $5 "\t" $7}' > ${outputdir}/${sampleid}.frag.tsv
+    | awk '{ print $2 "\t" $3 "\t" $7 "\t" $5 "\t" $8 "\t" $6}' > ${outputdir}/${sampleid}.frag.tsv
   # rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
