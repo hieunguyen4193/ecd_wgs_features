@@ -106,3 +106,6 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     | awk '{ print $2 "\t" $3 "\t" $7 "\t" $5 "\t" $8 "\t" $6}' > ${outputdir}/${sampleid}.frag.tsv
   # rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
+
+echo -e "Finished pre-processing BAM files and convert them to fragmentomics format ..."
+touch ${outputdir}/${sampleid}.finished_01.txt;

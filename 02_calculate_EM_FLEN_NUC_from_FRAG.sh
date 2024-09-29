@@ -47,12 +47,12 @@ fi
 if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     echo -e "getting 4bp end motif"
     cat ${inputfrag} | \
-      awk '{if ($6 >= 30){print $0}' | \
+      awk '{if ($6 >= 30){print $0}}' | \
       awk '{start=$2 - 1; end= $2 - 1 + 4; name= $5; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.forward_endcoord4bp.bed;
 
     cat ${inputfrag} | \
-    awk '{if ($6 >= 30){print $0}' | \
+    awk '{if ($6 >= 30){print $0}}' | \
     awk '{start=$3 - 1 - 4; end= $3 - 1; name= $5; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
     > ${outputdir}/${sampleid}.reverse_endcoord4bp.bed;
 
