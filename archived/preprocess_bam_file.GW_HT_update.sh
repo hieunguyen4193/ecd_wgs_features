@@ -66,7 +66,6 @@ samtools view -@ 8 ${path_to_bam_file} | awk '{if ($9 > 0){chrom=$3;start=$4} el
 awk -v OFS='\t' '{$3=$2+1; print $0}' $path_to_nucleosome/${sampleid}.bed > $path_to_nucleosome/${sampleid}.full.bed
 
 python3 $path_to_SRC/convert_full_bed_nucleosome.py $path_to_nucleosome/${sampleid}.full.bed $path_to_nucleosome/${sampleid}.full.bed
-
 bedtools closest -a $path_to_nucleosome/${sampleid}.full.bed -b $path_to_REF | cut -f1,2,10 > $path_to_nucleosome/${sampleid}.rpr_map.bed
 awk -v OFS='\t' '{$4=$3-$2; print $0}' $path_to_nucleosome/${sampleid}.rpr_map.bed > $path_to_nucleosome/${sampleid}.dist.bed
 python3 $path_to_SRC/count_density.py $path_to_nucleosome/${sampleid}.dist.bed $path_to_nucleosome

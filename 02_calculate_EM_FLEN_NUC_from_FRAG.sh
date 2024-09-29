@@ -80,11 +80,13 @@ count_4bpEM_reverse=$(cat ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.tx
 #####----------------------------------------------------------------------#####
 if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   echo -e "generating nucleosome features ..."
-  cat ${inputfrag} | cut -f1,2,5 \
-    | awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
+  cat ${inputfrag} | cut -f1,2,5 | \
+    awk -v OFS='\t' '{if ($3 > 0){print $0}}' | \
+    awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.forward_Nucleosome.bed
-  cat ${inputfrag} | cut -f1,3,5 \
-    | awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
+  cat ${inputfrag} | cut -f1,3,5 | \
+  awk -v OFS='\t' '{if ($3 < 0){print $0}}' |\
+  awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.reverse_Nucleosome.bed
 
   # Sort your generated BED files
@@ -95,7 +97,15 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${nucleosome_ref} -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${nucleosome_ref} -t first | awk -v OFS='\t' '{$13=$11 - $2;print $0}' > ${outputdir}/${sampleid}.reverse_Nucleosome.dist.bed
 
-# | awk -v OFS='\t' '{$14=$2-$6;print $0}'
+  ##### Note: temporaily use this scripts to get the nucleosome features. This is not the BEST way to get the nucleosome features, but we will use it for now.
+  ##### to ensure that the features are reproducible between the exploratory phase and the deployment in commercial.
+  samtools view -@ 8 ${path_to_bam_file} | awk '{if ($9 > 0){chrom=$3;start=$4} else {chrom=$3;start=$8 - $9}; print chrom "\t" start}' > $path_to_nucleosome/${sampleid}.bed
+  awk -v OFS='\t' '{$3=$2+1; print $0}' $path_to_nucleosome/${sampleid}.bed > $path_to_nucleosome/${sampleid}.full.bed
+
+  python3 $path_to_SRC/convert_full_bed_nucleosome.py $path_to_nucleosome/${sampleid}.full.bed $path_to_nucleosome/${sampleid}.full.bed
+  bedtools closest -a $path_to_nucleosome/${sampleid}.full.bed -b $path_to_REF | cut -f1,2,10 > $path_to_nucleosome/${sampleid}.rpr_map.bed
+  awk -v OFS='\t' '{$4=$3-$2; print $0}' $path_to_nucleosome/${sampleid}.rpr_map.bed > $path_to_nucleosome/${sampleid}.dist.bed
+
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed > ${outputdir}/${sampleid}.forward_Nucleosome.dist.sorted.bed
   echo -e "sorting reverse nucleosome file"
