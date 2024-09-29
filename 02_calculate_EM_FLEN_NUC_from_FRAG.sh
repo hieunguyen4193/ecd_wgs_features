@@ -93,13 +93,13 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
 
   ##### Note: temporaily use this scripts to get the nucleosome features. This is not the BEST way to get the nucleosome features, but we will use it for now.
   ##### to ensure that the features are reproducible between the exploratory phase and the deployment in commercial.
-  
   cat ${outputdir}/${sampleid}.forward_Nucleosome.bed > ${outputdir}/${sampleid}.full_Nucleosome.bed
   cat ${outputdir}/${sampleid}.reverse_Nucleosome.bed >> ${outputdir}/${sampleid}.full_Nucleosome.bed
   python3 convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed
   bedtools closest -a ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed -b ${nucleosome_ref} | cut -f1,2,10 > ${outputdir}/${sampleid}.full_Nucleosome.dist.bed
   awk -v OFS='\t' '{$4=$3-$2; print $0}' ${outputdir}/${sampleid}.full_Nucleosome.dist.bed > ${outputdir}/${sampleid}.full_Nucleosome.dist.final.bed
-
+  #####
+  
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed > ${outputdir}/${sampleid}.forward_Nucleosome.dist.sorted.bed
   echo -e "sorting reverse nucleosome file"
