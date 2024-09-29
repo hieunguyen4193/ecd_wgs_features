@@ -85,7 +85,7 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
     awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.forward_Nucleosome.bed
   cat ${inputfrag} | cut -f1,3,5 | \
-  awk -v OFS='\t' '{if ($3 < 0){print $0}}' |\
+  awk -v OFS='\t' '{if ($3 <= 0){print $0}}' |\
   awk -v OFS='\t' '{$4=$2 + 1; print $1 "\t" $2 "\t" $4 "\t" $3}' \
     > ${outputdir}/${sampleid}.reverse_Nucleosome.bed
 
@@ -99,12 +99,15 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
 
   ##### Note: temporaily use this scripts to get the nucleosome features. This is not the BEST way to get the nucleosome features, but we will use it for now.
   ##### to ensure that the features are reproducible between the exploratory phase and the deployment in commercial.
-  samtools view -@ 8 ${path_to_bam_file} | awk '{if ($9 > 0){chrom=$3;start=$4} else {chrom=$3;start=$8 - $9}; print chrom "\t" start}' > $path_to_nucleosome/${sampleid}.bed
-  awk -v OFS='\t' '{$3=$2+1; print $0}' $path_to_nucleosome/${sampleid}.bed > $path_to_nucleosome/${sampleid}.full.bed
+  
+  cat ${outputdir}/${sampleid}.forward_Nucleosome.sorted.bed > ${outputdir}/${sampleid}.full_Nucleosome.bed
+  cat ${outputdir}/${sampleid}.reverse_Nucleosome.sorted.bed >> ${outputdir}/${sampleid}.full_Nucleosome.bed
 
-  python3 $path_to_SRC/convert_full_bed_nucleosome.py $path_to_nucleosome/${sampleid}.full.bed $path_to_nucleosome/${sampleid}.full.bed
-  bedtools closest -a $path_to_nucleosome/${sampleid}.full.bed -b $path_to_REF | cut -f1,2,10 > $path_to_nucleosome/${sampleid}.rpr_map.bed
-  awk -v OFS='\t' '{$4=$3-$2; print $0}' $path_to_nucleosome/${sampleid}.rpr_map.bed > $path_to_nucleosome/${sampleid}.dist.bed
+  python3 convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed
+
+  bedtools closest -a ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed -b ${nucleosome_ref} | cut -f1,2,10 > ${outputdir}/${sampleid}.full_Nucleosome.dist.bed
+
+  awk -v OFS='\t' '{$4=$3-$2; print $0}' ${outputdir}/${sampleid}.full_Nucleosome.dist.bed > ${outputdir}/${sampleid}.full_Nucleosome.dist.final.bed
 
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.forward_Nucleosome.dist.bed > ${outputdir}/${sampleid}.forward_Nucleosome.dist.sorted.bed
