@@ -74,7 +74,10 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   # rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
-  samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9,5 > ${outputdir}/${sampleid}.prep.tsv
+  # samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9,5 > ${outputdir}/${sampleid}.prep.tsv
+  samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | \
+  awk -v OFS='\t' '{print $1 "\t" $3 "\t" $4 "\t" $8 "\t" $9 "\t" $5}' > ${outputdir}/${sampleid}.prep.tsv
+  
   rm -rf ${outputdir}/tmp.bam
   rm -rf ${outputdir}/tmp.sam
   fi
