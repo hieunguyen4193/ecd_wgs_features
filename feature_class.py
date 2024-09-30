@@ -286,7 +286,7 @@ class WGS_GW_Image_features:
 
         nuc_countdf = nuc_countdf.set_index("flen")
         nuc_countdf = nuc_countdf/nuc_countdf.sum().sum()
-        
+        print(nuc_countdf.shape)
         assert nuc_countdf.shape[0] == 211, f"[NUC forward - flen] flen failed!"
         assert nuc_countdf.shape[1] == 601, f"[NUC forward - flen] NUC failed"
         if save_feature:
