@@ -213,7 +213,7 @@ References:
 library(ggpubr)
 for (sampleid in names(readlen.dist)){
   cat(sprintf("## Sample %s \n", sampleid))
-  plotdf <- readlen.dist$WGShg191.sorted
+  plotdf <- readlen.dist[[sampleid]]
   plotdf$PAIRED_TOTAL_LENGTH_COUNT <- as.double(plotdf$PAIRED_TOTAL_LENGTH_COUNT)
   plotdf$PAIRED_ALIGNED_LENGTH_COUNT <- as.double(plotdf$PAIRED_ALIGNED_LENGTH_COUNT)
   
