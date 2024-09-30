@@ -21,7 +21,8 @@ def main():
     ##### generate GW features and save features to output dir
     output_obj.generate_flen_feature()
     output_obj.generate_em_feature()
-    output_obj.generate_nuc_feature()
+    # output_obj.generate_nuc_feature()
+    output_obj.generate_nuc_feature_1()
 
     ##### generaet IMAGES feature and save features to output dir
     output_obj.generate_EM_flen_feature()
