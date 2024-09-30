@@ -44,10 +44,11 @@ if [ ! -f "${inputbam}" ]; then
     exit 1
 fi
 
-mkdir -p ${outputdir}
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
+outputdir=${outputdir}/${sampleid}
 
+mkdir -p ${outputdir}
 #####----------------------------------------------------------------------#####
 ##### pre-processing steps for an input bam file:
 #####----------------------------------------------------------------------#####
