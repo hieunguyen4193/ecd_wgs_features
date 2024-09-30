@@ -86,12 +86,13 @@ class WGS_GW_Image_features:
     def __init__(self,
                  input_tsv,
                  motif_order_path,
-                 outputdir):
+                 outputdir
+                 path_to_old_nuc = None):
         self.input_tsv = input_tsv
         self.sampleid = input_tsv.split("/")[-1].split(".")[0]
         print("reading in the input frag.tsv data")
         self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
-        self.maindf.columns = ["chr", "start", "end", "flen", "readID", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+        self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
         self.motif_order_path = motif_order_path
         self.motif_order = pd.read_csv(motif_order_path)["motif_order"].values
         self.all_4bp_motifs = [
@@ -103,6 +104,7 @@ class WGS_GW_Image_features:
         ]
         self.maindf_filter_chr = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 23)])) & (self.maindf["flen"] > 0)]
         self.outputdir = outputdir
+        self.path_to_old_nuc = path_to_old_nuc
         
     #####-------------------------------------------------------------#####
     ##### Distribution of fragment lengths
@@ -130,10 +132,13 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####    
     def generate_em_feature(self, 
                             save_feature = True):
-        emdf1 = pd.DataFrame(data = self.maindf["reverse_EM"].values,
+        emdf1 = pd.DataFrame(data = self.maindf[["reverse_EM", "QC", "flen"]].values,
                             columns = ["EM"])
-        emdf2 = pd.DataFrame(data = self.maindf["forward_EM"].values,
+        emdf2 = pd.DataFrame(data = self.maindf[["forward_EM", "QC", "flen"]].values,
                             columns = ["EM"])
+        emdf1 = emdf1[(emdf1["QC"] >= 30) & (emdf1["flen"] < 0)]
+        emdf2 = emdf2[(emdf2["QC"] >= 30) & (emdf2["flen"] > 0)]
+        
         emdf = pd.concat([emdf1, emdf2], axis = 0)
         emdf.columns = ["motif"]
         emdf = emdf[emdf["motif"].isna() == False]
@@ -165,6 +170,22 @@ class WGS_GW_Image_features:
         if save_feature:
             output_nucdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_Nucleosome.csv"), index=False)
         return nucdf
+    
+    def generate_nuc_feature_1(self, 
+                               save_feature = True):
+        if self.path_to_old_nuc is not None:
+            print("Generate features Nucleosome from old data, bedtools closest -t all, not -t first ...")
+            output_nucdf = pd.read_csv(self.path_to_old_nuc, index_col=[0], sep = "\t", header = None)
+            output_nucdf = output_nucdf[(output_nucdf[3] >= -300) & (output_nucdf[3] <= 300)]
+            output_nucdf = output_nucdf.groupby(3)[0].count().reset_index()
+            output_nucdf.columns = ["dist", "freq"]
+            sum_nuc = output_nucdf["freq"].sum()
+            output_nucdf["freq"] = output_nucdf["freq"].apply(lambda x: x/sum_nuc)
+            if save_feature:
+                output_nucdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_Nucleosome.csv"), index=False)
+        else:
+            error = "Please provide the path to the old nucleosome feature file"
+            raise ValueError(error)
     
     #####-------------------------------------------------------------#####    
     ##### EM - FLEN features
