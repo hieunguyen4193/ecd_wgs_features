@@ -1,4 +1,4 @@
-while getopts "i:o:f:r:n:" opt; do
+while getopts "i:o:f:r:n:c:" opt; do
   case ${opt} in
     i )
       inputfrag=$OPTARG
@@ -12,8 +12,11 @@ while getopts "i:o:f:r:n:" opt; do
     r )
       nucleosome_ref=$OPTARG
       ;;  
+    c )
+      cleanup=$OPTARG
+      ;;  
     \? )
-      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa [-r] nucleosome_ref"
+      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa [-r] nucleosome_ref [-c] cleanup"
       exit 1
       ;;
   esac
@@ -21,9 +24,8 @@ done
 
 sampleid=$(echo ${inputfrag} | xargs -n 1 basename)
 sampleid=${sampleid%.frag*}
-
+outputdir=${outputdir}/${sampleid}
 mkdir -p ${outputdir};
-export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
 
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /Users/hieunguyen/data/resources/hg19.fa -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed
 # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh -i ./output/WGShg19.frag.tsv  -o ./output/ -f /media/hieunguyen/HNSD01/resources/hg19.fa -r /media/hieunguyen/HNSD01/resources/rpr_map_Budhraja_STM2023.bed
@@ -59,8 +61,8 @@ if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.reverse_endcoord4bp.bed | \
     awk -v OFS='\t' '{split($0, a, "::"); $1=a[1]; print $0}'  > ${outputdir}/${sampleid}.reverse_endmotif4bp.txt
 
-    # rm -rf ${outputdir}/${sampleid}.forward_endcoord4bp.bed
-    # rm -rf ${outputdir}/${sampleid}.reverse_endcoord4bp.bed
+    rm -rf ${outputdir}/${sampleid}.forward_endcoord4bp.bed
+    rm -rf ${outputdir}/${sampleid}.reverse_endcoord4bp.bed
 
     sort -k1,1 ${outputdir}/${sampleid}.forward_endmotif4bp.txt > ${outputdir}/${sampleid}.forward_endmotif4bp.sorted.txt
     sort -k1,1 ${outputdir}/${sampleid}.reverse_endmotif4bp.txt > ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.txt
@@ -151,5 +153,16 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
     paste ${outputdir}/${sampleid}.modified3.tsv ${outputdir}/reverse_4bpEM.tmp.txt  > ${outputdir}/${sampleid}.modified4.tsv
 
     mv ${outputdir}/${sampleid}.modified4.tsv ${outputdir}/${sampleid}.final_output.tsv
-    # rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4}.tsv
+    rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4}.tsv
+fi
+
+if [ "${cleanup}" = "true" ]; then
+  rm -rf ${outputdir}/*.txt;
+  rm -rf ${outputdir}/*.bed;
+  
+elif [ "${cleanup}" = "false" ]; then
+  echo -e "keep all intermediate files"
+else
+    echo "Invalid value for boolean flag: ${cleanup}. Use 'true' or 'false' only."
+    exit 1
 fi

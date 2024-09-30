@@ -72,7 +72,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
       O=${outputdir}/${sampleid}.sorted.markdup.bam \
       M=${outputdir}/${sampleid}.marked_dup_metrics.txt
 
-  # rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
+  rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
   # samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9,5 > ${outputdir}/${sampleid}.prep.tsv
@@ -108,7 +108,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
     ${outputdir}/${sampleid}.nonZeroFlen.prep.tsv \
     | sort -k8,8 \
     | awk '{ print $2 "\t" $3 "\t" $7 "\t" $5 "\t" $8 "\t" $6}' > ${outputdir}/${sampleid}.frag.tsv
-  # rm -rf ${outputdir}/${sampleid}.prep.tsv
+  rm -rf ${outputdir}/${sampleid}.prep.tsv
 fi
 
 echo -e "Finished pre-processing BAM files and convert them to fragmentomics format ..."
