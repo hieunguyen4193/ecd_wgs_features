@@ -68,19 +68,19 @@ if [ ! -f "${outputdir}/${sampleid}.finished_4bpEM.txt" ]; then
     sort -k1,1 ${outputdir}/${sampleid}.reverse_endmotif4bp.txt > ${outputdir}/${sampleid}.reverse_endmotif4bp.sorted.txt
 
     ##### Note: temporaily use this scripts to get the End MOTIF features. This is not the BEST way to get the nucleosome features, but we will use it for now.
-    cat ${inputfrag} | \
-      awk '{if($4 > 0){print $0}}' |\
-      awk '{if($6 >= 30){print $0}}' |\
-      awk '{start=$2 - 1; end= $2 - 1 + 4; name= $5; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
-    > ${outputdir}/${sampleid}.full_endcoord4bp.bed;
+    # cat ${inputfrag} | \
+    #   awk '{if($4 > 0){print $0}}' |\
+    #   awk '{if($6 >= 30){print $0}}' |\
+    #   awk '{start=$2 - 1; end= $2 - 1 + 4; name= $5; strand = "+"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+    # > ${outputdir}/${sampleid}.full_endcoord4bp.bed;
 
-    cat ${inputfrag} | \
-      awk '{if($4 < 0){print $0}}' |\
-      awk '{if($6 >= 30){print $0}}' |\
-      awk '{start=$3 - 1 - 4; end= $3 - 1; name= $5; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
-    >> ${outputdir}/${sampleid}.full_endcoord4bp.bed;
+    # cat ${inputfrag} | \
+    #   awk '{if($4 < 0){print $0}}' |\
+    #   awk '{if($6 >= 30){print $0}}' |\
+    #   awk '{start=$3 - 1 - 4; end= $3 - 1; name= $5; strand = "-"; print $1 "\t" start "\t" end "\t" name "\t" "1" "\t" strand}' \
+    # >> ${outputdir}/${sampleid}.full_endcoord4bp.bed;
 
-    bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.full_endcoord4bp.bed > ${outputdir}/${sampleid}.full_endmotif4bp.sorted.txt
+    # bedtools getfasta -s -name -tab -fi ${path_to_fa} -bed ${outputdir}/${sampleid}.full_endcoord4bp.bed > ${outputdir}/${sampleid}.full_endmotif4bp.sorted.txt
 
     touch ${outputdir}/${sampleid}.finished_4bpEM.txt
 fi
