@@ -5,7 +5,7 @@ bash 01_BAM_to_FRAGS.sh \
     -f /Users/hieunguyen/data/resources/hg19.fa;
 
 bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
-    -i ./output_debug/1-ZLAAO90NB_S7509-S7709.sorted.frag.tsv  \
+    -i ./output_debug/1-ZLAAO90NB_S7509-S7709.sorted/1-ZLAAO90NB_S7509-S7709.sorted.frag.tsv  \
     -o ./output_debug/ \
     -f /Users/hieunguyen/data/resources/hg19.fa \
     -r /Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed \
