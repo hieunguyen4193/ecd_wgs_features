@@ -86,7 +86,7 @@ class WGS_GW_Image_features:
     def __init__(self,
                  input_tsv,
                  motif_order_path,
-                 outputdir
+                 outputdir,
                  path_to_old_nuc = None):
         self.input_tsv = input_tsv
         self.sampleid = input_tsv.split("/")[-1].split(".")[0]
@@ -132,12 +132,13 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####    
     def generate_em_feature(self, 
                             save_feature = True):
-        emdf1 = pd.DataFrame(data = self.maindf[["reverse_EM", "QC", "flen"]].values,
-                            columns = ["EM"])
-        emdf2 = pd.DataFrame(data = self.maindf[["forward_EM", "QC", "flen"]].values,
-                            columns = ["EM"])
-        emdf1 = emdf1[(emdf1["QC"] >= 30) & (emdf1["flen"] < 0)]
-        emdf2 = emdf2[(emdf2["QC"] >= 30) & (emdf2["flen"] > 0)]
+        emdf1 = self.maindf[["reverse_EM", "QC", "flen"]].copy() 
+        emdf2 = self.maindf[["forward_EM", "QC", "flen"]].copy()
+        
+        emdf1 = emdf1[(emdf1["QC"] >= 30) & (emdf1["flen"] < 0)].drop(["QC", "flen"], axis = 1)
+        emdf2 = emdf2[(emdf2["QC"] >= 30) & (emdf2["flen"] > 0)].drop(["QC", "flen"], axis = 1)
+        emdf1.columns = ["motif"]
+        emdf2.columns = ["motif"]
         
         emdf = pd.concat([emdf1, emdf2], axis = 0)
         emdf.columns = ["motif"]
@@ -168,7 +169,7 @@ class WGS_GW_Image_features:
         output_nucdf["index"] = output_nucdf["index"].apply(lambda x: x/output_nucdf["index"].sum())
         output_nucdf.columns = ["dist", "freq"]
         if save_feature:
-            output_nucdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_Nucleosome.csv"), index=False)
+            output_nucdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_Nucleosome.2.csv"), index=False)
         return nucdf
     
     def generate_nuc_feature_1(self, 
