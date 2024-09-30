@@ -21,6 +21,7 @@ html.name <- args$batch_name # name of the output html file.
 path.to.save.html.report <- args$output # path to save the output html file.
 read_length <- args$read_length # read length of the sequencing data. Default: set 50.
 
+read_length <- as.integer(read_length)
 ##### path to the Rmd file
 path.to.rmd.file <- "/Users/hieunguyen/src/ecd_wgs_features/summary_QC.Rmd"
 
