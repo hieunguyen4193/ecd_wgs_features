@@ -176,7 +176,7 @@ class WGS_GW_Image_features:
                                save_feature = True):
         if self.path_to_old_nuc is not None:
             print("Generate features Nucleosome from old data, bedtools closest -t all, not -t first ...")
-            output_nucdf = pd.read_csv(self.path_to_old_nuc, index_col=[0], sep = "\t", header = None)
+            output_nucdf = pd.read_csv(self.path_to_old_nuc, sep = "\t", header = None)
             output_nucdf = output_nucdf[(output_nucdf[3] >= -300) & (output_nucdf[3] <= 300)]
             output_nucdf = output_nucdf.groupby(3)[0].count().reset_index()
             output_nucdf.columns = ["dist", "freq"]
