@@ -2,6 +2,7 @@
 params.input_file= "$params.input/*.tsv"
 params.feature_version= ""
 params.old_nuc= ""
+params.generate_feature=""
 src=file(params.src)
 
 motif_order=file(params.motif_order)
@@ -26,7 +27,7 @@ process processing_bam_file_to_image_matrix {
         file("*") into output_ch
     script:
     """
-    python $src --input $input_file --output . --motif_order $motif_order --feature_version $params.feature_version --old_nuc $params.old_nuc
+    python $src --input $input_file --output . --motif_order $motif_order --feature_version $params.feature_version --old_nuc $params.old_nuc --generate_feature $params.generate_feature
     """
 }
 
@@ -36,5 +37,4 @@ process processing_bam_file_to_image_matrix {
 //  --output /datassd/hieunguyen/2024/outdir/ecd_wgs_features/images \
 //  --src /datassd/hieunguyen/2024/src/ecd_wgs_features/03_generate_WGS_features.py \
 //  --motif_order /datassd/hieunguyen/2024/src/ecd_wgs_features/motif_order.csv \
-//  --feature_version "old" \
-//  -resume
+//  --feature_version "old" --generate_feature "image_only" --old_nuc "none" -resume
