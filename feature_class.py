@@ -103,7 +103,8 @@ class WGS_GW_Image_features:
             for l in ["A", "T", "G", "C"]
         ]
         self.maindf_filter_chr = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 23)])) & (self.maindf["flen"] > 0)]
-        self.outputdir = os.path.join(outputdir, self.sampleid)
+        # self.outputdir = os.path.join(outputdir, self.sampleid)
+        self.outputdir = outputdir
         os.system(f"mkdir -p {self.outputdir}")
         
         self.path_to_old_nuc = path_to_old_nuc
