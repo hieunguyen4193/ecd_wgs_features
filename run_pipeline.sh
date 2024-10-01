@@ -40,8 +40,7 @@ else
     echo -e "Finished generating features, saving csv files"
     python 04_generate_batch_feature_matrix.py \
         --input ${outputdir} \
-        --output ${final_Feature_dir} \
-        --motif_order_path ${motif_order_path}
+        --output ${final_Feature_dir}
 fi
 
 
