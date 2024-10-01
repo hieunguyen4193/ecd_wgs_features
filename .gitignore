@@ -2,5 +2,5 @@ output
 *.bam
 picard.jar
 output_*
-batch_test
+batch_test*
 final_Feature_dir
