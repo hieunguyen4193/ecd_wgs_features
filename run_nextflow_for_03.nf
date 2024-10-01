@@ -1,5 +1,6 @@
 // ----- ----- ----- CHANNEL ----- ----- -----
 params.input_file= "$params.input/*.tsv"
+params.feature_version= ""
 src=file(params.src)
 motif_order=file(params.motif_order)
 Channel
@@ -23,7 +24,7 @@ process processing_bam_file_to_image_matrix {
         file("*") into output_ch
     script:
     """
-    python $src --input $input_file --output . --motif_order $motif_order
+    python $src --input $input_file --output . --motif_order $motif_order --feature_version $params.feature_version
     """
 }
 
@@ -33,4 +34,5 @@ process processing_bam_file_to_image_matrix {
 //  --output /datassd/hieunguyen/2024/outdir/ecd_wgs_features/images \
 //  --src /datassd/hieunguyen/2024/src/ecd_wgs_features/03_generate_WGS_features.py \
 //  --motif_order /datassd/hieunguyen/2024/src/ecd_wgs_features/motif_order.csv \
+//  --feature_version "old" \
 //  -resume
