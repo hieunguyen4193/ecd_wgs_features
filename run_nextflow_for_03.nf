@@ -26,3 +26,11 @@ process processing_bam_file_to_image_matrix {
     python $src --input $input_file --output . --motif_order $motif_order
     """
 }
+
+// example command:
+//  nextflow run run_nextflow_for_03.nf \
+//  --input /mnt/archiving/DATA_HIEUNHO/ecd_wgs_features_trong_hieu/ready-to-use \
+//  --output /datassd/hieunguyen/2024/outdir/ecd_wgs_features/images \
+//  --src /datassd/hieunguyen/2024/src/ecd_wgs_features/03_generate_WGS_features.py \
+//  --motif_order /datassd/hieunguyen/2024/src/ecd_wgs_features/motif_order.csv \
+//  -resume
