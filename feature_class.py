@@ -87,12 +87,16 @@ class WGS_GW_Image_features:
                  input_tsv,
                  motif_order_path,
                  outputdir,
-                 path_to_old_nuc = None):
+                 path_to_old_nuc = None,
+                 feature_version = "20241001"):
         self.input_tsv = input_tsv
         self.sampleid = input_tsv.split("/")[-1].split(".")[0]
         print("reading in the input frag.tsv data")
         self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
-        self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+        if feature_version == "20241001": 
+            self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+        else:
+            self.maindf.columns = ["chr", "start", "end", "flen", "readID", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
         self.motif_order_path = motif_order_path
         self.motif_order = pd.read_csv(motif_order_path)["motif_order"].values
         self.all_4bp_motifs = [
@@ -106,7 +110,7 @@ class WGS_GW_Image_features:
         # self.outputdir = os.path.join(outputdir, self.sampleid)
         self.outputdir = outputdir
         os.system(f"mkdir -p {self.outputdir}")
-        
+        self.feature_version = feature_version
         self.path_to_old_nuc = path_to_old_nuc
         
     #####-------------------------------------------------------------#####
@@ -135,11 +139,17 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####    
     def generate_em_feature(self, 
                             save_feature = True):
-        emdf1 = self.maindf[["reverse_EM", "QC", "flen"]].copy() 
-        emdf2 = self.maindf[["forward_EM", "QC", "flen"]].copy()
-        
-        emdf1 = emdf1[(emdf1["QC"] >= 30) & (emdf1["flen"] < 0)].drop(["QC", "flen"], axis = 1)
-        emdf2 = emdf2[(emdf2["QC"] >= 30) & (emdf2["flen"] > 0)].drop(["QC", "flen"], axis = 1)
+        if self.feature_version == "20241001":
+            emdf1 = self.maindf[["reverse_EM", "QC", "flen"]].copy() 
+            emdf2 = self.maindf[["forward_EM", "QC", "flen"]].copy()
+            emdf1 = emdf1[(emdf1["QC"] >= 30) & (emdf1["flen"] < 0)].drop(["QC", "flen"], axis = 1)
+            emdf2 = emdf2[(emdf2["QC"] >= 30) & (emdf2["flen"] > 0)].drop(["QC", "flen"], axis = 1)
+        else:
+            emdf1 = self.maindf[["reverse_EM", "flen"]].copy() 
+            emdf2 = self.maindf[["forward_EM", "flen"]].copy()
+            emdf1 = emdf1[(emdf1["flen"] < 0)].drop(["flen"], axis = 1)
+            emdf2 = emdf2[(emdf2["flen"] > 0)].drop(["flen"], axis = 1)
+
         emdf1.columns = ["motif"]
         emdf2.columns = ["motif"]
         
