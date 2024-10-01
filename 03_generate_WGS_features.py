@@ -35,7 +35,6 @@ def main():
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()
-
         ##### generaet IMAGES feature and save features to output dir
         output_obj.generate_EM_flen_feature()
         output_obj.generate_forwardNUC_flen_feature()
