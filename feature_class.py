@@ -99,7 +99,7 @@ class WGS_GW_Image_features:
             # use only for reading the first version of *.final_output.tsv file for GW-Image features.
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
             self.maindf = self.maindf[[0, 1, 2, 3, 4, 8, 9, 10, 11, 12]]
-            self.maindf.columns = ["readID", "chrom", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+            self.maindf.columns = ["readID", "chr", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
         self.motif_order_path = motif_order_path
         self.motif_order = pd.read_csv(motif_order_path)["motif_order"].values
         self.all_4bp_motifs = [
