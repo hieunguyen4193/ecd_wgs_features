@@ -20,8 +20,6 @@ def main():
     path_to_old_nuc = args.old_nuc
     generate_feature = args.generate_feature
     
-    if path_to_old_nuc == "none":
-        path_to_old_nuc = None
     
     output_obj = WGS_GW_Image_features(input_tsv = input_tsv,
                              motif_order_path = motif_order_path,
@@ -33,7 +31,7 @@ def main():
     if generate_feature == "all":
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()
-        if path_to_old_nuc is None:
+        if path_to_old_nuc == "none":
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()
@@ -59,7 +57,7 @@ def main():
     elif generate_feature == "GW_only":
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()
-        if path_to_old_nuc is None:
+        if path_to_old_nuc == "none":
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()

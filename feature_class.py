@@ -87,7 +87,7 @@ class WGS_GW_Image_features:
                  input_tsv,
                  motif_order_path,
                  outputdir,
-                 path_to_old_nuc = None,
+                 path_to_old_nuc = "none",
                  feature_version = "20241001"):
         self.input_tsv = input_tsv
         self.sampleid = input_tsv.split("/")[-1].split(".")[0]
@@ -190,7 +190,7 @@ class WGS_GW_Image_features:
     
     def generate_nuc_feature_1(self, 
                                save_feature = True):
-        if self.path_to_old_nuc is not None:
+        if self.path_to_old_nuc != "none":
             print("Generate features Nucleosome from old data, bedtools closest -t all, not -t first ...")
             output_nucdf = pd.read_csv(self.path_to_old_nuc, sep = "\t", header = None)
             output_nucdf = output_nucdf[(output_nucdf[3] >= -300) & (output_nucdf[3] <= 300)]
