@@ -9,23 +9,31 @@ def main():
     parser.add_argument('--output', type=str, required=False, help='Path to save output feature csv files')
     parser.add_argument('--motif_order_path', type=str, required=True, help='Path to the motif order file')
     parser.add_argument('--feature_version', type=str, required=True, help='Name of the feature version')
+    parser.add_argument('--old_nuc', type=str, required=True, help='Path to the old nucleosome file')
     
     args = parser.parse_args()
     input_tsv = args.input
     motif_order_path = args.motif_order_path 
     outputdir = args.output
     feature_version = args.feature_version
+    path_to_old_nuc = args.old_nuc
+    
+    if path_to_old_nuc == "None":
+        path_to_old_nuc = None
     
     output_obj = WGS_GW_Image_features(input_tsv = input_tsv,
                              motif_order_path = motif_order_path,
                              outputdir = outputdir,
+                             path_to_old_nuc = path_to_old_nuc,
                              feature_version = feature_version)
     
     ##### generate GW features and save features to output dir
     output_obj.generate_flen_feature()
     output_obj.generate_em_feature()
-    # output_obj.generate_nuc_feature()
-    output_obj.generate_nuc_feature_1()
+    if path_to_old_nuc is None:
+        output_obj.generate_nuc_feature()
+    else:
+        output_obj.generate_nuc_feature_1()
 
     ##### generaet IMAGES feature and save features to output dir
     output_obj.generate_EM_flen_feature()
