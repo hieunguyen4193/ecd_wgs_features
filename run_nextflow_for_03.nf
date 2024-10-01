@@ -5,8 +5,8 @@ motif_order=file(params.motif_order)
 Channel
     .fromPath( params.input_file )
     .ifEmpty { error "Cannot find any reads matching: ${params.input_file}"  }
-    // .view()
-    .into {input_ch}
+    .view()
+    .set {input_ch}
 
 process processing_bam_file_to_image_matrix {
     cache "deep";
