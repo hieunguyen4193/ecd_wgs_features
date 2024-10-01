@@ -1,7 +1,9 @@
 // ----- ----- ----- CHANNEL ----- ----- -----
 params.input_file= "$params.input/*.tsv"
 params.feature_version= ""
+params.old_nuc= ""
 src=file(params.src)
+
 motif_order=file(params.motif_order)
 Channel
     .fromPath( params.input_file )
@@ -24,7 +26,7 @@ process processing_bam_file_to_image_matrix {
         file("*") into output_ch
     script:
     """
-    python $src --input $input_file --output . --motif_order $motif_order --feature_version $params.feature_version
+    python $src --input $input_file --output . --motif_order $motif_order --feature_version $params.feature_version --old_nuc $params.old_nuc
     """
 }
 
