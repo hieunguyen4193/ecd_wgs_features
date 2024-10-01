@@ -11,6 +11,7 @@ def main():
     parser.add_argument('--feature_version', type=str, required=True, help='Name of the feature version')
     parser.add_argument('--old_nuc', type=str, required=True, help='Path to the old nucleosome file')
     parser.add_argument('--generate_feature', type=str, required=True, help='Path to the old nucleosome file')
+    parser.add_argument('--clean_up', type=str, required=True, help='Clean up intermediate files')
     
     args = parser.parse_args()
     input_tsv = args.input
@@ -19,7 +20,7 @@ def main():
     feature_version = args.feature_version
     path_to_old_nuc = args.old_nuc
     generate_feature = args.generate_feature
-    
+    clean_up = args.clean_up
     
     output_obj = WGS_GW_Image_features(input_tsv = input_tsv,
                              motif_order_path = motif_order_path,
@@ -62,5 +63,15 @@ def main():
             output_obj.generate_nuc_feature_1()
     else:
         raise ValueError("Please specify the correct feature type to generate")
+    
+    if clean_up == "all":
+        os.system(f"rm -rf {outputdir}/*.bed")
+        os.system(f"rm -rf {outputdir}/*.txt")
+    elif clean_up in ["bed", "txt"]:
+        os.system(f"rm -rf {outputdir}/*.{clean_up}")
+    else:
+        raise ValueError("Please specify the correct clean up o[tion, all or bed or txt only]")
+    
+    
 if __name__ == '__main__':
     main()
