@@ -10,6 +10,8 @@ from helper_functions import *
 import ot
 import argparse
 
+# example command:
+# python 05_measure_feature_drift_by_OTdistance.py --ot_ref_version 20240925 --input ./batch_test --output ./batch_test
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--ot_ref_version', type=str, required=True, help='Version of the reference barycenter, use in calculating optimal transport distance drifts.')
@@ -80,22 +82,20 @@ def main():
     ape_nuc = abs(median_nucdf - median_ref_nucdf["0"].to_numpy()) / median_ref_nucdf["0"].to_numpy()
 
     ape_flen_output = pd.DataFrame(
-    {"feat": ape_flendf.feat.unique(),
-     "ape": ape_flen
-     }
+        {"flen": ape_flendf.feat.unique(),
+        "ape": ape_flen}
     ).reset_index().drop("index", axis = 1)
 
     ape_em_output = pd.DataFrame(
-        {"feat": ape_em.index,
-        "ape": ape_em
-        }    
-    ).reset_index().drop("index", axis = 1)
+        {"EM": ape_em.index,
+        "ape": ape_em}    
+    )
 
     ape_nuc_output = pd.DataFrame(
-        {"feat": ape_nuc.index,
+        {"Nuc_dist": ape_nuc.index,
         "ape": ape_nuc
         }
-    ).reset_index().drop("index", axis = 1)
+    )
 
     flen_distdf.to_csv(f"{outputdir}/flen_OTdist_to_ref.csv", index=False)
     em_distdf.to_csv(f"{outputdir}/em_OTdist_to_ref.csv", index=False)
