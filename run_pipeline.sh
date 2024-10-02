@@ -35,7 +35,7 @@ else
         --feature_version "20241001" \
         --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
         --generate_feature "all" \
-        --clean_up "all"
+        --clean_up "txt"
 
     echo -e "Finished generating features, saving csv files"
     python 04_generate_batch_feature_matrix.py \

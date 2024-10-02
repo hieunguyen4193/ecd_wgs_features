@@ -99,7 +99,7 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectInsertSizeMetrics \
 sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.insert_size_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.insert_size_metrics.final.txt
 echo -e "finished"
 
-echo -e "running collect gc bias metrics";″
+echo -e "running collect gc bias metrics";
 java -Xms512m -Xmx4g -jar ./picard.jar CollectGcBiasMetrics \
     R=${ref} \
     I=${inputbam} \
@@ -110,7 +110,7 @@ java -Xms512m -Xmx4g -jar ./picard.jar CollectGcBiasMetrics \
 sed '/^#/d' ${outputdir}/QC/${sampleid}/${sampleid}.summary_metrics.txt > ${outputdir}/QC/${sampleid}/${sampleid}.summary_metrics.final.txt
 echo -e "finished"
 
-echo -e "running collect gc bias metrics";″
+echo -e "running collect gc bias metrics";
 java -Xms512m -Xmx4g -jar ./picard.jar CollectWgsMetrics \
     R=${ref} \
     I=${inputbam} \

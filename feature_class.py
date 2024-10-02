@@ -40,7 +40,7 @@ class WGS_GW_features:
             self.match_metadata = tmp.merge(self.metadata, right_on = "SampleID", left_on = "SampleID")
         
     def generate_flen_matrix(self):
-        maindf = pd.DataFrame(data = range(1, 302), columns = ["feat"])
+        maindf = pd.DataFrame(data = range(50, 351), columns = ["feat"])
         for file in tqdm(self.all_flen_features):
             tmpdf = pd.read_csv(file, index_col = [0])[["freq"]].reset_index()
             sampleid = file.name.split("_")[0]
