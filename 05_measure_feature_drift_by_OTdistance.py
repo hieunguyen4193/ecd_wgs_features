@@ -79,19 +79,19 @@ def main():
     ape_em = abs(median_emdf - median_ref_emdf["0"].to_numpy()) / median_ref_emdf["0"].to_numpy()
     ape_nuc = abs(median_nucdf - median_ref_nucdf["0"].to_numpy()) / median_ref_nucdf["0"].to_numpy()
 
-    ape_flen = pd.DataFrame(
-        {"feat": ape_flendf.feat.unique(),
-        "ape": ape_flen
-        }
+    ape_flen_output = pd.DataFrame(
+    {"feat": ape_flendf.feat.unique(),
+     "ape": ape_flen
+     }
     ).reset_index().drop("index", axis = 1)
 
-    ape_em = pd.DataFrame(
+    ape_em_output = pd.DataFrame(
         {"feat": ape_em.index,
         "ape": ape_em
         }    
     ).reset_index().drop("index", axis = 1)
 
-    ape_nuc = pd.DataFrame(
+    ape_nuc_output = pd.DataFrame(
         {"feat": ape_nuc.index,
         "ape": ape_nuc
         }
@@ -101,9 +101,9 @@ def main():
     em_distdf.to_csv(f"{outputdir}/em_OTdist_to_ref.csv", index=False)
     nuc_distdf.to_csv(f"{outputdir}/nuc_OTdist_to_ref.csv", index=False)
     
-    ape_flen.to_csv(f"{outputdir}/flen_APE_to_ref.csv", index=False)
-    ape_em.to_csv(f"{outputdir}/em_APE_to_ref.csv", index=False)
-    ape_nuc.to_csv(f"{outputdir}/nuc_APE_to_ref.csv", index=False)
+    ape_flen_output.to_csv(f"{outputdir}/flen_APE_to_ref.csv", index=False)
+    ape_em_output.to_csv(f"{outputdir}/em_APE_to_ref.csv", index=False)
+    ape_nuc_output.to_csv(f"{outputdir}/nuc_APE_to_ref.csv", index=False)
 
 if __name__ == '__main__':
     main()
