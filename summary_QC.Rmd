@@ -185,7 +185,9 @@ metricdf[["depth"]] <- data.frame(SampleID = basename(all.samples), depth = dept
 
 -	Tỉ lệ duplication, đơn vị: %: Xem bảng `Summary WGS metrics`, cột `PCT_EXC_DUPE`. 
 
--	Chiều dài trung bình của các read, đơn vị: (base pairs). Xem các histograms ở phần `Read length distribution (histogram)`.  Mỗi tab là một sample, trong đó có phân bố số lượng read tương ứng theo độ dài. Bao gồm 2 plot: một cho raw reads và một cho aligned reads. Hoặc xem cột `MEDIAN_READ_LENGTH`, `MIN_READ_LENGTH`, `MAX_READ_LENGTH`, `MEAN_ALIGNED_READ_LENGTH` trong bảng `Alignment summary metrics`.
+<!-- Xem các histograms ở phần `Read length distribution (histogram)`.  Mỗi tab là một sample, trong đó có phân bố số lượng read tương ứng theo độ dài. Bao gồm 2 plot: một cho raw reads và một cho aligned reads. Hoặc  -->
+
+-	Chiều dài trung bình của các read, đơn vị: (base pairs). Xem cột `MEDIAN_READ_LENGTH`, `MIN_READ_LENGTH`, `MAX_READ_LENGTH`, `MEAN_ALIGNED_READ_LENGTH` trong bảng `Alignment summary metrics`.
 
 -	Tổng số read map được lên reference genome, đơn vị: reads. Xem tại bảng `Flagstats`, cột Category ==  `with itself and mate mapped` hoặc 
 
