@@ -21,6 +21,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     input:
         file(input_file) from input_ch
         file src
+        file convert_bed
     output:
         file("*") into output_ch
     script:
