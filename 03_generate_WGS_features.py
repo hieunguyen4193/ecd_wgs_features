@@ -1,7 +1,9 @@
 import argparse
 import pandas as pd 
 import os
+from tqdm import tqdm
 from feature_class import *
+
 ##### Feature class definition
 def main():
     parser = argparse.ArgumentParser(description='Generate an image matrix.')
@@ -64,11 +66,16 @@ def main():
     else:
         raise ValueError("Please specify the correct feature type to generate")
     
-    if clean_up == "all":
-        os.system(f"rm -rf {outputdir}/*.bed")
+    if clean_up == "true":
         os.system(f"rm -rf {outputdir}/*.txt")
-    elif clean_up in ["bed", "txt"]:
-        os.system(f"rm -rf {outputdir}/*.{clean_up}")
+        files_to_delete = [item for item in pathlib.Path(outputdir).glob("*.bed") 
+                           if ".full_Nucleosome.dist.final.bed" in item.name == False]
+        for file in tqdm(files_to_delete):
+            print("Deleting file {file}")
+            os.system(f"rm -rf {file}")
+        
+    elif clean_up == "false":
+        print("keep all intermediate files")
     else:
         raise ValueError("Please specify the correct clean up o[tion, all or bed or txt only]")
     
