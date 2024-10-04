@@ -15,7 +15,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     publishDir "$params.output/02_EM_FLEN_NUC_features", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks 10
+    maxForks 25
 
     input:
         file(input_file) from input_ch
