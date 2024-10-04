@@ -158,10 +158,14 @@ fi
 
 if [ "${cleanup}" = "true" ]; then
   rm -rf ${outputdir}/*.txt;
-  rm -rf ${outputdir}/*.!(full_Nucleosome.dist.final).bed;
+  files_to_delete=$(ls ${outputdir} | grep -v '.*\.tsv$' | grep -v 'full_Nucleosome.dist.final.bed');
+  for file in $files_to_delete; do
+    rm -rf ${outputdir}/${file};
+  done
 elif [ "${cleanup}" = "false" ]; then
   echo -e "keep all intermediate files"
 else
     echo "Invalid value for boolean flag: ${cleanup}. Use 'true' or 'false' only."
     exit 1
 fi
+
