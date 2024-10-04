@@ -4,7 +4,6 @@ hg19=file(params.hg19)
 nucleosome_ref=file(params.nucleosome_ref)
 src=file(params.src)
 
-motif_order=file(params.motif_order)
 Channel
     .fromPath( params.input_file )
     .ifEmpty { error "Cannot find any reads matching: ${params.input_file}"  }
