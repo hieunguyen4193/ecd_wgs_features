@@ -24,7 +24,7 @@ process process_02_generate_EM_FLEN_NUC_features {
         file("*") into output_ch
     script:
     """
-    bash $src -i ${input_file} -o . -f ${hg19} -r ${nucleosome_ref} -c false
+    bash $src -i ${input_file} -o . -f ${hg19} -r ${nucleosome_ref} -c ${params.clean_up}
     """
 }
 
