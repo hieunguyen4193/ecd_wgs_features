@@ -80,7 +80,7 @@ def main():
     elif clean_up == "false":
         print("keep all intermediate files")
     else:
-        raise ValueError("Please specify the correct clean up o[tion, all or bed or txt only]")
+        raise ValueError("Please specify the correct clean up option, all or bed or txt only]")
     
 if __name__ == '__main__':
     main()
