@@ -68,8 +68,11 @@ def main():
     
     if clean_up == "true":
         os.system(f"rm -rf {outputdir}/*.txt")
-        files_to_delete = [item for item in pathlib.Path(outputdir).glob("*.bed") 
-                           if ".full_Nucleosome.dist.final.bed" in item.name == False]
+        keep_files = [item for item in pathlib.Path(outputdir).glob("*") 
+                      if ".full_Nucleosome.dist.final.bed" in item.name 
+                      or ".final_output.tsv" in item.name]
+        all_files = [item for item in pathlib.Path(outputdir).glob("*")]
+        files_to_delete = [item for item in all_files if item not in keep_files]
         for file in tqdm(files_to_delete):
             print("Deleting file {file}")
             os.system(f"rm -rf {file}")
