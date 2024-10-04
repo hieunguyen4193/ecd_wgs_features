@@ -158,7 +158,7 @@ fi
 
 if [ "${cleanup}" = "true" ]; then
   rm -rf ${outputdir}/*.txt;
-  rm -rf ${outputdir}/*.bed;
+  rm -rf ${outputdir}/*.!(full_Nucleosome.dist.final).bed;
   
 elif [ "${cleanup}" = "false" ]; then
   echo -e "keep all intermediate files"
