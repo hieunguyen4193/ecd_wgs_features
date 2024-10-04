@@ -3,6 +3,7 @@ params.input_file= "$params.input/*.tsv"
 hg19=file(params.hg19)
 nucleosome_ref=file(params.nucleosome_ref)
 src=file(params.src)
+convert_bed=file(params.src_convert_bed)
 
 Channel
     .fromPath( params.input_file )
