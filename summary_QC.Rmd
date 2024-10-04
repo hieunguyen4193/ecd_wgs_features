@@ -206,10 +206,8 @@ References:
 5. `Picard CollectInsertSizeMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360037055772-CollectInsertSizeMetrics-Picard
 6. `Picard CollectAlignmentSummaryMetrics`: https://gatk.broadinstitute.org/hc/en-us/articles/360040507751-CollectAlignmentSummaryMetrics-Picard
 
-
-# Read length distribution (histogram){.tabset}
-
-```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
+<!-- # Read length distribution (histogram){.tabset} -->
+<!-- ```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
 library(ggpubr)
 for (sampleid in names(readlen.dist)){
   cat(sprintf("## Sample %s \n", sampleid))
@@ -223,8 +221,7 @@ for (sampleid in names(readlen.dist)){
   print(p)  
   cat("\n \n")
 }
-
-```
+``` -->
 
 # Depth of coverage
 ```{r echo=FALSE, warning=FALSE, message=FALSE, results='asis', fig.width=14, fig.height=10}
