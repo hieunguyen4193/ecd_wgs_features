@@ -13,7 +13,6 @@ def main():
     parser.add_argument('--feature_version', type=str, required=True, help='Name of the feature version')
     parser.add_argument('--old_nuc', type=str, required=True, help='Path to the old nucleosome file')
     parser.add_argument('--generate_feature', type=str, required=True, help='Path to the old nucleosome file')
-    parser.add_argument('--clean_up', type=str, required=True, help='Clean up intermediate files')
     
     args = parser.parse_args()
     input_tsv = args.input
@@ -65,22 +64,6 @@ def main():
             output_obj.generate_nuc_feature_1()
     else:
         raise ValueError("Please specify the correct feature type to generate")
-    
-    if clean_up == "true":
-        os.system(f"rm -rf {outputdir}/*.txt")
-        keep_files = [item for item in pathlib.Path(outputdir).glob("*") 
-                      if ".full_Nucleosome.dist.final.bed" in item.name 
-                      or ".final_output.tsv" in item.name]
-        all_files = [item for item in pathlib.Path(outputdir).glob("*")]
-        files_to_delete = [item for item in all_files if item not in keep_files]
-        for file in tqdm(files_to_delete):
-            print("Deleting file {file}")
-            os.system(f"rm -rf {file}")
-        
-    elif clean_up == "false":
-        print("keep all intermediate files")
-    else:
-        raise ValueError("Please specify the correct clean up option, all or bed or txt only]")
     
 if __name__ == '__main__':
     main()

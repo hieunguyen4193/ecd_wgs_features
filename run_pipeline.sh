@@ -34,8 +34,7 @@ else
         --motif_order_path ${motif_order_path} \
         --feature_version "20241001" \
         --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
-        --generate_feature "all" \
-        --clean_up "true"
+        --generate_feature "all" 
 
     echo -e "Finished generating features, saving csv files"
     python 04_generate_batch_feature_matrix.py \
