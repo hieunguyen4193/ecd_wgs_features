@@ -22,6 +22,8 @@ while getopts "i:o:f:r:n:c:" opt; do
   esac
 done
 
+##### NOTE
+
 sampleid=$(echo ${inputfrag} | xargs -n 1 basename)
 sampleid=${sampleid%.frag*}
 outputdir=${outputdir}/${sampleid}
@@ -39,10 +41,12 @@ count_col=$(awk -F'\t' '{print NF; exit}' ${inputfrag})
 
 if [ $count_col -lt 3 ]; then
     echo -e "column FLEN does not exist in the frag.tsv file, generate new column FLEN ...";
-    cat ${inputfrag} | awk -v OFS='\t' '{$4 = $3 - $2}; print $0' > ${inputfrag%.frag*}.addedFLEN.frag.tsv
+    cat ${inputfrag} | awk -v OFS='\t' '{$4 = $3 - $2; print $0}' > ${inputfrag%.frag*}.addedFLEN.frag.tsv
     inputfrag=${inputfrag%.frag*}.addedFLEN.frag.tsv
 fi
 
+cat ${inputfrag} | awk -v OFS='\t' '{$5 = $1"_"$2"_"$3"_"$4"_"$5;$6 = $4;$4 = $3 - $2; print $0}' > ${inputfrag%.frag*}.FinaleDB.frag.tsv
+inputfrag=${inputfrag%.frag*}.FinaleDB.frag.tsv
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF
 #####----------------------------------------------------------------------#####
