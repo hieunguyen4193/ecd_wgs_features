@@ -45,8 +45,12 @@ if [ $count_col -lt 3 ]; then
     inputfrag=${inputfrag%.frag*}.addedFLEN.frag.tsv
 fi
 
-cat ${inputfrag} | awk -v OFS='\t' '{$5 = $1"_"$2"_"$3"_"$4"_"$5;$6 = $4;$4 = $3 - $2; if ($2 > 5){print $0}}' > ${inputfrag%.frag*}.FinaleDB.frag.tsv
+cat ${inputfrag} | awk -v OFS='\t' '{$5 = $1"_"$2"_"$3"_"$4"_"$5;$6 = $4;$4 = $3 - $2; if ($2 > 5){print $0}}' > ${inputfrag%.frag*}.tmp.frag.tsv
+
+# Filter rows where the first column is in 1-22, X, Y, or MT
+awk '$1 ~ /^([1-9]|1[0-9]|2[0-2]|X|Y|MT)$/' ${inputfrag%.frag*}.tmp.frag.tsv > ${inputfrag%.frag*}.FinaleDB.frag.tsv
 inputfrag=${inputfrag%.frag*}.FinaleDB.frag.tsv
+rm -rf ${inputfrag%.frag*}.tmp.frag.tsv
 
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF
