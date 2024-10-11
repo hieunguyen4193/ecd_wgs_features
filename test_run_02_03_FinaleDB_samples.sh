@@ -1,4 +1,4 @@
-input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE86589.hg19.frag.tsv";
+input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE87519.hg19.frag.tsv";
 outputdir="./batch_test_FinaleDB/";
 num_threads=10;
 path_to_fa="/Users/hieunguyen/data/resources/hg19_no_chr.fa";

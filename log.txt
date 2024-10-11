@@ -1,0 +1,7 @@
+Working on the file  /Users/hieunguyen/data/FinaleDB/EE87519.hg19.frag.tsv
+getting 4bp end motif
+generating nucleosome features ...
+sorting forward nucleosome file
+sorting reverse nucleosome file
+merge output
+keep all intermediate files

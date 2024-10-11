@@ -45,8 +45,9 @@ if [ $count_col -lt 3 ]; then
     inputfrag=${inputfrag%.frag*}.addedFLEN.frag.tsv
 fi
 
-cat ${inputfrag} | awk -v OFS='\t' '{$5 = $1"_"$2"_"$3"_"$4"_"$5;$6 = $4;$4 = $3 - $2; print $0}' > ${inputfrag%.frag*}.FinaleDB.frag.tsv
+cat ${inputfrag} | awk -v OFS='\t' '{$5 = $1"_"$2"_"$3"_"$4"_"$5;$6 = $4;$4 = $3 - $2; if ($2 > 5){print $0}}' > ${inputfrag%.frag*}.FinaleDB.frag.tsv
 inputfrag=${inputfrag%.frag*}.FinaleDB.frag.tsv
+
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF
 #####----------------------------------------------------------------------#####
@@ -118,7 +119,7 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   ##### co the la nucleosome gan nhat hoac la nucleosome xa nhat, tuy thuoc vao option "-t first" hoac "-t last". Khi default la "-t all", no se lay tat ca. 
   cat ${outputdir}/${sampleid}.forward_Nucleosome.bed | awk '{if($5 > 0) print $0}' > ${outputdir}/${sampleid}.full_Nucleosome.bed
   cat ${outputdir}/${sampleid}.reverse_Nucleosome.bed | awk '{if($5 <= 0) print $0}' >> ${outputdir}/${sampleid}.full_Nucleosome.bed
-  python convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed
+  python convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed "noChr"
   bedtools closest -a ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed -b ${nucleosome_ref} | cut -f1,2,12 > ${outputdir}/${sampleid}.full_Nucleosome.dist.bed
   awk -v OFS='\t' '{$4=$3-$2; print $0}' ${outputdir}/${sampleid}.full_Nucleosome.dist.bed > ${outputdir}/${sampleid}.full_Nucleosome.dist.final.bed
   
