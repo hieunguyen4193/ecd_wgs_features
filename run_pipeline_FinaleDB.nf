@@ -26,7 +26,7 @@ process process_02_generate_EM_FLEN_NUC_features {
         file convert_bed
     output:
         file("*") into output_ch
-    script:
+    shell:
     '''
     filename=$(echo !{input_file} | xargs -n 1 basename);
     sampleid=${filename%.frag.tsv*}
