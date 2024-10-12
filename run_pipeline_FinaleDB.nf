@@ -20,7 +20,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     maxForks 25
 
     input:
-        file(input_file) from input_ch
+        file(input_frag_file) from input_ch
         file src
         file prep_src
         file convert_bed
@@ -28,9 +28,9 @@ process process_02_generate_EM_FLEN_NUC_features {
         file("*") into output_ch
     shell:
     '''
-    filename=$(echo !{input_file} | xargs -n 1 basename);
+    filename=$(echo !{input_frag_file} | xargs -n 1 basename);
     sampleid=${filename%.frag.tsv*}
-    bash !{prep_src} -i ${input_file} -o .
+    bash !{prep_src} -i !{input_frag_file} -o .
     bash !{src} -i ${sampleid}_prep.frag.tsv -o . -f !{hg19} -r !{nucleosome_ref} -c !{params.clean_up}
     '''
 }
