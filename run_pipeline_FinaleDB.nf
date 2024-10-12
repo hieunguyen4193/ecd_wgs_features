@@ -50,12 +50,12 @@ process process_02_generate_EM_FLEN_NUC_features {
     """
 }
 
-nextflow run run_pipeline_FinaleDB.nf \
---input /mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract \
---output /datassd/DATA_HIEUNGUYEN/2024/outdir/FinaleDB \
---hg19 /datassd/DATA_HIEUNGUYEN/2024/resources/hg19.fa \
---nucleosome_ref /datassd/DATA_HIEUNGUYEN/2024/resources/rpr_map_EXP0779.sorted.bed \
---src /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/02_calculate_EM_FLEN_NUC_from_FRAG.sh \
---clean_up true --src_convert_bed /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/convert_full_bed_nucleosome.py \
--resume
+// nextflow run run_pipeline_FinaleDB.nf \
+// --input /mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract \
+// --output /datassd/DATA_HIEUNGUYEN/2024/outdir/FinaleDB \
+// --hg19 /datassd/DATA_HIEUNGUYEN/2024/resources/hg19.fa \
+// --nucleosome_ref /datassd/DATA_HIEUNGUYEN/2024/resources/rpr_map_EXP0779.sorted.bed \
+// --src /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/02_calculate_EM_FLEN_NUC_from_FRAG.sh \
+// --clean_up true --src_convert_bed /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/convert_full_bed_nucleosome.py \
+// -resume
 
