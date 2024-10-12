@@ -23,7 +23,7 @@ process preprocess_input {
         file(input_file) from input_ch
         file prep_src
     output:
-        file("*") into prep_ch
+        file("*.tsv") into prep_ch
     script:
     """
     bash 
