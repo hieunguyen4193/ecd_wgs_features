@@ -105,6 +105,9 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
   ##### to ensure that the features are reproducible between the exploratory phase and the deployment in commercial.
   ##### nguyen nhan tao nen su khac biet giua 2 lan chay la vi option "-t first" trong bedtools closest, no se lay nucleosome dau tien ma no gap duoc,
   ##### co the la nucleosome gan nhat hoac la nucleosome xa nhat, tuy thuoc vao option "-t first" hoac "-t last". Khi default la "-t all", no se lay tat ca. 
+
+  ##### Note: trong mot so truong hop, co the thay so dong cua file *.full_Nucleosome.dist.bed nhieu hon so dong cua file .frag ban dau
+  ##### do bedtools closest trong truong hop nay su dung toan bo cac distant, mot nucleosome co the co nhieu distant,
   cat ${outputdir}/${sampleid}.forward_Nucleosome.bed | awk '{if($5 > 0) print $0}' > ${outputdir}/${sampleid}.full_Nucleosome.bed
   cat ${outputdir}/${sampleid}.reverse_Nucleosome.bed | awk '{if($5 <= 0) print $0}' >> ${outputdir}/${sampleid}.full_Nucleosome.bed
   python convert_full_bed_nucleosome.py ${outputdir}/${sampleid}.full_Nucleosome.bed ${outputdir}/${sampleid}.full_Nucleosome.sorted.bed

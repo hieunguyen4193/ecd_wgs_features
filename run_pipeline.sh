@@ -19,12 +19,12 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     -n ${num_threads} \
     -f ${path_to_fa};
 
-    # bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
-    #     -i ${outputdir}/${sampleid}/${sampleid}.frag.tsv  \
-    #     -o ${outputdir} \
-    #     -f ${path_to_fa} \
-    #     -r ${path_to_ref} \
-    #     -c false;
+    bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
+        -i ${outputdir}/${sampleid}/${sampleid}.frag.tsv  \
+        -o ${outputdir} \
+        -f ${path_to_fa} \
+        -r ${path_to_ref} \
+        -c false;
 else 
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
     echo -e "Running script 03 to generate features ..."
