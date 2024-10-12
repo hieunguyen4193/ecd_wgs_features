@@ -16,13 +16,12 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     echo -e "preprocessing the input file from FinaleDB ..."
     sampleid=$(echo ${input_FinaleDB_frag} | xargs -n 1 basename)
     sampleid=${sampleid%.frag.tsv*}
-    
     bash preprocess_FinaleDB_input.sh -i ${input_FinaleDB_frag} -o ${outputdir}/${sampleid};
-
     echo -e "old input frag: " ${input_FinaleDB_frag}
     input_FinaleDB_frag=${outputdir}/${sampleid}/${sampleid}.frag.tsv;
     echo -e "new input frag: " ${input_FinaleDB_frag}
-    
+    echo -e "finished pre-processing input finaleDB" 
+
     echo -e "Running script 02 to calculate EM and FLEN from FRAG file ..."
     bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
         -i ${input_FinaleDB_frag}  \

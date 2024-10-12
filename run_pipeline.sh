@@ -13,11 +13,11 @@ sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
 
 if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
-    bash 01_BAM_to_FRAGS.sh \
-    -i  ${inputbam} \
-    -o ${outputdir} \
-    -n ${num_threads} \
-    -f ${path_to_fa};
+    # bash 01_BAM_to_FRAGS.sh \
+    # -i  ${inputbam} \
+    # -o ${outputdir} \
+    # -n ${num_threads} \
+    # -f ${path_to_fa};
 
     bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
         -i ${outputdir}/${sampleid}/${sampleid}.frag.tsv  \
