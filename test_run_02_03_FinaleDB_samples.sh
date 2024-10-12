@@ -4,7 +4,7 @@ num_threads=10;
 path_to_fa="/Users/hieunguyen/data/resources/hg19.fa";
 path_to_ref="/Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed";
 motif_order_path="./motif_order.csv";
-final_Feature_dir="./final_Feature_dir";
+final_Feature_dir="./final_Feature_dir_FinaleDB";
 
 mkdir -p ${outputdir};
 mkdir -p ${final_Feature_dir};
