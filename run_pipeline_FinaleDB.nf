@@ -12,42 +12,27 @@ Channel
     // .view()
     .set {input_ch}
 
-process preprocess_input {  
+process process_02_generate_EM_FLEN_NUC_features {  
     cache "deep";
-    publishDir "$params.output/01_preprocess_FinaleDB_files", mode: 'copy'
+    publishDir "$params.output/FinaleDB_features", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
     maxForks 25
 
     input:
         file(input_file) from input_ch
-        file prep_src
-    output:
-        file("*_prep.frag.tsv") into prep_ch
-    script:
-    """
-    bash 
-    bash $prep_src -i ${input_file} -o . 
-    """
-}
-
-process process_02_generate_EM_FLEN_NUC_features {  
-    cache "deep";
-    publishDir "$params.output/02_EM_FLEN_NUC_features", mode: 'copy'
-    // errorStrategy 'retry'
-    // maxRetries 1
-    maxForks 25
-
-    input:
-        file(input_file) from prep_ch
         file src
+        file prep_src
         file convert_bed
     output:
         file("*") into output_ch
     script:
-    """
-    bash $src -i ${input_file} -o . -f ${hg19} -r ${nucleosome_ref} -c ${params.clean_up}
-    """
+    '''
+    filename=$(echo !{input_file} | xargs -n 1 basename);
+    sampleid=${filename%.frag.tsv*}
+    bash !{prep_src} -i ${input_file} -o .
+    bash !{src} -i ${sampleid}_prep.frag.tsv -o . -f !{hg19} -r !{nucleosome_ref} -c !{params.clean_up}
+    '''
 }
 
 // nextflow run run_pipeline_FinaleDB.nf \
