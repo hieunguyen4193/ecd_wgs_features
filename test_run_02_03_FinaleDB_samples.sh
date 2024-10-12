@@ -15,7 +15,7 @@ sampleid=${sampleid%.bam*}
 if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     echo -e "preprocessing the input file from FinaleDB ..."
     sampleid=$(echo ${input_FinaleDB_frag} | xargs -n 1 basename)
-    sampleid=${sampleid%.tsv*}
+    sampleid=${sampleid%.frag.tsv*}
     
     bash preprocess_FinaleDB_input.sh -i ${input_FinaleDB_frag} -o ${outputdir}/${sampleid};
 
