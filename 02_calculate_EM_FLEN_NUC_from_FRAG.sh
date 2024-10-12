@@ -35,13 +35,6 @@ mkdir -p ${outputdir};
 ##### our in-house data has FLEN pre-calculated, 
 ##### for external data in frag.tsv format, FLEN has not been calculated yet. 
 echo -e "Working on the file " ${inputfrag}
-count_col=$(awk -F'\t' '{print NF; exit}' ${inputfrag})
-
-if [ $count_col -lt 3 ]; then
-    echo -e "column FLEN does not exist in the frag.tsv file, generate new column FLEN ...";
-    cat ${inputfrag} | awk -v OFS='\t' '{$4 = $3 - $2}; print $0' > ${inputfrag%.frag*}.addedFLEN.frag.tsv
-    inputfrag=${inputfrag%.frag*}.addedFLEN.frag.tsv
-fi
 
 #####----------------------------------------------------------------------#####
 ##### 4bp END MOTIF

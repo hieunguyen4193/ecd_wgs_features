@@ -1,8 +1,8 @@
 input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE87519.hg19.frag.tsv";
 outputdir="./batch_test_FinaleDB/";
 num_threads=10;
-path_to_fa="/Users/hieunguyen/data/resources/hg19_no_chr.fa";
-path_to_ref="/Users/hieunguyen/data/resources/rpr_map_EXP0779.noChr.sorted.bed";
+path_to_fa="/Users/hieunguyen/data/resources/hg19.fa";
+path_to_ref="/Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed";
 motif_order_path="./motif_order.csv";
 final_Feature_dir="./final_Feature_dir";
 
@@ -13,7 +13,18 @@ sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
 
 if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
-    bash 02_calculate_EM_FLEN_NUC_from_FRAG.FinaleDB.sh \
+    echo -e "preprocessing the input file from FinaleDB ..."
+    sampleid=$(echo ${input_FinaleDB_frag} | xargs -n 1 basename)
+    sampleid=${sampleid%.tsv*}
+    
+    bash preprocess_FinaleDB_input.sh -i ${input_FinaleDB_frag} -o ${outputdir}/${sampleid};
+
+    echo -e "old input frag: " ${input_FinaleDB_frag}
+    input_FinaleDB_frag=${outputdir}/${sampleid}/${sampleid}.frag.tsv;
+    echo -e "new input frag: " ${input_FinaleDB_frag}
+    
+    echo -e "Running script 02 to calculate EM and FLEN from FRAG file ..."
+    bash 02_calculate_EM_FLEN_NUC_from_FRAG.sh \
         -i ${input_FinaleDB_frag}  \
         -o ${outputdir} \
         -f ${path_to_fa} \
