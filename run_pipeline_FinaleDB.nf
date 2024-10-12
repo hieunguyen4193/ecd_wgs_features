@@ -12,7 +12,7 @@ Channel
     // .view()
     .set {input_ch}
 
-process process_02_generate_EM_FLEN_NUC_features {  
+process preprocess_input {  
     cache "deep";
     publishDir "$params.output/01_preprocess_FinaleDB_files", mode: 'copy'
     // errorStrategy 'retry'
