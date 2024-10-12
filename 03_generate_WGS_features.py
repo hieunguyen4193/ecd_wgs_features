@@ -21,7 +21,6 @@ def main():
     feature_version = args.feature_version
     path_to_old_nuc = args.old_nuc
     generate_feature = args.generate_feature
-    clean_up = args.clean_up
     
     output_obj = WGS_GW_Image_features(input_tsv = input_tsv,
                              motif_order_path = motif_order_path,
