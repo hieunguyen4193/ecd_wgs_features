@@ -1,4 +1,5 @@
-input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE87519.hg19.frag.tsv";
+# input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE87519.hg19.frag.tsv";
+input_FinaleDB_frag="/Users/hieunguyen/data/FinaleDB/EE86396.hg19.frag.tsv";
 outputdir="./batch_test_FinaleDB/";
 num_threads=10;
 path_to_fa="/Users/hieunguyen/data/resources/hg19.fa";
@@ -18,7 +19,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     sampleid=${sampleid%.frag.tsv*}
     bash preprocess_FinaleDB_input.sh -i ${input_FinaleDB_frag} -o ${outputdir}/${sampleid};
     echo -e "old input frag: " ${input_FinaleDB_frag}
-    input_FinaleDB_frag=${outputdir}/${sampleid}/${sampleid}.frag.tsv;
+    input_FinaleDB_frag=${outputdir}/${sampleid}/${sampleid}_prep.frag.tsv;
     echo -e "new input frag: " ${input_FinaleDB_frag}
     echo -e "finished pre-processing input finaleDB" 
 
@@ -30,14 +31,14 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         -r ${path_to_ref} \
         -c false;
 
-    echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
+    echo -e ${outputdir}/${sampleid}_prep/${sampleid}_prep.final_output.tsv "exists";
     echo -e "Running script 03 to generate features ..."
     python 03_generate_WGS_features.py \
-        --input ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-        --output ${outputdir}/${sampleid} \
+        --input ${outputdir}/${sampleid}_prep/${sampleid}_prep.final_output.tsv \
+        --output ${outputdir}/${sampleid}_prep \
         --motif_order_path ${motif_order_path} \
         --feature_version "20241001" \
-        --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
+        --old_nuc ${outputdir}/${sampleid}_prep/${sampleid}_prep.full_Nucleosome.dist.final.bed \
         --generate_feature "all" 
 
     echo -e "Finished generating features, saving csv files"
@@ -45,14 +46,14 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         --input ${outputdir} \
         --output ${final_Feature_dir}
 else 
-    echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
+    echo -e ${outputdir}/${sampleid}_prep/${sampleid}_prep.final_output.tsv "exists";
     echo -e "Running script 03 to generate features ..."
     python 03_generate_WGS_features.py \
-        --input ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-        --output ${outputdir}/${sampleid} \
+        --input ${outputdir}/${sampleid}_prep/${sampleid}_prep.final_output.tsv \
+        --output ${outputdir}/${sampleid}_prep \
         --motif_order_path ${motif_order_path} \
         --feature_version "20241001" \
-        --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
+        --old_nuc ${outputdir}/${sampleid}_prep/${sampleid}_prep.full_Nucleosome.dist.final.bed \
         --generate_feature "all" 
 
     echo -e "Finished generating features, saving csv files"
