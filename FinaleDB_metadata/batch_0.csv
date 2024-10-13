@@ -1,0 +1,259 @@
+SampleID,path,Label,Set,tissue,assay_type
+EE85723,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85723.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85724,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85724.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85725,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85725.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85726,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85726.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85727,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85727.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85728,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85728.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85729,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85729.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85730,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85730.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85731,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85731.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85732,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85732.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85733,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85733.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85734,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85734.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85735,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85735.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85736,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85736.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85737,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85737.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85738,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85738.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85739,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85739.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85740,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85740.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85741,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85741.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85742,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85742.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85743,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85743.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85744,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85744.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85745,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85745.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85746,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85746.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85747,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85747.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85748,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85748.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85749,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85749.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85750,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85750.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85751,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85751.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85752,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85752.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85753,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85753.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85754,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85754.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85755,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85755.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85756,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85756.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85757,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85757.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85758,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85758.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85759,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85759.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85760,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85760.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85761,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85761.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85762,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85762.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85763,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85763.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85764,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85764.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85765,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85765.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85766,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85766.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85767,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85767.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85768,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85768.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85769,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85769.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85770,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85770.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85771,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85771.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85772,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85772.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85773,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85773.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85774,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85774.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85775,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85775.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85776,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85776.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85777,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85777.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85779,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85779.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85780,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85780.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85781,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85781.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85783,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85783.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85784,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85784.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85785,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85785.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85786,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85786.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85787,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85787.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85788,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85788.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85789,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85789.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85790,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85790.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85791,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85791.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85792,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85792.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85793,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85793.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85794,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85794.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85795,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85795.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85796,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85796.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85797,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85797.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85798,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85798.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85799,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85799.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85800,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85800.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85802,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85802.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85805,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85805.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85806,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85806.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85807,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85807.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85808,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85808.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85809,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85809.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85810,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85810.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85811,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85811.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85812,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85812.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85813,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85813.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85814,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85814.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85815,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85815.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85816,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85816.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85817,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85817.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85818,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85818.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85821,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85821.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85822,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85822.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85823,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85823.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85825,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85825.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85826,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85826.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85827,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85827.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85828,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85828.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85829,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85829.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85830,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85830.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85831,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85831.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85832,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85832.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85833,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85833.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85834,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85834.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85835,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85835.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85836,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85836.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85837,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85837.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85838,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85838.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85839,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85839.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85840,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85840.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85841,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85841.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85842,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85842.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85843,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85843.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85844,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85844.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85845,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85845.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85846,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85846.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85847,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85847.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85848,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85848.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85849,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85849.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85851,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85851.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85853,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85853.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85854,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85854.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85855,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85855.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85856,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85856.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85857,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85857.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85858,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85858.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85859,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85859.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85860,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85860.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85861,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85861.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85862,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85862.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85863,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85863.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85864,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85864.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85865,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85865.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85866,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85866.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85867,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85867.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85868,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85868.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85869,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85869.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85870,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85870.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85871,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85871.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85872,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85872.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85873,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85873.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85874,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85874.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85875,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85875.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85876,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85876.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85877,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85877.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85878,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85878.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85879,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85879.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85880,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85880.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85881,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85881.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85882,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85882.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85883,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85883.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85884,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85884.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85885,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85885.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85886,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85886.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85887,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85887.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85888,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85888.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85890,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85890.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85891,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85891.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85892,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85892.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85893,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85893.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85895,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85895.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85896,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85896.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85897,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85897.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85898,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85898.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85899,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85899.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85900,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85900.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85901,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85901.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85902,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85902.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85903,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85903.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85904,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85904.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85905,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85905.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85906,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85906.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85907,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85907.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85908,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85908.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85911,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85911.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85912,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85912.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85913,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85913.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85915,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85915.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85916,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85916.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85917,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85917.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85918,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85918.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85919,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85919.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85920,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85920.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85921,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85921.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85922,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85922.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85923,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85923.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85924,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85924.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85925,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85925.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85926,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85926.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85927,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85927.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85928,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85928.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85930,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85930.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85931,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85931.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85932,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85932.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85933,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85933.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85935,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85935.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85936,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85936.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85937,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85937.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85938,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85938.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85939,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85939.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85940,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85940.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85941,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85941.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85942,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85942.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85943,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85943.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85944,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85944.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85945,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85945.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85946,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85946.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85947,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85947.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85948,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85948.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85949,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85949.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85950,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85950.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85951,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85951.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85952,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85952.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85953,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85953.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85955,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85955.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85956,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85956.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85957,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85957.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85959,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85959.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85960,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85960.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85961,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85961.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85962,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85962.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85963,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85963.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85964,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85964.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85965,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85965.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85966,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85966.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85967,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85967.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85968,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85968.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85969,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85969.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85970,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85970.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85971,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85971.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85972,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85972.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85973,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85973.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85974,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85974.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85975,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85975.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85978,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85978.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85980,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85980.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85981,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85981.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85982,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85982.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85983,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85983.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85984,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85984.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85985,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85985.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85986,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85986.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85987,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85987.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85988,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85988.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85989,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85989.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85990,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85990.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85991,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85991.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85992,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85992.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85994,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85994.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85996,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85996.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85997,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85997.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85998,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85998.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85999,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85999.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE86000,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86000.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE86001,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86001.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE86002,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86002.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE86003,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86003.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86004,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86004.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS

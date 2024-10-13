@@ -1,0 +1,2578 @@
+SampleID,Label,Set,tissue,assay_type
+EE85723,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85724,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85725,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85726,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85727,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85728,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85729,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85730,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85731,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85732,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85733,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85734,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85735,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85736,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85737,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85738,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85739,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85740,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85741,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85742,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85743,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85744,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85745,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85746,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85747,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85748,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85749,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85750,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85751,Liver transplant,"Sun et al., 2019",blood plasma,WGS
+EE85752,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85753,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS
+EE85754,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85755,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85756,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85757,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85758,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85759,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85760,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85761,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85762,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85763,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85764,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85765,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85766,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85767,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85768,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85769,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85770,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85771,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85772,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85773,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85774,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85775,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85776,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85777,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85779,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85780,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85781,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85783,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85784,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85785,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85786,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85787,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85788,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85789,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85790,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85791,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85792,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85793,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85794,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85795,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85796,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85797,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85798,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85799,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85800,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85802,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85805,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85806,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85807,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85808,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85809,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85810,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85811,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85812,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85813,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85814,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85815,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85816,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85817,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85818,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85821,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85822,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85823,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85825,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85826,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85827,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85828,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85829,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85830,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85831,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85832,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85833,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85834,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85835,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85836,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85837,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85838,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85839,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85840,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85841,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85842,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85843,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85844,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85845,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85846,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85847,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85848,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85849,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85851,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85853,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85854,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85855,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85856,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85857,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85858,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85859,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85860,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85861,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85862,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85863,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85864,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85865,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85866,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85867,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85868,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85869,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85870,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85871,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85872,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85873,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85874,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85875,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85876,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85877,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85878,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85879,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85880,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85881,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85882,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85883,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85884,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85885,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85886,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85887,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85888,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85890,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85891,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85892,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85893,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85895,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85896,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85897,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85898,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85899,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85900,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85901,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85902,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85903,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85904,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85905,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85906,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85907,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85908,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85911,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85912,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85913,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85915,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85916,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85917,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85918,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85919,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85920,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85921,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85922,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85923,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85924,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85925,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85926,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85927,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85928,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85930,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85931,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85932,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85933,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85935,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85936,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85937,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85938,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85939,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85940,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85941,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85942,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85943,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85944,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85945,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85946,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85947,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85948,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85949,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85950,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85951,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85952,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85953,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85955,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85956,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85957,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85959,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85960,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85961,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85962,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85963,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85964,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85965,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85966,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85967,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85968,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85969,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85970,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85971,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85972,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85973,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85974,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85975,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85978,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85980,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85981,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85982,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85983,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85984,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85985,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85986,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85987,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85988,Healthy,"Jiang et al., 2015",blood plasma,WGS
+EE85989,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85990,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85991,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85992,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85994,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE85996,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85997,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE85998,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS
+EE85999,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE86000,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE86001,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS
+EE86002,Liver cancer,"Jiang et al., 2015",blood plasma,WGS
+EE86003,,"Burnham et al., 2018",urine,WGS
+EE86004,,"Burnham et al., 2018",urine,WGS
+EE86005,,"Rabinowitz et al., 2019",,WXS
+EE86006,,"Rabinowitz et al., 2019",,WGS
+EE86007,,"Rabinowitz et al., 2019",,WGS
+EE86008,,"Rabinowitz et al., 2019",,WGS
+EE86009,,"Rabinowitz et al., 2019",,WGS
+EE86010,,"Burnham et al., 2018",urine,WGS
+EE86011,,"Burnham et al., 2018",urine,WGS
+EE86012,,"Burnham et al., 2018",urine,WGS
+EE86013,,"Burnham et al., 2018",urine,WGS
+EE86014,,"Burnham et al., 2018",urine,WGS
+EE86015,,"Burnham et al., 2018",urine,WGS
+EE86016,,"Burnham et al., 2018",urine,WGS
+EE86017,,"Burnham et al., 2018",urine,WGS
+EE86018,,"Burnham et al., 2018",urine,WGS
+EE86019,,"Burnham et al., 2018",urine,WGS
+EE86020,,"Burnham et al., 2018",urine,WGS
+EE86021,,"Burnham et al., 2018",urine,WGS
+EE86022,,"Burnham et al., 2018",urine,WGS
+EE86023,,"Burnham et al., 2018",urine,WGS
+EE86024,,"Burnham et al., 2018",urine,WGS
+EE86025,,"Burnham et al., 2018",urine,WGS
+EE86026,,"Burnham et al., 2018",urine,WGS
+EE86027,,"Burnham et al., 2018",urine,WGS
+EE86028,,"Burnham et al., 2018",urine,WGS
+EE86029,,"Burnham et al., 2018",urine,WGS
+EE86030,,"Burnham et al., 2018",urine,WGS
+EE86031,,"Burnham et al., 2018",urine,WGS
+EE86032,,"Burnham et al., 2018",urine,WGS
+EE86033,,"Burnham et al., 2018",urine,WGS
+EE86034,,"Burnham et al., 2018",urine,WGS
+EE86035,,"Burnham et al., 2018",urine,WGS
+EE86036,,"Burnham et al., 2018",urine,WGS
+EE86037,,"Burnham et al., 2018",urine,WGS
+EE86038,,"Burnham et al., 2018",urine,WGS
+EE86039,,"Burnham et al., 2018",urine,WGS
+EE86040,,"Rabinowitz et al., 2019",,WGS
+EE86041,,"Burnham et al., 2018",urine,WGS
+EE86042,,"Burnham et al., 2018",urine,WGS
+EE86043,,"Burnham et al., 2018",urine,WGS
+EE86044,,"Burnham et al., 2018",urine,WGS
+EE86045,,"Burnham et al., 2018",urine,WGS
+EE86046,,"Burnham et al., 2018",urine,WGS
+EE86047,,"Burnham et al., 2018",urine,WGS
+EE86048,,"Burnham et al., 2018",urine,WGS
+EE86049,,"Burnham et al., 2018",urine,WGS
+EE86050,,"Burnham et al., 2018",urine,WGS
+EE86051,,"Burnham et al., 2018",urine,WGS
+EE86052,,"Burnham et al., 2018",urine,WGS
+EE86053,,"Burnham et al., 2018",urine,WGS
+EE86054,,"Burnham et al., 2018",urine,WGS
+EE86055,,"Burnham et al., 2018",urine,WGS
+EE86056,,"Burnham et al., 2018",urine,WGS
+EE86057,,"Burnham et al., 2018",urine,WGS
+EE86058,,"Burnham et al., 2018",urine,WGS
+EE86059,,"Burnham et al., 2018",urine,WGS
+EE86060,,"Burnham et al., 2018",urine,WGS
+EE86061,,"Burnham et al., 2018",urine,WGS
+EE86062,,"Burnham et al., 2018",urine,WGS
+EE86063,,"Burnham et al., 2018",urine,WGS
+EE86064,,"Burnham et al., 2018",urine,WGS
+EE86065,,"Rabinowitz et al., 2019",,WGS
+EE86066,,"Rabinowitz et al., 2019",,WGS
+EE86067,,"Burnham et al., 2018",urine,WGS
+EE86068,,"Burnham et al., 2018",urine,WGS
+EE86069,,"Rabinowitz et al., 2019",,WGS
+EE86070,,"Burnham et al., 2018",urine,WGS
+EE86071,,"Burnham et al., 2018",urine,WGS
+EE86072,,"Burnham et al., 2018",urine,WGS
+EE86073,,"Burnham et al., 2018",urine,WGS
+EE86074,,"Rabinowitz et al., 2019",,WGS
+EE86075,,"Rabinowitz et al., 2019",,WGS
+EE86076,,"Rabinowitz et al., 2019",,WGS
+EE86077,,"Rabinowitz et al., 2019",,WGS
+EE86078,,"Rabinowitz et al., 2019",,WGS
+EE86079,,"Rabinowitz et al., 2019",,WGS
+EE86080,,"Rabinowitz et al., 2019",,WGS
+EE86081,,"Rabinowitz et al., 2019",,WGS
+EE86082,,"Rabinowitz et al., 2019",,WGS
+EE86083,,"Rabinowitz et al., 2019",,WGS
+EE86084,,"Rabinowitz et al., 2019",,WGS
+EE86085,,"Rabinowitz et al., 2019",,WGS
+EE86086,,"Rabinowitz et al., 2019",,WGS
+EE86087,,"Rabinowitz et al., 2019",,WGS
+EE86088,,"Rabinowitz et al., 2019",,WGS
+EE86089,,"Rabinowitz et al., 2019",,WGS
+EE86090,,"Rabinowitz et al., 2019",,WGS
+EE86091,,"Rabinowitz et al., 2019",,WGS
+EE86092,,"Rabinowitz et al., 2019",,WGS
+EE86093,,"Rabinowitz et al., 2019",,WGS
+EE86094,,"Rabinowitz et al., 2019",,WGS
+EE86095,,"Rabinowitz et al., 2019",,WGS
+EE86096,,"Rabinowitz et al., 2019",,WGS
+EE86097,,"Rabinowitz et al., 2019",,WGS
+EE86098,,"Rabinowitz et al., 2019",,WGS
+EE86099,,"Rabinowitz et al., 2019",,WGS
+EE86100,,"Rabinowitz et al., 2019",,WGS
+EE86101,,"Rabinowitz et al., 2019",,WGS
+EE86102,,"Rabinowitz et al., 2019",,WGS
+EE86103,,"Rabinowitz et al., 2019",,WGS
+EE86104,,"Rabinowitz et al., 2019",,WGS
+EE86105,,"Rabinowitz et al., 2019",,WGS
+EE86106,,"Rabinowitz et al., 2019",,WGS
+EE86107,,"Rabinowitz et al., 2019",,WGS
+EE86108,,"Rabinowitz et al., 2019",,WXS
+EE86109,,"Rabinowitz et al., 2019",,WXS
+EE86110,,"Rabinowitz et al., 2019",,WXS
+EE86111,,"Rabinowitz et al., 2019",,WXS
+EE86112,,"Rabinowitz et al., 2019",,WGS
+EE86113,,"Rabinowitz et al., 2019",,WGS
+EE86114,,"Rabinowitz et al., 2019",,WGS
+EE86115,,"Rabinowitz et al., 2019",,WGS
+EE86116,,"Rabinowitz et al., 2019",,WGS
+EE86117,,"Rabinowitz et al., 2019",,WGS
+EE86118,,"Rabinowitz et al., 2019",,WGS
+EE86119,,"Rabinowitz et al., 2019",,WGS
+EE86120,,"Rabinowitz et al., 2019",,WGS
+EE86121,,"Rabinowitz et al., 2019",,WGS
+EE86122,,"Rabinowitz et al., 2019",,WGS
+EE86123,,"Rabinowitz et al., 2019",,WGS
+EE86124,,"Rabinowitz et al., 2019",,WGS
+EE86125,,"Rabinowitz et al., 2019",,WGS
+EE86126,,"Rabinowitz et al., 2019",,WGS
+EE86127,,"Rabinowitz et al., 2019",,WGS
+EE86128,,"Rabinowitz et al., 2019",,WGS
+EE86129,,"Rabinowitz et al., 2019",,WGS
+EE86130,,"Rabinowitz et al., 2019",,WGS
+EE86131,,"Burnham et al., 2018",urine,WGS
+EE86132,,"Burnham et al., 2018",urine,WGS
+EE86133,,"Rabinowitz et al., 2019",,WGS
+EE86134,,"Rabinowitz et al., 2019",,WGS
+EE86135,,"Rabinowitz et al., 2019",,WGS
+EE86136,,"Rabinowitz et al., 2019",,WGS
+EE86137,,"Rabinowitz et al., 2019",,WGS
+EE86138,,"Rabinowitz et al., 2019",,WXS
+EE86139,,"Rabinowitz et al., 2019",,WXS
+EE86140,,"Rabinowitz et al., 2019",,WGS
+EE86141,,"Burnham et al., 2018",urine,WGS
+EE86142,,"Burnham et al., 2018",urine,WGS
+EE86143,,"Burnham et al., 2018",urine,WGS
+EE86144,,"Burnham et al., 2018",urine,WGS
+EE86145,,"Burnham et al., 2018",urine,WGS
+EE86146,,"Burnham et al., 2018",urine,WGS
+EE86147,,"Burnham et al., 2018",urine,WGS
+EE86148,,"Burnham et al., 2018",urine,WGS
+EE86149,,"Burnham et al., 2018",urine,WGS
+EE86150,,"Burnham et al., 2018",urine,WGS
+EE86151,,"Burnham et al., 2018",urine,WGS
+EE86152,,"Burnham et al., 2018",urine,WGS
+EE86153,,"Burnham et al., 2018",urine,WGS
+EE86154,,"Burnham et al., 2018",urine,WGS
+EE86155,,"Burnham et al., 2018",urine,WGS
+EE86156,,"Burnham et al., 2018",urine,WGS
+EE86157,,"Burnham et al., 2018",urine,WGS
+EE86158,,"Burnham et al., 2018",urine,WGS
+EE86159,,"Burnham et al., 2018",urine,WGS
+EE86160,,"Burnham et al., 2018",urine,WGS
+EE86161,,"Burnham et al., 2018",urine,WGS
+EE86162,,"Burnham et al., 2018",urine,WGS
+EE86163,,"Burnham et al., 2018",urine,WGS
+EE86164,,"Burnham et al., 2018",urine,WGS
+EE86165,,"Burnham et al., 2018",urine,WGS
+EE86166,,"Burnham et al., 2018",urine,WGS
+EE86167,,"Burnham et al., 2018",urine,WGS
+EE86168,,"Burnham et al., 2018",urine,WGS
+EE86169,,"Burnham et al., 2018",urine,WGS
+EE86170,,"Burnham et al., 2018",urine,WGS
+EE86171,,"Burnham et al., 2018",urine,WGS
+EE86172,,"Burnham et al., 2018",urine,WGS
+EE86173,,"Burnham et al., 2018",urine,WGS
+EE86174,,"Burnham et al., 2018",urine,WGS
+EE86175,,"Burnham et al., 2018",urine,WGS
+EE86176,,"Burnham et al., 2018",urine,WGS
+EE86177,,"Burnham et al., 2018",urine,WGS
+EE86178,,"Burnham et al., 2018",urine,WGS
+EE86179,,"Burnham et al., 2018",urine,WGS
+EE86180,,"Burnham et al., 2018",urine,WGS
+EE86181,,"Burnham et al., 2018",urine,WGS
+EE86182,,"Burnham et al., 2018",urine,WGS
+EE86183,,"Burnham et al., 2018",urine,WGS
+EE86184,,"Burnham et al., 2018",urine,WGS
+EE86185,,"Burnham et al., 2018",urine,WGS
+EE86186,,"Burnham et al., 2018",urine,WGS
+EE86187,,"Burnham et al., 2018",urine,WGS
+EE86188,,"Burnham et al., 2018",urine,WGS
+EE86189,,"Burnham et al., 2018",urine,WGS
+EE86190,,"Burnham et al., 2018",urine,WGS
+EE86191,,"Burnham et al., 2018",urine,WGS
+EE86192,,"Burnham et al., 2018",urine,WGS
+EE86193,,"Burnham et al., 2018",urine,WGS
+EE86194,,"Burnham et al., 2018",urine,WGS
+EE86195,,"Burnham et al., 2018",urine,WGS
+EE86196,,"Burnham et al., 2018",urine,WGS
+EE86197,,"Burnham et al., 2018",urine,WGS
+EE86198,,"Burnham et al., 2018",urine,WGS
+EE86199,,"Burnham et al., 2018",urine,WGS
+EE86200,,"Burnham et al., 2018",urine,WGS
+EE86201,,"Burnham et al., 2018",urine,WGS
+EE86202,,"Burnham et al., 2018",urine,WGS
+EE86203,,"Burnham et al., 2018",urine,WGS
+EE86204,,"Burnham et al., 2018",urine,WGS
+EE86205,,"Burnham et al., 2018",urine,WGS
+EE86206,,"Burnham et al., 2018",urine,WGS
+EE86207,,"Burnham et al., 2018",urine,WGS
+EE86208,,"Burnham et al., 2018",urine,WGS
+EE86209,,"Burnham et al., 2018",urine,WGS
+EE86210,,"Burnham et al., 2018",urine,WGS
+EE86211,,"Burnham et al., 2018",urine,WGS
+EE86212,,"Burnham et al., 2018",urine,WGS
+EE86213,,"Burnham et al., 2018",urine,WGS
+EE86214,,"Burnham et al., 2018",urine,WGS
+EE86215,,"Burnham et al., 2018",,WGS
+EE86216,,"Burnham et al., 2018",,WGS
+EE86217,Healthy,"Snyder et al., 2016",blood plasma,WGS
+EE86218,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86219,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86220,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86221,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86222,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86223,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86224,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86225,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86226,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86227,Skin cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86228,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86229,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86230,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86231,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86232,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86233,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86234,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86235,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86236,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86237,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86238,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86239,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86240,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86241,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86242,Testicular cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86243,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86244,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86245,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86246,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86247,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86248,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86249,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86250,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86251,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86252,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86253,Esophageal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86254,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86255,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86256,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86257,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86258,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86259,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86260,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86261,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86262,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86263,Testicular cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86264,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86265,Skin cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86266,Esophageal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86267,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86268,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86269,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86270,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86271,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86272,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86273,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86274,Healthy,"Snyder et al., 2016",blood plasma,WGS
+EE86275,Healthy,"Snyder et al., 2016",blood plasma,WGS
+EE86276,Healthy,"Snyder et al., 2016",blood plasma,WGS
+EE86277,,"Burnham et al., 2018",urine,WGS
+EE86278,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86279,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86280,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86281,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86282,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86283,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86284,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86285,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86286,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86287,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86288,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86289,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86290,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86291,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86292,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86293,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86294,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86295,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86296,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86297,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86298,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86299,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86300,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86301,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86302,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86303,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86304,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86305,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86306,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86307,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86308,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86309,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86310,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86311,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86312,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86313,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86314,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86315,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86316,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86317,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86318,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86319,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86320,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86321,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86322,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86323,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86324,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86325,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86326,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86327,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86328,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86329,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86330,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86331,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86332,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86333,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86334,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86335,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86336,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86337,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86338,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86339,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86340,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86341,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86342,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86343,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86344,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86345,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86346,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86347,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86348,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86349,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86350,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86351,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86352,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86353,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86354,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86355,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86356,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86357,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86358,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86359,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86360,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86361,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86362,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86363,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86364,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86365,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86366,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86367,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86368,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86369,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86370,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86371,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86372,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86373,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86374,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86375,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86376,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86377,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86378,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86379,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86380,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86381,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86382,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86383,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86384,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86385,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86386,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86387,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86388,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86389,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86390,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86391,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86392,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86393,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86394,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86395,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86396,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86397,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86398,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86399,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86400,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86401,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86402,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86403,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86404,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86405,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86406,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86407,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86408,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86409,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86410,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86411,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86412,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86413,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86414,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86415,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86416,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86417,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86418,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86419,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86420,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86421,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86422,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86423,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86424,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86425,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86426,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86427,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86428,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86429,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86430,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86431,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86432,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86433,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86434,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86435,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86436,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86437,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86438,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86439,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86440,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86441,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86442,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86443,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86444,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86445,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86446,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86447,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86448,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86449,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86450,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86451,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86452,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86453,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86454,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86455,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86456,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86457,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86458,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86459,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86460,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86461,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86462,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86463,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86464,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86465,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86466,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86467,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86468,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86469,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86470,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86471,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86472,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86473,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86474,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86475,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86476,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86477,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86478,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86479,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86480,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86481,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86482,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86483,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86484,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86485,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86486,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86487,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86488,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86489,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86490,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86491,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86492,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86493,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86494,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86495,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86496,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86497,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86498,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86499,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86500,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86501,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86502,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86503,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86504,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86505,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86506,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86507,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86508,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86509,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86510,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86511,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86512,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86513,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86514,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86515,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86516,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86517,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86518,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86519,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86520,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86521,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86522,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86523,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86524,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86525,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86526,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86527,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86528,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86529,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86530,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86531,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86532,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86533,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86534,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86535,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86536,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86537,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86538,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86539,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86540,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86541,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86542,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86543,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86544,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86545,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86546,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86547,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86548,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86549,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86550,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86551,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86552,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86553,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86554,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86555,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86556,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86557,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86558,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86559,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86560,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86561,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86562,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86563,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86564,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86565,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86566,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86567,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86568,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86569,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86570,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86571,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86572,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86573,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86574,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86575,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86576,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86577,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86578,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86579,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86580,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86581,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86582,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86583,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86584,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86585,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86586,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86587,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86588,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86589,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86590,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86591,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86592,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86593,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86594,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86595,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86596,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86597,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86598,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86599,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86600,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86601,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86602,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86603,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86604,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86605,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86606,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86607,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86608,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86609,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86610,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86611,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86612,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86613,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86614,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86615,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86616,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86617,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86618,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86619,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86620,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86621,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86622,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86623,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86624,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86625,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86626,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86627,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86628,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86629,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86630,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86631,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86632,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86633,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86634,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86635,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86636,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86637,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86638,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86639,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86640,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86641,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86642,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86643,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86644,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86645,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86646,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86647,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86648,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86649,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86650,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86651,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86652,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86653,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86654,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86655,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86656,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86657,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86658,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86659,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86660,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86661,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86662,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86663,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86664,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86665,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86666,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86667,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86668,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86669,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86670,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86671,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86672,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86673,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86674,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86675,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86676,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86677,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86678,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86679,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86680,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86681,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86682,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86683,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86684,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86685,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86686,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86687,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86688,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86689,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86690,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86691,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86692,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86693,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86694,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86695,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86696,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86697,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86698,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86699,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86700,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86701,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86702,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86703,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86704,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86705,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86706,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86707,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86708,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86709,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86710,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86711,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86712,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86713,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86714,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86715,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86716,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86717,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86718,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86719,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86720,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86721,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86722,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86723,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86724,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86725,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86726,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86727,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86728,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86729,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86730,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86731,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86732,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86733,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86734,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86735,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86736,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86737,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86738,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86739,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86740,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86741,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86742,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86743,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86744,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86745,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86746,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86747,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86748,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86749,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86750,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86751,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86752,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86753,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86754,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86755,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86756,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86757,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86758,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86759,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86760,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86761,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86762,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86763,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86764,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86765,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86766,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86767,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86768,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86769,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86770,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86771,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86772,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86773,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86774,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86775,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86776,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86777,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86778,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86779,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86780,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86781,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86782,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86783,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86784,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86785,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86786,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86787,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86788,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86789,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86790,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86791,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86792,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86793,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86794,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86795,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86796,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86797,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86798,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86799,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86800,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86801,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86802,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86803,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86804,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86805,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86806,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86807,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86808,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86809,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86810,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86811,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86812,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86813,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86814,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86815,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86816,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86817,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86818,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86819,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86820,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86821,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86822,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86823,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86824,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86825,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86826,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86827,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86828,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86829,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86830,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86831,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86832,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86833,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86834,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86835,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86836,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86837,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86838,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86839,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86840,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86841,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86842,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86843,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86844,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86845,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86846,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86847,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86848,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86849,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86850,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86851,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86852,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86853,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86854,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86855,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86856,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86857,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86858,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86859,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86860,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86861,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86862,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86863,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86864,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86865,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86866,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86867,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86868,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86869,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86870,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86871,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86872,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86873,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86874,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86875,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86876,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86877,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86878,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86879,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86880,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86881,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86882,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86883,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86884,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86885,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86886,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86887,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86888,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86889,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86890,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86891,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86892,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86893,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86894,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86895,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86896,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86897,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86898,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86899,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86900,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86901,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86902,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86903,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86904,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86905,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86906,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86907,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86908,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86909,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86910,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86911,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86912,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86913,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86914,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86915,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86916,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86917,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86918,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86919,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86920,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86921,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86922,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86923,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86924,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86925,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86926,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86927,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86928,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86929,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86930,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86931,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86932,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86933,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86934,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86935,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86936,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86937,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86938,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86939,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86940,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86941,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86942,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86943,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86944,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86945,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86946,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86947,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86948,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86949,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86950,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86951,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86952,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86953,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86954,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86955,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86956,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86957,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86958,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86959,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86960,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86961,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86962,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86963,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86964,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86965,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86966,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86967,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86968,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86969,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86970,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86971,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86972,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86973,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86974,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86975,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86976,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86977,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86978,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86979,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86980,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86981,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86982,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86983,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86984,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86985,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86986,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86987,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86988,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86989,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86990,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86991,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86992,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86993,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86994,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86995,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86996,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86997,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86998,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE86999,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87000,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87001,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87002,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87003,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87004,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87005,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87006,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87007,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87008,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87009,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87010,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87011,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87012,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87013,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87014,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87015,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87016,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87017,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87018,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87019,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87020,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87021,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87022,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87023,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87024,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87025,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87026,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87027,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87028,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87029,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87030,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87031,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87032,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87033,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87034,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87035,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87036,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87037,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87038,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87039,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87040,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87041,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87042,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87043,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87044,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87045,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87046,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87047,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87048,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87049,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87050,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87051,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87052,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87053,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87054,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87055,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87056,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87057,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87058,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87059,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87060,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87061,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87062,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87063,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87064,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87065,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87066,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87067,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87068,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87069,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87070,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87071,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87072,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87073,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87074,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87075,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87076,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87077,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87078,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87079,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87080,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87081,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87082,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87083,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87084,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87085,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87086,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87087,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87088,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87089,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87090,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87091,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87092,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87093,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87094,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87095,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87096,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87097,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87098,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87099,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87100,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87101,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87102,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87103,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87104,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87105,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87106,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87107,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87108,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87109,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87110,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87111,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87112,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87113,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87114,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87115,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87116,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87117,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87118,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87119,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87120,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87121,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87122,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87123,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87124,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87125,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87126,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87127,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87128,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87129,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87130,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87131,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87132,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87133,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87134,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87135,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87136,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87137,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87138,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87139,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87140,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87141,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87142,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87143,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87144,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87145,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87146,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87147,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87148,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87149,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87150,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87151,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87152,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87153,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87154,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87155,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87156,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87157,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87158,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87159,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87160,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87161,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87162,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87163,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87164,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87165,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87166,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87167,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87168,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87169,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87170,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87171,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87172,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87173,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87174,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87175,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87176,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87177,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87178,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87179,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87180,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87181,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87182,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87183,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87184,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87185,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87186,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87187,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87188,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87189,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87190,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87191,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87192,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87193,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87194,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87195,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87196,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87197,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87198,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87199,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87200,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87201,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87202,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87203,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87204,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87205,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87206,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87207,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87208,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87209,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87210,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87211,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87212,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87213,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87214,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87215,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87216,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87217,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87218,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87219,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87220,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87221,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87222,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87223,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87224,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87225,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87226,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87227,Breast cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87228,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87229,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87230,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87231,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87232,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87233,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87234,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87235,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87236,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87237,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87238,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87239,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87240,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87241,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87242,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87243,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87244,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87245,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87246,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87247,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87248,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87249,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87250,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87251,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87252,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87253,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87254,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87255,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87256,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87257,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87258,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87259,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87260,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87261,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87262,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87263,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87264,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87265,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87266,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87267,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87268,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87269,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87270,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87271,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87272,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87273,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87274,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87275,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87276,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87277,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87278,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87279,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87280,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87281,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87282,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87283,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87284,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87285,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87286,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87287,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87288,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87289,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87290,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87291,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87292,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87293,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87294,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87295,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87296,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87297,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87298,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87299,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87300,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87301,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87302,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87303,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87304,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87305,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87306,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87307,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87308,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87309,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87310,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87311,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87312,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87313,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87314,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87315,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87316,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87317,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87318,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87319,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87320,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87321,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87322,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87323,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87324,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87325,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87326,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87327,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87328,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87329,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87330,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87331,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87332,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87333,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87334,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87335,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87336,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87337,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87338,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87339,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87340,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87341,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87342,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87343,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87344,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87345,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87346,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87347,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87348,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87349,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87350,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87351,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87352,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87353,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87354,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87355,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87356,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87357,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87358,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87359,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87360,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87361,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87362,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87363,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87364,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87365,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87366,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87367,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87368,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87369,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87370,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87371,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87372,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87373,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87374,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87375,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87376,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87377,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87378,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87379,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87380,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87381,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87382,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87383,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87384,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87385,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87386,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87387,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87388,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87389,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87390,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87391,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87392,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87393,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87394,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87395,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87396,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87397,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87398,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87399,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87400,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87401,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87402,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87403,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87404,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87405,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87406,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87407,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87408,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87409,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87410,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87411,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87412,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87413,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87414,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87415,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87416,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87417,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87418,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87419,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87420,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87421,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87422,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87423,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87424,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87425,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87426,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87427,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87428,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87429,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87430,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87431,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87432,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87433,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87434,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87435,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87436,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87437,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87438,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87439,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87440,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87441,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87442,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87443,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87444,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87445,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87446,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87447,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87448,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87449,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87450,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87451,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87452,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87453,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87454,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87455,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87456,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87457,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87458,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87459,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87460,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87461,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87462,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87463,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87464,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87465,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87466,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87467,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87468,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87469,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87470,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87471,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87472,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87473,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87474,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87475,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87476,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87477,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87478,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87479,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87480,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87481,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87482,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87483,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87484,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87485,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87486,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87487,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87488,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87489,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87490,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87491,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87492,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87493,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87494,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87495,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87496,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87497,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87498,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87499,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87500,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87501,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87502,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87503,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87504,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87505,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87506,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87507,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87508,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87509,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87510,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87511,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87512,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87513,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87514,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87515,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87516,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87517,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87518,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87519,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87520,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87521,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87522,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87523,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87524,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87525,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87526,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87527,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87528,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87529,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87530,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87531,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87532,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87533,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87534,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87535,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87536,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87537,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87538,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87539,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87540,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87541,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87542,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87543,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87544,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87545,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87546,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87547,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87548,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87549,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87550,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87551,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87552,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87553,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87554,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87555,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87556,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87557,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87558,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87559,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87560,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87561,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87562,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87563,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87564,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87565,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87566,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87567,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87568,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87569,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87570,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87571,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87572,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87573,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87574,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87575,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87576,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87577,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87578,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87579,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87580,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87581,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87582,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87583,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87584,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87585,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87586,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87587,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87588,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87589,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87590,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87591,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87592,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87593,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87594,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87595,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87596,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87597,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87598,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87599,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87600,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87601,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87602,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87603,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87604,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87605,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87606,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87607,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87608,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87609,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87610,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87611,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87612,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87613,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87614,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87615,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87616,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87617,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87618,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87619,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87620,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87621,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87622,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87623,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87624,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87625,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87626,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87627,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87628,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87629,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87630,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87631,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87632,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87633,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87634,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87635,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87636,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87637,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87638,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87639,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87640,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87641,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87642,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87643,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87644,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87645,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87646,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87647,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87648,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87649,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87650,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87651,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87652,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87653,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87654,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87655,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87656,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87657,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87658,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87659,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87660,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87661,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87662,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87663,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87664,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87665,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87666,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87667,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87668,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87669,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87670,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87671,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87672,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87673,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87674,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87675,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87676,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87677,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87678,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87679,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87680,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87681,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87682,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87683,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87684,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87685,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87686,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87687,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87688,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87689,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87690,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87691,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87692,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87693,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87694,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87695,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87696,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87697,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87698,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87699,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87700,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87701,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87702,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87703,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87704,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87705,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87706,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87707,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87708,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87709,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87710,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87711,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87712,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87713,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87714,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87715,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87716,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87717,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87718,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87719,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87720,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87721,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87722,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87723,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87724,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87725,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87726,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87727,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87728,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87729,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87730,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87731,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87732,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87733,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87734,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87735,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87736,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87737,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87738,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87739,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87740,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87741,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87742,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87743,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87744,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87745,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87746,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87747,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87748,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87749,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87750,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87751,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87752,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87753,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87754,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87755,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87756,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87757,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87758,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87759,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87760,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87761,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87762,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87763,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87764,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87765,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87766,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87767,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87768,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87769,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87770,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87771,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87772,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87773,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87774,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87775,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87776,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87777,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87778,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87779,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87780,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87781,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87782,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87783,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87784,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87785,Prostate cancer,"Adalsteinsson et al., 2017",blood plasma,WGS
+EE87786,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87787,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87788,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87789,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87790,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87791,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87792,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87793,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87794,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87795,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87796,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87797,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87798,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87799,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87800,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87801,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87802,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87803,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87804,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87805,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87806,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87807,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87809,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87810,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87811,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87812,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87813,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87814,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87815,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87816,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87817,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87818,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87819,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87820,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87821,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87822,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87823,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87824,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87825,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87826,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87827,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87828,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87829,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87830,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87831,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87832,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87833,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87834,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87835,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87836,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87837,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87838,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87839,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87840,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87841,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87842,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87843,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87844,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87845,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87846,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87847,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87848,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87849,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87850,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87851,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87852,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87853,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87854,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87855,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87856,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87857,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87858,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87859,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87860,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87861,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87862,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87863,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87864,Breast cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87865,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87866,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87867,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87868,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87869,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87870,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87871,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87872,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87873,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87874,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87875,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87876,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87877,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87878,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87879,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87880,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87881,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87882,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87883,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87884,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87885,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87886,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87887,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87888,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87889,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87890,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87891,Colorectal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87892,Duodenal cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87893,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87894,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87895,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87896,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87897,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87898,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87899,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87900,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87901,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87902,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87903,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87904,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87905,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87906,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87907,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87908,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87909,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87910,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87911,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87912,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87913,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87914,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87915,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87916,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87917,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87918,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87919,Gastric cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE87920,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87921,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87922,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87923,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87924,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87925,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87926,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87927,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87928,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87929,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87931,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87932,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87933,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87934,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87935,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87936,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87937,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87938,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87939,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87940,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87941,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87942,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87943,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87944,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87945,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87946,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87947,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87948,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87949,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87950,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87951,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87952,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87953,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87954,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87955,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87956,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87957,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87958,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87959,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87960,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87961,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87962,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87963,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87964,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87965,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87966,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87967,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87968,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87969,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87970,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87971,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87972,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87973,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87974,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87975,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87976,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87977,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87978,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87979,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87980,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87981,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87982,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87983,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87984,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87985,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87986,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87987,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87988,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87989,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87990,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87991,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87992,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87993,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87994,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87995,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87996,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87997,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87998,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE87999,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88000,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88001,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88002,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88003,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88004,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88005,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88006,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88007,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88008,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88009,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88010,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88011,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88012,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88013,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88014,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88015,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88016,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88017,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88018,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88019,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88020,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88021,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88022,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88023,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88024,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88025,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88026,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88027,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88028,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88029,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88030,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88031,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88032,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88033,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88034,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88035,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88036,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88037,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88038,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88039,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88040,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88041,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88042,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88043,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88044,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88045,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88046,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88047,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88048,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88049,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88050,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88051,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88052,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88053,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88054,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88055,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88056,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88057,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88058,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88059,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88060,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88061,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88062,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88063,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88064,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88065,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88066,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88067,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88068,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88069,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88070,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88071,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88072,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88073,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88074,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88075,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88076,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88077,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88078,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88079,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88080,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88081,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88082,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88083,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88084,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88085,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88086,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88087,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88088,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88089,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88090,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88091,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88092,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88093,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88094,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88095,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88096,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88097,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88098,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88099,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88100,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88101,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88102,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88103,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88104,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88105,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88106,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88107,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88108,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88109,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88110,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88111,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88112,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88113,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88114,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88115,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88116,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88117,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88118,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88119,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88120,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88121,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88122,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88123,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88124,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88125,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88126,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88127,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88128,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88129,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88130,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88131,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88132,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88133,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88134,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88135,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88136,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88137,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88138,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88139,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88140,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88141,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88142,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88143,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88144,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88145,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88146,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88147,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88148,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88149,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88150,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88151,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88152,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88153,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88154,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88155,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88156,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88157,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88158,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88159,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88160,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88161,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88162,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88163,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88164,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88165,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88166,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88167,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88168,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88169,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88170,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88171,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88172,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88173,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88174,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88175,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88176,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88177,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88178,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88179,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88180,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88181,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88182,Healthy,"Cristiano et al., 2019",blood plasma,WGS
+EE88183,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88184,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88185,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88186,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88187,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88188,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88189,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88190,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88191,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88192,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88193,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88194,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88195,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88196,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88197,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88198,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88199,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88200,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88201,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88202,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88203,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88204,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88205,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88206,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88207,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88208,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88209,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88210,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88211,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88212,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88213,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88214,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88215,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88216,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88217,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88218,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88219,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88220,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88221,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88222,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88223,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88224,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88225,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88226,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88227,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88228,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88229,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88230,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88231,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88232,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88233,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88234,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88235,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88236,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88237,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88238,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88239,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88240,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88241,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88242,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88243,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88244,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88245,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88246,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88247,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88248,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88249,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88250,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88251,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88252,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88253,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88254,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88255,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88256,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88257,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88258,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88259,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88260,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88261,Lung cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88262,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88263,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88264,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88265,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88266,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88267,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88268,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88269,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88270,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88271,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88272,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88273,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88274,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88275,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88276,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88277,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88278,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88279,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88280,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88281,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88282,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88283,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88284,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88285,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88286,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88287,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88288,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88289,Ovarian cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88290,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88291,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88292,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88293,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88294,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88295,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88296,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88297,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88298,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88299,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88300,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88301,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88302,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88303,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88304,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88305,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88306,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88307,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88308,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88309,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88310,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88311,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88312,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88313,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88314,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88315,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88316,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88317,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88318,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88319,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88320,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88321,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88322,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88323,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88324,Pancreatic cancer,"Cristiano et al., 2019",blood plasma,WGS
+EE88325,Bile duct cancer,"Cristiano et al., 2019",blood plasma,WGS

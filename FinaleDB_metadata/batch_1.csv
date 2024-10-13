@@ -1,0 +1,259 @@
+SampleID,path,Label,Set,tissue,assay_type
+EE86005,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86005.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86006,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86006.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86007,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86007.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86008,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86008.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86009,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86009.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86010,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86010.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86011,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86011.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86012,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86012.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86013,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86013.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86014,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86014.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86015,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86015.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86016,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86016.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86017,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86017.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86018,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86018.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86019,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86019.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86020,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86020.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86021,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86021.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86022,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86022.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86023,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86023.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86024,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86024.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86025,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86025.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86026,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86026.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86027,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86027.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86028,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86028.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86029,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86029.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86030,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86030.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86031,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86031.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86032,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86032.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86033,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86033.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86034,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86034.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86035,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86035.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86036,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86036.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86037,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86037.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86038,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86038.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86039,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86039.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86040,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86040.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86041,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86041.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86042,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86042.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86043,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86043.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86044,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86044.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86045,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86045.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86046,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86046.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86047,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86047.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86048,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86048.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86049,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86049.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86050,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86050.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86051,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86051.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86052,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86052.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86053,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86053.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86054,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86054.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86055,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86055.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86056,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86056.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86057,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86057.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86058,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86058.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86059,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86059.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86060,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86060.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86061,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86061.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86062,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86062.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86063,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86063.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86064,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86064.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86065,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86065.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86066,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86066.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86067,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86067.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86068,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86068.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86069,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86069.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86070,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86070.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86071,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86071.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86072,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86072.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86073,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86073.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86074,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86074.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86075,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86075.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86076,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86076.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86077,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86077.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86078,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86078.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86079,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86079.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86080,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86080.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86081,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86081.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86082,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86082.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86083,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86083.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86084,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86084.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86085,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86085.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86086,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86086.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86087,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86087.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86088,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86088.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86089,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86089.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86090,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86090.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86091,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86091.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86092,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86092.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86093,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86093.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86094,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86094.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86095,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86095.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86096,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86096.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86097,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86097.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86098,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86098.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86099,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86099.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86100,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86100.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86101,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86101.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86102,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86102.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86103,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86103.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86104,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86104.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86105,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86105.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86106,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86106.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86107,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86107.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86108,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86108.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86109,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86109.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86110,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86110.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86111,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86111.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86112,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86112.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86113,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86113.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86114,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86114.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86115,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86115.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86116,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86116.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86117,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86117.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86118,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86118.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86119,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86119.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86120,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86120.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86121,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86121.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86122,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86122.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86123,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86123.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86124,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86124.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86125,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86125.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86126,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86126.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86127,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86127.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86128,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86128.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86129,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86129.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86130,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86130.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86131,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86131.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86132,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86132.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86133,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86133.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86134,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86134.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86135,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86135.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86136,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86136.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86137,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86137.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86138,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86138.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86139,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86139.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS
+EE86140,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86140.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS
+EE86141,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86141.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86142,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86142.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86143,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86143.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86144,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86144.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86145,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86145.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86146,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86146.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86147,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86147.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86148,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86148.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86149,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86149.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86150,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86150.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86151,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86151.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86152,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86152.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86153,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86153.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86154,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86154.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86155,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86155.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86156,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86156.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86157,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86157.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86158,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86158.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86159,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86159.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86160,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86160.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86161,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86161.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86162,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86162.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86163,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86163.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86164,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86164.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86165,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86165.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86166,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86166.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86167,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86167.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86168,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86168.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86169,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86169.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86170,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86170.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86171,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86171.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86172,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86172.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86173,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86173.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86174,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86174.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86175,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86175.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86176,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86176.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86177,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86177.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86178,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86178.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86179,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86179.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86180,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86180.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86181,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86181.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86182,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86182.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86183,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86183.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86184,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86184.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86185,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86185.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86186,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86186.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86187,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86187.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86188,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86188.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86189,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86189.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86190,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86190.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86191,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86191.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86192,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86192.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86193,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86193.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86194,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86194.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86195,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86195.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86196,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86196.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86197,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86197.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86198,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86198.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86199,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86199.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86200,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86200.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86201,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86201.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86202,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86202.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86203,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86203.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86204,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86204.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86205,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86205.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86206,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86206.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86207,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86207.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86208,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86208.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86209,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86209.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86210,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86210.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86211,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86211.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86212,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86212.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86213,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86213.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86214,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86214.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS
+EE86215,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86215.hg19.frag.tsv,,"Burnham et al., 2018",,WGS
+EE86216,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86216.hg19.frag.tsv,,"Burnham et al., 2018",,WGS
+EE86217,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86217.hg19.frag.tsv,Healthy,"Snyder et al., 2016",blood plasma,WGS
+EE86218,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86218.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86219,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86219.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86220,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86220.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86221,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86221.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS
+EE86222,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86222.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86223,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86223.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86224,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86224.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86225,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86225.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS
+EE86226,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86226.hg19.frag.tsv,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86227,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86227.hg19.frag.tsv,Skin cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86228,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86228.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86229,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86229.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86230,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86230.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86231,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86231.hg19.frag.tsv,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86232,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86232.hg19.frag.tsv,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86233,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86233.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86234,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86234.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86235,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86235.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86236,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86236.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86237,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86237.hg19.frag.tsv,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86238,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86238.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86239,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86239.hg19.frag.tsv,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86240,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86240.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86241,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86241.hg19.frag.tsv,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86242,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86242.hg19.frag.tsv,Testicular cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86243,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86243.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86244,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86244.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86245,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86245.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86246,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86246.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86247,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86247.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86248,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86248.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86249,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86249.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86250,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86250.hg19.frag.tsv,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86251,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86251.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86252,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86252.hg19.frag.tsv,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86253,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86253.hg19.frag.tsv,Esophageal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86254,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86254.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86255,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86255.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86256,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86256.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86257,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86257.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86258,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86258.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86259,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86259.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86260,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86260.hg19.frag.tsv,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86261,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86261.hg19.frag.tsv,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS
+EE86262,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86262.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS
