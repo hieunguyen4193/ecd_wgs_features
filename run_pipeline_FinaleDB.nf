@@ -19,7 +19,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     publishDir "$params.output/FinaleDB_features", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks ${params.maxForks}
+    maxForks "${params.maxForks}"
 
     input:
         tuple sample_id, file(input_frag_file) from Input_ch
@@ -43,6 +43,7 @@ process process_02_generate_EM_FLEN_NUC_features {
 // --src /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/02_calculate_EM_FLEN_NUC_from_FRAG.sh \
 // --clean_up true \
 // --src_convert_bed /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/convert_full_bed_nucleosome.py \
-// --prep_src /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/preprocess_FinaleDB_input.sh
+// --prep_src /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/preprocess_FinaleDB_input.sh \
+// --maxForks 40 \
 // -resume
 
