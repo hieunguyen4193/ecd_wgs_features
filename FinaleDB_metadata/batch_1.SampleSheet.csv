@@ -1,259 +1,259 @@
-SampleID,path,Label,Set,tissue,assay_type,newpath
-EE86005,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86005.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86005.hg19.frag.tsv
-EE86006,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86006.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86006.hg19.frag.tsv
-EE86007,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86007.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86007.hg19.frag.tsv
-EE86008,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86008.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86008.hg19.frag.tsv
-EE86009,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86009.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86009.hg19.frag.tsv
-EE86010,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86010.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86010.hg19.frag.tsv
-EE86011,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86011.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86011.hg19.frag.tsv
-EE86012,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86012.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86012.hg19.frag.tsv
-EE86013,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86013.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86013.hg19.frag.tsv
-EE86014,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86014.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86014.hg19.frag.tsv
-EE86015,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86015.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86015.hg19.frag.tsv
-EE86016,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86016.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86016.hg19.frag.tsv
-EE86017,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86017.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86017.hg19.frag.tsv
-EE86018,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86018.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86018.hg19.frag.tsv
-EE86019,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86019.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86019.hg19.frag.tsv
-EE86020,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86020.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86020.hg19.frag.tsv
-EE86021,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86021.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86021.hg19.frag.tsv
-EE86022,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86022.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86022.hg19.frag.tsv
-EE86023,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86023.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86023.hg19.frag.tsv
-EE86024,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86024.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86024.hg19.frag.tsv
-EE86025,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86025.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86025.hg19.frag.tsv
-EE86026,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86026.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86026.hg19.frag.tsv
-EE86027,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86027.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86027.hg19.frag.tsv
-EE86028,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86028.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86028.hg19.frag.tsv
-EE86029,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86029.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86029.hg19.frag.tsv
-EE86030,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86030.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86030.hg19.frag.tsv
-EE86031,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86031.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86031.hg19.frag.tsv
-EE86032,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86032.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86032.hg19.frag.tsv
-EE86033,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86033.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86033.hg19.frag.tsv
-EE86034,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86034.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86034.hg19.frag.tsv
-EE86035,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86035.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86035.hg19.frag.tsv
-EE86036,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86036.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86036.hg19.frag.tsv
-EE86037,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86037.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86037.hg19.frag.tsv
-EE86038,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86038.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86038.hg19.frag.tsv
-EE86039,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86039.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86039.hg19.frag.tsv
-EE86040,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86040.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86040.hg19.frag.tsv
-EE86041,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86041.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86041.hg19.frag.tsv
-EE86042,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86042.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86042.hg19.frag.tsv
-EE86043,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86043.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86043.hg19.frag.tsv
-EE86044,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86044.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86044.hg19.frag.tsv
-EE86045,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86045.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86045.hg19.frag.tsv
-EE86046,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86046.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86046.hg19.frag.tsv
-EE86047,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86047.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86047.hg19.frag.tsv
-EE86048,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86048.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86048.hg19.frag.tsv
-EE86049,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86049.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86049.hg19.frag.tsv
-EE86050,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86050.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86050.hg19.frag.tsv
-EE86051,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86051.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86051.hg19.frag.tsv
-EE86052,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86052.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86052.hg19.frag.tsv
-EE86053,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86053.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86053.hg19.frag.tsv
-EE86054,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86054.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86054.hg19.frag.tsv
-EE86055,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86055.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86055.hg19.frag.tsv
-EE86056,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86056.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86056.hg19.frag.tsv
-EE86057,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86057.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86057.hg19.frag.tsv
-EE86058,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86058.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86058.hg19.frag.tsv
-EE86059,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86059.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86059.hg19.frag.tsv
-EE86060,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86060.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86060.hg19.frag.tsv
-EE86061,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86061.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86061.hg19.frag.tsv
-EE86062,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86062.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86062.hg19.frag.tsv
-EE86063,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86063.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86063.hg19.frag.tsv
-EE86064,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86064.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86064.hg19.frag.tsv
-EE86065,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86065.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86065.hg19.frag.tsv
-EE86066,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86066.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86066.hg19.frag.tsv
-EE86067,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86067.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86067.hg19.frag.tsv
-EE86068,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86068.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86068.hg19.frag.tsv
-EE86069,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86069.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86069.hg19.frag.tsv
-EE86070,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86070.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86070.hg19.frag.tsv
-EE86071,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86071.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86071.hg19.frag.tsv
-EE86072,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86072.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86072.hg19.frag.tsv
-EE86073,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86073.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86073.hg19.frag.tsv
-EE86074,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86074.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86074.hg19.frag.tsv
-EE86075,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86075.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86075.hg19.frag.tsv
-EE86076,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86076.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86076.hg19.frag.tsv
-EE86077,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86077.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86077.hg19.frag.tsv
-EE86078,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86078.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86078.hg19.frag.tsv
-EE86079,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86079.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86079.hg19.frag.tsv
-EE86080,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86080.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86080.hg19.frag.tsv
-EE86081,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86081.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86081.hg19.frag.tsv
-EE86082,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86082.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86082.hg19.frag.tsv
-EE86083,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86083.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86083.hg19.frag.tsv
-EE86084,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86084.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86084.hg19.frag.tsv
-EE86085,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86085.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86085.hg19.frag.tsv
-EE86086,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86086.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86086.hg19.frag.tsv
-EE86087,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86087.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86087.hg19.frag.tsv
-EE86088,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86088.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86088.hg19.frag.tsv
-EE86089,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86089.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86089.hg19.frag.tsv
-EE86090,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86090.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86090.hg19.frag.tsv
-EE86091,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86091.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86091.hg19.frag.tsv
-EE86092,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86092.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86092.hg19.frag.tsv
-EE86093,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86093.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86093.hg19.frag.tsv
-EE86094,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86094.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86094.hg19.frag.tsv
-EE86095,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86095.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86095.hg19.frag.tsv
-EE86096,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86096.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86096.hg19.frag.tsv
-EE86097,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86097.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86097.hg19.frag.tsv
-EE86098,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86098.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86098.hg19.frag.tsv
-EE86099,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86099.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86099.hg19.frag.tsv
-EE86100,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86100.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86100.hg19.frag.tsv
-EE86101,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86101.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86101.hg19.frag.tsv
-EE86102,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86102.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86102.hg19.frag.tsv
-EE86103,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86103.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86103.hg19.frag.tsv
-EE86104,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86104.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86104.hg19.frag.tsv
-EE86105,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86105.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86105.hg19.frag.tsv
-EE86106,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86106.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86106.hg19.frag.tsv
-EE86107,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86107.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86107.hg19.frag.tsv
-EE86108,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86108.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86108.hg19.frag.tsv
-EE86109,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86109.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86109.hg19.frag.tsv
-EE86110,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86110.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86110.hg19.frag.tsv
-EE86111,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86111.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86111.hg19.frag.tsv
-EE86112,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86112.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86112.hg19.frag.tsv
-EE86113,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86113.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86113.hg19.frag.tsv
-EE86114,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86114.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86114.hg19.frag.tsv
-EE86115,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86115.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86115.hg19.frag.tsv
-EE86116,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86116.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86116.hg19.frag.tsv
-EE86117,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86117.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86117.hg19.frag.tsv
-EE86118,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86118.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86118.hg19.frag.tsv
-EE86119,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86119.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86119.hg19.frag.tsv
-EE86120,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86120.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86120.hg19.frag.tsv
-EE86121,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86121.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86121.hg19.frag.tsv
-EE86122,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86122.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86122.hg19.frag.tsv
-EE86123,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86123.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86123.hg19.frag.tsv
-EE86124,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86124.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86124.hg19.frag.tsv
-EE86125,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86125.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86125.hg19.frag.tsv
-EE86126,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86126.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86126.hg19.frag.tsv
-EE86127,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86127.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86127.hg19.frag.tsv
-EE86128,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86128.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86128.hg19.frag.tsv
-EE86129,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86129.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86129.hg19.frag.tsv
-EE86130,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86130.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86130.hg19.frag.tsv
-EE86131,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86131.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86131.hg19.frag.tsv
-EE86132,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86132.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86132.hg19.frag.tsv
-EE86133,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86133.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86133.hg19.frag.tsv
-EE86134,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86134.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86134.hg19.frag.tsv
-EE86135,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86135.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86135.hg19.frag.tsv
-EE86136,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86136.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86136.hg19.frag.tsv
-EE86137,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86137.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86137.hg19.frag.tsv
-EE86138,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86138.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86138.hg19.frag.tsv
-EE86139,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86139.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WXS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86139.hg19.frag.tsv
-EE86140,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86140.hg19.frag.tsv,,"Rabinowitz et al., 2019",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86140.hg19.frag.tsv
-EE86141,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86141.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86141.hg19.frag.tsv
-EE86142,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86142.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86142.hg19.frag.tsv
-EE86143,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86143.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86143.hg19.frag.tsv
-EE86144,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86144.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86144.hg19.frag.tsv
-EE86145,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86145.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86145.hg19.frag.tsv
-EE86146,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86146.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86146.hg19.frag.tsv
-EE86147,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86147.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86147.hg19.frag.tsv
-EE86148,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86148.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86148.hg19.frag.tsv
-EE86149,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86149.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86149.hg19.frag.tsv
-EE86150,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86150.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86150.hg19.frag.tsv
-EE86151,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86151.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86151.hg19.frag.tsv
-EE86152,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86152.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86152.hg19.frag.tsv
-EE86153,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86153.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86153.hg19.frag.tsv
-EE86154,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86154.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86154.hg19.frag.tsv
-EE86155,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86155.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86155.hg19.frag.tsv
-EE86156,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86156.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86156.hg19.frag.tsv
-EE86157,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86157.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86157.hg19.frag.tsv
-EE86158,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86158.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86158.hg19.frag.tsv
-EE86159,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86159.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86159.hg19.frag.tsv
-EE86160,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86160.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86160.hg19.frag.tsv
-EE86161,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86161.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86161.hg19.frag.tsv
-EE86162,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86162.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86162.hg19.frag.tsv
-EE86163,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86163.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86163.hg19.frag.tsv
-EE86164,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86164.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86164.hg19.frag.tsv
-EE86165,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86165.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86165.hg19.frag.tsv
-EE86166,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86166.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86166.hg19.frag.tsv
-EE86167,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86167.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86167.hg19.frag.tsv
-EE86168,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86168.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86168.hg19.frag.tsv
-EE86169,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86169.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86169.hg19.frag.tsv
-EE86170,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86170.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86170.hg19.frag.tsv
-EE86171,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86171.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86171.hg19.frag.tsv
-EE86172,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86172.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86172.hg19.frag.tsv
-EE86173,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86173.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86173.hg19.frag.tsv
-EE86174,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86174.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86174.hg19.frag.tsv
-EE86175,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86175.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86175.hg19.frag.tsv
-EE86176,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86176.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86176.hg19.frag.tsv
-EE86177,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86177.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86177.hg19.frag.tsv
-EE86178,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86178.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86178.hg19.frag.tsv
-EE86179,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86179.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86179.hg19.frag.tsv
-EE86180,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86180.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86180.hg19.frag.tsv
-EE86181,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86181.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86181.hg19.frag.tsv
-EE86182,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86182.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86182.hg19.frag.tsv
-EE86183,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86183.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86183.hg19.frag.tsv
-EE86184,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86184.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86184.hg19.frag.tsv
-EE86185,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86185.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86185.hg19.frag.tsv
-EE86186,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86186.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86186.hg19.frag.tsv
-EE86187,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86187.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86187.hg19.frag.tsv
-EE86188,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86188.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86188.hg19.frag.tsv
-EE86189,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86189.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86189.hg19.frag.tsv
-EE86190,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86190.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86190.hg19.frag.tsv
-EE86191,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86191.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86191.hg19.frag.tsv
-EE86192,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86192.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86192.hg19.frag.tsv
-EE86193,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86193.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86193.hg19.frag.tsv
-EE86194,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86194.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86194.hg19.frag.tsv
-EE86195,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86195.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86195.hg19.frag.tsv
-EE86196,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86196.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86196.hg19.frag.tsv
-EE86197,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86197.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86197.hg19.frag.tsv
-EE86198,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86198.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86198.hg19.frag.tsv
-EE86199,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86199.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86199.hg19.frag.tsv
-EE86200,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86200.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86200.hg19.frag.tsv
-EE86201,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86201.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86201.hg19.frag.tsv
-EE86202,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86202.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86202.hg19.frag.tsv
-EE86203,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86203.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86203.hg19.frag.tsv
-EE86204,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86204.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86204.hg19.frag.tsv
-EE86205,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86205.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86205.hg19.frag.tsv
-EE86206,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86206.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86206.hg19.frag.tsv
-EE86207,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86207.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86207.hg19.frag.tsv
-EE86208,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86208.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86208.hg19.frag.tsv
-EE86209,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86209.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86209.hg19.frag.tsv
-EE86210,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86210.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86210.hg19.frag.tsv
-EE86211,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86211.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86211.hg19.frag.tsv
-EE86212,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86212.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86212.hg19.frag.tsv
-EE86213,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86213.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86213.hg19.frag.tsv
-EE86214,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86214.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86214.hg19.frag.tsv
-EE86215,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86215.hg19.frag.tsv,,"Burnham et al., 2018",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86215.hg19.frag.tsv
-EE86216,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86216.hg19.frag.tsv,,"Burnham et al., 2018",,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86216.hg19.frag.tsv
-EE86217,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86217.hg19.frag.tsv,Healthy,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86217.hg19.frag.tsv
-EE86218,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86218.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86218.hg19.frag.tsv
-EE86219,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86219.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86219.hg19.frag.tsv
-EE86220,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86220.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86220.hg19.frag.tsv
-EE86221,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86221.hg19.frag.tsv,Inflammatory bowel disease,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86221.hg19.frag.tsv
-EE86222,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86222.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86222.hg19.frag.tsv
-EE86223,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86223.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86223.hg19.frag.tsv
-EE86224,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86224.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86224.hg19.frag.tsv
-EE86225,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86225.hg19.frag.tsv,Systemic lupus erythematosus,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86225.hg19.frag.tsv
-EE86226,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86226.hg19.frag.tsv,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86226.hg19.frag.tsv
-EE86227,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86227.hg19.frag.tsv,Skin cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86227.hg19.frag.tsv
-EE86228,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86228.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86228.hg19.frag.tsv
-EE86229,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86229.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86229.hg19.frag.tsv
-EE86230,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86230.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86230.hg19.frag.tsv
-EE86231,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86231.hg19.frag.tsv,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86231.hg19.frag.tsv
-EE86232,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86232.hg19.frag.tsv,Ovarian cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86232.hg19.frag.tsv
-EE86233,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86233.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86233.hg19.frag.tsv
-EE86234,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86234.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86234.hg19.frag.tsv
-EE86235,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86235.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86235.hg19.frag.tsv
-EE86236,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86236.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86236.hg19.frag.tsv
-EE86237,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86237.hg19.frag.tsv,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86237.hg19.frag.tsv
-EE86238,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86238.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86238.hg19.frag.tsv
-EE86239,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86239.hg19.frag.tsv,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86239.hg19.frag.tsv
-EE86240,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86240.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86240.hg19.frag.tsv
-EE86241,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86241.hg19.frag.tsv,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86241.hg19.frag.tsv
-EE86242,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86242.hg19.frag.tsv,Testicular cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86242.hg19.frag.tsv
-EE86243,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86243.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86243.hg19.frag.tsv
-EE86244,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86244.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86244.hg19.frag.tsv
-EE86245,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86245.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86245.hg19.frag.tsv
-EE86246,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86246.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86246.hg19.frag.tsv
-EE86247,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86247.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86247.hg19.frag.tsv
-EE86248,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86248.hg19.frag.tsv,Pancreatic cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86248.hg19.frag.tsv
-EE86249,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86249.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86249.hg19.frag.tsv
-EE86250,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86250.hg19.frag.tsv,Uterine cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86250.hg19.frag.tsv
-EE86251,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86251.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86251.hg19.frag.tsv
-EE86252,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86252.hg19.frag.tsv,Head and neck cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86252.hg19.frag.tsv
-EE86253,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86253.hg19.frag.tsv,Esophageal cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86253.hg19.frag.tsv
-EE86254,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86254.hg19.frag.tsv,Lung cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86254.hg19.frag.tsv
-EE86255,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86255.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86255.hg19.frag.tsv
-EE86256,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86256.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86256.hg19.frag.tsv
-EE86257,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86257.hg19.frag.tsv,Breast cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86257.hg19.frag.tsv
-EE86258,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86258.hg19.frag.tsv,Liver cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86258.hg19.frag.tsv
-EE86259,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86259.hg19.frag.tsv,Colorectal cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86259.hg19.frag.tsv
-EE86260,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86260.hg19.frag.tsv,Bladder cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86260.hg19.frag.tsv
-EE86261,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86261.hg19.frag.tsv,Kidney cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86261.hg19.frag.tsv
-EE86262,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86262.hg19.frag.tsv,Prostate cancer,"Snyder et al., 2016",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86262.hg19.frag.tsv
+SampleID,path
+EE86005,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86005.hg19.frag.tsv
+EE86006,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86006.hg19.frag.tsv
+EE86007,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86007.hg19.frag.tsv
+EE86008,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86008.hg19.frag.tsv
+EE86009,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86009.hg19.frag.tsv
+EE86010,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86010.hg19.frag.tsv
+EE86011,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86011.hg19.frag.tsv
+EE86012,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86012.hg19.frag.tsv
+EE86013,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86013.hg19.frag.tsv
+EE86014,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86014.hg19.frag.tsv
+EE86015,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86015.hg19.frag.tsv
+EE86016,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86016.hg19.frag.tsv
+EE86017,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86017.hg19.frag.tsv
+EE86018,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86018.hg19.frag.tsv
+EE86019,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86019.hg19.frag.tsv
+EE86020,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86020.hg19.frag.tsv
+EE86021,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86021.hg19.frag.tsv
+EE86022,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86022.hg19.frag.tsv
+EE86023,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86023.hg19.frag.tsv
+EE86024,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86024.hg19.frag.tsv
+EE86025,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86025.hg19.frag.tsv
+EE86026,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86026.hg19.frag.tsv
+EE86027,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86027.hg19.frag.tsv
+EE86028,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86028.hg19.frag.tsv
+EE86029,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86029.hg19.frag.tsv
+EE86030,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86030.hg19.frag.tsv
+EE86031,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86031.hg19.frag.tsv
+EE86032,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86032.hg19.frag.tsv
+EE86033,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86033.hg19.frag.tsv
+EE86034,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86034.hg19.frag.tsv
+EE86035,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86035.hg19.frag.tsv
+EE86036,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86036.hg19.frag.tsv
+EE86037,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86037.hg19.frag.tsv
+EE86038,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86038.hg19.frag.tsv
+EE86039,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86039.hg19.frag.tsv
+EE86040,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86040.hg19.frag.tsv
+EE86041,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86041.hg19.frag.tsv
+EE86042,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86042.hg19.frag.tsv
+EE86043,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86043.hg19.frag.tsv
+EE86044,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86044.hg19.frag.tsv
+EE86045,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86045.hg19.frag.tsv
+EE86046,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86046.hg19.frag.tsv
+EE86047,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86047.hg19.frag.tsv
+EE86048,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86048.hg19.frag.tsv
+EE86049,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86049.hg19.frag.tsv
+EE86050,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86050.hg19.frag.tsv
+EE86051,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86051.hg19.frag.tsv
+EE86052,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86052.hg19.frag.tsv
+EE86053,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86053.hg19.frag.tsv
+EE86054,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86054.hg19.frag.tsv
+EE86055,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86055.hg19.frag.tsv
+EE86056,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86056.hg19.frag.tsv
+EE86057,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86057.hg19.frag.tsv
+EE86058,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86058.hg19.frag.tsv
+EE86059,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86059.hg19.frag.tsv
+EE86060,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86060.hg19.frag.tsv
+EE86061,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86061.hg19.frag.tsv
+EE86062,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86062.hg19.frag.tsv
+EE86063,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86063.hg19.frag.tsv
+EE86064,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86064.hg19.frag.tsv
+EE86065,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86065.hg19.frag.tsv
+EE86066,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86066.hg19.frag.tsv
+EE86067,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86067.hg19.frag.tsv
+EE86068,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86068.hg19.frag.tsv
+EE86069,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86069.hg19.frag.tsv
+EE86070,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86070.hg19.frag.tsv
+EE86071,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86071.hg19.frag.tsv
+EE86072,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86072.hg19.frag.tsv
+EE86073,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86073.hg19.frag.tsv
+EE86074,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86074.hg19.frag.tsv
+EE86075,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86075.hg19.frag.tsv
+EE86076,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86076.hg19.frag.tsv
+EE86077,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86077.hg19.frag.tsv
+EE86078,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86078.hg19.frag.tsv
+EE86079,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86079.hg19.frag.tsv
+EE86080,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86080.hg19.frag.tsv
+EE86081,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86081.hg19.frag.tsv
+EE86082,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86082.hg19.frag.tsv
+EE86083,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86083.hg19.frag.tsv
+EE86084,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86084.hg19.frag.tsv
+EE86085,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86085.hg19.frag.tsv
+EE86086,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86086.hg19.frag.tsv
+EE86087,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86087.hg19.frag.tsv
+EE86088,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86088.hg19.frag.tsv
+EE86089,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86089.hg19.frag.tsv
+EE86090,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86090.hg19.frag.tsv
+EE86091,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86091.hg19.frag.tsv
+EE86092,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86092.hg19.frag.tsv
+EE86093,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86093.hg19.frag.tsv
+EE86094,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86094.hg19.frag.tsv
+EE86095,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86095.hg19.frag.tsv
+EE86096,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86096.hg19.frag.tsv
+EE86097,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86097.hg19.frag.tsv
+EE86098,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86098.hg19.frag.tsv
+EE86099,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86099.hg19.frag.tsv
+EE86100,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86100.hg19.frag.tsv
+EE86101,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86101.hg19.frag.tsv
+EE86102,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86102.hg19.frag.tsv
+EE86103,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86103.hg19.frag.tsv
+EE86104,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86104.hg19.frag.tsv
+EE86105,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86105.hg19.frag.tsv
+EE86106,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86106.hg19.frag.tsv
+EE86107,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86107.hg19.frag.tsv
+EE86108,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86108.hg19.frag.tsv
+EE86109,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86109.hg19.frag.tsv
+EE86110,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86110.hg19.frag.tsv
+EE86111,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86111.hg19.frag.tsv
+EE86112,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86112.hg19.frag.tsv
+EE86113,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86113.hg19.frag.tsv
+EE86114,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86114.hg19.frag.tsv
+EE86115,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86115.hg19.frag.tsv
+EE86116,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86116.hg19.frag.tsv
+EE86117,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86117.hg19.frag.tsv
+EE86118,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86118.hg19.frag.tsv
+EE86119,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86119.hg19.frag.tsv
+EE86120,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86120.hg19.frag.tsv
+EE86121,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86121.hg19.frag.tsv
+EE86122,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86122.hg19.frag.tsv
+EE86123,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86123.hg19.frag.tsv
+EE86124,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86124.hg19.frag.tsv
+EE86125,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86125.hg19.frag.tsv
+EE86126,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86126.hg19.frag.tsv
+EE86127,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86127.hg19.frag.tsv
+EE86128,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86128.hg19.frag.tsv
+EE86129,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86129.hg19.frag.tsv
+EE86130,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86130.hg19.frag.tsv
+EE86131,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86131.hg19.frag.tsv
+EE86132,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86132.hg19.frag.tsv
+EE86133,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86133.hg19.frag.tsv
+EE86134,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86134.hg19.frag.tsv
+EE86135,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86135.hg19.frag.tsv
+EE86136,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86136.hg19.frag.tsv
+EE86137,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86137.hg19.frag.tsv
+EE86138,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86138.hg19.frag.tsv
+EE86139,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86139.hg19.frag.tsv
+EE86140,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86140.hg19.frag.tsv
+EE86141,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86141.hg19.frag.tsv
+EE86142,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86142.hg19.frag.tsv
+EE86143,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86143.hg19.frag.tsv
+EE86144,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86144.hg19.frag.tsv
+EE86145,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86145.hg19.frag.tsv
+EE86146,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86146.hg19.frag.tsv
+EE86147,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86147.hg19.frag.tsv
+EE86148,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86148.hg19.frag.tsv
+EE86149,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86149.hg19.frag.tsv
+EE86150,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86150.hg19.frag.tsv
+EE86151,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86151.hg19.frag.tsv
+EE86152,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86152.hg19.frag.tsv
+EE86153,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86153.hg19.frag.tsv
+EE86154,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86154.hg19.frag.tsv
+EE86155,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86155.hg19.frag.tsv
+EE86156,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86156.hg19.frag.tsv
+EE86157,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86157.hg19.frag.tsv
+EE86158,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86158.hg19.frag.tsv
+EE86159,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86159.hg19.frag.tsv
+EE86160,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86160.hg19.frag.tsv
+EE86161,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86161.hg19.frag.tsv
+EE86162,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86162.hg19.frag.tsv
+EE86163,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86163.hg19.frag.tsv
+EE86164,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86164.hg19.frag.tsv
+EE86165,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86165.hg19.frag.tsv
+EE86166,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86166.hg19.frag.tsv
+EE86167,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86167.hg19.frag.tsv
+EE86168,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86168.hg19.frag.tsv
+EE86169,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86169.hg19.frag.tsv
+EE86170,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86170.hg19.frag.tsv
+EE86171,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86171.hg19.frag.tsv
+EE86172,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86172.hg19.frag.tsv
+EE86173,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86173.hg19.frag.tsv
+EE86174,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86174.hg19.frag.tsv
+EE86175,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86175.hg19.frag.tsv
+EE86176,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86176.hg19.frag.tsv
+EE86177,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86177.hg19.frag.tsv
+EE86178,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86178.hg19.frag.tsv
+EE86179,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86179.hg19.frag.tsv
+EE86180,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86180.hg19.frag.tsv
+EE86181,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86181.hg19.frag.tsv
+EE86182,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86182.hg19.frag.tsv
+EE86183,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86183.hg19.frag.tsv
+EE86184,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86184.hg19.frag.tsv
+EE86185,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86185.hg19.frag.tsv
+EE86186,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86186.hg19.frag.tsv
+EE86187,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86187.hg19.frag.tsv
+EE86188,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86188.hg19.frag.tsv
+EE86189,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86189.hg19.frag.tsv
+EE86190,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86190.hg19.frag.tsv
+EE86191,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86191.hg19.frag.tsv
+EE86192,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86192.hg19.frag.tsv
+EE86193,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86193.hg19.frag.tsv
+EE86194,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86194.hg19.frag.tsv
+EE86195,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86195.hg19.frag.tsv
+EE86196,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86196.hg19.frag.tsv
+EE86197,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86197.hg19.frag.tsv
+EE86198,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86198.hg19.frag.tsv
+EE86199,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86199.hg19.frag.tsv
+EE86200,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86200.hg19.frag.tsv
+EE86201,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86201.hg19.frag.tsv
+EE86202,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86202.hg19.frag.tsv
+EE86203,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86203.hg19.frag.tsv
+EE86204,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86204.hg19.frag.tsv
+EE86205,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86205.hg19.frag.tsv
+EE86206,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86206.hg19.frag.tsv
+EE86207,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86207.hg19.frag.tsv
+EE86208,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86208.hg19.frag.tsv
+EE86209,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86209.hg19.frag.tsv
+EE86210,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86210.hg19.frag.tsv
+EE86211,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86211.hg19.frag.tsv
+EE86212,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86212.hg19.frag.tsv
+EE86213,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86213.hg19.frag.tsv
+EE86214,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86214.hg19.frag.tsv
+EE86215,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86215.hg19.frag.tsv
+EE86216,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86216.hg19.frag.tsv
+EE86217,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86217.hg19.frag.tsv
+EE86218,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86218.hg19.frag.tsv
+EE86219,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86219.hg19.frag.tsv
+EE86220,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86220.hg19.frag.tsv
+EE86221,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86221.hg19.frag.tsv
+EE86222,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86222.hg19.frag.tsv
+EE86223,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86223.hg19.frag.tsv
+EE86224,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86224.hg19.frag.tsv
+EE86225,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86225.hg19.frag.tsv
+EE86226,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86226.hg19.frag.tsv
+EE86227,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86227.hg19.frag.tsv
+EE86228,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86228.hg19.frag.tsv
+EE86229,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86229.hg19.frag.tsv
+EE86230,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86230.hg19.frag.tsv
+EE86231,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86231.hg19.frag.tsv
+EE86232,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86232.hg19.frag.tsv
+EE86233,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86233.hg19.frag.tsv
+EE86234,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86234.hg19.frag.tsv
+EE86235,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86235.hg19.frag.tsv
+EE86236,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86236.hg19.frag.tsv
+EE86237,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86237.hg19.frag.tsv
+EE86238,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86238.hg19.frag.tsv
+EE86239,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86239.hg19.frag.tsv
+EE86240,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86240.hg19.frag.tsv
+EE86241,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86241.hg19.frag.tsv
+EE86242,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86242.hg19.frag.tsv
+EE86243,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86243.hg19.frag.tsv
+EE86244,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86244.hg19.frag.tsv
+EE86245,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86245.hg19.frag.tsv
+EE86246,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86246.hg19.frag.tsv
+EE86247,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86247.hg19.frag.tsv
+EE86248,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86248.hg19.frag.tsv
+EE86249,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86249.hg19.frag.tsv
+EE86250,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86250.hg19.frag.tsv
+EE86251,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86251.hg19.frag.tsv
+EE86252,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86252.hg19.frag.tsv
+EE86253,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86253.hg19.frag.tsv
+EE86254,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86254.hg19.frag.tsv
+EE86255,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86255.hg19.frag.tsv
+EE86256,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86256.hg19.frag.tsv
+EE86257,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86257.hg19.frag.tsv
+EE86258,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86258.hg19.frag.tsv
+EE86259,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86259.hg19.frag.tsv
+EE86260,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86260.hg19.frag.tsv
+EE86261,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86261.hg19.frag.tsv
+EE86262,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_1/EE86262.hg19.frag.tsv

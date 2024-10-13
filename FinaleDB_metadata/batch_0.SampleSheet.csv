@@ -1,259 +1,259 @@
-SampleID,path,Label,Set,tissue,assay_type,newpath
-EE85723,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85723.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85723.hg19.frag.tsv
-EE85724,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85724.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85724.hg19.frag.tsv
-EE85725,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85725.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85725.hg19.frag.tsv
-EE85726,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85726.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85726.hg19.frag.tsv
-EE85727,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85727.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85727.hg19.frag.tsv
-EE85728,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85728.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85728.hg19.frag.tsv
-EE85729,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85729.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85729.hg19.frag.tsv
-EE85730,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85730.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85730.hg19.frag.tsv
-EE85731,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85731.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85731.hg19.frag.tsv
-EE85732,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85732.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85732.hg19.frag.tsv
-EE85733,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85733.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85733.hg19.frag.tsv
-EE85734,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85734.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85734.hg19.frag.tsv
-EE85735,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85735.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85735.hg19.frag.tsv
-EE85736,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85736.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85736.hg19.frag.tsv
-EE85737,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85737.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85737.hg19.frag.tsv
-EE85738,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85738.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85738.hg19.frag.tsv
-EE85739,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85739.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85739.hg19.frag.tsv
-EE85740,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85740.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85740.hg19.frag.tsv
-EE85741,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85741.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85741.hg19.frag.tsv
-EE85742,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85742.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85742.hg19.frag.tsv
-EE85743,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85743.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85743.hg19.frag.tsv
-EE85744,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85744.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85744.hg19.frag.tsv
-EE85745,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85745.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85745.hg19.frag.tsv
-EE85746,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85746.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85746.hg19.frag.tsv
-EE85747,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85747.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85747.hg19.frag.tsv
-EE85748,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85748.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85748.hg19.frag.tsv
-EE85749,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85749.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85749.hg19.frag.tsv
-EE85750,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85750.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85750.hg19.frag.tsv
-EE85751,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85751.hg19.frag.tsv,Liver transplant,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85751.hg19.frag.tsv
-EE85752,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85752.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85752.hg19.frag.tsv
-EE85753,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85753.hg19.frag.tsv,Colorectal cancer,"Sun et al., 2019",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85753.hg19.frag.tsv
-EE85754,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85754.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85754.hg19.frag.tsv
-EE85755,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85755.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85755.hg19.frag.tsv
-EE85756,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85756.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85756.hg19.frag.tsv
-EE85757,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85757.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85757.hg19.frag.tsv
-EE85758,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85758.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85758.hg19.frag.tsv
-EE85759,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85759.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85759.hg19.frag.tsv
-EE85760,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85760.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85760.hg19.frag.tsv
-EE85761,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85761.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85761.hg19.frag.tsv
-EE85762,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85762.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85762.hg19.frag.tsv
-EE85763,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85763.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85763.hg19.frag.tsv
-EE85764,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85764.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85764.hg19.frag.tsv
-EE85765,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85765.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85765.hg19.frag.tsv
-EE85766,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85766.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85766.hg19.frag.tsv
-EE85767,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85767.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85767.hg19.frag.tsv
-EE85768,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85768.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85768.hg19.frag.tsv
-EE85769,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85769.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85769.hg19.frag.tsv
-EE85770,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85770.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85770.hg19.frag.tsv
-EE85771,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85771.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85771.hg19.frag.tsv
-EE85772,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85772.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85772.hg19.frag.tsv
-EE85773,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85773.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85773.hg19.frag.tsv
-EE85774,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85774.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85774.hg19.frag.tsv
-EE85775,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85775.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85775.hg19.frag.tsv
-EE85776,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85776.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85776.hg19.frag.tsv
-EE85777,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85777.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85777.hg19.frag.tsv
-EE85779,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85779.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85779.hg19.frag.tsv
-EE85780,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85780.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85780.hg19.frag.tsv
-EE85781,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85781.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85781.hg19.frag.tsv
-EE85783,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85783.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85783.hg19.frag.tsv
-EE85784,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85784.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85784.hg19.frag.tsv
-EE85785,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85785.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85785.hg19.frag.tsv
-EE85786,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85786.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85786.hg19.frag.tsv
-EE85787,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85787.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85787.hg19.frag.tsv
-EE85788,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85788.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85788.hg19.frag.tsv
-EE85789,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85789.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85789.hg19.frag.tsv
-EE85790,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85790.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85790.hg19.frag.tsv
-EE85791,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85791.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85791.hg19.frag.tsv
-EE85792,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85792.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85792.hg19.frag.tsv
-EE85793,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85793.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85793.hg19.frag.tsv
-EE85794,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85794.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85794.hg19.frag.tsv
-EE85795,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85795.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85795.hg19.frag.tsv
-EE85796,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85796.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85796.hg19.frag.tsv
-EE85797,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85797.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85797.hg19.frag.tsv
-EE85798,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85798.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85798.hg19.frag.tsv
-EE85799,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85799.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85799.hg19.frag.tsv
-EE85800,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85800.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85800.hg19.frag.tsv
-EE85802,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85802.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85802.hg19.frag.tsv
-EE85805,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85805.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85805.hg19.frag.tsv
-EE85806,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85806.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85806.hg19.frag.tsv
-EE85807,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85807.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85807.hg19.frag.tsv
-EE85808,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85808.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85808.hg19.frag.tsv
-EE85809,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85809.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85809.hg19.frag.tsv
-EE85810,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85810.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85810.hg19.frag.tsv
-EE85811,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85811.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85811.hg19.frag.tsv
-EE85812,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85812.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85812.hg19.frag.tsv
-EE85813,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85813.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85813.hg19.frag.tsv
-EE85814,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85814.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85814.hg19.frag.tsv
-EE85815,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85815.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85815.hg19.frag.tsv
-EE85816,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85816.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85816.hg19.frag.tsv
-EE85817,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85817.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85817.hg19.frag.tsv
-EE85818,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85818.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85818.hg19.frag.tsv
-EE85821,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85821.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85821.hg19.frag.tsv
-EE85822,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85822.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85822.hg19.frag.tsv
-EE85823,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85823.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85823.hg19.frag.tsv
-EE85825,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85825.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85825.hg19.frag.tsv
-EE85826,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85826.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85826.hg19.frag.tsv
-EE85827,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85827.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85827.hg19.frag.tsv
-EE85828,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85828.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85828.hg19.frag.tsv
-EE85829,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85829.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85829.hg19.frag.tsv
-EE85830,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85830.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85830.hg19.frag.tsv
-EE85831,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85831.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85831.hg19.frag.tsv
-EE85832,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85832.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85832.hg19.frag.tsv
-EE85833,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85833.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85833.hg19.frag.tsv
-EE85834,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85834.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85834.hg19.frag.tsv
-EE85835,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85835.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85835.hg19.frag.tsv
-EE85836,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85836.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85836.hg19.frag.tsv
-EE85837,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85837.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85837.hg19.frag.tsv
-EE85838,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85838.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85838.hg19.frag.tsv
-EE85839,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85839.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85839.hg19.frag.tsv
-EE85840,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85840.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85840.hg19.frag.tsv
-EE85841,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85841.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85841.hg19.frag.tsv
-EE85842,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85842.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85842.hg19.frag.tsv
-EE85843,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85843.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85843.hg19.frag.tsv
-EE85844,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85844.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85844.hg19.frag.tsv
-EE85845,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85845.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85845.hg19.frag.tsv
-EE85846,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85846.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85846.hg19.frag.tsv
-EE85847,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85847.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85847.hg19.frag.tsv
-EE85848,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85848.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85848.hg19.frag.tsv
-EE85849,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85849.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85849.hg19.frag.tsv
-EE85851,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85851.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85851.hg19.frag.tsv
-EE85853,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85853.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85853.hg19.frag.tsv
-EE85854,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85854.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85854.hg19.frag.tsv
-EE85855,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85855.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85855.hg19.frag.tsv
-EE85856,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85856.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85856.hg19.frag.tsv
-EE85857,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85857.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85857.hg19.frag.tsv
-EE85858,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85858.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85858.hg19.frag.tsv
-EE85859,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85859.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85859.hg19.frag.tsv
-EE85860,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85860.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85860.hg19.frag.tsv
-EE85861,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85861.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85861.hg19.frag.tsv
-EE85862,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85862.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85862.hg19.frag.tsv
-EE85863,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85863.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85863.hg19.frag.tsv
-EE85864,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85864.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85864.hg19.frag.tsv
-EE85865,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85865.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85865.hg19.frag.tsv
-EE85866,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85866.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85866.hg19.frag.tsv
-EE85867,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85867.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85867.hg19.frag.tsv
-EE85868,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85868.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85868.hg19.frag.tsv
-EE85869,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85869.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85869.hg19.frag.tsv
-EE85870,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85870.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85870.hg19.frag.tsv
-EE85871,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85871.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85871.hg19.frag.tsv
-EE85872,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85872.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85872.hg19.frag.tsv
-EE85873,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85873.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85873.hg19.frag.tsv
-EE85874,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85874.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85874.hg19.frag.tsv
-EE85875,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85875.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85875.hg19.frag.tsv
-EE85876,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85876.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85876.hg19.frag.tsv
-EE85877,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85877.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85877.hg19.frag.tsv
-EE85878,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85878.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85878.hg19.frag.tsv
-EE85879,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85879.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85879.hg19.frag.tsv
-EE85880,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85880.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85880.hg19.frag.tsv
-EE85881,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85881.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85881.hg19.frag.tsv
-EE85882,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85882.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85882.hg19.frag.tsv
-EE85883,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85883.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85883.hg19.frag.tsv
-EE85884,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85884.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85884.hg19.frag.tsv
-EE85885,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85885.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85885.hg19.frag.tsv
-EE85886,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85886.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85886.hg19.frag.tsv
-EE85887,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85887.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85887.hg19.frag.tsv
-EE85888,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85888.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85888.hg19.frag.tsv
-EE85890,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85890.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85890.hg19.frag.tsv
-EE85891,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85891.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85891.hg19.frag.tsv
-EE85892,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85892.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85892.hg19.frag.tsv
-EE85893,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85893.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85893.hg19.frag.tsv
-EE85895,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85895.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85895.hg19.frag.tsv
-EE85896,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85896.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85896.hg19.frag.tsv
-EE85897,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85897.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85897.hg19.frag.tsv
-EE85898,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85898.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85898.hg19.frag.tsv
-EE85899,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85899.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85899.hg19.frag.tsv
-EE85900,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85900.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85900.hg19.frag.tsv
-EE85901,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85901.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85901.hg19.frag.tsv
-EE85902,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85902.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85902.hg19.frag.tsv
-EE85903,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85903.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85903.hg19.frag.tsv
-EE85904,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85904.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85904.hg19.frag.tsv
-EE85905,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85905.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85905.hg19.frag.tsv
-EE85906,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85906.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85906.hg19.frag.tsv
-EE85907,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85907.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85907.hg19.frag.tsv
-EE85908,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85908.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85908.hg19.frag.tsv
-EE85911,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85911.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85911.hg19.frag.tsv
-EE85912,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85912.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85912.hg19.frag.tsv
-EE85913,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85913.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85913.hg19.frag.tsv
-EE85915,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85915.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85915.hg19.frag.tsv
-EE85916,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85916.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85916.hg19.frag.tsv
-EE85917,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85917.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85917.hg19.frag.tsv
-EE85918,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85918.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85918.hg19.frag.tsv
-EE85919,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85919.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85919.hg19.frag.tsv
-EE85920,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85920.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85920.hg19.frag.tsv
-EE85921,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85921.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85921.hg19.frag.tsv
-EE85922,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85922.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85922.hg19.frag.tsv
-EE85923,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85923.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85923.hg19.frag.tsv
-EE85924,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85924.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85924.hg19.frag.tsv
-EE85925,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85925.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85925.hg19.frag.tsv
-EE85926,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85926.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85926.hg19.frag.tsv
-EE85927,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85927.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85927.hg19.frag.tsv
-EE85928,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85928.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85928.hg19.frag.tsv
-EE85930,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85930.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85930.hg19.frag.tsv
-EE85931,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85931.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85931.hg19.frag.tsv
-EE85932,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85932.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85932.hg19.frag.tsv
-EE85933,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85933.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85933.hg19.frag.tsv
-EE85935,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85935.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85935.hg19.frag.tsv
-EE85936,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85936.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85936.hg19.frag.tsv
-EE85937,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85937.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85937.hg19.frag.tsv
-EE85938,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85938.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85938.hg19.frag.tsv
-EE85939,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85939.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85939.hg19.frag.tsv
-EE85940,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85940.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85940.hg19.frag.tsv
-EE85941,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85941.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85941.hg19.frag.tsv
-EE85942,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85942.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85942.hg19.frag.tsv
-EE85943,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85943.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85943.hg19.frag.tsv
-EE85944,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85944.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85944.hg19.frag.tsv
-EE85945,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85945.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85945.hg19.frag.tsv
-EE85946,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85946.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85946.hg19.frag.tsv
-EE85947,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85947.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85947.hg19.frag.tsv
-EE85948,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85948.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85948.hg19.frag.tsv
-EE85949,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85949.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85949.hg19.frag.tsv
-EE85950,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85950.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85950.hg19.frag.tsv
-EE85951,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85951.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85951.hg19.frag.tsv
-EE85952,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85952.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85952.hg19.frag.tsv
-EE85953,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85953.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85953.hg19.frag.tsv
-EE85955,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85955.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85955.hg19.frag.tsv
-EE85956,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85956.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85956.hg19.frag.tsv
-EE85957,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85957.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85957.hg19.frag.tsv
-EE85959,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85959.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85959.hg19.frag.tsv
-EE85960,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85960.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85960.hg19.frag.tsv
-EE85961,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85961.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85961.hg19.frag.tsv
-EE85962,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85962.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85962.hg19.frag.tsv
-EE85963,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85963.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85963.hg19.frag.tsv
-EE85964,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85964.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85964.hg19.frag.tsv
-EE85965,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85965.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85965.hg19.frag.tsv
-EE85966,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85966.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85966.hg19.frag.tsv
-EE85967,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85967.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85967.hg19.frag.tsv
-EE85968,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85968.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85968.hg19.frag.tsv
-EE85969,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85969.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85969.hg19.frag.tsv
-EE85970,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85970.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85970.hg19.frag.tsv
-EE85971,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85971.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85971.hg19.frag.tsv
-EE85972,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85972.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85972.hg19.frag.tsv
-EE85973,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85973.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85973.hg19.frag.tsv
-EE85974,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85974.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85974.hg19.frag.tsv
-EE85975,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85975.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85975.hg19.frag.tsv
-EE85978,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85978.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85978.hg19.frag.tsv
-EE85980,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85980.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85980.hg19.frag.tsv
-EE85981,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85981.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85981.hg19.frag.tsv
-EE85982,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85982.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85982.hg19.frag.tsv
-EE85983,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85983.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85983.hg19.frag.tsv
-EE85984,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85984.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85984.hg19.frag.tsv
-EE85985,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85985.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85985.hg19.frag.tsv
-EE85986,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85986.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85986.hg19.frag.tsv
-EE85987,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85987.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85987.hg19.frag.tsv
-EE85988,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85988.hg19.frag.tsv,Healthy,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85988.hg19.frag.tsv
-EE85989,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85989.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85989.hg19.frag.tsv
-EE85990,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85990.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85990.hg19.frag.tsv
-EE85991,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85991.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85991.hg19.frag.tsv
-EE85992,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85992.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85992.hg19.frag.tsv
-EE85994,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85994.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85994.hg19.frag.tsv
-EE85996,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85996.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85996.hg19.frag.tsv
-EE85997,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85997.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85997.hg19.frag.tsv
-EE85998,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85998.hg19.frag.tsv,Cirrhosis,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85998.hg19.frag.tsv
-EE85999,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE85999.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85999.hg19.frag.tsv
-EE86000,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86000.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86000.hg19.frag.tsv
-EE86001,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86001.hg19.frag.tsv,Hepatitis B,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86001.hg19.frag.tsv
-EE86002,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86002.hg19.frag.tsv,Liver cancer,"Jiang et al., 2015",blood plasma,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86002.hg19.frag.tsv
-EE86003,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86003.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86003.hg19.frag.tsv
-EE86004,/mnt/NAS_PROJECT/vol_ECDteam/hieunho/data/finaledb_extract/EE86004.hg19.frag.tsv,,"Burnham et al., 2018",urine,WGS,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86004.hg19.frag.tsv
+SampleID,path
+EE85723,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85723.hg19.frag.tsv
+EE85724,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85724.hg19.frag.tsv
+EE85725,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85725.hg19.frag.tsv
+EE85726,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85726.hg19.frag.tsv
+EE85727,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85727.hg19.frag.tsv
+EE85728,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85728.hg19.frag.tsv
+EE85729,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85729.hg19.frag.tsv
+EE85730,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85730.hg19.frag.tsv
+EE85731,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85731.hg19.frag.tsv
+EE85732,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85732.hg19.frag.tsv
+EE85733,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85733.hg19.frag.tsv
+EE85734,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85734.hg19.frag.tsv
+EE85735,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85735.hg19.frag.tsv
+EE85736,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85736.hg19.frag.tsv
+EE85737,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85737.hg19.frag.tsv
+EE85738,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85738.hg19.frag.tsv
+EE85739,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85739.hg19.frag.tsv
+EE85740,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85740.hg19.frag.tsv
+EE85741,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85741.hg19.frag.tsv
+EE85742,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85742.hg19.frag.tsv
+EE85743,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85743.hg19.frag.tsv
+EE85744,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85744.hg19.frag.tsv
+EE85745,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85745.hg19.frag.tsv
+EE85746,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85746.hg19.frag.tsv
+EE85747,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85747.hg19.frag.tsv
+EE85748,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85748.hg19.frag.tsv
+EE85749,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85749.hg19.frag.tsv
+EE85750,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85750.hg19.frag.tsv
+EE85751,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85751.hg19.frag.tsv
+EE85752,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85752.hg19.frag.tsv
+EE85753,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85753.hg19.frag.tsv
+EE85754,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85754.hg19.frag.tsv
+EE85755,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85755.hg19.frag.tsv
+EE85756,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85756.hg19.frag.tsv
+EE85757,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85757.hg19.frag.tsv
+EE85758,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85758.hg19.frag.tsv
+EE85759,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85759.hg19.frag.tsv
+EE85760,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85760.hg19.frag.tsv
+EE85761,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85761.hg19.frag.tsv
+EE85762,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85762.hg19.frag.tsv
+EE85763,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85763.hg19.frag.tsv
+EE85764,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85764.hg19.frag.tsv
+EE85765,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85765.hg19.frag.tsv
+EE85766,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85766.hg19.frag.tsv
+EE85767,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85767.hg19.frag.tsv
+EE85768,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85768.hg19.frag.tsv
+EE85769,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85769.hg19.frag.tsv
+EE85770,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85770.hg19.frag.tsv
+EE85771,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85771.hg19.frag.tsv
+EE85772,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85772.hg19.frag.tsv
+EE85773,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85773.hg19.frag.tsv
+EE85774,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85774.hg19.frag.tsv
+EE85775,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85775.hg19.frag.tsv
+EE85776,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85776.hg19.frag.tsv
+EE85777,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85777.hg19.frag.tsv
+EE85779,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85779.hg19.frag.tsv
+EE85780,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85780.hg19.frag.tsv
+EE85781,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85781.hg19.frag.tsv
+EE85783,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85783.hg19.frag.tsv
+EE85784,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85784.hg19.frag.tsv
+EE85785,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85785.hg19.frag.tsv
+EE85786,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85786.hg19.frag.tsv
+EE85787,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85787.hg19.frag.tsv
+EE85788,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85788.hg19.frag.tsv
+EE85789,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85789.hg19.frag.tsv
+EE85790,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85790.hg19.frag.tsv
+EE85791,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85791.hg19.frag.tsv
+EE85792,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85792.hg19.frag.tsv
+EE85793,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85793.hg19.frag.tsv
+EE85794,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85794.hg19.frag.tsv
+EE85795,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85795.hg19.frag.tsv
+EE85796,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85796.hg19.frag.tsv
+EE85797,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85797.hg19.frag.tsv
+EE85798,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85798.hg19.frag.tsv
+EE85799,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85799.hg19.frag.tsv
+EE85800,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85800.hg19.frag.tsv
+EE85802,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85802.hg19.frag.tsv
+EE85805,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85805.hg19.frag.tsv
+EE85806,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85806.hg19.frag.tsv
+EE85807,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85807.hg19.frag.tsv
+EE85808,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85808.hg19.frag.tsv
+EE85809,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85809.hg19.frag.tsv
+EE85810,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85810.hg19.frag.tsv
+EE85811,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85811.hg19.frag.tsv
+EE85812,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85812.hg19.frag.tsv
+EE85813,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85813.hg19.frag.tsv
+EE85814,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85814.hg19.frag.tsv
+EE85815,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85815.hg19.frag.tsv
+EE85816,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85816.hg19.frag.tsv
+EE85817,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85817.hg19.frag.tsv
+EE85818,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85818.hg19.frag.tsv
+EE85821,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85821.hg19.frag.tsv
+EE85822,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85822.hg19.frag.tsv
+EE85823,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85823.hg19.frag.tsv
+EE85825,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85825.hg19.frag.tsv
+EE85826,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85826.hg19.frag.tsv
+EE85827,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85827.hg19.frag.tsv
+EE85828,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85828.hg19.frag.tsv
+EE85829,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85829.hg19.frag.tsv
+EE85830,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85830.hg19.frag.tsv
+EE85831,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85831.hg19.frag.tsv
+EE85832,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85832.hg19.frag.tsv
+EE85833,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85833.hg19.frag.tsv
+EE85834,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85834.hg19.frag.tsv
+EE85835,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85835.hg19.frag.tsv
+EE85836,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85836.hg19.frag.tsv
+EE85837,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85837.hg19.frag.tsv
+EE85838,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85838.hg19.frag.tsv
+EE85839,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85839.hg19.frag.tsv
+EE85840,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85840.hg19.frag.tsv
+EE85841,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85841.hg19.frag.tsv
+EE85842,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85842.hg19.frag.tsv
+EE85843,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85843.hg19.frag.tsv
+EE85844,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85844.hg19.frag.tsv
+EE85845,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85845.hg19.frag.tsv
+EE85846,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85846.hg19.frag.tsv
+EE85847,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85847.hg19.frag.tsv
+EE85848,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85848.hg19.frag.tsv
+EE85849,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85849.hg19.frag.tsv
+EE85851,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85851.hg19.frag.tsv
+EE85853,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85853.hg19.frag.tsv
+EE85854,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85854.hg19.frag.tsv
+EE85855,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85855.hg19.frag.tsv
+EE85856,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85856.hg19.frag.tsv
+EE85857,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85857.hg19.frag.tsv
+EE85858,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85858.hg19.frag.tsv
+EE85859,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85859.hg19.frag.tsv
+EE85860,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85860.hg19.frag.tsv
+EE85861,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85861.hg19.frag.tsv
+EE85862,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85862.hg19.frag.tsv
+EE85863,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85863.hg19.frag.tsv
+EE85864,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85864.hg19.frag.tsv
+EE85865,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85865.hg19.frag.tsv
+EE85866,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85866.hg19.frag.tsv
+EE85867,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85867.hg19.frag.tsv
+EE85868,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85868.hg19.frag.tsv
+EE85869,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85869.hg19.frag.tsv
+EE85870,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85870.hg19.frag.tsv
+EE85871,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85871.hg19.frag.tsv
+EE85872,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85872.hg19.frag.tsv
+EE85873,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85873.hg19.frag.tsv
+EE85874,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85874.hg19.frag.tsv
+EE85875,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85875.hg19.frag.tsv
+EE85876,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85876.hg19.frag.tsv
+EE85877,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85877.hg19.frag.tsv
+EE85878,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85878.hg19.frag.tsv
+EE85879,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85879.hg19.frag.tsv
+EE85880,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85880.hg19.frag.tsv
+EE85881,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85881.hg19.frag.tsv
+EE85882,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85882.hg19.frag.tsv
+EE85883,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85883.hg19.frag.tsv
+EE85884,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85884.hg19.frag.tsv
+EE85885,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85885.hg19.frag.tsv
+EE85886,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85886.hg19.frag.tsv
+EE85887,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85887.hg19.frag.tsv
+EE85888,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85888.hg19.frag.tsv
+EE85890,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85890.hg19.frag.tsv
+EE85891,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85891.hg19.frag.tsv
+EE85892,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85892.hg19.frag.tsv
+EE85893,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85893.hg19.frag.tsv
+EE85895,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85895.hg19.frag.tsv
+EE85896,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85896.hg19.frag.tsv
+EE85897,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85897.hg19.frag.tsv
+EE85898,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85898.hg19.frag.tsv
+EE85899,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85899.hg19.frag.tsv
+EE85900,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85900.hg19.frag.tsv
+EE85901,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85901.hg19.frag.tsv
+EE85902,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85902.hg19.frag.tsv
+EE85903,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85903.hg19.frag.tsv
+EE85904,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85904.hg19.frag.tsv
+EE85905,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85905.hg19.frag.tsv
+EE85906,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85906.hg19.frag.tsv
+EE85907,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85907.hg19.frag.tsv
+EE85908,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85908.hg19.frag.tsv
+EE85911,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85911.hg19.frag.tsv
+EE85912,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85912.hg19.frag.tsv
+EE85913,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85913.hg19.frag.tsv
+EE85915,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85915.hg19.frag.tsv
+EE85916,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85916.hg19.frag.tsv
+EE85917,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85917.hg19.frag.tsv
+EE85918,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85918.hg19.frag.tsv
+EE85919,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85919.hg19.frag.tsv
+EE85920,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85920.hg19.frag.tsv
+EE85921,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85921.hg19.frag.tsv
+EE85922,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85922.hg19.frag.tsv
+EE85923,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85923.hg19.frag.tsv
+EE85924,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85924.hg19.frag.tsv
+EE85925,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85925.hg19.frag.tsv
+EE85926,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85926.hg19.frag.tsv
+EE85927,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85927.hg19.frag.tsv
+EE85928,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85928.hg19.frag.tsv
+EE85930,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85930.hg19.frag.tsv
+EE85931,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85931.hg19.frag.tsv
+EE85932,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85932.hg19.frag.tsv
+EE85933,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85933.hg19.frag.tsv
+EE85935,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85935.hg19.frag.tsv
+EE85936,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85936.hg19.frag.tsv
+EE85937,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85937.hg19.frag.tsv
+EE85938,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85938.hg19.frag.tsv
+EE85939,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85939.hg19.frag.tsv
+EE85940,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85940.hg19.frag.tsv
+EE85941,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85941.hg19.frag.tsv
+EE85942,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85942.hg19.frag.tsv
+EE85943,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85943.hg19.frag.tsv
+EE85944,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85944.hg19.frag.tsv
+EE85945,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85945.hg19.frag.tsv
+EE85946,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85946.hg19.frag.tsv
+EE85947,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85947.hg19.frag.tsv
+EE85948,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85948.hg19.frag.tsv
+EE85949,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85949.hg19.frag.tsv
+EE85950,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85950.hg19.frag.tsv
+EE85951,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85951.hg19.frag.tsv
+EE85952,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85952.hg19.frag.tsv
+EE85953,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85953.hg19.frag.tsv
+EE85955,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85955.hg19.frag.tsv
+EE85956,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85956.hg19.frag.tsv
+EE85957,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85957.hg19.frag.tsv
+EE85959,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85959.hg19.frag.tsv
+EE85960,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85960.hg19.frag.tsv
+EE85961,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85961.hg19.frag.tsv
+EE85962,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85962.hg19.frag.tsv
+EE85963,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85963.hg19.frag.tsv
+EE85964,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85964.hg19.frag.tsv
+EE85965,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85965.hg19.frag.tsv
+EE85966,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85966.hg19.frag.tsv
+EE85967,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85967.hg19.frag.tsv
+EE85968,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85968.hg19.frag.tsv
+EE85969,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85969.hg19.frag.tsv
+EE85970,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85970.hg19.frag.tsv
+EE85971,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85971.hg19.frag.tsv
+EE85972,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85972.hg19.frag.tsv
+EE85973,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85973.hg19.frag.tsv
+EE85974,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85974.hg19.frag.tsv
+EE85975,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85975.hg19.frag.tsv
+EE85978,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85978.hg19.frag.tsv
+EE85980,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85980.hg19.frag.tsv
+EE85981,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85981.hg19.frag.tsv
+EE85982,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85982.hg19.frag.tsv
+EE85983,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85983.hg19.frag.tsv
+EE85984,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85984.hg19.frag.tsv
+EE85985,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85985.hg19.frag.tsv
+EE85986,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85986.hg19.frag.tsv
+EE85987,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85987.hg19.frag.tsv
+EE85988,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85988.hg19.frag.tsv
+EE85989,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85989.hg19.frag.tsv
+EE85990,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85990.hg19.frag.tsv
+EE85991,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85991.hg19.frag.tsv
+EE85992,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85992.hg19.frag.tsv
+EE85994,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85994.hg19.frag.tsv
+EE85996,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85996.hg19.frag.tsv
+EE85997,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85997.hg19.frag.tsv
+EE85998,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85998.hg19.frag.tsv
+EE85999,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE85999.hg19.frag.tsv
+EE86000,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86000.hg19.frag.tsv
+EE86001,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86001.hg19.frag.tsv
+EE86002,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86002.hg19.frag.tsv
+EE86003,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86003.hg19.frag.tsv
+EE86004,/datassd/DATA_HIEUNGUYEN/2024/storage/FinaleDB/batch_0/EE86004.hg19.frag.tsv
