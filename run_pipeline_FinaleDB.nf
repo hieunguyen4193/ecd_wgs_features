@@ -18,7 +18,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     publishDir "$params.output/FinaleDB_features", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks 40
+    maxForks 20
 
     input:
         tuple sample_id, file(input_frag_file) from Input_ch
