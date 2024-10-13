@@ -5,7 +5,7 @@ nucleosome_ref=file(params.nucleosome_ref)
 prep_src=file(params.prep_src)
 src=file(params.src)
 convert_bed=file(params.src_convert_bed)
-
+params.maxForks=""
 Channel
     .fromPath( params.SampleSheet )
     .splitCsv( header:true )
@@ -19,7 +19,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     publishDir "$params.output/FinaleDB_features", mode: 'copy'
     // errorStrategy 'retry'
     // maxRetries 1
-    maxForks 25
+    maxForks ${params.maxForks}
 
     input:
         tuple sample_id, file(input_frag_file) from Input_ch
