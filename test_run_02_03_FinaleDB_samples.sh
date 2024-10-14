@@ -10,8 +10,8 @@ final_Feature_dir="./final_Feature_dir_FinaleDB";
 mkdir -p ${outputdir};
 mkdir -p ${final_Feature_dir};
 
-sampleid=$(echo ${inputbam} | xargs -n 1 basename)
-sampleid=${sampleid%.bam*}
+sampleid=$(echo ${input_FinaleDB_frag} | xargs -n 1 basename)
+sampleid=${sampleid%.frag*}
 
 if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     echo -e "preprocessing the input file from FinaleDB ..."
