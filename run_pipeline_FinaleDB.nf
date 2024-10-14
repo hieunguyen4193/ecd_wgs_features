@@ -26,7 +26,7 @@ process process_02_generate_EM_FLEN_NUC_features {
         file prep_src
         file convert_bed
     output:
-        file("*${sample_id}*") into output_ch
+        file("*") into output_ch
     script:
     """
     bash ${prep_src} -i ${input_frag_file} -o .
