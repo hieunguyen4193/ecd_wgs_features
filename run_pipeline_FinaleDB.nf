@@ -30,7 +30,7 @@ process process_02_generate_EM_FLEN_NUC_features {
     script:
     """
     bash ${prep_src} -i ${input_frag_file} -o .
-    bash ${src} -i ${sample_id}_prep.frag.tsv -o . -f ${hg19} -r ${nucleosome_ref} -c ${params.clean_up}
+    bash ${src} -i ${sample_id}.hg19_prep.frag.tsv -o . -f ${hg19} -r ${nucleosome_ref} -c ${params.clean_up}
     """
 }
 
