@@ -44,12 +44,12 @@ process run_SF100 {
         zscore_chrY = ( cpm_chrY - 119.3757 ) / 13.19449;
        
         print sample, total_chrY, short_chrY, SF100, SF100_status, cpm_chrY, zscore_chrY
-    }' > ${outdir}/!{sample_id}_SF100_zscore_10.tsv &
+    }' > !{sample_id}_SF100_zscore_10.tsv &
     '''
 }
 
 // nextflow run run_SF100.nf \
-// --SampleSheet /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/SampleSheet_to_run.SF100.csv \
+// --SampleSheet /datassd/DATA_HIEUNGUYEN/2024/src/SF100/ecd_wgs_features/SampleSheet_to_run.SF100.csv \
 // --output /datassd/DATA_HIEUNGUYEN/2024/outdir \
 // -resume
 
