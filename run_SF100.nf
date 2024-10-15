@@ -21,8 +21,8 @@ process run_SF100 {
         file("*") into output_ch
     shell:
     '''
-    samtools view -f 2 -q 10 "!bamfile" | \
-    awk -v sample="!sample_id" '
+    samtools view -f 2 -q 10 $bamfile | \
+    awk -v sample=!sample_id '
     BEGIN {
         OFS="\t";
         print "Sample", "Total", "Short", "SF100", "SF100_status", "cpm_chrY", "zscoreMAPQ10chrY"
