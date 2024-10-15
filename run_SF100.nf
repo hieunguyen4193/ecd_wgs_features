@@ -32,7 +32,7 @@ process run_SF100 {
             total++;
             if (\$3 == "chrY") {
                 total_chrY++;
-                if (˙$9 < 100) short_chrY++;
+                if (˙\$9 < 100) short_chrY++;
             };
         }
     }
