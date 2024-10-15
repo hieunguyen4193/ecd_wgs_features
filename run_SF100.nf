@@ -3,7 +3,7 @@ params.SampleSheet=""
 Channel
     .fromPath( params.SampleSheet )
     .splitCsv( header:true )
-    .map { row -> tuple(row.SampleID,  file(row.path))}  
+    .map { row -> tuple(row.SampleID,  file(row.path_to_bam_file))}  
     .view()
     .set { Input_ch }
 
@@ -48,7 +48,7 @@ process run_SF100 {
     '''
 }
 
-// nextflow run run_pipeline_FinaleDB.nf \
+// nextflow run run_SF100.nf \
 // --SampleSheet /datassd/DATA_HIEUNGUYEN/2024/src/ecd_wgs_features/SampleSheet_to_run.SF100.csv \
 // --output /datassd/DATA_HIEUNGUYEN/2024/outdir \
 // -resume
