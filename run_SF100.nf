@@ -21,7 +21,7 @@ process run_SF100 {
         file("*") into output_ch
     shell:
     '''
-    samtools view -f 2 -q 10 $bamfile | \
+    samtools view -f 2 -q 10 !bamfile | \
     awk -v sample=!sample_id '
     BEGIN {
         OFS="\t";
