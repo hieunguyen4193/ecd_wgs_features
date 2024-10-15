@@ -19,8 +19,8 @@ process run_SF100 {
         tuple sample_id, file(bamfile) from Input_ch
     output:
         file("*") into output_ch
-    shell:
-    '''
+    script:
+    """
     samtools view -f 2 -q 10 $bamfile | \
     awk -v sample=$sample_id '
     BEGIN {
@@ -28,11 +28,11 @@ process run_SF100 {
         print "Sample", "Total", "Short", "SF100", "SF100_status", "cpm_chrY", "zscoreMAPQ10chrY"
     }
     {
-        if ($9 > 0) {
+        if (\$9 > 0) {
             total++;
-            if ($3 == "chrY") {
+            if (\$3 == "chrY") {
                 total_chrY++;
-                if ($9 < 100) short_chrY++;
+                if (˙$9 < 100) short_chrY++;
             };
         }
     }
@@ -44,8 +44,8 @@ process run_SF100 {
         zscore_chrY = ( cpm_chrY - 119.3757 ) / 13.19449;
        
         print sample, total_chrY, short_chrY, SF100, SF100_status, cpm_chrY, zscore_chrY
-    }' > !{sample_id}_SF100_zscore_10.tsv &
-    '''
+    }' > ${sample_id}_SF100_zscore_10.tsv &
+    """
 }
 
 // nextflow run run_SF100.nf \
