@@ -108,8 +108,11 @@ library(dplyr)
 # path.to.qc.dir <- "/home/hieunguyen/CRC1382/src/ecd_wgs_features/output/QC"
 # input_read_length <- 50
 
-path.to.qc.dir <- params$input
-input_read_length <- params$read_length
+# path.to.qc.dir <- params$input
+# input_read_length <- params$read_length
+
+path.to.qc.dir <- "/Users/hieunguyen/Downloads/Generate_QC_metrics"
+input_read_length <- 50
 
 all.samples <- Sys.glob(file.path(path.to.qc.dir, "*"))
 ```
