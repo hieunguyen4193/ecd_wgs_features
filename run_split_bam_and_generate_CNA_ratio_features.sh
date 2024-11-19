@@ -16,4 +16,4 @@ bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
     -i ${inputbam} \
     -o ${outputdir} \
     -n ${num_threads} \
-    -t "raw";
+    -t raw;

@@ -15,7 +15,7 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
-while getopts "i:o:n:t" opt; do
+while getopts "i:o:n:t:" opt; do
   case ${opt} in
     i )
       inputbam=$OPTARG
