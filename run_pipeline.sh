@@ -54,11 +54,11 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     -t markdup;
     echo -e "Finished generating CNA, short long features"
 
-    echo -e "Running script 07 to generate NDR features..."
-    bash 07_generate_NDR_features.sh \
-    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-    -o ${outputdir} \
-    -t ${outputdir}/tmp07 \
+    # echo -e "Running script 07 to generate NDR features..."
+    # bash 07_generate_NDR_features.sh \
+    # -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    # -o ${outputdir} \
+    # -t ${outputdir}/tmp07 \
 
 else 
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
@@ -87,11 +87,11 @@ else
     -t markdup;
     echo -e "Finished generating CNA, short long features"
 
-    echo -e "Running script 07 to generate NDR features..."
-    bash 07_generate_NDR_features.sh \
-    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-    -o ${outputdir} \
-    -t ${outputdir}/tmp07 \
+    # echo -e "Running script 07 to generate NDR features..."
+    # bash 07_generate_NDR_features.sh \
+    # -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    # -o ${outputdir} \
+    # -t ${outputdir}/tmp07 \
     
 fi
 

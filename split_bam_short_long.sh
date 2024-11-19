@@ -21,7 +21,7 @@ while getopts "i:o:n:t:" opt; do
       ;;
   esac
 done
-
+mkdir -p ${outputdir};
 echo -e "input bam file: " ${inputbam}
 # Check if the input BAM file exists
 if [ ! -f "${inputbam}" ]; then
