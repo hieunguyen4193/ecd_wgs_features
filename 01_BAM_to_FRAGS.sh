@@ -67,6 +67,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
 
   ##### mark duplicates
+  ##### download picard.jar https://github.com/broadinstitute/picard/releases/download/3.3.0/picard.jar
   java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
       I=${outputdir}/${sampleid}.tmp.sorted.bam \
       O=${outputdir}/${sampleid}.sorted.markdup.bam \

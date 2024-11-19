@@ -31,7 +31,6 @@ fi
 
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
 sampleid=${sampleid%.bam*}
-outputdir=${outputdir}/${sampleid}
 
 ##### Split bam into short and long bam
 echo -e "splitting BAM file into short and long BAM files ..."

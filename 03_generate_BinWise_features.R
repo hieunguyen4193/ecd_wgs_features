@@ -24,8 +24,12 @@ parser$add_argument("-s", "--input_short_bam", action="store",
                     help="Path to input preprocessed short BAM files")
 parser$add_argument("-l", "--input_long_bam", action="store",
                     help="Path to input preprocessed long BAM files")
-parser$add_argument("-f", "--input_full_bam", action="store",
+parser$add_argument("-a", "--input_short_bam2", action="store",
+                    help="Path to input preprocessed short BAM files")
+parser$add_argument("-k", "--input_long_bam2", action="store",
                     help="Path to input preprocessed long BAM files")
+parser$add_argument("-f", "--input_full_bam", action="store",
+                    help="Path to input preprocessed full BAM files")
 parser$add_argument("-o", "--output", action="store",
                     help="Path to save all output")
 
@@ -33,6 +37,8 @@ args <- parser$parse_args()
 
 path.to.short.bam <- args$input_short_bam
 path.to.long.bam <- args$input_long_bam
+path.to.short.bam2 <- args$input_short_bam2
+path.to.long.bam2 <- args$input_long_bam2
 path.to.full.bam <- args$input_full_bam
 path.to.save.output <- args$output
 
@@ -69,6 +75,18 @@ calculate_CNA <- function(input.bin, input.path){
 
 output.CNA <- calculate_CNA(bin1M, path.to.full.bam)
 write.csv(output.CNA[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA.csv", sampleid)))
+
+output.CNA.short <- calculate_CNA(bin1M, path.to.short.bam)
+write.csv(output.CNA.short[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA_short_50_150.csv", sampleid)))
+
+output.CNA.long <- calculate_CNA(bin1M, path.to.long.bam)
+write.csv(output.CNA.long[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA_long_151_250.csv", sampleid)))
+
+output.CNA.short2 <- calculate_CNA(bin1M, path.to.short.bam2)
+write.csv(output.CNA.short2[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA_short_100_150.csv", sampleid)))
+
+output.CNA.long2 <- calculate_CNA(bin1M, path.to.long.bam2)
+write.csv(output.CNA.long2[["CNA"]]@assayData$copynumber %>% as.data.frame(), file.path(path.to.save.output, sprintf("%s.CNA_long_151_220.csv", sampleid)))
 
 #####----------------------------------------------------------------------#####
 ##### short-to-long ratio in 1M bin

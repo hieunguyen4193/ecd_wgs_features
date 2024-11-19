@@ -50,27 +50,32 @@ outputdir=${outputdir}/${sampleid}
 
 mkdir -p ${outputdir}
 
+
 if [ "${input_type}" = "markdup" ]; then
 # if the input BAM file is already PREPROCESSED and MARKDUP
   echo "Processing as markdup BAM file"
   bash split_bam_short_long.sh -i ${inputbam} -o ${outputdir} -n ${samtools_num_threads}
 elif [ "${input_type}" = "raw" ]; then 
-  echo "Processing as RAW BAM file"
-  echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
-  samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
-  samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
-  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
+# if the input BAM file is RAW BAM FILE
+  if [ ! -f "${outputdir}/${sampleid}.sorted.markdup.bam" ]; then
+    echo "Processing as RAW BAM file"
+    echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
+    samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
+    samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
+    samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
 
-  ##### mark duplicates
-  java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
-      I=${outputdir}/${sampleid}.tmp.sorted.bam \
-      O=${outputdir}/${sampleid}.sorted.markdup.bam \
-      M=${outputdir}/${sampleid}.marked_dup_metrics.txt
+    ##### mark duplicates
+    java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
+        I=${outputdir}/${sampleid}.tmp.sorted.bam \
+        O=${outputdir}/${sampleid}.sorted.markdup.bam \
+        M=${outputdir}/${sampleid}.marked_dup_metrics.txt
 
-  rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
-  samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
-
-  bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir} -n ${samtools_num_threads}
+    rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
+    samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
+  else 
+    echo -e "File " ${outputdir}/${sampleid}.sorted.markdup.bam "exits";
+    bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir} -n ${samtools_num_threads}
+  fi
 else
   echo "Unknown input type: ${input_type}. input_type must be either 'markdup' or 'raw' "
   exit 1
