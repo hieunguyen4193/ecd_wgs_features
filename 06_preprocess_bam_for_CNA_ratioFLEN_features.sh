@@ -69,6 +69,6 @@ else
 
   rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
-
+  
   bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir} -n ${samtools_num_threads}
 fi
