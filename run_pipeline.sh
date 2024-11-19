@@ -1,8 +1,8 @@
-inputbam="/Users/hieunguyen/data/tmp/debug_ecd_wgs_features/data/1-ZLAAO90NB_S7509-S7709.sorted.bam";
+inputbam="/media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam";
 outputdir="./batch_test/";
-num_threads=10;
-path_to_fa="/Users/hieunguyen/data/resources/hg19.fa";
-path_to_ref="/Users/hieunguyen/data/resources/rpr_map_EXP0779.sorted.bed";
+num_threads=20;
+path_to_fa="/media/hieunguyen/GSHD_HN01/storage/resources/hg19.fa";
+path_to_ref="/media/hieunguyen/GSHD_HN01/storage/resources/rpr_map_EXP0779.sorted.bed";
 motif_order_path="./motif_order.csv";
 final_Feature_dir="./final_Feature_dir";
 
@@ -37,9 +37,27 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         --generate_feature "all" 
 
     echo -e "Finished generating features, saving csv files"
+
+    echo -e "Running script 04 to generate feature matrix ..."
     python 04_generate_batch_feature_matrix.py \
         --input ${outputdir} \
         --output ${final_Feature_dir}
+    echo -e "Finished generating feature matrix"
+
+    echo -e "Running script 05 to generate CNA, short long features ..."
+    bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
+    -i ${outputdir}/${sampleid}.sorted.markdup.bam \
+    -o ${outputdir} \
+    -n ${num_threads} \
+    -t markdup;
+    echo -e "Finished generating CNA, short long features"
+
+    echo -e "Running script 07 to generate NDR features..."
+    bash 07_generate_NDR_features.sh \
+    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    -o ${outputdir} \
+    -t ${outputdir}/tmp07 \
+
 else 
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
     echo -e "Running script 03 to generate features ..."
@@ -52,9 +70,21 @@ else
         --generate_feature "all" 
 
     echo -e "Finished generating features, saving csv files"
+
+    echo -e "Running script 04 to generate feature matrix ..."
     python 04_generate_batch_feature_matrix.py \
         --input ${outputdir} \
         --output ${final_Feature_dir}
+    echo -e "Finished generating feature matrix"
+
+    echo -e "Running script 05 to generate CNA, short long features ..."
+    bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
+    -i ${outputdir}/${sampleid}.sorted.markdup.bam \
+    -o ${outputdir} \
+    -n ${num_threads} \
+    -t markdup;
+    echo -e "Finished generating CNA, short long features"
+    
 fi
 
 
