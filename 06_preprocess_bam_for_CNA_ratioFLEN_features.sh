@@ -54,7 +54,7 @@ if [ "${input_type}" = "markdup" ]; then
 # if the input BAM file is already PREPROCESSED and MARKDUP
   echo "Processing as markdup BAM file"
   bash split_bam_short_long.sh -i ${inputbam} -o ${outputdir} -n ${samtools_num_threads}
-else
+elif [ "${input_type}" = "raw" ]; then 
   echo "Processing as RAW BAM file"
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
   samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
@@ -69,6 +69,9 @@ else
 
   rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
-  
+
   bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir} -n ${samtools_num_threads}
+else
+  echo "Unknown input type: ${input_type}. input_type must be either 'markdup' or 'raw' "
+  exit 1
 fi
