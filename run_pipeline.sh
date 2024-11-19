@@ -1,3 +1,5 @@
+export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
+export PATH=/home/hieunguyen/samtools/bin/:$PATH
 inputbam="/media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam";
 outputdir="./batch_test/";
 num_threads=20;
@@ -46,7 +48,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
 
     echo -e "Running script 05 to generate CNA, short long features ..."
     bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
-    -i ${outputdir}/${sampleid}.sorted.markdup.bam \
+    -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
     -o ${outputdir} \
     -n ${num_threads} \
     -t markdup;
@@ -79,11 +81,17 @@ else
 
     echo -e "Running script 05 to generate CNA, short long features ..."
     bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
-    -i ${outputdir}/${sampleid}.sorted.markdup.bam \
+    -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
     -o ${outputdir} \
     -n ${num_threads} \
     -t markdup;
     echo -e "Finished generating CNA, short long features"
+
+    echo -e "Running script 07 to generate NDR features..."
+    bash 07_generate_NDR_features.sh \
+    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    -o ${outputdir} \
+    -t ${outputdir}/tmp07 \
     
 fi
 
