@@ -17,3 +17,11 @@ bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
     -o ${outputdir} \
     -n ${num_threads} \
     -t raw;
+
+# Rscript 03_generate_BinWise_features.R \
+#     --input_short_bam /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19/WGShg19.sorted.markdup_50_150.short.bam \
+#     --input_short_bam2 /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19/WGShg19.sorted.markdup.100_150.short.bam \
+#     --input_long_bam /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19/WGShg19.sorted.markdup_151_250.long.bam \
+#     --input_long_bam2 /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19/WGShg19.sorted.markdup.151_220.long.bam \
+#     --input_full_bam /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19/WGShg19.sorted.markdup.bam \
+#     --output /media/hieunguyen/HNSD01/src/ecd_wgs_features/batch_test/WGShg19
