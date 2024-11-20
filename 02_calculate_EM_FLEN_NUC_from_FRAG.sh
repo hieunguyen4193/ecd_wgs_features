@@ -142,8 +142,8 @@ fi
 # similar to nucleosome distance, use the same sortedNuc.forward/reverse_Nucleosome.bed
 if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   echo -e "generating NRD ..."
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
 
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed

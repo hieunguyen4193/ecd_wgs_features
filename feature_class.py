@@ -94,12 +94,12 @@ class WGS_GW_Image_features:
         print("reading in the input frag.tsv data")
         if feature_version == "20241001": 
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
-            self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+            self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM", "forward_NDR", "reverse_NDR"]
         else:
             # use only for reading the first version of *.final_output.tsv file for GW-Image features.
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
             self.maindf = self.maindf[[0, 1, 2, 3, 4, 8, 9, 10, 11, 12]]
-            self.maindf.columns = ["readID", "chr", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM"]
+            self.maindf.columns = ["readID", "chr", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM", "forward_NDR", "reverse_NDR"]
         self.motif_order_path = motif_order_path
         self.motif_order = pd.read_csv(motif_order_path)["motif_order"].values
         self.all_4bp_motifs = [
@@ -204,6 +204,24 @@ class WGS_GW_Image_features:
             error = "Please provide the path to the old nucleosome feature file"
             raise ValueError(error)
     
+    #####-------------------------------------------------------------#####
+    ##### generate NDR features
+    #####-------------------------------------------------------------#####
+    def generate_ndr_feature(self, 
+                            save_feature = True):
+        NDRdf1 = pd.DataFrame(data = self.maindf_filter_chr["reverse_NDR"].values,
+                     columns = ["feat"])
+        NDRdf2 = pd.DataFrame(data = self.maindf_filter_chr["forward_NDR"].values,
+                     columns = ["feat"])
+        NDRdf = pd.concat([NDRdf1, NDRdf2], axis = 0)
+        NDRdf = NDRdf[(NDRdf["feat"] >= -1000) & (NDRdf["feat"] <= 1000)]
+        output_NDRdf = NDRdf.reset_index().groupby("feat")["index"].count().reset_index()
+        output_NDRdf["index"] = output_NDRdf["index"].apply(lambda x: x/output_NDRdf["index"].sum())
+        output_NDRdf.columns = ["dist", "freq"]
+        if save_feature:
+            output_NDRdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_NDR.csv"), index=False)
+        return NDRdf
+
     #####-------------------------------------------------------------#####    
     ##### EM - FLEN features
     #####-------------------------------------------------------------#####    
