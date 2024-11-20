@@ -327,6 +327,49 @@ class WGS_GW_Image_features:
             nuc_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardNUC_FLEN.csv"), index=False)
 
     #####-------------------------------------------------------------#####    
+    ##### FORWARD NDR - FLEN
+    #####-------------------------------------------------------------#####    
+    def generate_forwardNDR_flen_feature(self,
+                                        save_feature = True):
+        feature_df = self.maindf_filter_chr.copy()
+        NDRdf_forward = feature_df[["flen", "forward_NDR"]].copy()
+        NDRdf_forward.columns = ["flen", "NDR_dist"]
+        NDRdf_forward = NDRdf_forward[
+            (NDRdf_forward["NDR_dist"] <= 1000) & (NDRdf_forward["NDR_dist"] >= -1000)
+        ]
+
+        NDR_countdf = NDRdf_forward.reset_index() \
+                           .groupby(["NDR_dist", "flen"])["index"] \
+                           .count() \
+                           .reset_index() \
+                           .pivot_table(index='flen', 
+                                     columns='NDR_dist', 
+                                     values='index', 
+                                     fill_value=0)
+        flen_range_df = pd.DataFrame(
+            {
+                'flen': range(70, 281)
+            }
+        )
+        
+        NDR_countdf = pd.merge(flen_range_df,
+                               NDR_countdf,
+                               on='flen',
+                               how='outer')
+        NDR_countdf.fillna(0, 
+                           inplace=True)
+
+        NDR_countdf = NDR_countdf[(NDR_countdf['flen'] >= 70) & (NDR_countdf['flen'] <= 280)]
+
+        NDR_countdf = NDR_countdf.set_index("flen")
+        NDR_countdf = NDR_countdf/NDR_countdf.sum().sum()
+        print(NDR_countdf.shape)
+        assert NDR_countdf.shape[0] == 211, f"[NDR forward - flen] flen failed!"
+        assert NDR_countdf.shape[1] == 601, f"[NDR forward - flen] NDR failed"
+        if save_feature:
+            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardNDR_FLEN.csv"), index=False)
+
+    #####-------------------------------------------------------------#####    
     ##### REVERSE NUCLEOSOME - FLEN
     #####-------------------------------------------------------------#####  
     def generate_reverseNUC_flen_feature(self,
@@ -368,6 +411,49 @@ class WGS_GW_Image_features:
         
         if save_feature:
             nuc_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseNUC_FLEN.csv"), index=False)
+
+    #####-------------------------------------------------------------#####    
+    ##### REVERSE NDR - FLEN
+    #####-------------------------------------------------------------#####  
+    def generate_reverseNDR_flen_feature(self,
+                                         save_feature = True):
+        feature_df = self.maindf_filter_chr.copy()
+        NDRdf_reverse = feature_df[["flen", "reverse_NDR"]].copy()
+        NDRdf_reverse.columns = ["flen", "NDR_dist"]
+        NDRdf_reverse = NDRdf_reverse[
+            (NDRdf_reverse["NDR_dist"] <= 1000) & (NDRdf_reverse["NDR_dist"] >= -1000)
+        ]
+
+        NDR_countdf = NDRdf_reverse.reset_index() \
+                           .groupby(["NDR_dist", "flen"])["index"] \
+                           .count() \
+                           .reset_index() \
+                           .pivot_table(index='flen', 
+                                     columns='NDR_dist', 
+                                     values='index', 
+                                     fill_value=0)
+        flen_range_df = pd.DataFrame(
+            {
+                'flen': range(70, 281)
+            }
+        )
+        NDR_countdf = pd.merge(flen_range_df,
+                               NDR_countdf,
+                               on='flen',
+                               how='outer')
+        NDR_countdf.fillna(0, 
+                           inplace=True)
+
+        NDR_countdf = NDR_countdf[(NDR_countdf['flen'] >= 70) & (NDR_countdf['flen'] <= 280)]
+
+        NDR_countdf = NDR_countdf.set_index("flen")
+        NDR_countdf = NDR_countdf/NDR_countdf.sum().sum()
+        
+        assert NDR_countdf.shape[0] == 211, f"[NDR reverse - flen] flen failed!"
+        assert NDR_countdf.shape[1] == 601, f"[NDR reverse - flen] NDR failed"
+        
+        if save_feature:
+            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseNDR_FLEN.csv"), index=False)
 
     #####-------------------------------------------------------------#####
     ##### EM - EM, all flen
@@ -507,7 +593,7 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         forward_NUC_range_df = pd.DataFrame(
             {
-                'forward_NUC': range(70, 281)
+                'forward_NUC': range(-300, 301)
             }
         )
 
@@ -557,7 +643,7 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         reverse_NUC_range_df = pd.DataFrame(
             {
-                'reverse_NUC': range(70, 281)
+                'reverse_NUC': range(-300, 301)
             }
         )
         countdf = pd.merge(reverse_NUC_range_df, 
@@ -578,4 +664,107 @@ class WGS_GW_Image_features:
         countdf = countdf[self.motif_order]
         if save_feature:
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNUC.csv"), index=False)
+    
+    #####-------------------------------------------------------------#####
+    ##### EM - forward NDR
+    #####-------------------------------------------------------------#####
+    def generate_EM_forwardNDR(self,
+                              save_feature = True):
+        feature_df = self.maindf_filter_chr.copy()
+        ##### generate EM - forward_NDR dataframe
+        # Forward EM - Forward NDRleosome distance
+        forward_em_forward_NDR = feature_df[["forward_EM", "forward_NDR"]].copy()
+        forward_em_forward_NDR.columns = ["EM", "forward_NDR"]
+        
+        # Reverse EM - forward NDRleosome distance
+        reverse_em_forward_NDR = feature_df[["reverse_EM", "forward_NDR"]].copy()
+        reverse_em_forward_NDR.columns = ["EM", "forward_NDR"]
+
+        em_forward_NDR_df = pd.concat([forward_em_forward_NDR, reverse_em_forward_NDR], axis = 0)
+        em_forward_NDR_df = em_forward_NDR_df[~em_forward_NDR_df["EM"].str.contains("N")]
+        em_forward_NDR_df = em_forward_NDR_df[
+            (em_forward_NDR_df["forward_NDR"] >= -1000) & 
+            (em_forward_NDR_df["forward_NDR"] <= 1000)]
+        countdf = em_forward_NDR_df.reset_index() \
+                                   .groupby(["EM", "forward_NDR"])["index"] \
+                                   .count() \
+                                   .reset_index() \
+                                   .pivot_table(index='forward_NDR', 
+                                                columns='EM', 
+                                                values='index', 
+                                                fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        forward_NDR_range_df = pd.DataFrame(
+            {
+                'forward_NDR': range(-1000, 1001)
+            }
+        )
+
+        countdf = pd.merge(forward_NDR_range_df, countdf, on='forward_NDR', how='outer')
+        countdf.fillna(0, inplace=True)
+
+        countdf = countdf.set_index("forward_NDR")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+                
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNDR.csv"), index=False)
+
+    #####-------------------------------------------------------------#####
+    ##### EN .reverse NDR
+    #####-------------------------------------------------------------#####
+    def generate_EM_reverseNDR(self,
+                              save_feature = True):
+        feature_df = self.maindf_filter_chr.copy()
+        ##### generate EM - reverse_NDR dataframe
+        reverse_EM_reverse_NDR = feature_df[["reverse_EM", "reverse_NDR"]].copy()
+        reverse_EM_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        reverse_em_reverse_NDR = feature_df[["reverse_EM", "reverse_NDR"]].copy()
+        reverse_em_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        em_reverse_NDR_df = pd.concat([reverse_EM_reverse_NDR, reverse_em_reverse_NDR], axis = 0)
+        em_reverse_NDR_df = em_reverse_NDR_df[~em_reverse_NDR_df["EM"].str.contains("N")]
+        
+        em_reverse_NDR_df = em_reverse_NDR_df[
+            (em_reverse_NDR_df["reverse_NDR"] >= -1000) 
+            & (em_reverse_NDR_df["reverse_NDR"] <= 1000)
+        ]
+        
+        countdf = em_reverse_NDR_df.reset_index() \
+                                    .groupby(["EM", "reverse_NDR"])["index"] \
+                                    .count() \
+                                    .reset_index() \
+                                    .pivot_table(index='reverse_NDR', 
+                                                 columns='EM', 
+                                                 values='index', 
+                                                 fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        reverse_NDR_range_df = pd.DataFrame(
+            {
+                'reverse_NDR': range(-1000, 1001)
+            }
+        )
+        countdf = pd.merge(reverse_NDR_range_df, 
+                           countdf, 
+                           on='reverse_NDR', 
+                           how='outer')
+        countdf.fillna(0,inplace=True)
+
+        
+        countdf = countdf.set_index("reverse_NDR")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNDR.csv"), index=False)
     
