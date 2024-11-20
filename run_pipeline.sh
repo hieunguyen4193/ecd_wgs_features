@@ -7,6 +7,7 @@ path_to_fa="/media/hieunguyen/GSHD_HN01/storage/resources/hg19.fa";
 path_to_ref="/media/hieunguyen/GSHD_HN01/storage/resources/rpr_map_EXP0779.sorted.bed";
 motif_order_path="./motif_order.csv";
 final_Feature_dir="./final_Feature_dir";
+ndr_ref="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_cancer_specific_location_5common_CENTER.sorted.bed"
 
 mkdir -p ${outputdir};
 mkdir -p ${final_Feature_dir};
@@ -54,12 +55,6 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     -t markdup;
     echo -e "Finished generating CNA, short long features"
 
-    # echo -e "Running script 07 to generate NDR features..."
-    # bash 07_generate_NDR_features.sh \
-    # -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-    # -o ${outputdir} \
-    # -t ${outputdir}/tmp07 \
-
 else 
     # echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
     # echo -e "Running script 03 to generate features ..."
@@ -78,20 +73,6 @@ else
     #     --input ${outputdir} \
     #     --output ${final_Feature_dir}
     # echo -e "Finished generating feature matrix"
-
-    # echo -e "Running script 06 to generate CNA, short long features ..."
-    # bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
-    # -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
-    # -o ${outputdir} \
-    # -n ${num_threads} \
-    # -t markdup;
-    # echo -e "Finished generating CNA, short long features"
-
-    echo -e "Running script 07 to generate NDR features..."
-    bash 07_generate_NDR_features.sh \
-    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-    -o ${outputdir} \
-    -t ${outputdir}/tmp07 \
     
 fi
 

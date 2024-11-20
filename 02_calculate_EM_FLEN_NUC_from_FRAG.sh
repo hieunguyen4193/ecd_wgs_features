@@ -147,7 +147,6 @@ sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sample
 echo -e "sorting reverse nucleosome file"
 sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
 
-
 #####----------------------------------------------------------------------#####
 ##### Merge all features into one single tsv output file. 
 #####----------------------------------------------------------------------#####
