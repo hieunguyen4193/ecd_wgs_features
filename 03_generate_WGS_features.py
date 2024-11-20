@@ -47,8 +47,8 @@ def main():
         output_obj.generate_EM_reverseNUC()
         output_obj.generate_forwardNDR_flen_feature()
         output_obj.generate_reverseNDR_flen_feature()
-        output_obj.generate_EM_forwardNDR()
-        output_obj.generate_EM_reverseNDR()
+        output_obj.generate_allEM_forwardNDR()
+        output_obj.generate_allEM_reverseNDR()
     elif generate_feature == "image_only":
         output_obj.generate_EM_flen_feature()
         output_obj.generate_forwardNUC_flen_feature()
@@ -60,8 +60,8 @@ def main():
         output_obj.generate_EM_reverseNUC()
         output_obj.generate_forwardNDR_flen_feature()
         output_obj.generate_reverseNDR_flen_feature()
-        output_obj.generate_EM_forwardNDR()
-        output_obj.generate_EM_reverseNDR()
+        output_obj.generate_allEM_forwardNDR()
+        output_obj.generate_allEM_reverseNDR()
     elif generate_feature == "GW_only":
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()
