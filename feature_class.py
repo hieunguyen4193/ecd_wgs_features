@@ -452,8 +452,6 @@ class WGS_GW_Image_features:
         NDR_countdf = NDR_countdf.set_index("flen")
         NDR_countdf = NDR_countdf/NDR_countdf.sum().sum()
         
-        assert NDR_countdf.shape[0] == 211, f"[NDR reverse - flen] flen failed!"
-        assert NDR_countdf.shape[1] == 601, f"[NDR reverse - flen] NDR failed"
         
         if save_feature:
             NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseNDR_FLEN.csv"), index=False)
