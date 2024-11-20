@@ -32,7 +32,7 @@ class WGS_GW_features:
                 self.metadata = pd.read_csv(self.path_to_metadata, sep="\t")  
                 
             tmp = pd.DataFrame(
-                data = [file.name for file in self.all_flen_features],#
+                data = [file.name for file in self.all_flen_features],
                 columns = ["Filename"]
             )
             tmp["SampleID"] = tmp["Filename"].apply(lambda x: x.split("_")[0] if "-" not in x else x.split("_")[0].split("-")[1])
@@ -88,7 +88,8 @@ class WGS_GW_Image_features:
                  motif_order_path,
                  outputdir,
                  path_to_old_nuc = "none",
-                 feature_version = "20241001"):
+                 feature_version = "20241001",
+                 use_softmask = False):
         self.input_tsv = input_tsv
         self.sampleid = input_tsv.split("/")[-1].split(".")[0]
         print("reading in the input frag.tsv data")
@@ -100,6 +101,11 @@ class WGS_GW_Image_features:
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
             self.maindf = self.maindf[[0, 1, 2, 3, 4, 8, 9, 10, 11, 12]]
             self.maindf.columns = ["readID", "chr", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM", "forward_NDR", "reverse_NDR"]
+        
+        if use_softmask:
+            self.maindf["forward_EM"] = self.maindf["forward_EM"].apply(lambda x: x.upper())
+            self.maindf["reverse_EM"] = self.maindf["reverse_EM"].apply(lambda x: x.upper())
+
         self.motif_order_path = motif_order_path
         self.motif_order = pd.read_csv(motif_order_path)["motif_order"].values
         self.all_4bp_motifs = [
