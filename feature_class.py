@@ -668,7 +668,6 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNUC.csv"), index=False) # <<<<< OLD NAME!!!!!
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_reverseNUC.csv"), index=False)
 
     #####-------------------------------------------------------------#####
@@ -772,7 +771,6 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNUC.csv"), index=False) #  <<<<< OLD NAME!!!!!
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forwardNUC.csv"), index=False)
 
     #####-------------------------------------------------------------#####
@@ -927,7 +925,6 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNDR.csv"), index=False) #  <<<<< OLD NAME!!!!!
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseEM_reverseNDR.csv"), index=False)
     
     #####-------------------------------------------------------------#####
@@ -979,5 +976,4 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNDR.csv"), index=False) #  <<<<< OLD NAME!!!!!
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forwardNDR.csv"), index=False)
