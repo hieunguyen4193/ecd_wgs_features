@@ -570,7 +570,7 @@ class WGS_GW_Image_features:
             count_pair_EM.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_long_fragments.csv"), index=False)
     
     #####-------------------------------------------------------------#####
-    ##### EM - forward NUC
+    ##### all EM - forward NUC
     #####-------------------------------------------------------------#####
     def generate_EM_forwardNUC(self,
                               save_feature = True):
@@ -617,16 +617,67 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNUC.csv"), index=False)
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNUC.csv"), index=False) # <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_forwardNUC.csv"), index=False)
 
     #####-------------------------------------------------------------#####
-    ##### EN .reverse NUC
+    ##### all EM - forward NUC
     #####-------------------------------------------------------------#####
     def generate_EM_reverseNUC(self,
                               save_feature = True):
+        # IMPORTANT NOTE: TAKE BOTH REVERSE AND FORWARD EM + REVERSE NUC
+        feature_df = self.maindf_filter_chr.copy()
+        ##### generate EM - REVERSE_NUC dataframe
+        # Forward EM - Forward nucleosome distance
+        forward_em_reverse_NUC = feature_df[["forward_EM", "reverse_NUC"]].copy()
+        forward_em_reverse_NUC.columns = ["EM", "reverse_NUC"]
+        
+        # Reverse EM - forward nucleosome distance
+        reverse_em_reverse_NUC = feature_df[["reverse_EM", "reverse_NUC"]].copy()
+        reverse_em_reverse_NUC.columns = ["EM", "reverse_NUC"]
+
+        em_reverse_NUC_df = pd.concat([forward_em_reverse_NUC, reverse_em_reverse_NUC], axis = 0)
+        em_reverse_NUC_df = em_reverse_NUC_df[~em_reverse_NUC_df["EM"].str.contains("N")]
+        em_reverse_NUC_df = em_reverse_NUC_df[(em_reverse_NUC_df["reverse_NUC"] >= -300) & (em_reverse_NUC_df["reverse_NUC"] <= 300)]
+        countdf = em_reverse_NUC_df.reset_index() \
+                                   .groupby(["EM", "reverse_NUC"])["index"] \
+                                   .count() \
+                                   .reset_index() \
+                                   .pivot_table(index='reverse_NUC', 
+                                                columns='EM', 
+                                                values='index', 
+                                                fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        reverse_NUC_range_df = pd.DataFrame(
+            {
+                'reverse_NUC': range(-300, 301)
+            }
+        )
+
+        countdf = pd.merge(reverse_NUC_range_df, countdf, on='reverse_NUC', how='outer')
+        countdf.fillna(0, inplace=True)
+
+        countdf = countdf.set_index("reverse_NUC")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+                
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNUC.csv"), index=False) # <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_reverseNUC.csv"), index=False)
+
+    #####-------------------------------------------------------------#####
+    ##### reverse EN .reverse NUC
+    #####-------------------------------------------------------------#####
+    def generate_reverseEM_reverseNUC(self,
+                              save_feature = True):
         # IMPORTANT NOTE: JUST TAKE REVERSE EM + REVERSE NUC
         feature_df = self.maindf_filter_chr.copy()
-        ##### generate EM - reverse_NUC dataframe
         reverse_em_reverse_NUC = feature_df[["reverse_EM", "reverse_NUC"]].copy()
         reverse_em_reverse_NUC.columns = ["EM", "reverse_NUC"]
         em_reverse_NUC_df = reverse_em_reverse_NUC.copy()
@@ -669,8 +720,61 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNUC.csv"), index=False)
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNUC.csv"), index=False) #  <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseEM_reverseNUC.csv"), index=False)
     
+    #####-------------------------------------------------------------#####
+    ##### forward EN .forward NUC
+    #####-------------------------------------------------------------#####
+    def generate_forwardEM_forwardNUC(self,
+                              save_feature = True):
+        # IMPORTANT NOTE: JUST TAKE forward EM + forward NUC
+        feature_df = self.maindf_filter_chr.copy()
+        forward_em_forward_NUC = feature_df[["forward_EM", "forward_NUC"]].copy()
+        forward_em_forward_NUC.columns = ["EM", "forward_NUC"]
+        em_forward_NUC_df = forward_em_forward_NUC.copy()
+        em_forward_NUC_df = em_forward_NUC_df[~em_forward_NUC_df["EM"].str.contains("N")]
+        
+        em_forward_NUC_df = em_forward_NUC_df[
+            (em_forward_NUC_df["forward_NUC"] >= -300) 
+            & (em_forward_NUC_df["forward_NUC"] <= 300)
+        ]
+        
+        countdf = em_forward_NUC_df.reset_index() \
+                                    .groupby(["EM", "forward_NUC"])["index"] \
+                                    .count() \
+                                    .reset_index() \
+                                    .pivot_table(index='forward_NUC', 
+                                                 columns='EM', 
+                                                 values='index', 
+                                                 fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        forward_NUC_range_df = pd.DataFrame(
+            {
+                'forward_NUC': range(-300, 301)
+            }
+        )
+        countdf = pd.merge(forward_NUC_range_df, 
+                           countdf, 
+                           on='forward_NUC', 
+                           how='outer')
+        countdf.fillna(0, 
+                       inplace=True)
+
+        
+        countdf = countdf.set_index("forward_NUC")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNUC.csv"), index=False) #  <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forwardNUC.csv"), index=False)
+
     #####-------------------------------------------------------------#####
     ##### EM - forward NDR
     #####-------------------------------------------------------------#####
@@ -720,7 +824,7 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_forwardNDR.csv"), index=False)
 
     #####-------------------------------------------------------------#####
     ##### EM - reverse NDR
@@ -771,6 +875,109 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_reverseNDR.csv"), index=False)
 
     
+    #####-------------------------------------------------------------#####
+    ##### reverse EN .reverse NDR
+    #####-------------------------------------------------------------#####
+    def generate_reverseEM_reverseNDR(self,
+                              save_feature = True):
+        # IMPORTANT NOTE: JUST TAKE REVERSE EM + REVERSE NDR
+        feature_df = self.maindf_filter_chr.copy()
+        reverse_em_reverse_NDR = feature_df[["reverse_EM", "reverse_NDR"]].copy()
+        reverse_em_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        em_reverse_NDR_df = reverse_em_reverse_NDR.copy()
+        em_reverse_NDR_df = em_reverse_NDR_df[~em_reverse_NDR_df["EM"].str.contains("N")]
+        
+        em_reverse_NDR_df = em_reverse_NDR_df[
+            (em_reverse_NDR_df["reverse_NDR"] >= -300) 
+            & (em_reverse_NDR_df["reverse_NDR"] <= 300)
+        ]
+        
+        countdf = em_reverse_NDR_df.reset_index() \
+                                    .groupby(["EM", "reverse_NDR"])["index"] \
+                                    .count() \
+                                    .reset_index() \
+                                    .pivot_table(index='reverse_NDR', 
+                                                 columns='EM', 
+                                                 values='index', 
+                                                 fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        reverse_NDR_range_df = pd.DataFrame(
+            {
+                'reverse_NDR': range(-1000, 1001)
+            }
+        )
+        countdf = pd.merge(reverse_NDR_range_df, 
+                           countdf, 
+                           on='reverse_NDR', 
+                           how='outer')
+        countdf.fillna(0, 
+                       inplace=True)
+
+        
+        countdf = countdf.set_index("reverse_NDR")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_reverseNDR.csv"), index=False) #  <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseEM_reverseNDR.csv"), index=False)
+    
+    #####-------------------------------------------------------------#####
+    ##### forward EN .forward NDR
+    #####-------------------------------------------------------------#####
+    def generate_forwardEM_forwardNDR(self,
+                              save_feature = True):
+        # IMPORTANT NOTE: JUST TAKE forward EM + forward NDR
+        feature_df = self.maindf_filter_chr.copy()
+        forward_em_forward_NDR = feature_df[["forward_EM", "forward_NDR"]].copy()
+        forward_em_forward_NDR.columns = ["EM", "forward_NDR"]
+        em_forward_NDR_df = forward_em_forward_NDR.copy()
+        em_forward_NDR_df = em_forward_NDR_df[~em_forward_NDR_df["EM"].str.contains("N")]
+        
+        em_forward_NDR_df = em_forward_NDR_df[
+            (em_forward_NDR_df["forward_NDR"] >= -300) 
+            & (em_forward_NDR_df["forward_NDR"] <= 300)
+        ]
+        
+        countdf = em_forward_NDR_df.reset_index() \
+                                    .groupby(["EM", "forward_NDR"])["index"] \
+                                    .count() \
+                                    .reset_index() \
+                                    .pivot_table(index='forward_NDR', 
+                                                 columns='EM', 
+                                                 values='index', 
+                                                 fill_value=0)
+
+        ##### fill values so that the output matrix always 50:350 x 256
+        forward_NDR_range_df = pd.DataFrame(
+            {
+                'forward_NDR': range(-1000, 1001)
+            }
+        )
+        countdf = pd.merge(forward_NDR_range_df, 
+                           countdf, 
+                           on='forward_NDR', 
+                           how='outer')
+        countdf.fillna(0, 
+                       inplace=True)
+
+        
+        countdf = countdf.set_index("forward_NDR")
+        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+
+        if len(missing_motifs) != 0:
+            for motif in missing_motifs:
+                countdf[motif] = 0
+        countdf = countdf/countdf.sum().sum()
+        countdf = countdf[self.motif_order]
+        if save_feature:
+            # countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_EM_forwardNDR.csv"), index=False) #  <<<<< OLD NAME!!!!!
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forwardNDR.csv"), index=False)
