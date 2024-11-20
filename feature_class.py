@@ -621,7 +621,7 @@ class WGS_GW_Image_features:
             countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_forwardNUC.csv"), index=False)
 
     #####-------------------------------------------------------------#####
-    ##### all EM - forward NUC
+    ##### all EM - reverse NUC
     #####-------------------------------------------------------------#####
     def generate_allEM_reverseNUC(self,
                               save_feature = True):
@@ -891,8 +891,8 @@ class WGS_GW_Image_features:
         em_reverse_NDR_df = em_reverse_NDR_df[~em_reverse_NDR_df["EM"].str.contains("N")]
         
         em_reverse_NDR_df = em_reverse_NDR_df[
-            (em_reverse_NDR_df["reverse_NDR"] >= -300) 
-            & (em_reverse_NDR_df["reverse_NDR"] <= 300)
+            (em_reverse_NDR_df["reverse_NDR"] >= -1000) 
+            & (em_reverse_NDR_df["reverse_NDR"] <= 1000)
         ]
         
         countdf = em_reverse_NDR_df.reset_index() \
@@ -943,8 +943,8 @@ class WGS_GW_Image_features:
         em_forward_NDR_df = em_forward_NDR_df[~em_forward_NDR_df["EM"].str.contains("N")]
         
         em_forward_NDR_df = em_forward_NDR_df[
-            (em_forward_NDR_df["forward_NDR"] >= -300) 
-            & (em_forward_NDR_df["forward_NDR"] <= 300)
+            (em_forward_NDR_df["forward_NDR"] >= -1000) 
+            & (em_forward_NDR_df["forward_NDR"] <= 1000)
         ]
         
         countdf = em_forward_NDR_df.reset_index() \
