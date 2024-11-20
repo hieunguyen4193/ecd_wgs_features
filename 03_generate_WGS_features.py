@@ -36,6 +36,7 @@ def main():
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()
+
         ##### generate IMAGES feature and save features to output dir
         output_obj.generate_EM_flen_feature()
         output_obj.generate_forwardNUC_flen_feature()
@@ -43,12 +44,17 @@ def main():
         output_obj.generate_EM_pairs_all_flen()
         output_obj.generate_EM_pairs_short_flen()
         output_obj.generate_EM_pairs_long_flen()
-        output_obj.generate_EM_forwardNUC()
-        output_obj.generate_EM_reverseNUC()
+        output_obj.generate_allEM_forwardNUC()
+        output_obj.generate_allEM_reverseNUC()
+        output_obj.generate_reverseEM_reverseNUC()
+        output_obj.generate_forwardEM_forwardNUC()
         output_obj.generate_forwardNDR_flen_feature()
         output_obj.generate_reverseNDR_flen_feature()
         output_obj.generate_allEM_forwardNDR()
         output_obj.generate_allEM_reverseNDR()
+        output_obj.generate_reverseEM_reverseNDR()
+        output_obj.generate_forwardEM_forwardNDR()
+    
     elif generate_feature == "image_only":
         output_obj.generate_EM_flen_feature()
         output_obj.generate_forwardNUC_flen_feature()
@@ -56,12 +62,16 @@ def main():
         output_obj.generate_EM_pairs_all_flen()
         output_obj.generate_EM_pairs_short_flen()
         output_obj.generate_EM_pairs_long_flen()
-        output_obj.generate_EM_forwardNUC()
-        output_obj.generate_EM_reverseNUC()
+        output_obj.generate_allEM_forwardNUC()
+        output_obj.generate_allEM_reverseNUC()
+        output_obj.generate_reverseEM_reverseNUC()
+        output_obj.generate_forwardEM_forwardNUC()
         output_obj.generate_forwardNDR_flen_feature()
         output_obj.generate_reverseNDR_flen_feature()
         output_obj.generate_allEM_forwardNDR()
         output_obj.generate_allEM_reverseNDR()
+        output_obj.generate_reverseEM_reverseNDR()
+        output_obj.generate_forwardEM_forwardNDR()
     elif generate_feature == "GW_only":
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()

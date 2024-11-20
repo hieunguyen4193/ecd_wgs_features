@@ -572,7 +572,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####
     ##### all EM - forward NUC
     #####-------------------------------------------------------------#####
-    def generate_EM_forwardNUC(self,
+    def generate_allEM_forwardNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: TAKE BOTH REVERSE AND FORWARD EM + FORWARD NUC
         feature_df = self.maindf_filter_chr.copy()
@@ -623,7 +623,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####
     ##### all EM - forward NUC
     #####-------------------------------------------------------------#####
-    def generate_EM_reverseNUC(self,
+    def generate_allEM_reverseNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: TAKE BOTH REVERSE AND FORWARD EM + REVERSE NUC
         feature_df = self.maindf_filter_chr.copy()
