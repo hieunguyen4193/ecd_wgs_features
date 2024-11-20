@@ -46,7 +46,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         --output ${final_Feature_dir}
     echo -e "Finished generating feature matrix"
 
-    echo -e "Running script 05 to generate CNA, short long features ..."
+    echo -e "Running script 06 to generate CNA, short long features ..."
     bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
     -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
     -o ${outputdir} \
@@ -61,37 +61,37 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     # -t ${outputdir}/tmp07 \
 
 else 
-    echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
-    echo -e "Running script 03 to generate features ..."
-    python 03_generate_WGS_features.py \
-        --input ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
-        --output ${outputdir}/${sampleid} \
-        --motif_order_path ${motif_order_path} \
-        --feature_version "20241001" \
-        --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
-        --generate_feature "all" 
+    # echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
+    # echo -e "Running script 03 to generate features ..."
+    # python 03_generate_WGS_features.py \
+    #     --input ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    #     --output ${outputdir}/${sampleid} \
+    #     --motif_order_path ${motif_order_path} \
+    #     --feature_version "20241001" \
+    #     --old_nuc ${outputdir}/${sampleid}/${sampleid}.full_Nucleosome.dist.final.bed \
+    #     --generate_feature "all" 
 
-    echo -e "Finished generating features, saving csv files"
+    # echo -e "Finished generating features, saving csv files"
 
-    echo -e "Running script 04 to generate feature matrix ..."
-    python 04_generate_batch_feature_matrix.py \
-        --input ${outputdir} \
-        --output ${final_Feature_dir}
-    echo -e "Finished generating feature matrix"
+    # echo -e "Running script 04 to generate feature matrix ..."
+    # python 04_generate_batch_feature_matrix.py \
+    #     --input ${outputdir} \
+    #     --output ${final_Feature_dir}
+    # echo -e "Finished generating feature matrix"
 
-    echo -e "Running script 05 to generate CNA, short long features ..."
-    bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
-    -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
-    -o ${outputdir} \
-    -n ${num_threads} \
-    -t markdup;
-    echo -e "Finished generating CNA, short long features"
-
-    # echo -e "Running script 07 to generate NDR features..."
-    # bash 07_generate_NDR_features.sh \
-    # -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    # echo -e "Running script 06 to generate CNA, short long features ..."
+    # bash 06_preprocess_bam_for_CNA_ratioFLEN_features.sh \
+    # -i ${outputdir}/${sampleid}/${sampleid}.sorted.markdup.bam \
     # -o ${outputdir} \
-    # -t ${outputdir}/tmp07 \
+    # -n ${num_threads} \
+    # -t markdup;
+    # echo -e "Finished generating CNA, short long features"
+
+    echo -e "Running script 07 to generate NDR features..."
+    bash 07_generate_NDR_features.sh \
+    -i ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
+    -o ${outputdir} \
+    -t ${outputdir}/tmp07 \
     
 fi
 
