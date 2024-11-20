@@ -139,13 +139,17 @@ fi
 #     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_5common_CENTER.csv -o NDR_cancer_specific_location_5common_CENTER.sorted.bed
 # fi
 
-bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
-bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+# similar to nucleosome distance, use the same sortedNuc.forward/reverse_Nucleosome.bed
+if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$12 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
 
-echo -e "sorting forward nucleosome file"
-sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed
-echo -e "sorting reverse nucleosome file"
-sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
+  echo -e "sorting forward nucleosome file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed
+  echo -e "sorting reverse nucleosome file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
+  touch ${outputdir}/${sampleid}.finished_NDR.txt
+fi
 
 #####----------------------------------------------------------------------#####
 ##### Merge all features into one single tsv output file. 
