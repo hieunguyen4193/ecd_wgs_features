@@ -27,6 +27,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         -o ${outputdir} \
         -f ${path_to_fa} \
         -r ${path_to_ref} \
+        -n ${ndr_ref} \
         -c false;
         
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
