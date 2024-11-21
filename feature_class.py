@@ -20,6 +20,9 @@ class WGS_GW_features:
         self.all_em_features = [
             item for item in pathlib.Path(self.path_to_feature_dir).glob("*/*_GWfeature_EM.csv")
         ]
+        self.all_ndr_features = [
+            item for item in pathlib.Path(self.path_to_feature_dir).glob("*/*_GWfeature_NDR.csv")
+        ]
         assert len(self.all_flen_features) == len(self.all_em_features)
         assert len(self.all_flen_features) == len(self.all_nuc_features)
         if path_to_metadata is not None:        
