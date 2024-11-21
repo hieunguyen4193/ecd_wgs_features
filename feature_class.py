@@ -64,6 +64,18 @@ class WGS_GW_features:
         maindf = maindf.set_index("feat")
         return maindf
     
+    def generate_ndr_matrix(self):
+        maindf = pd.DataFrame(data = range(-1000, 1001), columns = ["feat"])
+        for file in tqdm(self.all_ndr_features):
+            sampleid = file.name.split("_")[0]
+            if "-" in sampleid:
+                sampleid = sampleid.split("-")[1]
+            tmpdf = pd.read_csv(file)
+            tmpdf.columns = ["feat", sampleid]
+            maindf = maindf.merge(tmpdf, right_on = "feat", left_on="feat")
+            
+        maindf = maindf.set_index("feat")
+        return maindf
     def generate_em_matrix(self):
         maindf = pd.DataFrame(data = ["{}{}{}{}".format(i,j,k,l) 
                                       for i in ["A", "T", "G", "C"] 
