@@ -142,8 +142,8 @@ fi
 # similar to nucleosome distance, use the same sortedNuc.forward/reverse_Nucleosome.bed
 if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   echo -e "generating NRD ..."
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$13=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
 
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed
@@ -177,14 +177,14 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
     paste ${outputdir}/${sampleid}.modified3.tsv ${outputdir}/reverse_4bpEM.tmp.txt  > ${outputdir}/${sampleid}.modified4.tsv
 
     ##### column $10: distance of forward read to the nearest NDR
-    cat ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed | cut -f13 > ${outputdir}/forward_ndr.tmp.txt
+    cat ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_ndr.tmp.txt
     paste ${outputdir}/${sampleid}.modified4.tsv ${outputdir}/forward_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified5.tsv
 
     ##### column $11: distance of reverse read to the nearest NDR
-    cat ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed | cut -f13 > ${outputdir}/reverse_ndr.tmp.txt
+    cat ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_ndr.tmp.txt
     paste ${outputdir}/${sampleid}.modified5.tsv ${outputdir}/reverse_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified6.tsv
 
-      mv ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/${sampleid}.final_output.tsv
+    mv ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/${sampleid}.final_output.tsv
     rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4,5,6}.tsv
 fi
 
