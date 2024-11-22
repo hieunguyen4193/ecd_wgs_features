@@ -139,6 +139,11 @@ fi
 #     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_5common_CENTER.csv -o NDR_cancer_specific_location_5common_CENTER.sorted.bed
 # fi
 
+# if [ ! -f NDR_cancer_specific_location_5common_CENTER.sorted.bed ]; then
+#     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_5common_CENTER.csv -o NDR_cancer_specific_location_5common_CENTER.sorted.bed
+# fi
+
+
 # similar to nucleosome distance, use the same sortedNuc.forward/reverse_Nucleosome.bed
 if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   echo -e "generating NRD ..."
