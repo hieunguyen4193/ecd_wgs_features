@@ -132,19 +132,23 @@ if [ ! -f "${outputdir}/${sampleid}.finished_Nucleosome.txt" ]; then
 fi
 
 #####----------------------------------------------------------------------#####
-##### NDR features
+##### NDR features: TOO and BINARY
 #####----------------------------------------------------------------------#####
 # echo -e "Sort the NDR bed file ..."
+
+# >>>>> bed file NDR for TOO classification
 # if [ ! -f NDR_cancer_specific_location_5common_CENTER.sorted.bed ]; then
 #     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_5common_CENTER.csv -o NDR_cancer_specific_location_5common_CENTER.sorted.bed
 # fi
 
+# >>>>> bed file NDR for binary classification
 # if [ ! -f NDR_cancer_specific_location_5common_CENTER.sorted.bed ]; then
-#     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_5common_CENTER.csv -o NDR_cancer_specific_location_5common_CENTER.sorted.bed
+#     sort -k 1V,1 -k 2n,2 NDR_cancer_specific_location_tab.removeName.csv -o NNDR_cancer_specific_location_binary.sorted.bed
 # fi
-
 
 # similar to nucleosome distance, use the same sortedNuc.forward/reverse_Nucleosome.bed
+
+##### TOO
 if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   echo -e "generating NRD ..."
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
@@ -155,6 +159,19 @@ if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   echo -e "sorting reverse nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
   touch ${outputdir}/${sampleid}.finished_NDR.txt
+fi
+
+##### BINARY
+if [ ! -f "${outputdir}/${sampleid}.finished_NDRbinary.txt" ]; then
+  echo -e "generating NRD ..."
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref_binary} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref_binary} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+
+  echo -e "sorting forward nucleosome file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDRbinary_forward.dist.bed > ${outputdir}/${sampleid}.NDRbinary_forward.dist.sorted.bed
+  echo -e "sorting reverse nucleosome file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDRbinary_reverse.dist.bed > ${outputdir}/${sampleid}.NDRbinary_reverse.dist.sorted.bed
+  touch ${outputdir}/${sampleid}.finished_NDRbinary.txt
 fi
 
 #####----------------------------------------------------------------------#####
@@ -189,8 +206,16 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
     cat ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_ndr.tmp.txt
     paste ${outputdir}/${sampleid}.modified5.tsv ${outputdir}/reverse_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified6.tsv
 
-    mv ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/${sampleid}.final_output.tsv
-    rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4,5,6}.tsv
+    ##### column $10: distance of forward read to the nearest NDRbinary
+    cat ${outputdir}/${sampleid}.NDRbinary_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_NDRbinary.tmp.txt
+    paste ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/forward_NDRbinary.tmp.txt  > ${outputdir}/${sampleid}.modified7.tsv
+
+    ##### column $11: distance of reverse read to the nearest NDRbinary
+    cat ${outputdir}/${sampleid}.NDRbinary_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_NDRbinary.tmp.txt
+    paste ${outputdir}/${sampleid}.modified7.tsv ${outputdir}/reverse_NDRbinary.tmp.txt  > ${outputdir}/${sampleid}.modified8.tsv
+
+    mv ${outputdir}/${sampleid}.modified8.tsv ${outputdir}/${sampleid}.final_output.tsv
+    rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4,5,6,7,8}.tsv
 fi
 
 if [ "${cleanup}" = "true" ]; then
