@@ -3,7 +3,7 @@ export PATH=/Users/hieunguyen/samtools/bin:$PATH
 #####----------------------------------------------------------------------#####
 ##### input args
 #####----------------------------------------------------------------------#####
-while getopts "i:o:n:" opt; do
+while getopts "i:o:n:b:" opt; do
   case ${opt} in
     i )
       finalOutputFile=$OPTARG
@@ -14,9 +14,12 @@ while getopts "i:o:n:" opt; do
     n )
       ndr_ref=$OPTARG
       ;;
-    
+    b )
+      ndrb_ref=$OPTARG
+      ;;
+
     \? )
-      echo "Usage: cmd [-i] finalOutputFile [-o] outputdir [-n] NDR ref"
+      echo "Usage: cmd [-i] finalOutputFile [-o] outputdir [-n] NDR ref [-b] NDR binary ref"
       exit 1
       ;;
   esac
@@ -45,6 +48,15 @@ sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sample
 echo -e "sorting reverse NDR file"
 sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
 
+echo -e "generating NRD BINARY ..."
+bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_NDR.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDRb_forward.dist.bed
+bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_NDR.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDRb_reverse.dist.bed
+
+echo -e "sorting forward NDR file"
+sort -k4,4 ${outputdir}/${sampleid}.NDRb_forward.dist.bed > ${outputdir}/${sampleid}.NDRb_forward.dist.sorted.bed
+echo -e "sorting reverse NDR file"
+sort -k4,4 ${outputdir}/${sampleid}.NDRb_reverse.dist.bed > ${outputdir}/${sampleid}.NDRb_reverse.dist.sorted.bed
+
 ##### column $10: distance of forward read to the nearest NDR
 cat ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_ndr.tmp.txt
 paste ${finalOutputFile} ${outputdir}/forward_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified1.tsv
@@ -53,5 +65,13 @@ paste ${finalOutputFile} ${outputdir}/forward_ndr.tmp.txt  > ${outputdir}/${samp
 cat ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_ndr.tmp.txt
 paste ${outputdir}/${sampleid}.modified1.tsv ${outputdir}/reverse_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified2.tsv
 
-mv ${outputdir}/${sampleid}.modified2.tsv ${outputdir}/${sampleid}.final_output.tsv
-rm -rf ${outputdir}/${sampleid}.modified{1,2}.tsv
+##### column $10: distance of forward read to the nearest NDR
+cat ${outputdir}/${sampleid}.NDRb_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_ndrb.tmp.txt
+paste ${outputdir}/${sampleid}.modified2.tsv ${outputdir}/forward_ndrb.tmp.txt  > ${outputdir}/${sampleid}.modified3.tsv
+
+##### column $11: distance of reverse read to the nearest NDR
+cat ${outputdir}/${sampleid}.NDRb_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_ndrb.tmp.txt
+paste ${outputdir}/${sampleid}.modified3.tsv ${outputdir}/reverse_ndrb.tmp.txt  > ${outputdir}/${sampleid}.modified4.tsv
+
+mv ${outputdir}/${sampleid}.modified4.tsv ${outputdir}/${sampleid}.final_output.tsv
+rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4}.tsv
