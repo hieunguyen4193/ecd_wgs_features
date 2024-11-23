@@ -23,6 +23,9 @@ class WGS_GW_features:
         self.all_ndr_features = [
             item for item in pathlib.Path(self.path_to_feature_dir).glob("*/*_GWfeature_NDR.csv")
         ]
+        self.all_ndrb_features = [
+            item for item in pathlib.Path(self.path_to_feature_dir).glob("*/*_GWfeature_NDRb.csv")
+        ]
         assert len(self.all_flen_features) == len(self.all_em_features)
         assert len(self.all_flen_features) == len(self.all_nuc_features)
         if path_to_metadata is not None:        
@@ -67,9 +70,16 @@ class WGS_GW_features:
         maindf = maindf.set_index("feat")
         return maindf
     
-    def generate_ndr_matrix(self):
+    def generate_ndr_matrix(self, binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            input_files = self.all_ndr_features
+        elif binary_or_TOO == "binary":
+            input_files = self.all_ndrb_features
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+        
         maindf = pd.DataFrame(data = range(-1000, 1001), columns = ["feat"])
-        for file in tqdm(self.all_ndr_features):
+        for file in tqdm(input_files):
             sampleid = file.name.split("_")[0]
             if "-" in sampleid:
                 sampleid = sampleid.split("-")[1]
@@ -79,6 +89,7 @@ class WGS_GW_features:
             
         maindf = maindf.set_index("feat")
         return maindf
+    
     def generate_em_matrix(self):
         maindf = pd.DataFrame(data = ["{}{}{}{}".format(i,j,k,l) 
                                       for i in ["A", "T", "G", "C"] 
@@ -110,12 +121,30 @@ class WGS_GW_Image_features:
         print("reading in the input frag.tsv data")
         if feature_version == "20241001": 
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
-            self.maindf.columns = ["chr", "start", "end", "flen", "readID", "QC", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM", "forward_NDR", "reverse_NDR"]
+            self.maindf.columns = ["chr", 
+                                   "start", 
+                                   "end", 
+                                   "flen", 
+                                   "readID", 
+                                   "QC", 
+                                   "forward_NUC", "reverse_NUC", 
+                                   "forward_EM", "reverse_EM", 
+                                   "forward_NDR", "reverse_NDR", 
+                                   "forward_NDRb", "reverse_NDRb"]
         else:
             # use only for reading the first version of *.final_output.tsv file for GW-Image features.
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
             self.maindf = self.maindf[[0, 1, 2, 3, 4, 8, 9, 10, 11, 12]]
-            self.maindf.columns = ["readID", "chr", "start", "cigar", "flen", "readID_extra", "forward_NUC", "reverse_NUC", "forward_EM", "reverse_EM", "forward_NDR", "reverse_NDR"]
+            self.maindf.columns = ["readID", 
+                                   "chr", 
+                                   "start", 
+                                   "cigar", 
+                                   "flen", 
+                                   "readID_extra", 
+                                   "forward_NUC", "reverse_NUC", 
+                                   "forward_EM", "reverse_EM", 
+                                   "forward_NDR", "reverse_NDR", 
+                                   "forward_NDRb", "reverse_NDRb"]
         
         if use_softmask:
             self.maindf["forward_EM"] = self.maindf["forward_EM"].apply(lambda x: x.upper())
@@ -229,10 +258,18 @@ class WGS_GW_Image_features:
     ##### generate NDR features
     #####-------------------------------------------------------------#####
     def generate_ndr_feature(self, 
-                            save_feature = True):
-        NDRdf1 = pd.DataFrame(data = self.maindf_filter_chr["reverse_NDR"].values,
+                            save_feature = True,
+                            binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+            
+        NDRdf1 = pd.DataFrame(data = self.maindf_filter_chr[f"reverse_{use_col}"].values,
                      columns = ["feat"])
-        NDRdf2 = pd.DataFrame(data = self.maindf_filter_chr["forward_NDR"].values,
+        NDRdf2 = pd.DataFrame(data = self.maindf_filter_chr[f"forward_{use_col}"].values,
                      columns = ["feat"])
         NDRdf = pd.concat([NDRdf1, NDRdf2], axis = 0)
         NDRdf = NDRdf[(NDRdf["feat"] >= -1000) & (NDRdf["feat"] <= 1000)]
@@ -240,7 +277,7 @@ class WGS_GW_Image_features:
         output_NDRdf["index"] = output_NDRdf["index"].apply(lambda x: x/output_NDRdf["index"].sum())
         output_NDRdf.columns = ["dist", "freq"]
         if save_feature:
-            output_NDRdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_NDR.csv"), index=False)
+            output_NDRdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_GWfeature_{use_col}.csv"), index=False)
         return NDRdf
 
     #####-------------------------------------------------------------#####    
@@ -351,9 +388,18 @@ class WGS_GW_Image_features:
     ##### FORWARD NDR - FLEN
     #####-------------------------------------------------------------#####    
     def generate_forwardNDR_flen_feature(self,
-                                        save_feature = True):
+                                        save_feature = True,
+                                        binary_or_TOO = "TOO"):
+        
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+        
         feature_df = self.maindf_filter_chr.copy()
-        NDRdf_forward = feature_df[["flen", "forward_NDR"]].copy()
+        NDRdf_forward = feature_df[["flen", f"forward_{use_col}"]].copy()
         NDRdf_forward.columns = ["flen", "NDR_dist"]
         NDRdf_forward = NDRdf_forward[
             (NDRdf_forward["NDR_dist"] <= 1000) & (NDRdf_forward["NDR_dist"] >= -1000)
@@ -385,7 +431,7 @@ class WGS_GW_Image_features:
         NDR_countdf = NDR_countdf.set_index("flen")
         NDR_countdf = NDR_countdf/NDR_countdf.sum().sum()
         if save_feature:
-            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardNDR_FLEN.csv"), index=False)
+            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forward{use_col}_FLEN.csv"), index=False)
 
     #####-------------------------------------------------------------#####    
     ##### REVERSE NUCLEOSOME - FLEN
@@ -434,9 +480,16 @@ class WGS_GW_Image_features:
     ##### REVERSE NDR - FLEN
     #####-------------------------------------------------------------#####  
     def generate_reverseNDR_flen_feature(self,
-                                         save_feature = True):
+                                         save_feature = True,
+                                         binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
         feature_df = self.maindf_filter_chr.copy()
-        NDRdf_reverse = feature_df[["flen", "reverse_NDR"]].copy()
+        NDRdf_reverse = feature_df[["flen", f"reverse_{use_col}"]].copy()
         NDRdf_reverse.columns = ["flen", "NDR_dist"]
         NDRdf_reverse = NDRdf_reverse[
             (NDRdf_reverse["NDR_dist"] <= 1000) & (NDRdf_reverse["NDR_dist"] >= -1000)
@@ -469,7 +522,7 @@ class WGS_GW_Image_features:
         
         
         if save_feature:
-            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseNDR_FLEN.csv"), index=False)
+            NDR_countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverse{use_col}_FLEN.csv"), index=False)
 
     #####-------------------------------------------------------------#####
     ##### EM - EM, all flen
@@ -787,27 +840,34 @@ class WGS_GW_Image_features:
     ##### EM - forward NDR
     #####-------------------------------------------------------------#####
     def generate_allEM_forwardNDR(self,
-                              save_feature = True):
+                              save_feature = True,
+                              binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
         feature_df = self.maindf_filter_chr.copy()
         ##### generate EM - forward_NDR dataframe
         # Forward EM - Forward NDRleosome distance
-        forward_em_forward_NDR = feature_df[["forward_EM", "forward_NDR"]].copy()
-        forward_em_forward_NDR.columns = ["EM", "forward_NDR"]
+        forward_em_forward_NDR = feature_df[["forward_EM", f"forward_{use_col}"]].copy()
+        forward_em_forward_NDR.columns = ["EM", f"forward_{use_col}"]
         
         # Reverse EM - forward NDRleosome distance
-        reverse_em_forward_NDR = feature_df[["reverse_EM", "forward_NDR"]].copy()
-        reverse_em_forward_NDR.columns = ["EM", "forward_NDR"]
+        reverse_em_forward_NDR = feature_df[["reverse_EM", f"forward_{use_col}"]].copy()
+        reverse_em_forward_NDR.columns = ["EM", f"forward_{use_col}"]
 
         em_forward_NDR_df = pd.concat([forward_em_forward_NDR, reverse_em_forward_NDR], axis = 0)
         em_forward_NDR_df = em_forward_NDR_df[~em_forward_NDR_df["EM"].str.contains("N")]
         em_forward_NDR_df = em_forward_NDR_df[
-            (em_forward_NDR_df["forward_NDR"] >= -1000) & 
-            (em_forward_NDR_df["forward_NDR"] <= 1000)]
+            (em_forward_NDR_df[f"forward_{use_col}"] >= -1000) & 
+            (em_forward_NDR_df[f"forward_{use_col}"] <= 1000)]
         countdf = em_forward_NDR_df.reset_index() \
-                                   .groupby(["EM", "forward_NDR"])["index"] \
+                                   .groupby(["EM", f"forward_{use_col}"])["index"] \
                                    .count() \
                                    .reset_index() \
-                                   .pivot_table(index='forward_NDR', 
+                                   .pivot_table(index=f"forward_{use_col}", 
                                                 columns='EM', 
                                                 values='index', 
                                                 fill_value=0)
@@ -815,14 +875,14 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         forward_NDR_range_df = pd.DataFrame(
             {
-                'forward_NDR': range(-1000, 1001)
+                f"forward_{use_col}": range(-1000, 1001)
             }
         )
 
-        countdf = pd.merge(forward_NDR_range_df, countdf, on='forward_NDR', how='outer')
+        countdf = pd.merge(forward_NDR_range_df, countdf, on="forward_{use_coll}", how='outer')
         countdf.fillna(0, inplace=True)
 
-        countdf = countdf.set_index("forward_NDR")
+        countdf = countdf.set_index(f"forward_{use_col}")
         missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
 
         if len(missing_motifs) != 0:
@@ -832,33 +892,42 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_forwardNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_forward{use_col}.csv"), index=False)
 
     #####-------------------------------------------------------------#####
     ##### EM - reverse NDR
     #####-------------------------------------------------------------#####
     def generate_allEM_reverseNDR(self,
-                              save_feature = True):
+                              save_feature = True,
+                              binary_or_TOO = "TOO"):
+        
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+
         feature_df = self.maindf_filter_chr.copy()
         ##### generate EM - reverse_NDR dataframe
         # Forward EM - Forward NDRleosome distance
-        forward_em_reverse_NDR = feature_df[["forward_EM", "reverse_NDR"]].copy()
-        forward_em_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        forward_em_reverse_NDR = feature_df[["forward_EM", f"reverse_{use_col}"]].copy()
+        forward_em_reverse_NDR.columns = ["EM", f"reverse_{use_col}"]
         
         # Reverse EM - forward NDRleosome distance
-        reverse_em_reverse_NDR = feature_df[["reverse_EM", "reverse_NDR"]].copy()
-        reverse_em_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        reverse_em_reverse_NDR = feature_df[["reverse_EM", f"reverse_{use_col}"]].copy()
+        reverse_em_reverse_NDR.columns = ["EM", f"reverse_{use_col}"]
 
         em_reverse_NDR_df = pd.concat([forward_em_reverse_NDR, reverse_em_reverse_NDR], axis = 0)
         em_reverse_NDR_df = em_reverse_NDR_df[~em_reverse_NDR_df["EM"].str.contains("N")]
         em_reverse_NDR_df = em_reverse_NDR_df[
-            (em_reverse_NDR_df["reverse_NDR"] >= -1000) & 
-            (em_reverse_NDR_df["reverse_NDR"] <= 1000)]
+            (em_reverse_NDR_df[f"reverse_{use_col}"] >= -1000) & 
+            (em_reverse_NDR_df[f"reverse_{use_col}"] <= 1000)]
         countdf = em_reverse_NDR_df.reset_index() \
-                                   .groupby(["EM", "reverse_NDR"])["index"] \
+                                   .groupby(["EM", f"reverse_{use_col}"])["index"] \
                                    .count() \
                                    .reset_index() \
-                                   .pivot_table(index='reverse_NDR', 
+                                   .pivot_table(index=f"reverse_{use_col}", 
                                                 columns='EM', 
                                                 values='index', 
                                                 fill_value=0)
@@ -866,14 +935,14 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         reverse_NDR_range_df = pd.DataFrame(
             {
-                'reverse_NDR': range(-1000, 1001)
+                f"reverse_{use_col}": range(-1000, 1001)
             }
         )
 
-        countdf = pd.merge(reverse_NDR_range_df, countdf, on='reverse_NDR', how='outer')
+        countdf = pd.merge(reverse_NDR_range_df, countdf, on=f"reverse_{use_col}", how='outer')
         countdf.fillna(0, inplace=True)
 
-        countdf = countdf.set_index("reverse_NDR")
+        countdf = countdf.set_index(f"reverse_{use_col}")
         missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
 
         if len(missing_motifs) != 0:
@@ -883,31 +952,39 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_reverseNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_allEM_reverse{use_col}.csv"), index=False)
 
     
     #####-------------------------------------------------------------#####
     ##### reverse EN .reverse NDR
     #####-------------------------------------------------------------#####
     def generate_reverseEM_reverseNDR(self,
-                              save_feature = True):
+                              save_feature = True,
+                              binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+
         # IMPORTANT NOTE: JUST TAKE REVERSE EM + REVERSE NDR
         feature_df = self.maindf_filter_chr.copy()
-        reverse_em_reverse_NDR = feature_df[["reverse_EM", "reverse_NDR"]].copy()
-        reverse_em_reverse_NDR.columns = ["EM", "reverse_NDR"]
+        reverse_em_reverse_NDR = feature_df[["reverse_EM", f"reverse_{use_col}"]].copy()
+        reverse_em_reverse_NDR.columns = ["EM", f"reverse_{use_col}"]
         em_reverse_NDR_df = reverse_em_reverse_NDR.copy()
         em_reverse_NDR_df = em_reverse_NDR_df[~em_reverse_NDR_df["EM"].str.contains("N")]
         
         em_reverse_NDR_df = em_reverse_NDR_df[
-            (em_reverse_NDR_df["reverse_NDR"] >= -1000) 
-            & (em_reverse_NDR_df["reverse_NDR"] <= 1000)
+            (em_reverse_NDR_df[f"reverse_{use_col}"] >= -1000) 
+            & (em_reverse_NDR_df[f"reverse_{use_col}"] <= 1000)
         ]
         
         countdf = em_reverse_NDR_df.reset_index() \
-                                    .groupby(["EM", "reverse_NDR"])["index"] \
+                                    .groupby(["EM", f"reverse_{use_col}"])["index"] \
                                     .count() \
                                     .reset_index() \
-                                    .pivot_table(index='reverse_NDR', 
+                                    .pivot_table(index=f"reverse_{use_col}", 
                                                  columns='EM', 
                                                  values='index', 
                                                  fill_value=0)
@@ -915,18 +992,18 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         reverse_NDR_range_df = pd.DataFrame(
             {
-                'reverse_NDR': range(-1000, 1001)
+                f"reverse_{use_col}": range(-1000, 1001)
             }
         )
         countdf = pd.merge(reverse_NDR_range_df, 
                            countdf, 
-                           on='reverse_NDR', 
+                           on=f"reverse_{use_col}", 
                            how='outer')
         countdf.fillna(0, 
                        inplace=True)
 
         
-        countdf = countdf.set_index("reverse_NDR")
+        countdf = countdf.set_index(f"reverse_{use_col}")
         missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
 
         if len(missing_motifs) != 0:
@@ -935,30 +1012,38 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseEM_reverseNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_reverseEM_reverse{use_col}.csv"), index=False)
     
     #####-------------------------------------------------------------#####
     ##### forward EN .forward NDR
     #####-------------------------------------------------------------#####
     def generate_forwardEM_forwardNDR(self,
-                              save_feature = True):
+                              save_feature = True,
+                              binary_or_TOO = "TOO"):
+        if binary_or_TOO == "TOO":
+            use_col = "NDR"
+        elif binary_or_TOO == "binary":
+            use_col = "NDRb"
+        else:
+            raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
+
         # IMPORTANT NOTE: JUST TAKE forward EM + forward NDR
         feature_df = self.maindf_filter_chr.copy()
-        forward_em_forward_NDR = feature_df[["forward_EM", "forward_NDR"]].copy()
-        forward_em_forward_NDR.columns = ["EM", "forward_NDR"]
+        forward_em_forward_NDR = feature_df[["forward_EM", f"forward_{use_col}"]].copy()
+        forward_em_forward_NDR.columns = ["EM", f"forward_{use_col}"]
         em_forward_NDR_df = forward_em_forward_NDR.copy()
         em_forward_NDR_df = em_forward_NDR_df[~em_forward_NDR_df["EM"].str.contains("N")]
         
         em_forward_NDR_df = em_forward_NDR_df[
-            (em_forward_NDR_df["forward_NDR"] >= -1000) 
-            & (em_forward_NDR_df["forward_NDR"] <= 1000)
+            (em_forward_NDR_df[f"forward_{use_col}"] >= -1000) 
+            & (em_forward_NDR_df[f"forward_{use_col}"] <= 1000)
         ]
         
         countdf = em_forward_NDR_df.reset_index() \
-                                    .groupby(["EM", "forward_NDR"])["index"] \
+                                    .groupby(["EM", f"forward_{use_col}"])["index"] \
                                     .count() \
                                     .reset_index() \
-                                    .pivot_table(index='forward_NDR', 
+                                    .pivot_table(index=f"forward_{use_col}", 
                                                  columns='EM', 
                                                  values='index', 
                                                  fill_value=0)
@@ -966,18 +1051,18 @@ class WGS_GW_Image_features:
         ##### fill values so that the output matrix always 50:350 x 256
         forward_NDR_range_df = pd.DataFrame(
             {
-                'forward_NDR': range(-1000, 1001)
+                f"forward_{use_col}": range(-1000, 1001)
             }
         )
         countdf = pd.merge(forward_NDR_range_df, 
                            countdf, 
-                           on='forward_NDR', 
+                           on=f"forward_{use_col}", 
                            how='outer')
         countdf.fillna(0, 
                        inplace=True)
 
         
-        countdf = countdf.set_index("forward_NDR")
+        countdf = countdf.set_index(f"forward_{use_col}")
         missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
 
         if len(missing_motifs) != 0:
@@ -986,4 +1071,4 @@ class WGS_GW_Image_features:
         countdf = countdf/countdf.sum().sum()
         countdf = countdf[self.motif_order]
         if save_feature:
-            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forwardNDR.csv"), index=False)
+            countdf.to_csv(os.path.join(self.outputdir, f"{self.sampleid}_forwardEM_forward{use_col}.csv"), index=False)
