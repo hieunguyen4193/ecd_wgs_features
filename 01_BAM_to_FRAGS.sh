@@ -45,7 +45,7 @@ if [ ! -f "${inputbam}" ]; then
 fi
 
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
-sampleid=${sampleid%.bam*}
+sampleid=$(echo ${sampleid} | cut -d '.' -f 1)
 outputdir=${outputdir}/${sampleid}
 
 mkdir -p ${outputdir}
@@ -77,7 +77,7 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
   ##### Split bam file to short and long bam file
-  bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir}.sorted.markdup -n ${samtools_num_threads}
+  bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir}/short_long_BAM -n ${samtools_num_threads}
   
   # samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | cut -f1,3,4,8,9,5 > ${outputdir}/${sampleid}.prep.tsv
   samtools view ${outputdir}/${sampleid}.sorted.markdup.bam | \

@@ -45,7 +45,7 @@ if [ ! -f "${inputbam}" ]; then
 fi
 
 sampleid=$(echo ${inputbam} | xargs -n 1 basename)
-sampleid=${sampleid%.bam*}
+sampleid=$(echo ${sampleid} | cut -d '.' -f 1)
 outputdir=${outputdir}/${sampleid}
 
 mkdir -p ${outputdir}
@@ -54,7 +54,7 @@ mkdir -p ${outputdir}
 if [ "${input_type}" = "markdup" ]; then
 # if the input BAM file is already PREPROCESSED and MARKDUP
   echo "Processing as markdup BAM file"
-  bash split_bam_short_long.sh -i ${inputbam} -o ${outputdir} -n ${samtools_num_threads}
+  bash split_bam_short_long.sh -i ${inputbam} -o ${outputdir}/short_long_BAM -n ${samtools_num_threads}
 elif [ "${input_type}" = "raw" ]; then 
 # if the input BAM file is RAW BAM FILE
   if [ ! -f "${outputdir}/${sampleid}.sorted.markdup.bam" ]; then
@@ -74,7 +74,7 @@ elif [ "${input_type}" = "raw" ]; then
     samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
   else 
     echo -e "File " ${outputdir}/${sampleid}.sorted.markdup.bam "exits";
-    bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir} -n ${samtools_num_threads}
+    bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.markdup.bam -o ${outputdir}/short_long_BAM -n ${samtools_num_threads}
   fi
 else
   echo "Unknown input type: ${input_type}. input_type must be either 'markdup' or 'raw' "
