@@ -50,12 +50,14 @@ def main():
         output_obj.generate_allEM_reverseNUC()
         output_obj.generate_reverseEM_reverseNUC()
         output_obj.generate_forwardEM_forwardNUC()
-        output_obj.generate_forwardNDR_flen_feature()
-        output_obj.generate_reverseNDR_flen_feature()
-        output_obj.generate_allEM_forwardNDR()
-        output_obj.generate_allEM_reverseNDR()
-        output_obj.generate_reverseEM_reverseNDR()
-        output_obj.generate_forwardEM_forwardNDR()
+
+        for binary_or_TOO in ["TOO", "binary"]:
+            output_obj.generate_forwardNDR_flen_feature(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_reverseNDR_flen_feature(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_allEM_forwardNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_allEM_reverseNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_reverseEM_reverseNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_forwardEM_forwardNDR(binary_or_TOO = binary_or_TOO)
     
     elif generate_feature == "image_only":
         output_obj.generate_EM_flen_feature()
@@ -68,13 +70,15 @@ def main():
         output_obj.generate_allEM_reverseNUC()
         output_obj.generate_reverseEM_reverseNUC()
         output_obj.generate_forwardEM_forwardNUC()
-        output_obj.generate_forwardNDR_flen_feature()
-        output_obj.generate_reverseNDR_flen_feature()
-        output_obj.generate_allEM_forwardNDR()
-        output_obj.generate_allEM_reverseNDR()
-        output_obj.generate_reverseEM_reverseNDR()
-        output_obj.generate_forwardEM_forwardNDR()
-    elif generate_feature == "GW_only":
+
+        for binary_or_TOO in ["TOO", "binary"]:
+            output_obj.generate_forwardNDR_flen_feature(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_reverseNDR_flen_feature(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_allEM_forwardNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_allEM_reverseNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_reverseEM_reverseNDR(binary_or_TOO = binary_or_TOO)
+            output_obj.generate_forwardEM_forwardNDR(binary_or_TOO = binary_or_TOO)    elif generate_feature == "GW_only":
+        
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()
         if path_to_old_nuc == "none":
