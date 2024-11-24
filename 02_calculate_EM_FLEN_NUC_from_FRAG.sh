@@ -1,4 +1,4 @@
-while getopts "i:o:f:r:n:c:" opt; do
+while getopts "i:o:f:r:n:b:c:" opt; do
   case ${opt} in
     i )
       inputfrag=$OPTARG
@@ -15,11 +15,14 @@ while getopts "i:o:f:r:n:c:" opt; do
     n )
       ndr_ref=$OPTARG
       ;;  
+    b )
+      ndrb_ref=$OPTARG
+      ;;  
     c )
       cleanup=$OPTARG
       ;;  
     \? )
-      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa [-r] nucleosome_ref [-c] cleanup"
+      echo "Usage: cmd [-i] input .frag file [-o] outputdir [-f] path_to_fa [-r] nucleosome_ref [-n] NDR TOO ref [-b] NDR binary ref [-c] cleanup"
       exit 1
       ;;
   esac
@@ -164,8 +167,8 @@ fi
 ##### BINARY
 if [ ! -f "${outputdir}/${sampleid}.finished_NDRbinary.txt" ]; then
   echo -e "generating NRD ..."
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref_binary} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref_binary} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
 
   echo -e "sorting forward nucleosome file"
   sort -k4,4 ${outputdir}/${sampleid}.NDRbinary_forward.dist.bed > ${outputdir}/${sampleid}.NDRbinary_forward.dist.sorted.bed
