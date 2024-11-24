@@ -157,24 +157,24 @@ if [ ! -f "${outputdir}/${sampleid}.finished_NDR.txt" ]; then
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
   bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
 
-  echo -e "sorting forward nucleosome file"
+  echo -e "sorting forward NDR file"
   sort -k4,4 ${outputdir}/${sampleid}.NDR_forward.dist.bed > ${outputdir}/${sampleid}.NDR_forward.dist.sorted.bed
-  echo -e "sorting reverse nucleosome file"
+  echo -e "sorting reverse NDR file"
   sort -k4,4 ${outputdir}/${sampleid}.NDR_reverse.dist.bed > ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed
   touch ${outputdir}/${sampleid}.finished_NDR.txt
 fi
 
 ##### BINARY
-if [ ! -f "${outputdir}/${sampleid}.finished_NDRbinary.txt" ]; then
-  echo -e "generating NRD ..."
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed
-  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_reverse.dist.bed
+if [ ! -f "${outputdir}/${sampleid}.finished_NDRb.txt" ]; then
+  echo -e "generating NRD binary ..."
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDRb_forward.dist.bed
+  bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.reverse_Nucleosome.bed -b ${ndrb_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDRb_reverse.dist.bed
 
-  echo -e "sorting forward nucleosome file"
-  sort -k4,4 ${outputdir}/${sampleid}.NDRbinary_forward.dist.bed > ${outputdir}/${sampleid}.NDRbinary_forward.dist.sorted.bed
-  echo -e "sorting reverse nucleosome file"
-  sort -k4,4 ${outputdir}/${sampleid}.NDRbinary_reverse.dist.bed > ${outputdir}/${sampleid}.NDRbinary_reverse.dist.sorted.bed
-  touch ${outputdir}/${sampleid}.finished_NDRbinary.txt
+  echo -e "sorting forward NDR binary file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDRb_forward.dist.bed > ${outputdir}/${sampleid}.NDRb_forward.dist.sorted.bed
+  echo -e "sorting reverse NDR binary file"
+  sort -k4,4 ${outputdir}/${sampleid}.NDRb_reverse.dist.bed > ${outputdir}/${sampleid}.NDRb_reverse.dist.sorted.bed
+  touch ${outputdir}/${sampleid}.finished_NDRb.txt
 fi
 
 #####----------------------------------------------------------------------#####
@@ -209,13 +209,13 @@ if [ ! -f "${outputdir}/${sampleid}.final_output.tsv" ]; then
     cat ${outputdir}/${sampleid}.NDR_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_ndr.tmp.txt
     paste ${outputdir}/${sampleid}.modified5.tsv ${outputdir}/reverse_ndr.tmp.txt  > ${outputdir}/${sampleid}.modified6.tsv
 
-    ##### column $10: distance of forward read to the nearest NDRbinary
-    cat ${outputdir}/${sampleid}.NDRbinary_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_NDRbinary.tmp.txt
-    paste ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/forward_NDRbinary.tmp.txt  > ${outputdir}/${sampleid}.modified7.tsv
+    ##### column $10: distance of forward read to the nearest NDRb
+    cat ${outputdir}/${sampleid}.NDRb_forward.dist.sorted.bed | cut -f9 > ${outputdir}/forward_NDRb.tmp.txt
+    paste ${outputdir}/${sampleid}.modified6.tsv ${outputdir}/forward_NDRb.tmp.txt  > ${outputdir}/${sampleid}.modified7.tsv
 
-    ##### column $11: distance of reverse read to the nearest NDRbinary
-    cat ${outputdir}/${sampleid}.NDRbinary_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_NDRbinary.tmp.txt
-    paste ${outputdir}/${sampleid}.modified7.tsv ${outputdir}/reverse_NDRbinary.tmp.txt  > ${outputdir}/${sampleid}.modified8.tsv
+    ##### column $11: distance of reverse read to the nearest NDRb
+    cat ${outputdir}/${sampleid}.NDRb_reverse.dist.sorted.bed | cut -f9 > ${outputdir}/reverse_NDRb.tmp.txt
+    paste ${outputdir}/${sampleid}.modified7.tsv ${outputdir}/reverse_NDRb.tmp.txt  > ${outputdir}/${sampleid}.modified8.tsv
 
     mv ${outputdir}/${sampleid}.modified8.tsv ${outputdir}/${sampleid}.final_output.tsv
     rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4,5,6,7,8}.tsv
