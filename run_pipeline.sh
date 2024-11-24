@@ -8,6 +8,7 @@ path_to_ref="/media/hieunguyen/GSHD_HN01/storage/resources/rpr_map_EXP0779.sorte
 motif_order_path="./motif_order.csv";
 final_Feature_dir="./final_Feature_dir";
 ndr_ref="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_cancer_specific_location_5common_CENTER.sorted.bed"
+ndrb_ref="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NNDR_cancer_specific_location_binary.sorted.bed"
 
 mkdir -p ${outputdir};
 mkdir -p ${final_Feature_dir};
@@ -28,6 +29,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         -f ${path_to_fa} \
         -r ${path_to_ref} \
         -n ${ndr_ref} \
+        -b ${ndrb_ref} \
         -c false;
         
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
