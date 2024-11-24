@@ -1,7 +1,7 @@
 export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
 export PATH=/home/hieunguyen/samtools/bin/:$PATH
 inputbam="/media/hieunguyen/GSHD_HN01/raw_data/bam_files/WGShg19.bam";
-outputdir="./batch_test/";
+outputdir="./testRUN/";
 num_threads=20;
 path_to_fa="/media/hieunguyen/GSHD_HN01/storage/resources/hg19.fa";
 path_to_ref="/media/hieunguyen/GSHD_HN01/storage/resources/rpr_map_EXP0779.sorted.bed";
