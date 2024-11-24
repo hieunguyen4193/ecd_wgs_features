@@ -879,7 +879,7 @@ class WGS_GW_Image_features:
             }
         )
 
-        countdf = pd.merge(forward_NDR_range_df, countdf, on="forward_{use_coll}", how='outer')
+        countdf = pd.merge(forward_NDR_range_df, countdf, on="forward_{use_col}", how='outer')
         countdf.fillna(0, inplace=True)
 
         countdf = countdf.set_index(f"forward_{use_col}")
