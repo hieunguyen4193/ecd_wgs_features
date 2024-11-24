@@ -36,6 +36,8 @@ def main():
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()
+        output_obj.generate_ndr_feature(binary_or_TOO="TOO")
+        output_obj.generate_ndr_feature(binary_or_TOO="binary")
 
         ##### generate IMAGES feature and save features to output dir
         output_obj.generate_EM_flen_feature()
@@ -79,8 +81,11 @@ def main():
             output_obj.generate_nuc_feature()
         else:
             output_obj.generate_nuc_feature_1()
+        output_obj.generate_ndr_feature(binary_or_TOO="TOO")
+        output_obj.generate_ndr_feature(binary_or_TOO="binary")
+
     else:
         raise ValueError("Please specify the correct feature type to generate")
-    
+
 if __name__ == '__main__':
     main()
