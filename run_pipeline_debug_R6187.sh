@@ -20,7 +20,7 @@ sampleid=${sampleid%.bam*}
 
 if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
     # bash 01_BAM_to_FRAGS.sh \
-    bash debug_R6179_R6187.sh \
+    bash debug_R6187.sh \
     -i  ${inputbam} \
     -o ${outputdir} \
     -n ${num_threads} \
