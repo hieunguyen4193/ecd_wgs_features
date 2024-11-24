@@ -77,8 +77,9 @@ def main():
             output_obj.generate_allEM_forwardNDR(binary_or_TOO = binary_or_TOO)
             output_obj.generate_allEM_reverseNDR(binary_or_TOO = binary_or_TOO)
             output_obj.generate_reverseEM_reverseNDR(binary_or_TOO = binary_or_TOO)
-            output_obj.generate_forwardEM_forwardNDR(binary_or_TOO = binary_or_TOO)    elif generate_feature == "GW_only":
-        
+            output_obj.generate_forwardEM_forwardNDR(binary_or_TOO = binary_or_TOO)    
+
+    elif generate_feature == "GW_only":
         output_obj.generate_flen_feature()
         output_obj.generate_em_feature()
         if path_to_old_nuc == "none":
