@@ -64,16 +64,15 @@ if [ ! -f "${outputdir}/${sampleid}.frag.tsv" ]; then
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
   samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
   samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
-  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
+  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.sorted.bam ${outputdir}/tmp.sam;
 
   ##### mark duplicates
   ##### download picard.jar https://github.com/broadinstitute/picard/releases/download/3.3.0/picard.jar
   java -Xms512m -Xmx4g -jar ./picard.jar MarkDuplicates \
-      I=${outputdir}/${sampleid}.tmp.sorted.bam \
+      I=${outputdir}/${sampleid}.sorted.bam \
       O=${outputdir}/${sampleid}.sorted.markdup.bam \
       M=${outputdir}/${sampleid}.marked_dup_metrics.txt
 
-  rm -rf ${outputdir}/${sampleid}.tmp.sorted.bam
   samtools index -@ ${samtools_num_threads} ${outputdir}/${sampleid}.sorted.markdup.bam
 
   ##### Split bam file to short and long bam file
