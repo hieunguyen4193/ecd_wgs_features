@@ -61,8 +61,8 @@ elif [ "${input_type}" = "raw" ]; then
   echo -e "remove unpaired and unmapped reads in BAM files, generate prep.tsv file";
   samtools view -h -f 3 ${inputbam} | samtools sort -n -@ ${samtools_num_threads} -o ${outputdir}/tmp.bam;
   samtools view -h ${outputdir}/tmp.bam | awk -f preprocessing_script.awk - > ${outputdir}/tmp.sam;
-  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.tmp.sorted.bam ${outputdir}/tmp.sam;
-  bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.tmp.sorted.bam -o ${outputdir}/short_long_BAM -n ${samtools_num_threads}
+  samtools sort -@ ${samtools_num_threads} -O BAM -o ${outputdir}/${sampleid}.sorted.bam ${outputdir}/tmp.sam;
+  bash split_bam_short_long.sh -i ${outputdir}/${sampleid}.sorted.bam -o ${outputdir}/short_long_BAM -n ${samtools_num_threads}
   
   # if [ ! -f "${outputdir}/${sampleid}.sorted.markdup.bam" ]; then
     ##### mark duplicates --> neu dung file markdup di tinh QDNASeq thi khong ra ket qua nhu cu.
