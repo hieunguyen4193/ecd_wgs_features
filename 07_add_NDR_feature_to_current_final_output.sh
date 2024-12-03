@@ -39,9 +39,9 @@ cat ${finalOutputFile} | cut -f1,3,4,5 | \
 awk -v OFS='\t' '{$5=$2 + 1; print $1 "\t" $2 "\t" $5 "\t" $4 "\t" $3}' \
 > ${outputdir}/${sampleid}.reverse_NDR.bed
 
-  # Sort your generated BED files
-  sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.forward_NDR.bed -o ${outputdir}/${sampleid}.sortedNuc.forward_NDR.bed
-  sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.reverse_NDR.bed -o ${outputdir}/${sampleid}.sortedNuc.reverse_NDR.bed
+# Sort your generated BED files
+sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.forward_NDR.bed -o ${outputdir}/${sampleid}.sortedNuc.forward_NDR.bed
+sort -k 1V,1 -k 2n,2 ${outputdir}/${sampleid}.reverse_NDR.bed -o ${outputdir}/${sampleid}.sortedNuc.reverse_NDR.bed
 
 echo -e "generating NRD ..."
 bedtools closest -a ${outputdir}/${sampleid}.sortedNuc.forward_NDR.bed -b ${ndr_ref} -t first | awk -v OFS='\t' '{$9=$7 - $2;print $0}' > ${outputdir}/${sampleid}.NDR_forward.dist.bed

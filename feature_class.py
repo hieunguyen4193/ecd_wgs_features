@@ -330,7 +330,7 @@ class WGS_GW_Image_features:
             countdf.fillna(0, inplace=True)
             
             countdf = countdf.set_index("flen")
-            missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+            missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
             if len(missing_motifs) != 0:
                 for motif in missing_motifs:
@@ -671,7 +671,7 @@ class WGS_GW_Image_features:
         countdf.fillna(0, inplace=True)
 
         countdf = countdf.set_index("forward_NUC")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -722,7 +722,7 @@ class WGS_GW_Image_features:
         countdf.fillna(0, inplace=True)
 
         countdf = countdf.set_index("reverse_NUC")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -774,7 +774,7 @@ class WGS_GW_Image_features:
 
         
         countdf = countdf.set_index("reverse_NUC")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -826,7 +826,7 @@ class WGS_GW_Image_features:
 
         
         countdf = countdf.set_index("forward_NUC")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -883,7 +883,7 @@ class WGS_GW_Image_features:
         countdf.fillna(0, inplace=True)
 
         countdf = countdf.set_index(f"forward_{use_col}")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -943,7 +943,7 @@ class WGS_GW_Image_features:
         countdf.fillna(0, inplace=True)
 
         countdf = countdf.set_index(f"reverse_{use_col}")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -1004,7 +1004,7 @@ class WGS_GW_Image_features:
 
         
         countdf = countdf.set_index(f"reverse_{use_col}")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
@@ -1063,7 +1063,7 @@ class WGS_GW_Image_features:
 
         
         countdf = countdf.set_index(f"forward_{use_col}")
-        missing_motifs = [item for item in countdf.columns if item not in self.all_4bp_motifs]
+        missing_motifs = [item for item in self.all_4bp_motifs if item not in countdf.columns]
 
         if len(missing_motifs) != 0:
             for motif in missing_motifs:
