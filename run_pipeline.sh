@@ -33,7 +33,7 @@ if [ ! -f "${outputdir}/${sampleid}/${sampleid}.final_output.tsv" ]; then
         -c false;
         
     echo -e ${outputdir}/${sampleid}/${sampleid}.final_output.tsv "exists";
-    echo -e "Running script 03 to generate features ..."
+    echo -e "Running script 03 to generate features ..."ủa 
     python 03_generate_WGS_features.py \
         --input ${outputdir}/${sampleid}/${sampleid}.final_output.tsv \
         --output ${outputdir}/${sampleid} \

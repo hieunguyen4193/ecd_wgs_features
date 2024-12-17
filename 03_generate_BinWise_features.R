@@ -56,6 +56,14 @@ bin1M.grange <- makeGRangesFromDataFrame(
     end.field = "end", 
     keep.extra.columns = TRUE)
 
+bin1Mdf <- data.frame(bin1M.grange) 
+bin1Mdf$binIndex <- to_vec(
+  for (i in seq(1, nrow(bin1Mdf))){
+    sprintf("bin%s", i)
+  }
+)
+write.table(bin1Mdf, file.path("/media/hieunguyen/HNSD01/src/ecd_wgs_features/bin1M.tsv"), sep = "\t", row.names = FALSE)
+  
 calculate_CNA <- function(input.bin, input.path){
   readCounts <- binReadCounts(bins = input.bin, bamfiles = input.path)
   
