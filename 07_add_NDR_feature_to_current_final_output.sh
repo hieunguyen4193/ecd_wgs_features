@@ -1,4 +1,6 @@
 export PATH=/Users/hieunguyen/samtools/bin:$PATH 
+export PATH=/home/hieunguyen/bedtools2/bin/:$PATH
+
 # bash 01_BAM_to_FRAGS.sh -i /Users/hieunguyen/data/tmp/debug_ecd_wgs_features/data/1-ZLAAO90NB_S7509-S7709.sorted.bam -o ./output_debug/ -n 10 -f /Users/hieunguyen/data/resources/hg19.fa 
 #####----------------------------------------------------------------------#####
 ##### input args
@@ -104,10 +106,20 @@ rm -rf ${outputdir}/${sampleid}.modified{1,2,3,4,5,6}.tsv
 rm -rf ${outputdir}/*ndr*.tmp.txt
 
 ##### example cmd
+# if bed file is not sorted:
+# ndr_ref1="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_10cancer-types.bed";
+# ndr_ref2="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-CRC-1.bed";
+# ndr_ref3="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-LUNG.bed";
+# sort -k 1V,1 -k 2n,2 ${ndr_ref1} > ${ndr_ref1%.bed*}.sorted.bed
+# sort -k 1V,1 -k 2n,2 ${ndr_ref2} > ${ndr_ref2%.bed*}.sorted.bed
+# sort -k 1V,1 -k 2n,2 ${ndr_ref3} > ${ndr_ref3%.bed*}.sorted.bed
+
+# MAIN CMD
+# ndr_ref1="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_10cancer-types.sorted.bed";
+# ndr_ref2="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-CRC-1.sorted.bed";
+# ndr_ref3="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-LUNG.sorted.bed";
 # finalOutputFile="/media/hieunguyen/HNSD01/src/ecd_wgs_features/testRUN/WGShg19/WGShg19.final_output.tsv";
 # bedfile="/media/hieunguyen/HNSD01/src/ecd_wgs_features/bin1M.sorted.bed";
 # outputdir="/media/hieunguyen/HNSD01/src/ecd_wgs_features/testRUN/WGShg19/NDR_output";
-# ndr_ref1="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_10cancer-types.csv";
-# ndr_ref1="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-CRC-1.csv";
-# ndr_ref1="/media/hieunguyen/HNSD01/src/ecd_wgs_features/NDR_bed_files/NDR_cancer_specific_location_SingleCancer-LUNG.csv";
+
 # bash 07_add_NDR_feature_to_current_final_output.sh -i ${finalOutputFile} -o ${outputdir} -n ${ndr_ref1} -d ${ndr_ref2} -r ${ndr_ref3}
