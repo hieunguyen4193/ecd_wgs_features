@@ -128,9 +128,8 @@ class WGS_GW_Image_features:
                                    "readID", 
                                    "QC", 
                                    "forward_NUC", "reverse_NUC", 
-                                   "forward_EM", "reverse_EM", 
-                                   "forward_NDR", "reverse_NDR", 
-                                   "forward_NDRb", "reverse_NDRb"]
+                                   "forward_EM", "reverse_EM"
+                                   ]
         else:
             # use only for reading the first version of *.final_output.tsv file for GW-Image features.
             self.maindf = pd.read_csv(input_tsv, sep = "\t", header = None)
@@ -142,9 +141,8 @@ class WGS_GW_Image_features:
                                    "flen", 
                                    "readID_extra", 
                                    "forward_NUC", "reverse_NUC", 
-                                   "forward_EM", "reverse_EM", 
-                                   "forward_NDR", "reverse_NDR", 
-                                   "forward_NDRb", "reverse_NDRb"]
+                                   "forward_EM", "reverse_EM"
+                                   ]
         
         if use_softmask:
             self.maindf["forward_EM"] = self.maindf["forward_EM"].apply(lambda x: x.upper())
