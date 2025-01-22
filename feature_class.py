@@ -159,7 +159,7 @@ class WGS_GW_Image_features:
             for k in ["A", "T", "G", "C"] 
             for l in ["A", "T", "G", "C"]
         ]
-        self.maindf_filter_chr = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 23)])) & (self.maindf["flen"] > 0)]
+        self.maindf = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 23)])) & (self.maindf["flen"] > 0)]
         # self.outputdir = os.path.join(outputdir, self.sampleid)
         self.outputdir = outputdir
         os.system(f"mkdir -p {self.outputdir}")
@@ -267,9 +267,9 @@ class WGS_GW_Image_features:
         else:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
             
-        NDRdf1 = pd.DataFrame(data = self.maindf_filter_chr[f"reverse_{use_col}"].values,
+        NDRdf1 = pd.DataFrame(data = self.maindf[f"reverse_{use_col}"].values,
                      columns = ["feat"])
-        NDRdf2 = pd.DataFrame(data = self.maindf_filter_chr[f"forward_{use_col}"].values,
+        NDRdf2 = pd.DataFrame(data = self.maindf[f"forward_{use_col}"].values,
                      columns = ["feat"])
         NDRdf = pd.concat([NDRdf1, NDRdf2], axis = 0)
         NDRdf = NDRdf[(NDRdf["feat"] >= -1000) & (NDRdf["feat"] <= 1000)]
@@ -286,7 +286,7 @@ class WGS_GW_Image_features:
     def generate_EM_flen_feature(self,
                                  save_feature = True):
             # Forward EM
-            feature_df = self.maindf_filter_chr.copy()
+            feature_df = self.maindf.copy()
             feature_df = feature_df[(feature_df["forward_EM"].isna() == False) & 
                                     (feature_df["reverse_EM"].isna() == False)]
             feature_df["forward_EM"] = feature_df["forward_EM"].apply(lambda x: x.upper())
@@ -346,7 +346,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####    
     def generate_forwardNUC_flen_feature(self,
                                         save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         nucdf_forward = feature_df[["flen", "forward_NUC"]].copy()
         nucdf_forward.columns = ["flen", "nuc_dist"]
         nucdf_forward = nucdf_forward[
@@ -398,7 +398,7 @@ class WGS_GW_Image_features:
         else:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
         
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         NDRdf_forward = feature_df[["flen", f"forward_{use_col}"]].copy()
         NDRdf_forward.columns = ["flen", "NDR_dist"]
         NDRdf_forward = NDRdf_forward[
@@ -438,7 +438,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####  
     def generate_reverseNUC_flen_feature(self,
                                          save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         nucdf_reverse = feature_df[["flen", "reverse_NUC"]].copy()
         nucdf_reverse.columns = ["flen", "nuc_dist"]
         nucdf_reverse = nucdf_reverse[
@@ -488,7 +488,7 @@ class WGS_GW_Image_features:
             use_col = "NDRb"
         else:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         NDRdf_reverse = feature_df[["flen", f"reverse_{use_col}"]].copy()
         NDRdf_reverse.columns = ["flen", "NDR_dist"]
         NDRdf_reverse = NDRdf_reverse[
@@ -529,7 +529,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####
     def generate_EM_pairs_all_flen(self,
                               save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         count_pair_EM = feature_df[(~ feature_df["reverse_EM"].str.contains("N")) & (~feature_df["forward_EM"].str.contains("N"))] \
                         .groupby(["forward_EM", "reverse_EM"])["readID"] \
                         .count() \
@@ -564,7 +564,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####
     def generate_EM_pairs_short_flen(self,
                               save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         feature_df_short = feature_df[feature_df["flen"] <= 150]
 
         count_pair_EM = feature_df_short[(~ feature_df_short["reverse_EM"].str.contains("N")) & (~feature_df_short["forward_EM"].str.contains("N"))] \
@@ -601,7 +601,7 @@ class WGS_GW_Image_features:
     #####-------------------------------------------------------------#####
     def generate_EM_pairs_long_flen(self,
                               save_feature = True):
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         feature_df_long = feature_df[feature_df["flen"] > 150]
         count_pair_EM = feature_df_long[(~ feature_df_long["reverse_EM"].str.contains("N")) & (~feature_df_long["forward_EM"].str.contains("N"))] \
                     .groupby(["forward_EM", "reverse_EM"])["readID"] \
@@ -638,7 +638,7 @@ class WGS_GW_Image_features:
     def generate_allEM_forwardNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: TAKE BOTH REVERSE AND FORWARD EM + FORWARD NUC
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         ##### generate EM - forward_NUC dataframe
         # Forward EM - Forward nucleosome distance
         forward_em_forward_NUC = feature_df[["forward_EM", "forward_NUC"]].copy()
@@ -689,7 +689,7 @@ class WGS_GW_Image_features:
     def generate_allEM_reverseNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: TAKE BOTH REVERSE AND FORWARD EM + REVERSE NUC
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         ##### generate EM - REVERSE_NUC dataframe
         # Forward EM - Forward nucleosome distance
         forward_em_reverse_NUC = feature_df[["forward_EM", "reverse_NUC"]].copy()
@@ -739,7 +739,7 @@ class WGS_GW_Image_features:
     def generate_reverseEM_reverseNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: JUST TAKE REVERSE EM + REVERSE NUC
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         reverse_em_reverse_NUC = feature_df[["reverse_EM", "reverse_NUC"]].copy()
         reverse_em_reverse_NUC.columns = ["EM", "reverse_NUC"]
         em_reverse_NUC_df = reverse_em_reverse_NUC.copy()
@@ -791,7 +791,7 @@ class WGS_GW_Image_features:
     def generate_forwardEM_forwardNUC(self,
                               save_feature = True):
         # IMPORTANT NOTE: JUST TAKE forward EM + forward NUC
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         forward_em_forward_NUC = feature_df[["forward_EM", "forward_NUC"]].copy()
         forward_em_forward_NUC.columns = ["EM", "forward_NUC"]
         em_forward_NUC_df = forward_em_forward_NUC.copy()
@@ -848,7 +848,7 @@ class WGS_GW_Image_features:
             use_col = "NDRb"
         else:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         ##### generate EM - forward_NDR dataframe
         # Forward EM - Forward NDRleosome distance
         forward_em_forward_NDR = feature_df[["forward_EM", f"forward_{use_col}"]].copy()
@@ -908,7 +908,7 @@ class WGS_GW_Image_features:
         else:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
 
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         ##### generate EM - reverse_NDR dataframe
         # Forward EM - Forward NDRleosome distance
         forward_em_reverse_NDR = feature_df[["forward_EM", f"reverse_{use_col}"]].copy()
@@ -969,7 +969,7 @@ class WGS_GW_Image_features:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
 
         # IMPORTANT NOTE: JUST TAKE REVERSE EM + REVERSE NDR
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         reverse_em_reverse_NDR = feature_df[["reverse_EM", f"reverse_{use_col}"]].copy()
         reverse_em_reverse_NDR.columns = ["EM", f"reverse_{use_col}"]
         em_reverse_NDR_df = reverse_em_reverse_NDR.copy()
@@ -1028,7 +1028,7 @@ class WGS_GW_Image_features:
             raise ValueError("Invalid value for binary_or_TOO. Expected 'TOO' or 'binary'.")
 
         # IMPORTANT NOTE: JUST TAKE forward EM + forward NDR
-        feature_df = self.maindf_filter_chr.copy()
+        feature_df = self.maindf.copy()
         forward_em_forward_NDR = feature_df[["forward_EM", f"forward_{use_col}"]].copy()
         forward_em_forward_NDR.columns = ["EM", f"forward_{use_col}"]
         em_forward_NDR_df = forward_em_forward_NDR.copy()
