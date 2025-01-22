@@ -159,6 +159,8 @@ class WGS_GW_Image_features:
             for k in ["A", "T", "G", "C"] 
             for l in ["A", "T", "G", "C"]
         ]
+
+        # update 22.01.2025: remove chrM and chrX,Y. Keep chr1-22 only, FLEN > 0 to remove duplicated lines
         self.maindf = self.maindf[(self.maindf["chr"].isin([f"chr{i}" for i in range(1, 23)])) & (self.maindf["flen"] > 0)]
         # self.outputdir = os.path.join(outputdir, self.sampleid)
         self.outputdir = outputdir
